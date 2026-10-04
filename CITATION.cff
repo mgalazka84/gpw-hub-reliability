@@ -5,8 +5,9 @@ title: "GPW hub reliability: Code and derived research outputs"
 authors:
   - family-names: "Gałązka"
     given-names: "Marek"
-version: 1.0.0
-date-released: 2026-10-04
+  - family-names: "Wdowicka"
+    given-names: "Hanna"
+version: 1.0.1
 url: "https://github.com/mgalazka84/gpw-hub-reliability"
 repository-code: "https://github.com/mgalazka84/gpw-hub-reliability"
 license: MIT
