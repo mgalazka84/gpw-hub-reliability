@@ -1,0 +1,272 @@
+{
+  "close_raw": {
+    "test_origins": 73,
+    "first_origin": "2019-01-23",
+    "last_origin": "2025-08-14",
+    "mse": {
+      "base": 0.009995368219411762,
+      "degree": 0.010093105415601718,
+      "reliability": 0.01014531652469266,
+      "persistence": 0.012656531006373813,
+      "ewma": 0.012581855181281788
+    },
+    "primary_comparison": "degree MSE minus reliability MSE; positive favors reliability",
+    "primary_interval": {
+      "mean_difference": -5.221110909094528e-05,
+      "ci95_low": -0.0008960572294021673,
+      "ci95_high": 0.00060925071191464,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "sensitivity_intervals": [
+      {
+        "mean_difference": -5.221110909094528e-05,
+        "ci95_low": -0.0009830378175823334,
+        "ci95_high": 0.0007009764283143635,
+        "block_origins": 3,
+        "bootstrap": 5000
+      },
+      {
+        "mean_difference": -5.221110909094528e-05,
+        "ci95_low": -0.0007322360939162266,
+        "ci95_high": 0.0005573898466095152,
+        "block_origins": 12,
+        "bootstrap": 5000
+      }
+    ],
+    "evaluation": "retrospective; historical outcomes already exist; no prospective preregistration",
+    "reliability_vs_base_interval": {
+      "mean_difference": -0.0001499483052808998,
+      "ci95_low": -0.0008674926297739715,
+      "ci95_high": 0.0004149454356107886,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "relative_mse_reduction_vs_degree": -0.005172947962104546
+  },
+  "close_demeaned": {
+    "test_origins": 73,
+    "first_origin": "2019-01-23",
+    "last_origin": "2025-08-14",
+    "mse": {
+      "base": 0.009995368219411762,
+      "degree": 0.00998577952880004,
+      "reliability": 0.01007550622805352,
+      "persistence": 0.012656531006373813,
+      "ewma": 0.012581855181281788
+    },
+    "primary_comparison": "degree MSE minus reliability MSE; positive favors reliability",
+    "primary_interval": {
+      "mean_difference": -8.972669925347648e-05,
+      "ci95_low": -0.00022348171664785156,
+      "ci95_high": 1.317621486095431e-05,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "sensitivity_intervals": [
+      {
+        "mean_difference": -8.972669925347648e-05,
+        "ci95_low": -0.00021779940653488607,
+        "ci95_high": 1.3183818222108104e-05,
+        "block_origins": 3,
+        "bootstrap": 5000
+      },
+      {
+        "mean_difference": -8.972669925347648e-05,
+        "ci95_low": -0.00020870400482075077,
+        "ci95_high": 6.697632216269754e-06,
+        "block_origins": 12,
+        "bootstrap": 5000
+      }
+    ],
+    "evaluation": "retrospective; historical outcomes already exist; no prospective preregistration",
+    "reliability_vs_base_interval": {
+      "mean_difference": -8.013800864175628e-05,
+      "ci95_low": -0.0004438722487275519,
+      "ci95_high": 0.00035923151441454135,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "relative_mse_reduction_vs_degree": -0.008985447655308176
+  },
+  "close_factor_residual": {
+    "test_origins": 73,
+    "first_origin": "2019-01-23",
+    "last_origin": "2025-08-14",
+    "mse": {
+      "base": 0.009995368219411762,
+      "degree": 0.009886223918392938,
+      "reliability": 0.010103490740170107,
+      "persistence": 0.012656531006373813,
+      "ewma": 0.012581855181281788
+    },
+    "primary_comparison": "degree MSE minus reliability MSE; positive favors reliability",
+    "primary_interval": {
+      "mean_difference": -0.0002172668217771696,
+      "ci95_low": -0.0006530047140702833,
+      "ci95_high": 7.646105189766592e-05,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "sensitivity_intervals": [
+      {
+        "mean_difference": -0.0002172668217771696,
+        "ci95_low": -0.0006068928503887927,
+        "ci95_high": 9.646726949905965e-05,
+        "block_origins": 3,
+        "bootstrap": 5000
+      },
+      {
+        "mean_difference": -0.0002172668217771696,
+        "ci95_low": -0.0006387295385942918,
+        "ci95_high": 7.542745958534422e-05,
+        "block_origins": 12,
+        "bootstrap": 5000
+      }
+    ],
+    "evaluation": "retrospective; historical outcomes already exist; no prospective preregistration",
+    "reliability_vs_base_interval": {
+      "mean_difference": -0.00010812252075834422,
+      "ci95_low": -0.0004941474982111482,
+      "ci95_high": 0.00026592027095207973,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "relative_mse_reduction_vs_degree": -0.021976724740469633
+  },
+  "intraday_raw": {
+    "test_origins": 73,
+    "first_origin": "2019-01-23",
+    "last_origin": "2025-08-14",
+    "mse": {
+      "base": 0.006061931166623248,
+      "degree": 0.005851341287019238,
+      "reliability": 0.0058832341947537585,
+      "persistence": 0.007764964797833688,
+      "ewma": 0.006957963706794027
+    },
+    "primary_comparison": "degree MSE minus reliability MSE; positive favors reliability",
+    "primary_interval": {
+      "mean_difference": -3.189290773451938e-05,
+      "ci95_low": -8.441977244866146e-05,
+      "ci95_high": 8.50771810904763e-06,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "sensitivity_intervals": [
+      {
+        "mean_difference": -3.189290773451938e-05,
+        "ci95_low": -8.824904063425552e-05,
+        "ci95_high": 1.3074596799131573e-05,
+        "block_origins": 3,
+        "bootstrap": 5000
+      },
+      {
+        "mean_difference": -3.189290773451938e-05,
+        "ci95_low": -8.232501533833819e-05,
+        "ci95_high": 8.210767678746438e-06,
+        "block_origins": 12,
+        "bootstrap": 5000
+      }
+    ],
+    "evaluation": "retrospective; historical outcomes already exist; no prospective preregistration",
+    "reliability_vs_base_interval": {
+      "mean_difference": 0.00017869697186949127,
+      "ci95_low": -0.00010991196739866504,
+      "ci95_high": 0.0005173808432653585,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "relative_mse_reduction_vs_degree": -0.005450529403450144
+  },
+  "intraday_demeaned": {
+    "test_origins": 73,
+    "first_origin": "2019-01-23",
+    "last_origin": "2025-08-14",
+    "mse": {
+      "base": 0.006061931166623248,
+      "degree": 0.0057251355746451476,
+      "reliability": 0.005721078998775297,
+      "persistence": 0.007764964797833688,
+      "ewma": 0.006957963706794027
+    },
+    "primary_comparison": "degree MSE minus reliability MSE; positive favors reliability",
+    "primary_interval": {
+      "mean_difference": 4.056575869852207e-06,
+      "ci95_low": -2.6135122227999602e-05,
+      "ci95_high": 3.5032039393853806e-05,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "sensitivity_intervals": [
+      {
+        "mean_difference": 4.056575869852207e-06,
+        "ci95_low": -3.188380434936291e-05,
+        "ci95_high": 4.187519974696431e-05,
+        "block_origins": 3,
+        "bootstrap": 5000
+      },
+      {
+        "mean_difference": 4.056575869852207e-06,
+        "ci95_low": -2.307878353922362e-05,
+        "ci95_high": 2.9957964934362124e-05,
+        "block_origins": 12,
+        "bootstrap": 5000
+      }
+    ],
+    "evaluation": "retrospective; historical outcomes already exist; no prospective preregistration",
+    "reliability_vs_base_interval": {
+      "mean_difference": 0.0003408521678479532,
+      "ci95_low": -0.00011532957605483265,
+      "ci95_high": 0.0009000150952238831,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "relative_mse_reduction_vs_degree": 0.0007085554249258719
+  },
+  "intraday_factor_residual": {
+    "test_origins": 73,
+    "first_origin": "2019-01-23",
+    "last_origin": "2025-08-14",
+    "mse": {
+      "base": 0.006061931166623248,
+      "degree": 0.00582368337908889,
+      "reliability": 0.005667304986494542,
+      "persistence": 0.007764964797833688,
+      "ewma": 0.006957963706794027
+    },
+    "primary_comparison": "degree MSE minus reliability MSE; positive favors reliability",
+    "primary_interval": {
+      "mean_difference": 0.00015637839259434818,
+      "ci95_low": -0.00014327919325842235,
+      "ci95_high": 0.0004890518220470834,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "sensitivity_intervals": [
+      {
+        "mean_difference": 0.00015637839259434818,
+        "ci95_low": -0.0001735342393869783,
+        "ci95_high": 0.0005215700742141138,
+        "block_origins": 3,
+        "bootstrap": 5000
+      },
+      {
+        "mean_difference": 0.00015637839259434818,
+        "ci95_low": -5.958513529863658e-05,
+        "ci95_high": 0.00037629334832971635,
+        "block_origins": 12,
+        "bootstrap": 5000
+      }
+    ],
+    "evaluation": "retrospective; historical outcomes already exist; no prospective preregistration",
+    "reliability_vs_base_interval": {
+      "mean_difference": 0.00039462618012870646,
+      "ci95_low": -0.00014420913156859314,
+      "ci95_high": 0.0010554220638784603,
+      "block_origins": 6,
+      "bootstrap": 5000
+    },
+    "relative_mse_reduction_vs_degree": 0.026852145354580248
+  }
+}

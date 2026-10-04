@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    "All 164 successful raw-response SHA256 hashes match the acquisition manifest.",
+    "close: every current/future target and C/H independently recomputed; degree/membership sums and theoretical bounds pass.",
+    "close/raw: all test ridge forecasts reproduce from past, fully matured labels only.",
+    "close/demeaned: all test ridge forecasts reproduce from past, fully matured labels only.",
+    "close/factor_residual: all test ridge forecasts reproduce from past, fully matured labels only.",
+    "intraday: every current/future target and C/H independently recomputed; degree/membership sums and theoretical bounds pass.",
+    "intraday/raw: all test ridge forecasts reproduce from past, fully matured labels only.",
+    "intraday/demeaned: all test ridge forecasts reproduce from past, fully matured labels only.",
+    "intraday/factor_residual: all test ridge forecasts reproduce from past, fully matured labels only.",
+    "All outcome windows contain 20 sessions and do not overlap.",
+    "All common-test MSE values and the sign of paired loss differences independently verified."
+  ],
+  "verified_hub_rows": 71958,
+  "unique_analysed_isins": 155,
+  "origin_count": 231,
+  "origin_dates_all_retained": true,
+  "incomplete_future_outcomes": 42
+}

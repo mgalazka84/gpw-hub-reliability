@@ -1,0 +1,22 @@
+{
+  "mc": 100,
+  "bootstrap": 500,
+  "n": 60,
+  "t": 252,
+  "block": 10,
+  "seed": 20261003,
+  "output": "results",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8",
+  "elapsed_seconds": 609.4833716470002,
+  "data_type": "synthetic; no observed stock returns",
+  "circular_block_bootstrap": true,
+  "tail_note": "Independent unit-variance t(5) innovations with independent stationary log-volatility AR(1)",
+  "source_hashes": {
+    "network_methods.py": "cd637e0c3b9bfb3b5e958adabbc4f608a4aa10e58755ce75b69fca872d38b2ef",
+    "run_simulations.py": "8781a0839b48521e7e36dcc2c77a9d1cc90d8ea75db3fe18f55a8a92a54d838a"
+  }
+}

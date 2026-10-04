@@ -1,0 +1,128 @@
+{
+  "alphas": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "minimum_training": 60,
+  "validation_years": [
+    2015,
+    2018
+  ],
+  "test_years": [
+    2019,
+    2025
+  ],
+  "models": {
+    "base": {
+      "alpha": 1.0,
+      "features": [
+        "current_y20",
+        "current_y252",
+        "mean_correlation",
+        "market_vol20",
+        "market_vol252",
+        "pc1_share",
+        "zero_volume_share",
+        "n_assets"
+      ],
+      "validation_mse_by_alpha": [
+        [
+          0.0042302312052887765,
+          0.01
+        ],
+        [
+          0.004221112422891639,
+          0.1
+        ],
+        [
+          0.004202472766287533,
+          1.0
+        ],
+        [
+          0.004212219471854019,
+          10.0
+        ],
+        [
+          0.004467906915778412,
+          100.0
+        ]
+      ]
+    },
+    "degree": {
+      "alpha": 10.0,
+      "features": [
+        "current_y20",
+        "current_y252",
+        "mean_correlation",
+        "market_vol20",
+        "market_vol252",
+        "pc1_share",
+        "zero_volume_share",
+        "n_assets",
+        "degree_residual"
+      ],
+      "validation_mse_by_alpha": [
+        [
+          0.004407061423722947,
+          0.01
+        ],
+        [
+          0.004396021250792452,
+          0.1
+        ],
+        [
+          0.004361070912277146,
+          1.0
+        ],
+        [
+          0.004308906627359652,
+          10.0
+        ],
+        [
+          0.00450216459451825,
+          100.0
+        ]
+      ]
+    },
+    "reliability": {
+      "alpha": 10.0,
+      "features": [
+        "current_y20",
+        "current_y252",
+        "mean_correlation",
+        "market_vol20",
+        "market_vol252",
+        "pc1_share",
+        "zero_volume_share",
+        "n_assets",
+        "degree_residual",
+        "reliability_residual"
+      ],
+      "validation_mse_by_alpha": [
+        [
+          0.004668945034895175,
+          0.01
+        ],
+        [
+          0.004603060155850577,
+          0.1
+        ],
+        [
+          0.004389008366329458,
+          1.0
+        ],
+        [
+          0.004277578723073691,
+          10.0
+        ],
+        [
+          0.0045017778666563354,
+          100.0
+        ]
+      ]
+    }
+  }
+}

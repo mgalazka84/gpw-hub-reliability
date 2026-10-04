@@ -1,0 +1,22 @@
+{
+  "downloaded_series": 164,
+  "calendar_sessions": 5182,
+  "first_calendar_date": "2005-01-03",
+  "last_calendar_date": "2025-09-19",
+  "observed_company_bars": 751158,
+  "rejected_bars": 590,
+  "series_ended_before_cutoff": 49,
+  "gpw_reference_rows": 4440,
+  "gpw_reference_comparable": 4241,
+  "gpw_reference_exact": 3950,
+  "large_close_to_close_movements": 553,
+  "nonmatching_reference_prices_explanation": "Historical denomination adjustments possible; cash-dividend adjustment policy not certified",
+  "no_imputation": true,
+  "raw_price_source": "Observed Bankier public chart responses",
+  "wig_raw_sha256": "4d5bf96448c66dc7e3bbc961ea6e0b87234599a184794190676cc642c3b4f867",
+  "additional_matches_at_integer_price_precision": 33,
+  "nonmatching_ratios_near_denomination_factors": 249,
+  "nonmatching_compounded_denomination_ratios": 4,
+  "unresolved_reference_mismatches": 5,
+  "denomination_ratios_are_diagnostic_not_certified_corporate_action_audit": true
+}

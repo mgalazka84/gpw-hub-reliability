@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research software when reusing the code or derived results."
+type: software
+title: "GPW hub reliability: Code and derived research outputs"
+authors:
+  - family-names: "Gałązka"
+    given-names: "Marek"
+version: 1.0.0
+date-released: 2026-10-04
+url: "https://github.com/mgalazka84/gpw-hub-reliability"
+repository-code: "https://github.com/mgalazka84/gpw-hub-reliability"
+license: MIT
+keywords:
+  - financial networks
+  - minimum spanning tree
+  - bootstrap
+  - diversification
+  - Warsaw Stock Exchange
+abstract: "Code and derived outputs for an analytical, simulation and observed-price study of hub reliability and diversification risk in Polish stock correlation networks. The available historical WIG20/mWIG40 sample contains 155 analysed stocks, 231 estimation origins and 73 complete retrospective forecast-test windows. Raw third-party prices are excluded."
+

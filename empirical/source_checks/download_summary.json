@@ -1,0 +1,9 @@
+{
+  "requested": 171,
+  "downloaded": 164,
+  "unavailable": 7,
+  "downloaded_rows": 751158,
+  "source": "Bankier public company-profile-chart endpoint",
+  "adjustment_policy": "Not certified; OHLC and volume as supplied",
+  "raw_data_redistribution_license_not_established": true
+}

@@ -1,0 +1,44 @@
+{
+  "design_recorded_at": "2026-10-03T21:44:52.161744+00:00",
+  "status": "Retrospective exploratory observed-price analysis; not a prospective preregistration",
+  "primary_return_convention": "close-to-close price returns as supplied, not certified total returns",
+  "sensitivity_return_convention": "open-to-close price returns, excluding overnight risk and cash-dividend income",
+  "universe": "Latest archived WIG20 and mWIG40 quarterly portfolio strictly before the origin; extraordinary changes not reconciled",
+  "first_origin_not_before": "2007-03-19",
+  "data_cutoff": "2025-09-19",
+  "lookback_sessions": 252,
+  "stride_sessions": 20,
+  "horizon_sessions": 20,
+  "minimum_assets": 20,
+  "eligibility": "Same stocks in both conventions: complete past 252 returns and volumes, positive volume >=90%, zero close returns <=15%, both log-return variances positive",
+  "missing_policy": "No filling. Select assets using past observations only. Any incomplete future asset return makes the entire origin target missing in both conventions.",
+  "factor": "Single contemporaneous WIG log return of the same return convention, with intercept; refitted in every bootstrap sample",
+  "bootstrap_repetitions": 500,
+  "bootstrap_block_sessions": 10,
+  "hub_fraction": 0.1,
+  "seed": 8317,
+  "validation_years": [
+    2015,
+    2018
+  ],
+  "test_years": [
+    2019,
+    2025
+  ],
+  "minimum_mature_training_origins": 60,
+  "ridge_alphas": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "primary_network_comparison": "Market-residual degree versus market-residual degree plus reliability",
+  "secondary_networks": [
+    "raw",
+    "cross-sectionally demeaned"
+  ],
+  "extra_benchmark": "EWMA covariance with fixed lambda 0.94 over the past 252 simple returns",
+  "loss_interval": "Paired origin-level loss difference; 5000 circular block replicates, primary block 6, sensitivity 3 and 12",
+  "interpretation": "Conditional uncertainty in the downloaded quarterly-snapshot universe, not proof of causal or structural hubs; evaluation uses historical data vintage downloaded in 2026"
+}

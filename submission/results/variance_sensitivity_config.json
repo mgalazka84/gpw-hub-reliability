@@ -1,0 +1,17 @@
+{
+  "seed": 84261003,
+  "mc": 100,
+  "bootstrap": 500,
+  "n": 60,
+  "t": 252,
+  "block": 10,
+  "ratios": [
+    2.0,
+    4.0,
+    8.0,
+    16.0
+  ],
+  "status": "exploratory; added after the initial diagnostic pilot",
+  "common_random_numbers": true,
+  "elapsed_seconds": 150.0332914439996
+}
