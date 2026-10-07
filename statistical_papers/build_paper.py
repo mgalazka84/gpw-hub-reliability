@@ -1,6 +1,6 @@
 """Build every table and vector figure from saved numerical outputs."""
 from pathlib import Path
-import json,re
+import json,re,io
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -16,6 +16,16 @@ MODEL_NAMES.update({'two_hubs':'Two hubs','chain':'Chain'})
 COLORS=['#777777','#0072B2','#E69F00','#009E73','#CC79A7']
 plt.rcParams.update({'font.size':9,'font.family':'DejaVu Serif','pdf.fonttype':42,'ps.fonttype':42,
                      'axes.spines.top':False,'axes.spines.right':False})
+
+def save_figure(fig,name):
+    """Publish only a completed PDF, with deterministic metadata."""
+    buffer=io.BytesIO()
+    fig.savefig(buffer,format='pdf',bbox_inches='tight',metadata={'CreationDate':None})
+    data=buffer.getvalue()
+    assert data.startswith(b'%PDF-') and data.rstrip().endswith(b'%%EOF')
+    target=OUT/name;temporary=OUT/(name+'.tmp')
+    temporary.write_bytes(data);temporary.replace(target)
+    plt.close(fig)
 
 def wilson(p,n):
     z=norm.ppf(.975);den=1+z*z/n
@@ -43,7 +53,7 @@ def figures(s):
         ax.scatter(xy[:,0],xy[:,1],s=430,c=['#0072B2']+['#eeeeee']*5,edgecolors='#333333',zorder=2)
         for i,(x,y) in enumerate(xy):ax.text(x,y,str(i+1),ha='center',va='center',color='white' if i==0 else 'black',zorder=3)
         ax.set_xlim(-1.4,1.4);ax.set_ylim(-1.4,1.4);ax.axis('off');ax.set_title(title,fontsize=10)
-    fig.tight_layout();fig.savefig(OUT/'Fig1.pdf',bbox_inches='tight');plt.close(fig)
+    fig.tight_layout();save_figure(fig,'Fig1.pdf')
     fig,axs=plt.subplots(1,2,figsize=(7.0,3.5))
     for model,color in zip(MODELS,COLORS):
         d=s[s.model==model].sort_values('n')
@@ -58,7 +68,7 @@ def figures(s):
         ax.xaxis.set_minor_locator(NullLocator())
         ax.set_xlabel('Observations');ax.grid(alpha=.18)
     handles,labels=axs[1].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',ncol=3,fontsize=8,frameon=False)
-    fig.tight_layout(rect=[0,.18,1,1]);fig.savefig(OUT/'Fig2.pdf',bbox_inches='tight');plt.close(fig)
+    fig.tight_layout(rect=[0,.18,1,1]);save_figure(fig,'Fig2.pdf')
     g=pd.read_csv(RESULTS/'gpw_windows.csv',parse_dates=['origin'])
     fig,ax=plt.subplots(figsize=(7,2.9))
     for kind,label,color in zip(['raw','demeaned','factor_residual'],['Raw','Demeaned','WIG residual'],COLORS[1:4]):
@@ -66,7 +76,7 @@ def figures(s):
         ax.plot(d.origin,d.mean_degree_width/(d.p-2),lw=1,label=label,color=color)
     ax.set_ylim(0,1.025);ax.set_ylabel('Mean degree width / (p - 2)');ax.set_xlabel('Estimation origin')
     ax.legend(loc='lower left',ncol=3,frameon=False);ax.grid(alpha=.2)
-    fig.tight_layout();fig.savefig(OUT/'Fig3.pdf',bbox_inches='tight');plt.close(fig)
+    fig.tight_layout();save_figure(fig,'Fig3.pdf')
 
 def simulation_table(s):
     lines=[r'\begin{table}[t]',r'\caption{Primary Monte Carlo results. Coverage columns are percentages; width and candidate count are averages. Each row uses 500 data sets and 999 resamples. Percentile degree coverage is not assigned a target at complete population edge ties.}\label{tab:sim}',
