@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+manuscript/*.aux
+manuscript/*.blg
+manuscript/*.fdb_latexmk
+manuscript/*.fls
+manuscript/*.out
+manuscript/*.synctex.gz
+manuscript/sn-article.tex
+manuscript/paper_build.json
+manuscript/sn-basic.bst
+results/pilot_*

@@ -1,0 +1,11 @@
+{
+  "BAND_MIN": "76.4",
+  "BAND_MAX": "95.2",
+  "DEG_MIN": "99.6",
+  "DEG_MAX": "100.0",
+  "STAR_CERT": "100.0",
+  "STAR_SMALL_CERT": "0.0",
+  "NEAR_PERCENTILE": "3.0",
+  "NEAR_DEG": "100.0",
+  "GPW_SENSITIVITY": "Every rank interval remains $[1,p]$ under both choices, and no top-decile membership is certified."
+}

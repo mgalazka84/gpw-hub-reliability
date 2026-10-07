@@ -1,0 +1,21 @@
+{
+  "repetitions": 500,
+  "bootstrap_repetitions": 999,
+  "p": 12,
+  "sample_sizes": [
+    126,
+    252,
+    1008
+  ],
+  "models": [
+    "independent",
+    "gaussian_star",
+    "near_tie",
+    "ar_star",
+    "t5_star"
+  ],
+  "alpha": 0.05,
+  "seed": 713019,
+  "band": "Centered Fisher-z bootstrap max standardized deviation",
+  "status": "retrospective method development; no preregistration"
+}

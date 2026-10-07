@@ -1,0 +1,17 @@
+{
+  "bootstrap_repetitions": 999,
+  "block": 20,
+  "alpha": 0.05,
+  "origins": 47,
+  "seed": 803177,
+  "return_type": "close-to-close log price returns",
+  "lookback": 252,
+  "universe": "Frozen previously audited past-only eligible stocks at each origin",
+  "band": "Centered Fisher-z bootstrap max standardized deviation",
+  "coverage_scope": "Per window and representation, simultaneous across all nodes; not across dates or representations",
+  "source_sha256": {
+    "data/close_simple_returns.csv.gz": "f0da4fd887abbb5e536cffe99573f5515d16c913f05c654c55ffb295b8d2ddce",
+    "data/wig_ohlc.csv": "c835924e7c242a83a57bd9dc42423eb04d648cb70f62d0d18d4c8bbb3abed463",
+    "results/hub_selections.csv.gz": "beb07b5ec787abc7996876361465ff163bed89f2db07c26155b38b8cef90ce80"
+  }
+}

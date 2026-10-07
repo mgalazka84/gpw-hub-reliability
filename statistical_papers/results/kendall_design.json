@@ -1,0 +1,32 @@
+{
+  "repetitions": 500,
+  "p": 12,
+  "alpha": 0.05,
+  "designs": [
+    [
+      "independent",
+      252
+    ],
+    [
+      "near_tie",
+      252
+    ],
+    [
+      "gaussian_star",
+      1008
+    ],
+    [
+      "gaussian_star",
+      4096
+    ],
+    [
+      "t5_star",
+      1008
+    ],
+    [
+      "t5_star",
+      4096
+    ]
+  ],
+  "iid_only": true
+}

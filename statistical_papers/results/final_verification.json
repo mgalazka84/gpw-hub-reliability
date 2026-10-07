@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "primary_monte_carlo_draws": 7500,
+  "shape_draws": 3000,
+  "kendall_draws": 3000,
+  "representative_draws_regenerated": 21,
+  "gpw_windows": 231,
+  "representations": 3,
+  "unique_gpw_securities": 155,
+  "gpw_node_records": 35979,
+  "scope": "Independent aggregate checks and representative seed reruns; not a new raw-data acquisition"
+}

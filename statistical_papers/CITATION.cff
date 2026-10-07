@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this methodological extension separately from the earlier financial application."
+title: "Simultaneous degree and rank inference for hubs in correlation spanning trees: code and derived results"
+authors:
+  - family-names: "Gałązka"
+    given-names: "Marek"
+  - family-names: "Wdowicka"
+    given-names: "Hanna"
+version: "0.2.0"
+url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/statpapers-v0.2.0"
+license: MIT

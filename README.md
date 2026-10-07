@@ -1,5 +1,7 @@
 # GPW hub reliability
 
+**Statistical Papers extension:** The `statistical-papers` branch adds a manuscript and reproducible study of simultaneous degree and rank envelopes. See [`statistical_papers/README.md`](statistical_papers/README.md). It is prepared for author review before submission; it does not imply acceptance or publication. The original `v1.0.1` study described below remains available unchanged at its tag.
+
 Code and derived research outputs for **Hub reliability and diversification risk in Polish stock correlation networks**, by Marek Gałązka and Hanna Wdowicka. Version **v1.0.1** corresponds to the manuscript prepared for submission to the *International Review of Financial Analysis*. This does not imply acceptance or publication by the journal.
 
 The study asks whether a stock's stable network position adds information about subsequent diversification loss after accounting for observed concentration and standard financial predictors. It combines exact covariance diagnostics, controlled simulations and observed Polish stock prices.
