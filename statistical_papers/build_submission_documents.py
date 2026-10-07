@@ -24,7 +24,7 @@ STYLE.add(ParagraphStyle(name='SmallPL',fontName='DV',fontSize=8.5,leading=11.6,
 def p(text,style='BodyPL'):return Paragraph(text,STYLE[style])
 def footer(canvas,doc):
     canvas.setFont('DV',8);canvas.setFillColor(colors.HexColor('#555555'))
-    canvas.drawString(45,28,'Gałązka · Wdowicka | Statistical Papers | v0.2')
+    canvas.drawString(45,28,'Gałązka · Wdowicka | Statistical Papers | v0.2.1')
     canvas.drawRightString(A4[0]-45,28,str(doc.page))
 
 def doc(path,story,title):
@@ -34,7 +34,7 @@ def doc(path,story,title):
 def main(out):
     out=Path(out);out.mkdir(parents=True,exist_ok=True)
     title='Simultaneous degree and rank inference for hubs in correlation spanning trees'
-    repo='https://github.com/mgalazka84/gpw-hub-reliability/tree/statpapers-v0.2.0'
+    repo='https://github.com/mgalazka84/gpw-hub-reliability/tree/statpapers-v0.2.1'
     letter=[p('Cover letter','TitlePL'),p('Dear Editors of <i>Statistical Papers</i>,'),
        p('Please consider our manuscript, “'+title+'”, for publication as a regular research article.'),
        p('The paper studies uncertainty in the degree and rank of vertices in estimated correlation spanning trees. Its central construction maps a simultaneous edge-weight band to exact coordinatewise degree extrema over the rectangular region, using two lexicographic spanning-tree computations per vertex. It then gives simultaneous outer rank intervals that retain all population tree and degree ties.'),
@@ -53,7 +53,7 @@ def main(out):
     report=[p('Przegląd przed zgłoszeniem','TitlePL'),
        p('<b>Cel: Statistical Papers. Status: kompletna wersja do merytorycznej oceny autorów przed zgłoszeniem.</b> Nowy tytuł: <i>'+title+'</i>. Autorzy: Marek Gałązka i Hanna Wdowicka.'),
        p('Co zmieniono po decyzji IRFA','HeadingPL'),
-       p('IRFA odrzuciło poprzednią pracę z powodu niewystarczającej nowości. W decyzji nie było szczegółowych raportów recenzentów ani zarzutu błędu w obliczeniach. Nowa wersja odpowiada na tę jedną wskazaną uwagę przez zmianę głównego problemu badawczego i dodanie wnioskowania o stopniach i rangach.'),
+       p('IRFA wskazało niewystarczającą nowość, bez szczegółowych raportów recenzentów. Odpowiedzią jest dodanie wnioskowania o stopniach i rangach. W wersji 0.2.1 poprawiono również prezentację: problem i jego znaczenie pojawiają się w pierwszym akapicie, główny wynik w drugim, a przykład identyfikacji huba bez identyfikacji całego drzewa poprzedza przegląd literatury.'),
        p('Rdzeniem pracy jest obliczanie dokładnych skrajnych stopni węzła wśród wszystkich drzew optymalnych dla wag dopuszczonych przez przedziały. Wystarczają dwa drzewa dla każdego węzła. Dalej wyprowadzono jednoczesne przedziały rang, obejmujące także remisy, oraz twierdzenie przenoszące pokrycie wspólnego obszaru ufności na wynik sieciowy.'),
        p('Dodatkowo podano wariant Kendalla z gwarancją dla skończonej próby przy niezależnych obserwacjach. Wariant Pearsona z bootstrapem blokowym ma uzasadnienie asymptotyczne pod zapisanymi założeniami. Dotychczasowe proste własności centrowania i modelu czynnikowego pozostają tłem interpretacyjnym. Dawne prognozy GPW są opisane jako odziedziczony wynik eksploracyjny.'),
        p('Granice deklarowanej nowości','HeadingPL'),

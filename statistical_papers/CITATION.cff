@@ -6,6 +6,6 @@ authors:
     given-names: "Marek"
   - family-names: "Wdowicka"
     given-names: "Hanna"
-version: "0.2.0"
-url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/statpapers-v0.2.0"
+version: "0.2.1"
+url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/statpapers-v0.2.1"
 license: MIT

@@ -2,6 +2,8 @@
 
 Methodological extension prepared for author review before a possible submission to **Statistical Papers**, by **Marek Gałązka and Hanna Wdowicka**. This directory does not imply journal submission, acceptance or peer-reviewed validation.
 
+Version **0.2.1** revises the introduction to put the practical problem and the two-tree computational result before the literature review. It adds an early explanation of why hub identification and full-tree recovery are different targets. The mathematical results, simulations and GPW estimates are unchanged.
+
 The method projects a simultaneous band for edge weights through maximum spanning trees. Two lexicographic tree computations per vertex give exact coordinatewise degree endpoints over the rectangular weight region. The rank intervals are conservative outer bounds. Exactness over the box does not imply a sharp projection onto valid correlation matrices.
 
 The original financial application and its version `v1.0.1` remain separate. The extension addresses population degree and rank uncertainty, rather than forecasting improvements.
