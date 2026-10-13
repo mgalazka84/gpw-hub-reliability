@@ -1,0 +1,172 @@
+{
+  "version": "0.5",
+  "alpha": 0.05,
+  "seed": 1592801,
+  "multiplier_repetitions": 999,
+  "matchings": 8,
+  "lp_repetitions": 100,
+  "cells": [
+    {
+      "p": 12,
+      "model": "gaussian_star",
+      "n": 252,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "gaussian_star",
+      "n": 1008,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "gaussian_star",
+      "n": 4096,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "t5_star",
+      "n": 252,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "t5_star",
+      "n": 1008,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "t5_star",
+      "n": 4096,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "near_tie",
+      "n": 252,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "near_tie",
+      "n": 1008,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "near_tie",
+      "n": 4096,
+      "repetitions": 200
+    },
+    {
+      "p": 52,
+      "model": "gaussian_star",
+      "n": 252,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "gaussian_star",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "t5_star",
+      "n": 252,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "t5_star",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "near_tie",
+      "n": 252,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "near_tie",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "independent",
+      "n": 252,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "independent",
+      "n": 1008,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "independent",
+      "n": 4096,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "discrete_independent",
+      "n": 1008,
+      "repetitions": 1000
+    },
+    {
+      "p": 52,
+      "model": "independent",
+      "n": 1008,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "chain",
+      "n": 1008,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "chain",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "two_hubs",
+      "n": 1008,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "two_hubs",
+      "n": 4096,
+      "repetitions": 100
+    }
+  ],
+  "methods": [
+    "paired_exact",
+    "merged_8",
+    "u_hoeffding",
+    "hoeffding_box",
+    "multiplier_contrast",
+    "multiplier_box"
+  ],
+  "families": "local everywhere; all-edge family ablation p=12 first 100 datasets per cell",
+  "projections": [
+    "marginal",
+    "pair",
+    "conservation",
+    "joint",
+    "path"
+  ],
+  "status": "review-driven retrospective development; all specified cells retained",
+  "reference": "Pearson IID row-bootstrap; B499; threshold .95, heuristic"
+}

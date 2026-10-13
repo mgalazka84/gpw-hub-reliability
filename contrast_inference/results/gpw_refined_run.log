@@ -1,0 +1,51 @@
+gpw_refined: 5/231, 38.6s
+gpw_refined: 10/231, 75.8s
+gpw_refined: 15/231, 110.4s
+gpw_refined: 20/231, 148.7s
+gpw_refined: 25/231, 159.5s
+gpw_refined: 30/231, 186.8s
+gpw_refined: 35/231, 218.1s
+gpw_refined: 40/231, 252.4s
+gpw_refined: 45/231, 281.0s
+gpw_refined: 50/231, 319.3s
+gpw_refined: 55/231, 350.4s
+gpw_refined: 60/231, 383.3s
+gpw_refined: 65/231, 417.3s
+gpw_refined: 70/231, 439.6s
+gpw_refined: 75/231, 471.3s
+gpw_refined: 80/231, 500.4s
+gpw_refined: 85/231, 546.9s
+gpw_refined: 90/231, 582.0s
+gpw_refined: 95/231, 618.8s
+gpw_refined: 100/231, 653.0s
+gpw_refined: 105/231, 690.5s
+gpw_refined: 110/231, 748.1s
+gpw_refined: 115/231, 784.9s
+gpw_refined: 120/231, 809.0s
+gpw_refined: 125/231, 867.8s
+gpw_refined: 130/231, 911.7s
+gpw_refined: 135/231, 953.8s
+gpw_refined: 140/231, 984.5s
+gpw_refined: 145/231, 1042.9s
+gpw_refined: 150/231, 1067.0s
+gpw_refined: 155/231, 1103.9s
+gpw_refined: 160/231, 1138.0s
+gpw_refined: 165/231, 1204.4s
+gpw_refined: 170/231, 1249.7s
+gpw_refined: 175/231, 1308.5s
+gpw_refined: 180/231, 1365.0s
+gpw_refined: 185/231, 1428.4s
+gpw_refined: 190/231, 1488.4s
+gpw_refined: 195/231, 1520.5s
+gpw_refined: 200/231, 1583.5s
+gpw_refined: 205/231, 1630.7s
+gpw_refined: 210/231, 1686.4s
+gpw_refined: 215/231, 1731.9s
+gpw_refined: 220/231, 1814.5s
+gpw_refined: 225/231, 1851.6s
+gpw_refined: 230/231, 1922.4s
+gpw_refined: 231/231, 1923.0s
+        network         p        k  anchor_observed_degree  order_count  closed_order_count  forced_edges  allowed_edges  path_constraints  critical  minor_mean_degree_width  mean_degree_width  mean_rank_width  full_rank_fraction  top1_candidates  top1_certified  topk_certified  anchor_rank_lower  anchor_rank_upper  nontrivial_dual_certificates  origins  windows_with_nonfull_ranks  windows_certified_top1  windows_certified_topk
+       demeaned 51.917749 5.597403                5.060606   625.722944          634.536797      0.008658    1335.497835        467.402597  5.129910                49.895289          46.505262        50.917749                 1.0        51.917749             0.0             0.0                1.0          51.917749                    137.670996      231                           0                       0                       0
+factor_residual 51.917749 5.597403                5.359307   357.177489          360.584416      0.000000    1335.519481        274.831169  5.157546                49.905938          47.627041        50.917749                 1.0        51.917749             0.0             0.0                1.0          51.917749                    111.207792      231                           0                       0                       0
+            raw 51.917749 5.597403                8.051948   914.995671         1002.363636      0.004329    1335.303030        702.008658  5.144350                49.891557          45.990831        50.917749                 1.0        51.917749             0.0             0.0                1.0          51.917749                    119.645022      231                           0                       0                       0

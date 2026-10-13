@@ -1,0 +1,5 @@
+- Exact edge-order tests cover discrete and continuous Kendall correlations.
+- Evidence averaging over matchings retains finite-sample familywise control.
+- Cycle-path bounds carry independently checked rational certificates.
+- Matched simulations separate calibration, projection and family effects.
+- Real morphometric measurements yield informative degree and rank bounds.

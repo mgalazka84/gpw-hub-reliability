@@ -1,0 +1,7 @@
+p,n,model,method,rep,seed,B,anchor,observed_unique_hub,anchor_unique_hub_frequency,true_hub_certified,false_hub_declaration,false_forced_edge,high_frequency_edges,mean_population_edge_frequency,repetitions
+12,1008,gaussian_star,bootstrap_frequency_095,99.5,1692900.5,499.0,0.0,1.0,1.0,1.0,0.0,0.0,11.0,1.0,200
+12,1008,independent,bootstrap_frequency_095,499.5,3193300.5,499.0,4.182,0.525,0.1474128256513026,,0.0,0.043,0.043,,1000
+12,1008,near_tie,bootstrap_frequency_095,99.5,2292900.5,499.0,0.155,0.85,0.656062124248497,0.02,0.0,0.22,2.165,0.6250327928584442,200
+12,4096,gaussian_star,bootstrap_frequency_095,99.5,1792900.5,499.0,0.0,1.0,1.0,1.0,0.0,0.0,11.0,1.0,200
+12,4096,independent,bootstrap_frequency_095,499.5,3293300.5,499.0,4.276,0.544,0.14782565130260522,,0.0,0.049,0.049,,1000
+12,4096,near_tie,bootstrap_frequency_095,99.5,2392900.5,499.0,0.195,0.865,0.650751503006012,0.06,0.0,0.225,2.25,0.6256121333576243,200

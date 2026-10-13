@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "conditional_expectation_cases": 35,
+  "markov_pvalue_checks": 245,
+  "direct_kernel_count_cases": 60,
+  "exact_fraction_cases": 64,
+  "lambdas": [
+    0.03125,
+    0.0625,
+    0.125,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "seed_scope": "Verification/pilot seeds are excluded from production datasets",
+  "five_point_exact_expectation_cases": 15
+}

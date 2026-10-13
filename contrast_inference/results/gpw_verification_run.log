@@ -1,0 +1,12 @@
+GPW certificates 60 4295 32
+GPW certificates 120 9945 71
+GPW certificates 180 14214 104
+GPW certificates 240 18064 130
+GPW certificates 300 23308 163
+GPW certificates 360 30249 206
+GPW certificates 420 38984 261
+GPW certificates 480 48399 310
+GPW certificates 540 58565 371
+GPW certificates 600 68903 438
+GPW certificates 660 79340 505
+{'status': 'PASS', 'windows': 693, 'certificates': 85129, 'arithmetic': 'independent Python integer dual support verification'}

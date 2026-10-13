@@ -1,0 +1,61 @@
+{
+  "comparative": {
+    "datasets": 7800,
+    "cells": 24,
+    "local_lp_solves": 950820,
+    "local_verified_certificates": 375946,
+    "all_lp_solves": 1863888,
+    "all_verified_certificates": 649847,
+    "worst_exact_null_fwer": 0.035,
+    "worst_exact_null_interval": [
+      0.02527226301711295,
+      0.04828662237445333
+    ]
+  },
+  "audit": {
+    "datasets": 3000,
+    "cells": 3,
+    "rows": 12000,
+    "paired_B_difference": {
+      "p": 52,
+      "n": 1008,
+      "first": "legacy_row_499",
+      "second": "legacy_row_1999",
+      "difference": 0.021,
+      "lower": 0.006515399278611165,
+      "upper": 0.035484600721388836
+    }
+  },
+  "cross_section": {
+    "datasets": 12,
+    "analyses": 192,
+    "primary_exact_degree_width_reduction": 19.23076923076923,
+    "rings_degree": [
+      1,
+      1
+    ],
+    "rings_rank": [
+      3,
+      8
+    ],
+    "multiplier_whole_weight_degree": [
+      4,
+      4
+    ],
+    "multiplier_whole_weight_rank": [
+      1,
+      1
+    ],
+    "primary_bootstrap_unique_hub_frequency": 1.0,
+    "pearson_kendall_shared_edges": 5,
+    "evidence_whole_weight_degree": [
+      3,
+      5
+    ],
+    "evidence_whole_weight_rank": [
+      1,
+      3
+    ],
+    "verified_certificates": 16530
+  }
+}

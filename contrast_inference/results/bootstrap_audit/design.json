@@ -1,0 +1,34 @@
+{
+  "version": "0.5",
+  "alpha": 0.05,
+  "seed": 38192101,
+  "repetitions": 1000,
+  "B": [
+    499,
+    1999
+  ],
+  "cells": [
+    {
+      "p": 12,
+      "n": 252
+    },
+    {
+      "p": 52,
+      "n": 252
+    },
+    {
+      "p": 52,
+      "n": 1008
+    }
+  ],
+  "methods": [
+    "legacy_row_499",
+    "legacy_row_1999",
+    "influence_row_1999",
+    "influence_multiplier_1999"
+  ],
+  "family": "local; two-sided maximum over all unique contrasts",
+  "estimand": "Fisher-z Pearson edge differences",
+  "truth": "IID Gaussian independence: all population contrasts are zero",
+  "status": "review-driven paired audit; fixed common datasets and nested row resamples"
+}

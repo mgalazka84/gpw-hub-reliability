@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "kendall_kernel_cases": 120,
+  "pearson_finite_difference_rows": 3,
+  "direct_row_bootstrap_replicates": 31,
+  "merged_families": 2,
+  "paired_full_variance_ratio": 4.5,
+  "null_binomial_tail": 0.12989223370694228
+}

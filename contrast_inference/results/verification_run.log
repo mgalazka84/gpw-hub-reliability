@@ -1,0 +1,1 @@
+{'minor_instances': 300, 'conservation_instances': 300, 'lp_instances': 32, 'lp_certificates': 242, 'full_kendall_comparisons': 30, 'binomial_checks': 196, 'direct_discordance_comparisons': 30, 'status': 'PASS'}

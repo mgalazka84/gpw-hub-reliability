@@ -1,0 +1,189 @@
+{
+  "version": "0.5",
+  "alpha": 0.05,
+  "seed": 1592801,
+  "multiplier_repetitions": 999,
+  "matchings": 8,
+  "lp_repetitions": 100,
+  "cells": [
+    {
+      "p": 12,
+      "model": "gaussian_star",
+      "n": 252,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "gaussian_star",
+      "n": 1008,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "gaussian_star",
+      "n": 4096,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "t5_star",
+      "n": 252,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "t5_star",
+      "n": 1008,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "t5_star",
+      "n": 4096,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "near_tie",
+      "n": 252,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "near_tie",
+      "n": 1008,
+      "repetitions": 200
+    },
+    {
+      "p": 12,
+      "model": "near_tie",
+      "n": 4096,
+      "repetitions": 200
+    },
+    {
+      "p": 52,
+      "model": "gaussian_star",
+      "n": 252,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "gaussian_star",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "t5_star",
+      "n": 252,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "t5_star",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "near_tie",
+      "n": 252,
+      "repetitions": 100
+    },
+    {
+      "p": 52,
+      "model": "near_tie",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "independent",
+      "n": 252,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "independent",
+      "n": 1008,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "independent",
+      "n": 4096,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "discrete_independent",
+      "n": 1008,
+      "repetitions": 1000
+    },
+    {
+      "p": 52,
+      "model": "independent",
+      "n": 1008,
+      "repetitions": 1000
+    },
+    {
+      "p": 12,
+      "model": "chain",
+      "n": 1008,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "chain",
+      "n": 4096,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "two_hubs",
+      "n": 1008,
+      "repetitions": 100
+    },
+    {
+      "p": 12,
+      "model": "two_hubs",
+      "n": 4096,
+      "repetitions": 100
+    }
+  ],
+  "methods": [
+    "paired_exact",
+    "merged_8",
+    "u_hoeffding",
+    "hoeffding_box",
+    "multiplier_contrast",
+    "multiplier_box"
+  ],
+  "families": "local everywhere; all-edge family ablation p=12 first 100 datasets per cell",
+  "projections": [
+    "marginal",
+    "pair",
+    "conservation",
+    "joint",
+    "path"
+  ],
+  "status": "review-driven retrospective development; all specified cells retained",
+  "evalue_extension": {
+    "matchings": [
+      8,
+      64
+    ],
+    "fixed_lambdas": [
+      0.03125,
+      0.0625,
+      0.125,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "additional_lambda": "min(0.5,1/sqrt(floor(n/2))); fixed by sample size, ensures consistency",
+    "matching_seed_offset": 41000000,
+    "nesting": "E8 and E64 use the same first eight matchings as the M8 comparator",
+    "scope": "Every original dataset; all null family cells 1000 repetitions; pilot seeds excluded"
+  }
+}

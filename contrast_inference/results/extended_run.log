@@ -1,0 +1,60 @@
+extended 3 / 89 analyses 27 nonfull 0 hubs 0 seconds 20
+extended 6 / 89 analyses 48 nonfull 0 hubs 0 seconds 20
+extended 9 / 89 analyses 56 nonfull 0 hubs 0 seconds 20
+extended 12 / 89 analyses 74 nonfull 0 hubs 0 seconds 20
+extended 15 / 89 analyses 82 nonfull 0 hubs 0 seconds 21
+extended 18 / 89 analyses 95 nonfull 0 hubs 0 seconds 23
+extended 21 / 89 analyses 108 nonfull 0 hubs 0 seconds 23
+extended 24 / 89 analyses 116 nonfull 0 hubs 0 seconds 26
+extended 27 / 89 analyses 134 nonfull 0 hubs 0 seconds 29
+extended 30 / 89 analyses 142 nonfull 0 hubs 0 seconds 29
+extended 33 / 89 analyses 155 nonfull 0 hubs 0 seconds 31
+extended 36 / 89 analyses 168 nonfull 0 hubs 0 seconds 33
+extended 39 / 89 analyses 176 nonfull 0 hubs 0 seconds 33
+extended 42 / 89 analyses 203 nonfull 0 hubs 0 seconds 57
+extended 45 / 89 analyses 214 nonfull 0 hubs 0 seconds 58
+extended 48 / 89 analyses 233 nonfull 0 hubs 0 seconds 59
+extended 51 / 89 analyses 252 nonfull 0 hubs 0 seconds 72
+extended 54 / 89 analyses 263 nonfull 0 hubs 0 seconds 76
+extended 57 / 89 analyses 290 nonfull 0 hubs 0 seconds 83
+extended 60 / 89 analyses 301 nonfull 0 hubs 0 seconds 96
+extended 63 / 89 analyses 320 nonfull 0 hubs 0 seconds 105
+extended 66 / 89 analyses 339 nonfull 0 hubs 0 seconds 108
+extended 69 / 89 analyses 350 nonfull 0 hubs 0 seconds 111
+extended 72 / 89 analyses 377 nonfull 0 hubs 0 seconds 119
+extended 75 / 89 analyses 388 nonfull 0 hubs 0 seconds 132
+extended 78 / 89 analyses 407 nonfull 0 hubs 0 seconds 142
+extended 81 / 89 analyses 426 nonfull 0 hubs 0 seconds 143
+extended 84 / 89 analyses 437 nonfull 0 hubs 0 seconds 143
+extended 87 / 89 analyses 464 nonfull 0 hubs 0 seconds 161
+extended 89 / 89 analyses 466 nonfull 0 hubs 0 seconds 161
+         analysis  lookback  cap  block         network  windows  nonfull_rank_fraction  top1_certified  anchor_rank_upper
+block_sensitivity      1008   20      5             raw       17                    0.0             0.0               20.0
+block_sensitivity      1008   20     20             raw       17                    0.0             0.0               20.0
+          primary       252   10     10        demeaned       19                    0.0             0.0               10.0
+          primary       252   10     10 factor_residual       19                    0.0             0.0               10.0
+          primary       252   10     10             raw       19                    0.0             0.0               10.0
+          primary       252   20     10        demeaned       19                    0.0             0.0               20.0
+          primary       252   20     10 factor_residual       19                    0.0             0.0               20.0
+          primary       252   20     10             raw       19                    0.0             0.0               20.0
+          primary       252   40     10        demeaned       12                    0.0             0.0               40.0
+          primary       252   40     10 factor_residual       12                    0.0             0.0               40.0
+          primary       252   40     10             raw       12                    0.0             0.0               40.0
+          primary       504   10     10        demeaned       19                    0.0             0.0               10.0
+          primary       504   10     10 factor_residual       19                    0.0             0.0               10.0
+          primary       504   10     10             raw       19                    0.0             0.0               10.0
+          primary       504   20     10        demeaned       19                    0.0             0.0               20.0
+          primary       504   20     10 factor_residual       19                    0.0             0.0               20.0
+          primary       504   20     10             raw       19                    0.0             0.0               20.0
+          primary       504   40     10        demeaned       12                    0.0             0.0               40.0
+          primary       504   40     10 factor_residual       12                    0.0             0.0               40.0
+          primary       504   40     10             raw       12                    0.0             0.0               40.0
+          primary      1008   10     10        demeaned       17                    0.0             0.0               10.0
+          primary      1008   10     10 factor_residual       17                    0.0             0.0               10.0
+          primary      1008   10     10             raw       17                    0.0             0.0               10.0
+          primary      1008   20     10        demeaned       17                    0.0             0.0               20.0
+          primary      1008   20     10 factor_residual       17                    0.0             0.0               20.0
+          primary      1008   20     10             raw       17                    0.0             0.0               20.0
+          primary      1008   40     10        demeaned       10                    0.0             0.0               40.0
+          primary      1008   40     10 factor_residual       10                    0.0             0.0               40.0
+          primary      1008   40     10             raw       10                    0.0             0.0               40.0

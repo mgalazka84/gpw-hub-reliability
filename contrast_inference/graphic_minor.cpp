@@ -83,3 +83,62 @@ extern "C" int kendall_tau_a(int n,int p,const double *x,double *out) {
     }
     return 0;
 }
+
+// Rowwise order-two kernel averages, including ties, in O(p^2 n log n).
+// A forward/backward sweep counts concordances minus discordances against
+// observations with strictly smaller/larger x. Updates are deferred at ties.
+extern "C" int kendall_row_means(int n,int p,const double *x,double *out) {
+    if(n<2)return 1;
+    const int m=p*(p-1)/2;
+    std::vector<std::vector<int>> order(p,std::vector<int>(n)),rank(p,std::vector<int>(n));
+    for(int j=0;j<p;++j){
+        std::iota(order[j].begin(),order[j].end(),0);
+        std::stable_sort(order[j].begin(),order[j].end(),[&](int a,int b){return x[a*p+j]<x[b*p+j];});
+        int level=0;
+        for(int start=0;start<n;){
+            int stop=start+1;while(stop<n&&x[order[j][stop]*p+j]==x[order[j][start]*p+j])++stop;
+            ++level;for(int k=start;k<stop;++k)rank[j][order[j][k]]=level;
+            start=stop;
+        }
+    }
+    std::fill(out,out+static_cast<long long>(n)*m,0.0);
+    int edge=0;
+    for(int i=0;i<p;++i)for(int j=i+1;j<p;++j,++edge){
+        for(int direction=0;direction<2;++direction){
+            std::vector<int> fenwick(n+1,0);int inserted=0;
+            auto prefix=[&](int r){int ans=0;for(;r>0;r-=r&-r)ans+=fenwick[r];return ans;};
+            int start=0;
+            while(start<n){
+                int stop=start+1;
+                auto ix=[&](int k){return order[i][direction?n-1-k:k];};
+                while(stop<n&&x[ix(stop)*p+i]==x[ix(start)*p+i])++stop;
+                for(int k=start;k<stop;++k){
+                    int row=ix(k),r=rank[j][row];
+                    int below=prefix(r-1),above=inserted-prefix(r);
+                    out[static_cast<long long>(row)*m+edge]+=direction?above-below:below-above;
+                }
+                for(int k=start;k<stop;++k)for(int r=rank[j][ix(k)];r<=n;r+=r&-r)++fenwick[r];
+                inserted+=stop-start;start=stop;
+            }
+        }
+    }
+    for(long long k=0;k<static_cast<long long>(n)*m;++k)out[k]/=(n-1);
+    return 0;
+}
+
+// Streaming maximum: no B-by-K contrast matrix is materialized.
+extern "C" int max_edge_contrast(int B,int m,int K,const double *draws,
+    const double *score,const int *a,const int *b,const double *scale,
+    int centered,double *out) {
+    for(int k=0;k<K;++k)if(a[k]<0||a[k]>=m||b[k]<0||b[k]>=m||scale[k]<=0)return 1;
+    for(int row=0;row<B;++row){
+        const double *d=draws+static_cast<long long>(row)*m;double maximum=0;
+        for(int k=0;k<K;++k){
+            double value=d[a[k]]-d[b[k]];
+            if(!centered)value-=score[a[k]]-score[b[k]];
+            maximum=std::max(maximum,std::abs(value)/scale[k]);
+        }
+        out[row]=maximum;
+    }
+    return 0;
+}

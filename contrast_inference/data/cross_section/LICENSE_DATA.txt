@@ -1,0 +1,5 @@
+These UCI datasets are redistributed under Creative Commons Attribution 4.0.
+Abalone: Nash, Sellers, Talbot, Cawthorn and Ford (1994), doi:10.24432/C55C7W.
+Dry Bean: Koklu and Ozkan (2020), doi:10.24432/C50S4B.
+License: https://creativecommons.org/licenses/by/4.0/
+Original measurement files are unchanged. Derived files and analyses identify all transformations.

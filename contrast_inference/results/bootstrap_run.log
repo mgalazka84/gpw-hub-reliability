@@ -1,0 +1,169 @@
+bootstrap p=12 independent n=252: 20/100; 1.0s
+bootstrap p=12 independent n=252: 40/100; 1.8s
+bootstrap p=12 independent n=252: 60/100; 2.5s
+bootstrap p=12 independent n=252: 80/100; 3.3s
+bootstrap p=12 independent n=252: 100/100; 3.9s
+bootstrap p=12 independent n=1008: 20/100; 5.6s
+bootstrap p=12 independent n=1008: 40/100; 7.3s
+bootstrap p=12 independent n=1008: 60/100; 8.7s
+bootstrap p=12 independent n=1008: 80/100; 10.3s
+bootstrap p=12 independent n=1008: 100/100; 11.7s
+bootstrap p=12 gaussian_star n=252: 20/100; 12.2s
+bootstrap p=12 gaussian_star n=252: 40/100; 12.8s
+bootstrap p=12 gaussian_star n=252: 60/100; 13.3s
+bootstrap p=12 gaussian_star n=252: 80/100; 13.9s
+bootstrap p=12 gaussian_star n=252: 100/100; 14.4s
+bootstrap p=12 gaussian_star n=1008: 20/100; 15.8s
+bootstrap p=12 gaussian_star n=1008: 40/100; 17.5s
+bootstrap p=12 gaussian_star n=1008: 60/100; 18.8s
+bootstrap p=12 gaussian_star n=1008: 80/100; 20.3s
+bootstrap p=12 gaussian_star n=1008: 100/100; 21.6s
+bootstrap p=12 near_tie n=252: 20/100; 22.3s
+bootstrap p=12 near_tie n=252: 40/100; 22.9s
+bootstrap p=12 near_tie n=252: 60/100; 23.5s
+bootstrap p=12 near_tie n=252: 80/100; 24.1s
+bootstrap p=12 near_tie n=252: 100/100; 24.7s
+bootstrap p=12 near_tie n=1008: 20/100; 26.1s
+bootstrap p=12 near_tie n=1008: 40/100; 27.4s
+bootstrap p=12 near_tie n=1008: 60/100; 28.8s
+bootstrap p=12 near_tie n=1008: 80/100; 30.1s
+bootstrap p=12 near_tie n=1008: 100/100; 31.6s
+bootstrap p=12 ar_star n=252: 20/100; 32.2s
+bootstrap p=12 ar_star n=252: 40/100; 32.7s
+bootstrap p=12 ar_star n=252: 60/100; 33.3s
+bootstrap p=12 ar_star n=252: 80/100; 33.9s
+bootstrap p=12 ar_star n=252: 100/100; 34.5s
+bootstrap p=12 ar_star n=1008: 20/100; 35.8s
+bootstrap p=12 ar_star n=1008: 40/100; 37.1s
+bootstrap p=12 ar_star n=1008: 60/100; 38.4s
+bootstrap p=12 ar_star n=1008: 80/100; 39.9s
+bootstrap p=12 ar_star n=1008: 100/100; 41.1s
+bootstrap p=12 ar_independent n=252: 20/100; 41.8s
+bootstrap p=12 ar_independent n=252: 40/100; 42.5s
+bootstrap p=12 ar_independent n=252: 60/100; 43.2s
+bootstrap p=12 ar_independent n=252: 80/100; 43.8s
+bootstrap p=12 ar_independent n=252: 100/100; 44.4s
+bootstrap p=12 ar_independent n=1008: 20/100; 45.8s
+bootstrap p=12 ar_independent n=1008: 40/100; 47.2s
+bootstrap p=12 ar_independent n=1008: 60/100; 48.6s
+bootstrap p=12 ar_independent n=1008: 80/100; 50.3s
+bootstrap p=12 ar_independent n=1008: 100/100; 51.8s
+bootstrap p=12 t5_star n=252: 20/100; 52.6s
+bootstrap p=12 t5_star n=252: 40/100; 53.2s
+bootstrap p=12 t5_star n=252: 60/100; 54.1s
+bootstrap p=12 t5_star n=252: 80/100; 55.2s
+bootstrap p=12 t5_star n=252: 100/100; 56.5s
+bootstrap p=12 t5_star n=1008: 20/100; 58.7s
+bootstrap p=12 t5_star n=1008: 40/100; 61.4s
+bootstrap p=12 t5_star n=1008: 60/100; 65.7s
+bootstrap p=12 t5_star n=1008: 80/100; 67.8s
+bootstrap p=12 t5_star n=1008: 100/100; 69.6s
+bootstrap p=52 independent n=252: 20/100; 87.4s
+bootstrap p=52 independent n=252: 40/100; 104.3s
+bootstrap p=52 independent n=252: 60/100; 121.0s
+bootstrap p=52 independent n=252: 80/100; 139.6s
+bootstrap p=52 independent n=252: 100/100; 162.8s
+bootstrap p=52 independent n=1008: 20/100; 187.7s
+bootstrap p=52 independent n=1008: 40/100; 213.8s
+bootstrap p=52 independent n=1008: 60/100; 233.3s
+bootstrap p=52 independent n=1008: 80/100; 256.5s
+bootstrap p=52 independent n=1008: 100/100; 285.8s
+bootstrap p=52 gaussian_star n=252: 20/100; 312.5s
+bootstrap p=52 gaussian_star n=252: 40/100; 337.6s
+bootstrap p=52 gaussian_star n=252: 60/100; 369.7s
+bootstrap p=52 gaussian_star n=252: 80/100; 390.7s
+bootstrap p=52 gaussian_star n=252: 100/100; 410.2s
+bootstrap p=52 gaussian_star n=1008: 20/100; 430.6s
+bootstrap p=52 gaussian_star n=1008: 40/100; 448.4s
+bootstrap p=52 gaussian_star n=1008: 60/100; 464.3s
+bootstrap p=52 gaussian_star n=1008: 80/100; 480.7s
+bootstrap p=52 gaussian_star n=1008: 100/100; 496.9s
+bootstrap p=52 near_tie n=252: 20/100; 515.2s
+bootstrap p=52 near_tie n=252: 40/100; 531.0s
+bootstrap p=52 near_tie n=252: 60/100; 555.5s
+bootstrap p=52 near_tie n=252: 80/100; 581.3s
+bootstrap p=52 near_tie n=252: 100/100; 604.8s
+bootstrap p=52 near_tie n=1008: 20/100; 629.8s
+bootstrap p=52 near_tie n=1008: 40/100; 653.3s
+bootstrap p=52 near_tie n=1008: 60/100; 675.7s
+bootstrap p=52 near_tie n=1008: 80/100; 707.3s
+bootstrap p=52 near_tie n=1008: 100/100; 726.6s
+bootstrap p=52 ar_star n=252: 20/100; 742.4s
+bootstrap p=52 ar_star n=252: 40/100; 757.2s
+bootstrap p=52 ar_star n=252: 60/100; 779.3s
+bootstrap p=52 ar_star n=252: 80/100; 808.5s
+bootstrap p=52 ar_star n=252: 100/100; 831.3s
+bootstrap p=52 ar_star n=1008: 20/100; 854.4s
+bootstrap p=52 ar_star n=1008: 40/100; 879.0s
+bootstrap p=52 ar_star n=1008: 60/100; 902.3s
+bootstrap p=52 ar_star n=1008: 80/100; 922.0s
+bootstrap p=52 ar_star n=1008: 100/100; 943.6s
+bootstrap p=52 ar_independent n=252: 20/100; 967.4s
+bootstrap p=52 ar_independent n=252: 40/100; 990.1s
+bootstrap p=52 ar_independent n=252: 60/100; 1012.2s
+bootstrap p=52 ar_independent n=252: 80/100; 1034.2s
+bootstrap p=52 ar_independent n=252: 100/100; 1058.2s
+bootstrap p=52 ar_independent n=1008: 20/100; 1082.8s
+bootstrap p=52 ar_independent n=1008: 40/100; 1108.3s
+bootstrap p=52 ar_independent n=1008: 60/100; 1132.7s
+bootstrap p=52 ar_independent n=1008: 80/100; 1155.6s
+bootstrap p=52 ar_independent n=1008: 100/100; 1183.3s
+bootstrap p=52 t5_star n=252: 20/100; 1204.2s
+bootstrap p=52 t5_star n=252: 40/100; 1225.1s
+bootstrap p=52 t5_star n=252: 60/100; 1246.5s
+bootstrap p=52 t5_star n=252: 80/100; 1267.6s
+bootstrap p=52 t5_star n=252: 100/100; 1301.4s
+bootstrap p=52 t5_star n=1008: 20/100; 1323.3s
+bootstrap p=52 t5_star n=1008: 40/100; 1345.0s
+bootstrap p=52 t5_star n=1008: 60/100; 1367.5s
+bootstrap p=52 t5_star n=1008: 80/100; 1392.6s
+bootstrap p=52 t5_star n=1008: 100/100; 1418.7s
+ p          model    n  block          method  rep      seed  input_coverage  order_fwer  degree_coverage  rank_coverage  mean_degree_width  mean_rank_width  top1_candidates  true_hub_certified  forced_edges  allowed_edges  order_count  repetitions
+12 ar_independent  252      6   bootstrap_box 49.5 1481252.5            0.89         NaN             1.00            1.0          10.000000        11.000000            12.00                 NaN           NaN            NaN          NaN          100
+12 ar_independent  252      6 bootstrap_order 49.5 1481252.5            0.77        0.23             0.99            1.0           9.998333        11.000000            12.00                 NaN          0.00          65.99         0.33          100
+12 ar_independent 1008     10   bootstrap_box 49.5 1581252.5            0.88         NaN             0.98            1.0           9.998333        11.000000            12.00                 NaN           NaN            NaN          NaN          100
+12 ar_independent 1008     10 bootstrap_order 49.5 1581252.5            0.88        0.12             1.00            1.0          10.000000        11.000000            12.00                 NaN          0.00          66.00         0.19          100
+12        ar_star  252      6   bootstrap_box 49.5 1281252.5            0.82         NaN             1.00            1.0           9.420000        11.000000            12.00                0.00           NaN            NaN          NaN          100
+12        ar_star  252      6 bootstrap_order 49.5 1281252.5            0.76        0.05             1.00            1.0           6.822500        10.984167            12.00                0.00          0.51          48.31        57.30          100
+12        ar_star 1008     10   bootstrap_box 49.5 1381252.5            0.92         NaN             1.00            1.0           1.204167         9.211667             1.27                0.84           NaN            NaN          NaN          100
+12        ar_star 1008     10 bootstrap_order 49.5 1381252.5            0.86        0.01             1.00            1.0           0.025833         9.166667             1.00                1.00         10.85          11.16       111.29          100
+12  gaussian_star  252      1   bootstrap_box 49.5  881252.5            0.87         NaN             1.00            1.0           8.935000        11.000000            12.00                0.00           NaN            NaN          NaN          100
+12  gaussian_star  252      1 bootstrap_order 49.5  881252.5            0.88        0.01             1.00            1.0           4.956667        10.787500            11.52                0.01          1.67          39.42        73.58          100
+12  gaussian_star 1008      1   bootstrap_box 49.5  981252.5            0.93         NaN             1.00            1.0           0.230833         9.166667             1.00                1.00           NaN            NaN          NaN          100
+12  gaussian_star 1008      1 bootstrap_order 49.5  981252.5            0.91        0.00             1.00            1.0           0.001667         9.166667             1.00                1.00         10.99          11.01       111.53          100
+12    independent  252      1   bootstrap_box 49.5  681252.5            0.94         NaN             1.00            1.0          10.000000        11.000000            12.00                 NaN           NaN            NaN          NaN          100
+12    independent  252      1 bootstrap_order 49.5  681252.5            0.93        0.07             1.00            1.0          10.000000        11.000000            12.00                 NaN          0.00          66.00         0.08          100
+12    independent 1008      1   bootstrap_box 49.5  781252.5            0.97         NaN             1.00            1.0          10.000000        11.000000            12.00                 NaN           NaN            NaN          NaN          100
+12    independent 1008      1 bootstrap_order 49.5  781252.5            0.94        0.06             1.00            1.0          10.000000        11.000000            12.00                 NaN          0.00          66.00         0.11          100
+12       near_tie  252      1   bootstrap_box 49.5 1081252.5            0.92         NaN             1.00            1.0           9.430000        11.000000            12.00                0.00           NaN            NaN          NaN          100
+12       near_tie  252      1 bootstrap_order 49.5 1081252.5            0.92        0.00             1.00            1.0           9.215000        11.000000            12.00                0.00          0.53          63.94        34.85          100
+12       near_tie 1008      1   bootstrap_box 49.5 1181252.5            0.96         NaN             1.00            1.0           6.159167        11.000000            12.00                0.00           NaN            NaN          NaN          100
+12       near_tie 1008      1 bootstrap_order 49.5 1181252.5            0.92        0.01             1.00            1.0           3.441667        10.828333             9.94                0.00          1.00          31.65       161.53          100
+12        t5_star  252      1   bootstrap_box 49.5 1681252.5            0.83         NaN             1.00            1.0           9.747500        11.000000            12.00                0.00           NaN            NaN          NaN          100
+12        t5_star  252      1 bootstrap_order 49.5 1681252.5            0.80        0.07             1.00            1.0           8.424167        11.000000            12.00                0.00          0.07          56.78        36.98          100
+12        t5_star 1008      1   bootstrap_box 49.5 1781252.5            0.90         NaN             1.00            1.0           4.572500        10.768333            10.61                0.01           NaN            NaN          NaN          100
+12        t5_star 1008      1 bootstrap_order 49.5 1781252.5            0.83        0.03             1.00            1.0           0.916667         9.239167             1.46                0.95          8.00          16.52       104.17          100
+52 ar_independent  252      6   bootstrap_box 49.5 2681252.5            0.68         NaN             1.00            1.0          50.000000        51.000000            52.00                 NaN           NaN            NaN          NaN          100
+52 ar_independent  252      6 bootstrap_order 49.5 2681252.5            0.22        0.78             0.99            1.0          49.999615        51.000000            52.00                 NaN          0.00        1325.99         1.73          100
+52 ar_independent 1008     10   bootstrap_box 49.5 2781252.5            0.83         NaN             0.99            1.0          49.999808        51.000000            52.00                 NaN           NaN            NaN          NaN          100
+52 ar_independent 1008     10 bootstrap_order 49.5 2781252.5            0.78        0.22             1.00            1.0          50.000000        51.000000            52.00                 NaN          0.00        1326.00         0.36          100
+52        ar_star  252      6   bootstrap_box 49.5 2481252.5            0.67         NaN             1.00            1.0          49.742115        51.000000            52.00                0.00           NaN            NaN          NaN          100
+52        ar_star  252      6 bootstrap_order 49.5 2481252.5            0.26        0.36             1.00            1.0          46.059615        51.000000            52.00                0.00          0.00        1223.55       560.28          100
+52        ar_star 1008     10   bootstrap_box 49.5 2581252.5            0.86         NaN             1.00            1.0          21.371923        50.997308            51.93                0.00           NaN            NaN          NaN          100
+52        ar_star 1008     10 bootstrap_order 49.5 2581252.5            0.76        0.03             1.00            1.0           0.863462        49.038462             1.00                1.00         38.38          79.68      2524.46          100
+52  gaussian_star  252      1   bootstrap_box 49.5 2081252.5            0.90         NaN             1.00            1.0          49.695769        51.000000            52.00                0.00           NaN            NaN          NaN          100
+52  gaussian_star  252      1 bootstrap_order 49.5 2081252.5            0.78        0.06             1.00            1.0          43.307115        51.000000            52.00                0.00          0.01        1152.19       773.64          100
+52  gaussian_star 1008      1   bootstrap_box 49.5 2181252.5            0.93         NaN             1.00            1.0           8.289038        49.587692            15.28                0.00           NaN            NaN          NaN          100
+52  gaussian_star 1008      1 bootstrap_order 49.5 2181252.5            0.93        0.01             1.00            1.0           0.052308        49.038462             1.00                1.00         49.79          52.50      2551.91          100
+52    independent  252      1   bootstrap_box 49.5 1881252.5            0.86         NaN             1.00            1.0          50.000000        51.000000            52.00                 NaN           NaN            NaN          NaN          100
+52    independent  252      1 bootstrap_order 49.5 1881252.5            0.82        0.18             1.00            1.0          50.000000        51.000000            52.00                 NaN          0.00        1326.00         0.28          100
+52    independent 1008      1   bootstrap_box 49.5 1981252.5            0.96         NaN             1.00            1.0          50.000000        51.000000            52.00                 NaN           NaN            NaN          NaN          100
+52    independent 1008      1 bootstrap_order 49.5 1981252.5            0.90        0.10             1.00            1.0          50.000000        51.000000            52.00                 NaN          0.00        1326.00         0.14          100
+52       near_tie  252      1   bootstrap_box 49.5 2281252.5            0.94         NaN             1.00            1.0          49.840385        51.000000            52.00                0.00           NaN            NaN          NaN          100
+52       near_tie  252      1 bootstrap_order 49.5 2281252.5            0.85        0.03             1.00            1.0          49.850385        51.000000            52.00                0.00          0.00        1322.11       115.17          100
+52       near_tie 1008      1   bootstrap_box 49.5 2381252.5            0.88         NaN             1.00            1.0          44.932115        51.000000            52.00                0.00           NaN            NaN          NaN          100
+52       near_tie 1008      1 bootstrap_order 49.5 2381252.5            0.88        0.01             1.00            1.0          29.612692        51.000000            52.00                0.00          1.00         820.93      2517.05          100
+52        t5_star  252      1   bootstrap_box 49.5 2881252.5            0.74         NaN             1.00            1.0          49.926346        51.000000            52.00                0.00           NaN            NaN          NaN          100
+52        t5_star  252      1 bootstrap_order 49.5 2881252.5            0.65        0.18             1.00            1.0          48.787308        51.000000            52.00                0.00          0.00        1294.47       259.05          100
+52        t5_star 1008      1   bootstrap_box 49.5 2981252.5            0.83         NaN             1.00            1.0          39.774808        51.000000            52.00                0.00           NaN            NaN          NaN          100
+52        t5_star 1008      1 bootstrap_order 49.5 2981252.5            0.79        0.03             1.00            1.0          14.407500        49.925962            35.05                0.05          8.34         434.73      2075.87          100

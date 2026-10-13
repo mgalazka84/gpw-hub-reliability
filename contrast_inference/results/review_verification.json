@@ -1,0 +1,12 @@
+{
+  "monte_carlo_records": 446400,
+  "path_paired_records": 27200,
+  "runtime_verified_simulation_certificates": 649847,
+  "runtime_lp_solves": 1863888,
+  "original_measurement_files": 3,
+  "saved_measurement_certificate_groups": 188,
+  "saved_measurement_certificates": 16530,
+  "checked_simple_paths": 118231,
+  "matched_frequency_reference_datasets": 2800,
+  "status": "PASS"
+}

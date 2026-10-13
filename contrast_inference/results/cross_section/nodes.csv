@@ -1,0 +1,1921 @@
+dataset,stratum,n,p,method,family,vertex,name,sample_degree,degree_lower,degree_upper,rank_lower,rank_upper,bootstrap_top_membership,bootstrap_unique_hub_frequency
+Abalone,pooled,4177,8,paired_exact,local,0,Length,2,1,5,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,local,1,Diameter,1,1,5,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,local,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,local,3,Whole weight,4,1,6,1,8,1.0,1.0
+Abalone,pooled,4177,8,paired_exact,local,4,Shucked weight,1,1,2,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,local,5,Viscera weight,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,local,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,local,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,local,1,Diameter,1,1,6,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,local,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,pooled,4177,8,merged_8,local,4,Shucked weight,1,1,2,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,local,5,Viscera weight,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,local,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,local,7,Rings,1,1,2,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,local,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,pooled,4177,8,u_hoeffding,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,local,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,local,2,Height,1,1,5,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,pooled,4177,8,hoeffding_box,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,local,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,local,0,Length,2,1,2,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,local,1,Diameter,1,1,2,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,local,2,Height,1,1,1,4,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,local,3,Whole weight,4,4,4,1,1,1.0,1.0
+Abalone,pooled,4177,8,multiplier_contrast,local,4,Shucked weight,1,1,1,4,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,local,5,Viscera weight,1,1,1,4,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,local,6,Shell weight,3,3,3,2,2,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,local,7,Rings,1,1,1,4,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,local,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,local,1,Diameter,1,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,local,2,Height,1,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,local,3,Whole weight,4,4,5,1,1,1.0,1.0
+Abalone,pooled,4177,8,multiplier_box,local,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,local,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,local,6,Shell weight,3,1,3,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,local,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,all,0,Length,2,1,5,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,all,1,Diameter,1,1,5,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,all,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,all,3,Whole weight,4,1,6,1,8,1.0,1.0
+Abalone,pooled,4177,8,paired_exact,all,4,Shucked weight,1,1,2,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,all,5,Viscera weight,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,all,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,pooled,4177,8,paired_exact,all,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,all,1,Diameter,1,1,6,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,all,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,pooled,4177,8,merged_8,all,4,Shucked weight,1,1,2,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,all,5,Viscera weight,1,1,4,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,all,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,pooled,4177,8,merged_8,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,all,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,pooled,4177,8,u_hoeffding,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,all,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,u_hoeffding,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,all,2,Height,1,1,5,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,pooled,4177,8,hoeffding_box,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,all,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,pooled,4177,8,hoeffding_box,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,all,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,all,1,Diameter,1,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,all,2,Height,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,all,3,Whole weight,4,4,5,1,1,1.0,1.0
+Abalone,pooled,4177,8,multiplier_contrast,all,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,all,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,all,6,Shell weight,3,2,3,2,4,0.0,0.0
+Abalone,pooled,4177,8,multiplier_contrast,all,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,all,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,all,1,Diameter,1,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,all,2,Height,1,1,2,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,all,3,Whole weight,4,4,5,1,1,1.0,1.0
+Abalone,pooled,4177,8,multiplier_box,all,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,all,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,all,6,Shell weight,3,1,3,2,8,0.0,0.0
+Abalone,pooled,4177,8,multiplier_box,all,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,local,1,Diameter,1,1,6,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,local,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,paired_exact,local,4,Shucked weight,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,local,5,Viscera weight,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,local,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,local,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,merged_8,local,4,Shucked weight,1,1,5,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,local,5,Viscera weight,1,1,6,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,local,6,Shell weight,3,1,5,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,local,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,u_hoeffding,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,local,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,local,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,hoeffding_box,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,local,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,local,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,local,1,Diameter,1,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,local,2,Height,1,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,local,3,Whole weight,4,4,5,1,1,1.0,1.0
+Abalone,F,1307,8,multiplier_contrast,local,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,local,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,local,6,Shell weight,3,1,3,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,local,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,local,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,local,1,Diameter,1,1,5,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,local,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,local,3,Whole weight,4,2,7,1,4,1.0,1.0
+Abalone,F,1307,8,multiplier_box,local,4,Shucked weight,1,1,1,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,local,5,Viscera weight,1,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,local,6,Shell weight,3,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,local,7,Rings,1,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,all,1,Diameter,1,1,6,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,all,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,paired_exact,all,4,Shucked weight,1,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,all,5,Viscera weight,1,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,all,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,paired_exact,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,all,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,merged_8,all,4,Shucked weight,1,1,5,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,all,5,Viscera weight,1,1,6,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,all,6,Shell weight,3,1,5,1,8,0.0,0.0
+Abalone,F,1307,8,merged_8,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,all,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,u_hoeffding,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,all,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,u_hoeffding,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,all,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,F,1307,8,hoeffding_box,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,all,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,F,1307,8,hoeffding_box,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,all,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,all,1,Diameter,1,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,all,2,Height,1,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,all,3,Whole weight,4,4,5,1,1,1.0,1.0
+Abalone,F,1307,8,multiplier_contrast,all,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,all,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,all,6,Shell weight,3,1,3,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_contrast,all,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,all,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,all,1,Diameter,1,1,5,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,all,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,all,3,Whole weight,4,2,7,1,4,1.0,1.0
+Abalone,F,1307,8,multiplier_box,all,4,Shucked weight,1,1,1,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,all,5,Viscera weight,1,1,2,2,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,all,6,Shell weight,3,1,3,1,8,0.0,0.0
+Abalone,F,1307,8,multiplier_box,all,7,Rings,1,1,2,2,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,local,1,Diameter,1,1,6,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,paired_exact,local,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,local,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,paired_exact,local,4,Shucked weight,1,1,6,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,local,5,Viscera weight,1,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,local,6,Shell weight,3,1,6,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,paired_exact,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,local,1,Diameter,1,1,7,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,merged_8,local,2,Height,1,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,local,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,merged_8,local,4,Shucked weight,1,1,6,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,local,6,Shell weight,3,1,6,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,merged_8,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,local,1,Diameter,1,1,7,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,u_hoeffding,local,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,local,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,u_hoeffding,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,local,6,Shell weight,3,1,7,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,u_hoeffding,local,7,Rings,1,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,local,1,Diameter,1,1,7,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,hoeffding_box,local,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,local,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,hoeffding_box,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,local,6,Shell weight,3,1,7,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,hoeffding_box,local,7,Rings,1,1,4,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,local,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,local,1,Diameter,1,1,3,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,multiplier_contrast,local,2,Height,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,local,3,Whole weight,4,3,5,1,3,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,multiplier_contrast,local,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,local,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,local,6,Shell weight,3,2,4,1,4,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,multiplier_contrast,local,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,local,0,Length,2,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,local,1,Diameter,1,1,5,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,multiplier_box,local,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,local,3,Whole weight,4,2,7,1,6,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,multiplier_box,local,4,Shucked weight,1,1,1,2,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,local,5,Viscera weight,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,local,6,Shell weight,3,1,4,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,multiplier_box,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,all,1,Diameter,1,1,6,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,paired_exact,all,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,all,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,paired_exact,all,4,Shucked weight,1,1,6,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,all,5,Viscera weight,1,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,paired_exact,all,6,Shell weight,3,1,6,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,paired_exact,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,all,1,Diameter,1,1,7,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,merged_8,all,2,Height,1,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,all,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,merged_8,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,merged_8,all,6,Shell weight,3,1,6,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,merged_8,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,all,1,Diameter,1,1,7,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,u_hoeffding,all,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,all,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,u_hoeffding,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,u_hoeffding,all,6,Shell weight,3,1,7,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,u_hoeffding,all,7,Rings,1,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,all,1,Diameter,1,1,7,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,hoeffding_box,all,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,all,3,Whole weight,4,1,7,1,8,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,hoeffding_box,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,I,1342,8,hoeffding_box,all,6,Shell weight,3,1,7,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,hoeffding_box,all,7,Rings,1,1,4,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,all,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,all,1,Diameter,1,1,3,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,multiplier_contrast,all,2,Height,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,all,3,Whole weight,4,3,5,1,3,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,multiplier_contrast,all,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,all,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_contrast,all,6,Shell weight,3,2,4,1,4,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,multiplier_contrast,all,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,all,0,Length,2,1,5,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,all,1,Diameter,1,1,5,1,8,0.006012024048096192,0.0
+Abalone,I,1342,8,multiplier_box,all,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,all,3,Whole weight,4,2,7,1,6,0.9919839679358717,0.9779559118236473
+Abalone,I,1342,8,multiplier_box,all,4,Shucked weight,1,1,1,2,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,all,5,Viscera weight,1,1,3,1,8,0.0,0.0
+Abalone,I,1342,8,multiplier_box,all,6,Shell weight,3,1,4,1,8,0.022044088176352707,0.008016032064128256
+Abalone,I,1342,8,multiplier_box,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,local,0,Length,2,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,local,1,Diameter,1,1,5,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,local,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,local,3,Whole weight,4,2,6,1,6,1.0,1.0
+Abalone,M,1528,8,paired_exact,local,4,Shucked weight,1,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,local,5,Viscera weight,1,1,2,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,local,6,Shell weight,3,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,local,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,merged_8,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,local,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,M,1528,8,merged_8,local,4,Shucked weight,1,1,5,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,local,5,Viscera weight,1,1,6,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,local,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,local,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,M,1528,8,u_hoeffding,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,local,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,local,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,local,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,local,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,local,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,M,1528,8,hoeffding_box,local,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,local,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,local,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,local,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,local,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,local,1,Diameter,1,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,local,2,Height,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,local,3,Whole weight,4,4,5,1,1,1.0,1.0
+Abalone,M,1528,8,multiplier_contrast,local,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,local,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,local,6,Shell weight,3,2,3,2,4,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,local,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,local,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,local,1,Diameter,1,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,local,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,local,3,Whole weight,4,3,5,1,3,1.0,1.0
+Abalone,M,1528,8,multiplier_box,local,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,local,5,Viscera weight,1,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,local,6,Shell weight,3,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,local,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,all,0,Length,2,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,all,1,Diameter,1,1,5,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,all,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,all,3,Whole weight,4,2,6,1,6,1.0,1.0
+Abalone,M,1528,8,paired_exact,all,4,Shucked weight,1,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,all,5,Viscera weight,1,1,2,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,all,6,Shell weight,3,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,paired_exact,all,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,merged_8,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,all,2,Height,1,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,M,1528,8,merged_8,all,4,Shucked weight,1,1,5,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,all,5,Viscera weight,1,1,6,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,all,6,Shell weight,3,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,merged_8,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,all,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,M,1528,8,u_hoeffding,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,all,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,u_hoeffding,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,all,0,Length,2,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,all,1,Diameter,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,all,2,Height,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,all,3,Whole weight,4,1,7,1,8,1.0,1.0
+Abalone,M,1528,8,hoeffding_box,all,4,Shucked weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,all,5,Viscera weight,1,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,all,6,Shell weight,3,1,7,1,8,0.0,0.0
+Abalone,M,1528,8,hoeffding_box,all,7,Rings,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,all,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,all,1,Diameter,1,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,all,2,Height,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,all,3,Whole weight,4,4,5,1,1,1.0,1.0
+Abalone,M,1528,8,multiplier_contrast,all,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,all,5,Viscera weight,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,all,6,Shell weight,3,2,3,2,4,0.0,0.0
+Abalone,M,1528,8,multiplier_contrast,all,7,Rings,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,all,0,Length,2,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,all,1,Diameter,1,1,4,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,all,2,Height,1,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,all,3,Whole weight,4,3,5,1,3,1.0,1.0
+Abalone,M,1528,8,multiplier_box,all,4,Shucked weight,1,1,1,3,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,all,5,Viscera weight,1,1,2,2,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,all,6,Shell weight,3,1,3,1,8,0.0,0.0
+Abalone,M,1528,8,multiplier_box,all,7,Rings,1,1,1,3,8,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,0,Area,3,1,8,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,1,Perimeter,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,3,MinorAxisLength,2,1,4,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,4,AspectRation,3,1,5,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,6,ConvexArea,3,1,7,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,9,Solidity,2,1,7,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,10,roundness,2,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,11,Compactness,4,1,6,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,local,15,ShapeFactor4,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,0,Area,3,1,8,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,merged_8,local,1,Perimeter,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,3,MinorAxisLength,2,1,6,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,4,AspectRation,3,1,5,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,6,ConvexArea,3,1,8,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,9,Solidity,2,1,8,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,10,roundness,2,1,8,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,11,Compactness,4,1,6,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,merged_8,local,12,ShapeFactor1,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,0,Area,3,1,10,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,1,Perimeter,1,1,9,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,2,MajorAxisLength,2,1,9,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,3,MinorAxisLength,2,1,9,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,4,AspectRation,3,1,7,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,6,ConvexArea,3,1,10,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,7,EquivDiameter,1,1,10,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,9,Solidity,2,1,9,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,10,roundness,2,1,9,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,11,Compactness,4,1,8,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,12,ShapeFactor1,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,13,ShapeFactor2,2,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,14,ShapeFactor3,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,0,Area,3,1,9,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,1,Perimeter,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,2,MajorAxisLength,2,1,9,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,3,MinorAxisLength,2,1,6,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,4,AspectRation,3,1,7,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,6,ConvexArea,3,1,9,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,9,Solidity,2,1,9,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,10,roundness,2,1,8,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,11,Compactness,4,1,6,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,12,ShapeFactor1,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,0,Area,3,1,5,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,1,Perimeter,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,3,MinorAxisLength,2,1,3,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,4,AspectRation,3,1,4,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,6,ConvexArea,3,1,4,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,8,Extent,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,9,Solidity,2,2,5,1,14,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,10,roundness,2,1,4,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,11,Compactness,4,1,4,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,13,ShapeFactor2,2,1,3,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,local,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,0,Area,3,1,6,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,1,Perimeter,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,3,MinorAxisLength,2,1,4,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,4,AspectRation,3,1,4,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,6,ConvexArea,3,1,5,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,9,Solidity,2,1,7,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,10,roundness,2,1,5,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,11,Compactness,4,1,5,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,local,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,0,Area,3,1,8,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,1,Perimeter,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,3,MinorAxisLength,2,1,5,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,4,AspectRation,3,1,5,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,6,ConvexArea,3,1,8,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,8,Extent,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,9,Solidity,2,1,7,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,10,roundness,2,1,5,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,11,Compactness,4,1,6,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,paired_exact,all,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,0,Area,3,1,8,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,merged_8,all,1,Perimeter,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,3,MinorAxisLength,2,1,6,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,4,AspectRation,3,1,5,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,6,ConvexArea,3,1,8,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,9,Solidity,2,1,8,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,10,roundness,2,1,6,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,11,Compactness,4,1,6,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,merged_8,all,12,ShapeFactor1,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,merged_8,all,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,0,Area,3,1,10,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,1,Perimeter,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,2,MajorAxisLength,2,1,9,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,3,MinorAxisLength,2,1,9,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,4,AspectRation,3,1,7,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,6,ConvexArea,3,1,10,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,7,EquivDiameter,1,1,10,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,9,Solidity,2,1,9,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,10,roundness,2,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,11,Compactness,4,1,7,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,12,ShapeFactor1,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,13,ShapeFactor2,2,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,u_hoeffding,all,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,0,Area,3,1,9,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,1,Perimeter,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,2,MajorAxisLength,2,1,9,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,3,MinorAxisLength,2,1,6,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,4,AspectRation,3,1,6,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,6,ConvexArea,3,1,9,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,9,Solidity,2,1,9,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,10,roundness,2,1,6,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,11,Compactness,4,1,6,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,12,ShapeFactor1,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,hoeffding_box,all,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,0,Area,3,1,4,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,1,Perimeter,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,2,MajorAxisLength,2,2,3,1,14,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,3,MinorAxisLength,2,2,3,1,14,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,4,AspectRation,3,1,3,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,6,ConvexArea,3,1,4,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,8,Extent,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,9,Solidity,2,2,3,1,14,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,10,roundness,2,1,3,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,11,Compactness,4,1,5,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,12,ShapeFactor1,1,1,1,6,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,13,ShapeFactor2,2,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_contrast,all,15,ShapeFactor4,1,1,1,6,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,0,Area,3,1,5,1,16,0.4348697394789579,0.050100200400801605
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,1,Perimeter,1,1,2,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,3,MinorAxisLength,2,1,4,1,16,0.002004008016032064,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,4,AspectRation,3,1,3,1,16,0.19238476953907815,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,6,ConvexArea,3,1,4,1,16,0.1843687374749499,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,9,Solidity,2,1,3,1,16,0.1743486973947896,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,10,roundness,2,1,5,1,16,0.01603206412825651,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,11,Compactness,4,1,5,1,16,0.9498997995991983,0.5591182364729459
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,13,ShapeFactor2,2,1,4,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,BARBUNYA,1322,16,multiplier_box,all,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,0,Area,3,1,7,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,paired_exact,local,1,Perimeter,2,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,2,MajorAxisLength,2,1,5,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,3,MinorAxisLength,1,1,5,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,4,AspectRation,3,1,5,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,paired_exact,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,9,Solidity,3,1,8,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,10,roundness,2,1,7,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,11,Compactness,3,1,7,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,paired_exact,local,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,0,Area,3,1,7,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,merged_8,local,1,Perimeter,2,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,2,MajorAxisLength,2,1,5,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,3,MinorAxisLength,1,1,5,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,4,AspectRation,3,1,5,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,merged_8,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,9,Solidity,3,1,9,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,10,roundness,2,1,7,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,11,Compactness,3,1,7,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,merged_8,local,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,13,ShapeFactor2,2,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,local,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,0,Area,3,1,10,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,1,Perimeter,2,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,2,MajorAxisLength,2,1,10,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,3,MinorAxisLength,1,1,9,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,4,AspectRation,3,1,7,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,6,ConvexArea,2,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,7,EquivDiameter,1,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,8,Extent,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,9,Solidity,3,1,10,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,10,roundness,2,1,10,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,11,Compactness,3,1,9,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,12,ShapeFactor1,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,13,ShapeFactor2,2,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,14,ShapeFactor3,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,local,15,ShapeFactor4,1,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,0,Area,3,1,10,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,1,Perimeter,2,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,2,MajorAxisLength,2,1,10,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,3,MinorAxisLength,1,1,9,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,4,AspectRation,3,1,7,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,6,ConvexArea,2,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,7,EquivDiameter,1,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,9,Solidity,3,1,10,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,10,roundness,2,1,10,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,11,Compactness,3,1,9,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,12,ShapeFactor1,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,13,ShapeFactor2,2,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,14,ShapeFactor3,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,local,15,ShapeFactor4,1,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,0,Area,3,1,4,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,1,Perimeter,2,2,3,1,14,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,2,MajorAxisLength,2,1,3,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,3,MinorAxisLength,1,1,4,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,4,AspectRation,3,1,4,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,6,ConvexArea,2,1,2,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,8,Extent,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,9,Solidity,3,1,4,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,10,roundness,2,1,4,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,11,Compactness,3,1,4,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,12,ShapeFactor1,2,1,2,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,13,ShapeFactor2,2,1,2,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,local,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,0,Area,3,1,5,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,multiplier_box,local,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,2,MajorAxisLength,2,1,4,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,3,MinorAxisLength,1,1,5,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,4,AspectRation,3,1,4,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,multiplier_box,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,6,ConvexArea,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,9,Solidity,3,1,5,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,10,roundness,2,1,6,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,11,Compactness,3,1,6,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,multiplier_box,local,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,13,ShapeFactor2,2,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,local,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,0,Area,3,1,7,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,paired_exact,all,1,Perimeter,2,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,2,MajorAxisLength,2,1,5,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,3,MinorAxisLength,1,1,5,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,4,AspectRation,3,1,5,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,paired_exact,all,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,9,Solidity,3,1,8,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,10,roundness,2,1,7,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,11,Compactness,3,1,7,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,paired_exact,all,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,13,ShapeFactor2,2,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,paired_exact,all,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,0,Area,3,1,7,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,merged_8,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,2,MajorAxisLength,2,1,5,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,3,MinorAxisLength,1,1,5,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,4,AspectRation,3,1,5,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,merged_8,all,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,9,Solidity,3,1,9,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,10,roundness,2,1,7,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,11,Compactness,3,1,7,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,merged_8,all,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,13,ShapeFactor2,2,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,merged_8,all,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,0,Area,3,1,9,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,1,Perimeter,2,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,2,MajorAxisLength,2,1,10,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,3,MinorAxisLength,1,1,11,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,4,AspectRation,3,1,8,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,5,Eccentricity,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,6,ConvexArea,2,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,8,Extent,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,9,Solidity,3,1,10,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,10,roundness,2,1,10,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,11,Compactness,3,1,9,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,12,ShapeFactor1,2,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,13,ShapeFactor2,2,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,14,ShapeFactor3,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,u_hoeffding,all,15,ShapeFactor4,1,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,0,Area,3,1,9,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,1,Perimeter,2,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,2,MajorAxisLength,2,1,10,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,3,MinorAxisLength,1,1,9,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,4,AspectRation,3,1,7,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,6,ConvexArea,2,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,9,Solidity,3,1,10,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,10,roundness,2,1,10,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,11,Compactness,3,1,9,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,12,ShapeFactor1,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,13,ShapeFactor2,2,1,8,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,14,ShapeFactor3,1,1,9,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,hoeffding_box,all,15,ShapeFactor4,1,1,10,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,0,Area,3,1,4,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,1,Perimeter,2,2,3,1,14,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,2,MajorAxisLength,2,1,3,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,3,MinorAxisLength,1,1,4,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,4,AspectRation,3,1,4,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,6,ConvexArea,2,1,2,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,8,Extent,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,9,Solidity,3,1,4,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,10,roundness,2,1,4,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,11,Compactness,3,1,4,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,12,ShapeFactor1,2,1,3,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,13,ShapeFactor2,2,1,2,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_contrast,all,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,0,Area,3,1,5,1,16,0.8897795591182365,0.12625250501002003
+Dry Bean,BOMBAY,522,16,multiplier_box,all,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,2,MajorAxisLength,2,1,4,1,16,0.12424849699398798,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,3,MinorAxisLength,1,1,5,1,16,0.002004008016032064,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,4,AspectRation,3,1,4,1,16,0.6773547094188377,0.052104208416833664
+Dry Bean,BOMBAY,522,16,multiplier_box,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,6,ConvexArea,2,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,9,Solidity,3,1,4,1,16,0.45090180360721444,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,10,roundness,2,1,6,1,16,0.17034068136272545,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,11,Compactness,3,1,6,1,16,0.8216432865731463,0.050100200400801605
+Dry Bean,BOMBAY,522,16,multiplier_box,all,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,13,ShapeFactor2,2,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,BOMBAY,522,16,multiplier_box,all,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,0,Area,3,1,7,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,4,AspectRation,2,1,4,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,6,ConvexArea,2,1,7,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,9,Solidity,3,1,7,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,10,roundness,3,1,4,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,paired_exact,local,11,Compactness,3,1,6,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,13,ShapeFactor2,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,local,15,ShapeFactor4,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,0,Area,3,1,7,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,merged_8,local,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,4,AspectRation,2,1,5,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,merged_8,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,6,ConvexArea,2,1,7,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,merged_8,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,9,Solidity,3,1,7,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,merged_8,local,10,roundness,3,1,4,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,merged_8,local,11,Compactness,3,1,6,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,merged_8,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,0,Area,3,1,9,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,2,MajorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,3,MinorAxisLength,2,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,4,AspectRation,2,1,6,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,6,ConvexArea,2,1,9,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,9,Solidity,3,1,9,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,10,roundness,3,1,6,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,u_hoeffding,local,11,Compactness,3,1,7,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,local,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,0,Area,3,1,9,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,2,MajorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,3,MinorAxisLength,2,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,4,AspectRation,2,1,6,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,6,ConvexArea,2,1,9,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,9,Solidity,3,1,9,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,10,roundness,3,1,6,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,hoeffding_box,local,11,Compactness,3,1,7,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,local,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,0,Area,3,1,4,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,4,AspectRation,2,1,4,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,6,ConvexArea,2,1,3,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,9,Solidity,3,1,5,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,10,roundness,3,1,4,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,multiplier_contrast,local,11,Compactness,3,1,4,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,13,ShapeFactor2,2,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,local,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,0,Area,3,1,5,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,4,AspectRation,2,1,4,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,6,ConvexArea,2,1,4,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,8,Extent,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,9,Solidity,3,1,6,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,10,roundness,3,1,5,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,multiplier_box,local,11,Compactness,3,1,6,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,13,ShapeFactor2,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,local,15,ShapeFactor4,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,0,Area,3,1,7,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,4,AspectRation,2,1,4,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,6,ConvexArea,2,1,7,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,8,Extent,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,9,Solidity,3,1,7,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,10,roundness,3,1,4,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,paired_exact,all,11,Compactness,3,1,6,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,13,ShapeFactor2,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,paired_exact,all,15,ShapeFactor4,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,0,Area,3,1,7,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,merged_8,all,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,4,AspectRation,2,1,5,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,merged_8,all,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,6,ConvexArea,2,1,7,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,merged_8,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,9,Solidity,3,1,7,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,merged_8,all,10,roundness,3,1,4,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,merged_8,all,11,Compactness,3,1,6,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,merged_8,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,merged_8,all,15,ShapeFactor4,1,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,0,Area,3,1,9,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,2,MajorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,3,MinorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,4,AspectRation,2,1,6,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,6,ConvexArea,2,1,9,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,9,Solidity,3,1,9,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,10,roundness,3,1,6,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,u_hoeffding,all,11,Compactness,3,1,7,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,u_hoeffding,all,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,0,Area,3,1,9,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,2,MajorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,3,MinorAxisLength,2,1,7,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,4,AspectRation,2,1,6,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,6,ConvexArea,2,1,8,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,9,Solidity,3,1,9,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,10,roundness,3,1,6,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,hoeffding_box,all,11,Compactness,3,1,6,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,hoeffding_box,all,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,0,Area,3,1,3,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,4,AspectRation,2,1,3,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,6,ConvexArea,2,1,3,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,7,EquivDiameter,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,8,Extent,1,1,1,7,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,9,Solidity,3,1,3,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,10,roundness,3,2,4,1,14,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,multiplier_contrast,all,11,Compactness,3,1,4,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,13,ShapeFactor2,2,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_contrast,all,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,0,Area,3,1,4,1,16,0.7054108216432866,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,4,AspectRation,2,1,3,1,16,0.12024048096192384,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,6,ConvexArea,2,1,3,1,16,0.02404809619238477,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,9,Solidity,3,1,3,1,16,0.685370741482966,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,10,roundness,3,1,5,1,16,0.9178356713426854,0.27054108216432865
+Dry Bean,CALI,1630,16,multiplier_box,all,11,Compactness,3,1,5,1,16,0.7294589178356713,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,13,ShapeFactor2,2,1,3,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,CALI,1630,16,multiplier_box,all,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,0,Area,3,1,5,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,paired_exact,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,4,AspectRation,2,1,4,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,6,ConvexArea,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,8,Extent,1,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,9,Solidity,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,10,roundness,3,1,4,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,11,Compactness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,13,ShapeFactor2,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,local,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,0,Area,3,1,6,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,merged_8,local,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,4,AspectRation,2,1,5,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,9,Solidity,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,10,roundness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,11,Compactness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,13,ShapeFactor2,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,local,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,0,Area,3,1,7,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,3,MinorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,4,AspectRation,2,1,5,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,9,Solidity,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,10,roundness,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,11,Compactness,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,0,Area,3,1,7,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,3,MinorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,4,AspectRation,2,1,5,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,9,Solidity,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,10,roundness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,11,Compactness,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,0,Area,3,1,4,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,6,ConvexArea,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,8,Extent,1,1,1,7,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,9,Solidity,3,2,3,1,14,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,10,roundness,3,2,3,1,14,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,11,Compactness,3,1,4,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,13,ShapeFactor2,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,local,15,ShapeFactor4,1,1,1,7,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,0,Area,3,1,5,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,multiplier_box,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,6,ConvexArea,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,9,Solidity,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,10,roundness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,11,Compactness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,13,ShapeFactor2,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,local,15,ShapeFactor4,1,1,1,5,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,0,Area,3,1,5,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,paired_exact,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,6,ConvexArea,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,9,Solidity,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,10,roundness,3,1,4,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,11,Compactness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,13,ShapeFactor2,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,paired_exact,all,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,0,Area,3,1,7,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,merged_8,all,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,8,Extent,1,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,9,Solidity,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,10,roundness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,11,Compactness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,13,ShapeFactor2,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,merged_8,all,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,0,Area,3,1,8,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,3,MinorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,6,ConvexArea,2,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,9,Solidity,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,10,roundness,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,11,Compactness,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,13,ShapeFactor2,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,u_hoeffding,all,15,ShapeFactor4,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,0,Area,3,1,7,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,3,MinorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,8,Extent,1,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,9,Solidity,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,10,roundness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,11,Compactness,3,1,6,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,13,ShapeFactor2,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,hoeffding_box,all,15,ShapeFactor4,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,0,Area,3,1,4,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,6,ConvexArea,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,8,Extent,1,1,1,7,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,9,Solidity,3,2,3,1,14,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,10,roundness,3,2,3,1,14,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,11,Compactness,3,1,4,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,13,ShapeFactor2,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_contrast,all,15,ShapeFactor4,1,1,1,7,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,0,Area,3,1,5,1,16,1.0,0.04609218436873747
+Dry Bean,DERMASON,3546,16,multiplier_box,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,4,AspectRation,2,1,3,1,16,0.018036072144288578,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,6,ConvexArea,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,9,Solidity,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,10,roundness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,11,Compactness,3,1,5,1,16,0.9539078156312625,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,13,ShapeFactor2,2,1,4,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,DERMASON,3546,16,multiplier_box,all,15,ShapeFactor4,1,1,1,5,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,0,Area,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,4,AspectRation,3,1,4,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,paired_exact,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,6,ConvexArea,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,9,Solidity,2,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,10,roundness,3,1,3,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,11,Compactness,4,1,5,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,paired_exact,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,13,ShapeFactor2,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,local,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,0,Area,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,3,MinorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,4,AspectRation,3,1,5,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,merged_8,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,6,ConvexArea,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,9,Solidity,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,10,roundness,3,1,4,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,11,Compactness,4,1,5,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,merged_8,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,local,15,ShapeFactor4,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,0,Area,2,1,9,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,2,MajorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,3,MinorAxisLength,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,4,AspectRation,3,1,7,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,6,ConvexArea,3,1,9,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,9,Solidity,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,10,roundness,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,11,Compactness,4,1,7,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,local,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,0,Area,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,3,MinorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,4,AspectRation,3,1,7,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,6,ConvexArea,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,9,Solidity,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,10,roundness,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,11,Compactness,4,1,6,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,local,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,0,Area,2,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,1,Perimeter,2,2,2,2,13,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,3,MinorAxisLength,2,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,4,AspectRation,3,1,4,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,6,ConvexArea,3,3,3,1,6,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,7,EquivDiameter,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,8,Extent,1,1,1,7,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,9,Solidity,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,10,roundness,3,2,3,1,13,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,11,Compactness,4,1,4,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,12,ShapeFactor1,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,13,ShapeFactor2,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,local,15,ShapeFactor4,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,0,Area,2,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,3,MinorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,4,AspectRation,3,1,4,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,multiplier_box,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,6,ConvexArea,3,1,3,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,8,Extent,1,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,9,Solidity,2,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,10,roundness,3,1,3,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,11,Compactness,4,1,5,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,multiplier_box,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,13,ShapeFactor2,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,local,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,0,Area,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,4,AspectRation,3,1,4,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,paired_exact,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,6,ConvexArea,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,9,Solidity,2,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,10,roundness,3,1,3,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,11,Compactness,4,1,5,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,paired_exact,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,13,ShapeFactor2,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,paired_exact,all,15,ShapeFactor4,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,0,Area,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,3,MinorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,4,AspectRation,3,1,5,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,merged_8,all,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,6,ConvexArea,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,9,Solidity,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,10,roundness,3,1,5,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,11,Compactness,4,1,5,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,merged_8,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,13,ShapeFactor2,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,merged_8,all,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,0,Area,2,1,9,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,2,MajorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,3,MinorAxisLength,2,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,4,AspectRation,3,1,7,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,6,ConvexArea,3,1,9,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,9,Solidity,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,10,roundness,3,1,6,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,11,Compactness,4,1,6,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,u_hoeffding,all,15,ShapeFactor4,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,0,Area,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,3,MinorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,4,AspectRation,3,1,6,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,6,ConvexArea,3,1,7,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,9,Solidity,2,1,8,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,10,roundness,3,1,6,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,11,Compactness,4,1,5,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,13,ShapeFactor2,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,hoeffding_box,all,15,ShapeFactor4,1,1,7,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,0,Area,2,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,1,Perimeter,2,2,2,2,13,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,3,MinorAxisLength,2,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,4,AspectRation,3,1,4,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,6,ConvexArea,3,3,3,1,6,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,7,EquivDiameter,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,8,Extent,1,1,1,7,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,9,Solidity,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,10,roundness,3,2,3,1,13,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,11,Compactness,4,1,4,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,12,ShapeFactor1,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,13,ShapeFactor2,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_contrast,all,15,ShapeFactor4,1,1,2,2,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,0,Area,2,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,3,MinorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,4,AspectRation,3,1,4,1,16,0.22444889779559118,0.018036072144288578
+Dry Bean,HOROZ,1928,16,multiplier_box,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,6,ConvexArea,3,1,3,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,8,Extent,1,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,9,Solidity,2,1,3,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,10,roundness,3,1,3,1,16,0.01603206412825651,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,11,Compactness,4,1,5,1,16,0.9819639278557114,0.7755511022044088
+Dry Bean,HOROZ,1928,16,multiplier_box,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,13,ShapeFactor2,1,1,4,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,HOROZ,1928,16,multiplier_box,all,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,0,Area,3,1,6,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,paired_exact,local,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,2,MajorAxisLength,2,1,4,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,3,MinorAxisLength,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,6,ConvexArea,2,1,6,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,8,Extent,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,9,Solidity,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,10,roundness,3,1,5,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,paired_exact,local,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,paired_exact,local,12,ShapeFactor1,2,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,paired_exact,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,local,15,ShapeFactor4,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,0,Area,3,1,7,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,merged_8,local,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,2,MajorAxisLength,2,1,5,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,3,MinorAxisLength,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,6,ConvexArea,2,1,7,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,9,Solidity,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,10,roundness,3,1,5,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,merged_8,local,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,merged_8,local,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,merged_8,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,local,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,0,Area,3,1,9,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,u_hoeffding,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,2,MajorAxisLength,2,1,8,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,3,MinorAxisLength,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,4,AspectRation,3,1,6,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,6,ConvexArea,2,1,8,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,9,Solidity,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,10,roundness,3,1,8,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,u_hoeffding,local,11,Compactness,4,1,7,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,u_hoeffding,local,12,ShapeFactor1,2,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,13,ShapeFactor2,2,1,7,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,u_hoeffding,local,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,0,Area,3,1,8,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,hoeffding_box,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,2,MajorAxisLength,2,1,8,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,3,MinorAxisLength,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,4,AspectRation,3,1,7,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,6,ConvexArea,2,1,8,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,9,Solidity,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,10,roundness,3,1,7,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,hoeffding_box,local,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,hoeffding_box,local,12,ShapeFactor1,2,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,hoeffding_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,0,Area,3,1,5,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,2,MajorAxisLength,2,1,4,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,3,MinorAxisLength,1,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,6,ConvexArea,2,1,4,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,8,Extent,1,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,9,Solidity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,10,roundness,3,1,4,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,11,Compactness,4,1,5,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,12,ShapeFactor1,2,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,local,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,0,Area,3,1,6,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,multiplier_box,local,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,2,MajorAxisLength,2,1,5,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,3,MinorAxisLength,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,6,ConvexArea,2,1,5,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,8,Extent,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,9,Solidity,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,10,roundness,3,1,6,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,multiplier_box,local,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,multiplier_box,local,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,13,ShapeFactor2,2,1,6,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,multiplier_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,local,15,ShapeFactor4,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,0,Area,3,1,6,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,paired_exact,all,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,2,MajorAxisLength,2,1,4,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,3,MinorAxisLength,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,6,ConvexArea,2,1,6,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,8,Extent,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,9,Solidity,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,10,roundness,3,1,5,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,paired_exact,all,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,paired_exact,all,12,ShapeFactor1,2,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,paired_exact,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,paired_exact,all,15,ShapeFactor4,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,0,Area,3,1,7,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,merged_8,all,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,2,MajorAxisLength,2,1,4,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,3,MinorAxisLength,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,6,ConvexArea,2,1,7,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,9,Solidity,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,10,roundness,3,1,5,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,merged_8,all,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,merged_8,all,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,merged_8,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,merged_8,all,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,0,Area,3,1,9,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,u_hoeffding,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,2,MajorAxisLength,2,1,9,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,3,MinorAxisLength,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,4,AspectRation,3,1,6,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,5,Eccentricity,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,6,ConvexArea,2,1,9,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,7,EquivDiameter,1,1,9,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,9,Solidity,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,10,roundness,3,1,8,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,u_hoeffding,all,11,Compactness,4,1,7,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,u_hoeffding,all,12,ShapeFactor1,2,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,13,ShapeFactor2,2,1,7,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,u_hoeffding,all,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,u_hoeffding,all,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,0,Area,3,1,8,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,hoeffding_box,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,2,MajorAxisLength,2,1,8,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,3,MinorAxisLength,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,4,AspectRation,3,1,7,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,6,ConvexArea,2,1,8,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,9,Solidity,1,1,7,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,10,roundness,3,1,7,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,hoeffding_box,all,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,hoeffding_box,all,12,ShapeFactor1,2,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,hoeffding_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,hoeffding_box,all,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,0,Area,3,1,5,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,2,MajorAxisLength,2,1,4,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,3,MinorAxisLength,1,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,6,ConvexArea,2,1,4,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,8,Extent,1,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,9,Solidity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,10,roundness,3,1,4,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,11,Compactness,4,1,4,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,12,ShapeFactor1,2,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,13,ShapeFactor2,2,1,5,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_contrast,all,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,0,Area,3,1,6,1,16,0.4248496993987976,0.03406813627254509
+Dry Bean,SEKER,2027,16,multiplier_box,all,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,2,MajorAxisLength,2,1,5,1,16,0.006012024048096192,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,3,MinorAxisLength,1,1,5,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,4,AspectRation,3,1,4,1,16,0.04609218436873747,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,6,ConvexArea,2,1,5,1,16,0.02404809619238477,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,8,Extent,1,1,4,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,9,Solidity,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,10,roundness,3,1,6,1,16,0.46693386773547096,0.25250501002004005
+Dry Bean,SEKER,2027,16,multiplier_box,all,11,Compactness,4,1,6,1,16,0.5470941883767535,0.30861723446893785
+Dry Bean,SEKER,2027,16,multiplier_box,all,12,ShapeFactor1,2,1,3,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,13,ShapeFactor2,2,1,6,1,16,0.050100200400801605,0.004008016032064128
+Dry Bean,SEKER,2027,16,multiplier_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SEKER,2027,16,multiplier_box,all,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,0,Area,3,1,6,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,1,Perimeter,2,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,4,AspectRation,3,1,5,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,8,Extent,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,9,Solidity,2,1,6,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,10,roundness,3,1,5,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,paired_exact,local,11,Compactness,4,1,4,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,paired_exact,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,13,ShapeFactor2,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,local,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,0,Area,3,1,7,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,1,Perimeter,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,4,AspectRation,3,1,5,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,9,Solidity,2,1,6,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,10,roundness,3,1,5,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,merged_8,local,11,Compactness,4,1,6,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,merged_8,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,local,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,0,Area,3,1,7,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,2,MajorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,3,MinorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,4,AspectRation,3,1,5,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,9,Solidity,2,1,7,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,10,roundness,3,1,6,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,u_hoeffding,local,11,Compactness,4,1,6,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,u_hoeffding,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,13,ShapeFactor2,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,0,Area,3,1,7,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,2,MajorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,3,MinorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,4,AspectRation,3,1,5,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,5,Eccentricity,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,8,Extent,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,9,Solidity,2,1,7,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,10,roundness,3,1,5,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,hoeffding_box,local,11,Compactness,4,1,6,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,hoeffding_box,local,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,local,15,ShapeFactor4,1,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,0,Area,3,1,3,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,4,AspectRation,3,1,3,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,6,ConvexArea,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,7,EquivDiameter,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,8,Extent,1,1,1,7,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,9,Solidity,2,2,3,1,14,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,10,roundness,3,2,4,1,14,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,11,Compactness,4,1,4,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,13,ShapeFactor2,1,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,local,15,ShapeFactor4,1,1,1,7,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,0,Area,3,1,5,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,4,AspectRation,3,1,3,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,6,ConvexArea,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,8,Extent,1,1,1,5,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,9,Solidity,2,2,4,1,14,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,10,roundness,3,2,5,1,14,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,multiplier_box,local,11,Compactness,4,1,4,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,multiplier_box,local,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,13,ShapeFactor2,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,local,15,ShapeFactor4,1,1,1,5,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,0,Area,3,1,6,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,4,AspectRation,3,1,4,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,8,Extent,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,9,Solidity,2,1,6,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,10,roundness,3,1,5,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,paired_exact,all,11,Compactness,4,1,4,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,paired_exact,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,13,ShapeFactor2,1,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,paired_exact,all,15,ShapeFactor4,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,0,Area,3,1,7,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,3,MinorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,4,AspectRation,3,1,4,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,8,Extent,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,9,Solidity,2,1,6,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,10,roundness,3,1,5,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,merged_8,all,11,Compactness,4,1,5,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,merged_8,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,merged_8,all,15,ShapeFactor4,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,0,Area,3,1,8,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,1,Perimeter,2,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,2,MajorAxisLength,2,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,3,MinorAxisLength,2,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,4,AspectRation,3,1,6,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,5,Eccentricity,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,6,ConvexArea,2,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,7,EquivDiameter,1,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,8,Extent,1,1,8,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,9,Solidity,2,1,8,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,10,roundness,3,1,6,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,u_hoeffding,all,11,Compactness,4,1,7,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,u_hoeffding,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,13,ShapeFactor2,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,14,ShapeFactor3,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,u_hoeffding,all,15,ShapeFactor4,1,1,9,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,0,Area,3,1,7,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,1,Perimeter,2,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,2,MajorAxisLength,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,3,MinorAxisLength,2,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,4,AspectRation,3,1,4,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,5,Eccentricity,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,6,ConvexArea,2,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,7,EquivDiameter,1,1,7,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,8,Extent,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,9,Solidity,2,1,7,1,16,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,10,roundness,3,1,5,1,16,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,hoeffding_box,all,11,Compactness,4,1,6,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,hoeffding_box,all,12,ShapeFactor1,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,13,ShapeFactor2,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,hoeffding_box,all,15,ShapeFactor4,1,1,6,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,0,Area,3,1,4,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,4,AspectRation,3,1,3,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,6,ConvexArea,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,8,Extent,1,1,1,7,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,9,Solidity,2,2,3,1,14,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,10,roundness,3,2,4,1,14,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,11,Compactness,4,1,4,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,13,ShapeFactor2,1,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_contrast,all,15,ShapeFactor4,1,1,1,7,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,0,Area,3,1,5,1,16,0.38877755511022044,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,4,AspectRation,3,1,3,1,16,0.3587174348697395,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,6,ConvexArea,2,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,7,EquivDiameter,1,1,5,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,8,Extent,1,1,1,5,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,9,Solidity,2,2,4,1,14,0.05410821643286573,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,10,roundness,3,2,5,1,14,0.39879759519038077,0.01002004008016032
+Dry Bean,SIRA,2636,16,multiplier_box,all,11,Compactness,4,1,4,1,16,0.9899799599198397,0.6012024048096193
+Dry Bean,SIRA,2636,16,multiplier_box,all,12,ShapeFactor1,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,13,ShapeFactor2,1,1,3,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,SIRA,2636,16,multiplier_box,all,15,ShapeFactor4,1,1,1,5,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,0,Area,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,3,MinorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,6,ConvexArea,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,8,Extent,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,9,Solidity,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,11,Compactness,3,1,4,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,paired_exact,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,13,ShapeFactor2,3,1,4,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,paired_exact,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,local,15,ShapeFactor4,1,1,1,6,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,0,Area,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,merged_8,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,6,ConvexArea,2,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,8,Extent,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,9,Solidity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,merged_8,local,11,Compactness,3,1,6,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,merged_8,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,13,ShapeFactor2,3,1,4,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,merged_8,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,local,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,0,Area,3,1,6,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,8,Extent,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,9,Solidity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,11,Compactness,3,1,6,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,u_hoeffding,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,13,ShapeFactor2,3,1,5,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,u_hoeffding,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,local,15,ShapeFactor4,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,0,Area,3,1,6,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,8,Extent,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,9,Solidity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,11,Compactness,3,1,6,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,hoeffding_box,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,13,ShapeFactor2,3,1,5,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,hoeffding_box,local,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,local,15,ShapeFactor4,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,0,Area,3,1,3,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,3,MinorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,6,ConvexArea,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,7,EquivDiameter,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,8,Extent,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,9,Solidity,1,1,1,7,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,10,roundness,3,2,3,1,14,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,11,Compactness,3,1,4,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,multiplier_contrast,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,13,ShapeFactor2,3,2,4,1,14,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,multiplier_contrast,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,local,15,ShapeFactor4,1,1,1,7,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,0,Area,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,3,MinorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,6,ConvexArea,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,8,Extent,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,9,Solidity,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,10,roundness,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,11,Compactness,3,1,4,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,multiplier_box,local,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,13,ShapeFactor2,3,1,4,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,multiplier_box,local,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,local,15,ShapeFactor4,1,1,1,6,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,0,Area,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,2,MajorAxisLength,2,2,2,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,3,MinorAxisLength,2,2,2,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,4,AspectRation,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,5,Eccentricity,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,6,ConvexArea,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,8,Extent,2,2,3,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,9,Solidity,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,11,Compactness,3,1,5,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,paired_exact,all,12,ShapeFactor1,1,1,1,8,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,13,ShapeFactor2,3,2,4,1,14,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,paired_exact,all,14,ShapeFactor3,1,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,paired_exact,all,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,0,Area,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,merged_8,all,1,Perimeter,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,2,MajorAxisLength,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,6,ConvexArea,2,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,8,Extent,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,9,Solidity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,merged_8,all,11,Compactness,3,1,6,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,merged_8,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,13,ShapeFactor2,3,1,4,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,merged_8,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,merged_8,all,15,ShapeFactor4,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,0,Area,3,1,6,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,8,Extent,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,9,Solidity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,11,Compactness,3,1,6,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,u_hoeffding,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,13,ShapeFactor2,3,1,5,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,u_hoeffding,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,u_hoeffding,all,15,ShapeFactor4,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,0,Area,3,1,6,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,1,Perimeter,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,2,MajorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,3,MinorAxisLength,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,4,AspectRation,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,5,Eccentricity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,6,ConvexArea,2,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,7,EquivDiameter,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,8,Extent,2,1,5,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,9,Solidity,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,10,roundness,3,1,5,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,11,Compactness,3,1,6,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,hoeffding_box,all,12,ShapeFactor1,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,13,ShapeFactor2,3,1,5,1,16,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,hoeffding_box,all,14,ShapeFactor3,1,1,6,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,hoeffding_box,all,15,ShapeFactor4,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,0,Area,3,1,3,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,1,Perimeter,2,2,2,2,13,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,2,MajorAxisLength,2,2,2,2,13,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,3,MinorAxisLength,2,2,2,2,13,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,4,AspectRation,2,1,2,2,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,5,Eccentricity,1,1,2,2,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,6,ConvexArea,2,2,2,2,13,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,7,EquivDiameter,1,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,8,Extent,2,2,2,2,13,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,9,Solidity,1,1,1,10,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,10,roundness,3,2,3,1,13,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,11,Compactness,3,1,4,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,multiplier_contrast,all,12,ShapeFactor1,1,1,1,10,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,13,ShapeFactor2,3,3,4,1,4,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,multiplier_contrast,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_contrast,all,15,ShapeFactor4,1,1,1,10,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,0,Area,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,1,Perimeter,2,2,2,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,2,MajorAxisLength,2,2,2,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,3,MinorAxisLength,2,2,2,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,4,AspectRation,2,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,5,Eccentricity,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,6,ConvexArea,2,1,3,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,7,EquivDiameter,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,8,Extent,2,2,3,1,14,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,9,Solidity,1,1,2,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,10,roundness,3,1,4,1,16,0.9158316633266533,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,11,Compactness,3,1,4,1,16,0.9178356713426854,0.002004008016032064
+Dry Bean,pooled,13611,16,multiplier_box,all,12,ShapeFactor1,1,1,1,8,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,13,ShapeFactor2,3,2,4,1,14,0.9979959919839679,0.08216432865731463
+Dry Bean,pooled,13611,16,multiplier_box,all,14,ShapeFactor3,1,1,4,1,16,0.0,0.0
+Dry Bean,pooled,13611,16,multiplier_box,all,15,ShapeFactor4,1,1,1,8,16,0.0,0.0

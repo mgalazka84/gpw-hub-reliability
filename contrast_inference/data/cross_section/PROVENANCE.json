@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "abalone",
+    "url": "https://archive.ics.uci.edu/static/public/1/abalone.zip",
+    "doi": "10.24432/C55C7W",
+    "license": "CC BY 4.0",
+    "archive_sha256": "755a6a67c5b266961a3f149ea13be2cfb6e6c727e48cee3c83bc0b4526210ee4",
+    "files": [
+      {
+        "file": "abalone.data",
+        "size": 191873,
+        "sha256": "de37cdcdcaaa50c309d514f248f7c2302a5f1f88c168905eba23fe2fbc78449f"
+      },
+      {
+        "file": "abalone.names",
+        "size": 4319,
+        "sha256": "542eee5a2a0ee72db563de010dc3b5055b03c5dc624049ae1f2208fc66a14aac"
+      }
+    ]
+  },
+  {
+    "dataset": "dry_bean",
+    "url": "https://archive.ics.uci.edu/static/public/602/dry%2Bbean%2Bdataset.zip",
+    "doi": "10.24432/C50S4B",
+    "license": "CC BY 4.0",
+    "archive_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+    "files": [
+      {
+        "file": "Dry_Bean_Dataset.xlsx",
+        "size": 3043341,
+        "sha256": "a9efa69741c6c5d95167c962a13da23a456f7e940402a5add12639790e01f714"
+      }
+    ]
+  }
+]

@@ -11,3 +11,13 @@ qa/
 WORK_LOG.md
 
 qa_v04/
+results/comparative/production/
+results/comparative/family_null_extension/
+results/evalue/production/
+results/evalue/development_fixed_grid/
+results/bootstrap_audit/production/
+results/bootstrap_audit/pilot/
+results/**/pilot*.csv
+results/comparative/replications.csv
+results/frequency_reference/cell*.json
+manuscript/*.blg

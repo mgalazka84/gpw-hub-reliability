@@ -1,0 +1,28 @@
+{
+  "version": "0.5",
+  "alpha": 0.05,
+  "seed": 71005019,
+  "multiplier_repetitions": 999,
+  "row_bootstrap_repetitions": 499,
+  "primary": "Abalone pooled: all numeric measurements, including Rings",
+  "secondary": "All Abalone sex strata and all Dry Bean variety strata; pooled Dry Bean heterogeneity diagnostic",
+  "scope": "Separate nominal analysis per dataset/method/family; no joint coverage across analyses",
+  "row_order": "One independent random permutation before predetermined pairing; no outcome-based selection",
+  "assumptions": "Independent measurements sampled from one distribution within each analysed population; not verified by repository metadata",
+  "interpretation": "Morphometric association; no causal or conditional-independence interpretation",
+  "preprocessing": "Original values; no outlier removal, deduplication, imputation or fitted residualization",
+  "data_sha256": {
+    "Dry_Bean_Dataset.xlsx": "a9efa69741c6c5d95167c962a13da23a456f7e940402a5add12639790e01f714",
+    "abalone.names": "542eee5a2a0ee72db563de010dc3b5055b03c5dc624049ae1f2208fc66a14aac",
+    "abalone.data": "de37cdcdcaaa50c309d514f248f7c2302a5f1f88c168905eba23fe2fbc78449f",
+    "LICENSE_DATA.txt": "770dbe292e406ce0af8a8d0be8aa53c7af17a26069de01a3a3efac2ade223d87",
+    "dry_bean.zip": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+    "PROVENANCE.json": "a7904493469a350d628412dfb5c411c6d6ede8cf153778c27eb5f2c9c00f22a0",
+    "abalone.zip": "755a6a67c5b266961a3f149ea13be2cfb6e6c727e48cee3c83bc0b4526210ee4"
+  },
+  "source_quality": {
+    "Abalone_identical_rows": 0,
+    "Dry_Bean_identical_rows": 68,
+    "Dry_Bean_interpretation": "Computational stress study, no unconditional sampling guarantee"
+  }
+}
