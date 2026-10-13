@@ -1,0 +1,272 @@
+\documentclass[pdflatex,sn-mathphys-ay]{sn-jnl}
+\usepackage{graphicx,amsmath,amssymb,amsthm,booktabs,multirow}
+\usepackage[T1]{fontenc}\usepackage{lmodern}
+\input{glyphtounicode}\pdfgentounicode=1
+\theoremstyle{thmstyleone}
+\newtheorem{theorem}{Theorem}\newtheorem{proposition}[theorem]{Proposition}\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{thmstyletwo}\newtheorem{remark}{Remark}\newtheorem{example}{Example}
+\newcommand{\T}{\mathcal T}\newcommand{\Pp}{\mathbb P}\newcommand{\E}{\mathbb E}\newcommand{\ind}{\mathbf1}
+\raggedbottom
+\hypersetup{pdftitle={Finite-sample edge-order inference and certified degree comparisons in correlation spanning trees},pdfauthor={Marek Galazka and Hanna Wdowicka}}
+\begin{document}
+\title[Certified comparisons in correlation trees]{Finite-sample edge-order inference and certified degree comparisons in correlation spanning trees}
+\author*[1]{\fnm{Marek} \sur{Ga\l{}\k{a}zka}}\email{galazka@amu.edu.pl}
+\author[2]{\fnm{Hanna} \sur{Wdowicka}}\email{hanna.wdowicka@ue.poznan.pl}
+\affil*[1]{\orgdiv{Faculty of Mathematics and Computer Science},\orgname{Adam Mickiewicz University},\orgaddress{\city{Pozna\'{n}},\country{Poland}}}
+\affil[2]{\orgdiv{Department of Statistics},\orgname{Pozna\'{n} University of Economics and Business},\orgaddress{\city{Pozna\'{n}},\country{Poland}}}
+\abstract{A correlation-tree hub can be identifiable before the entire tree is recovered, but projecting separate edge intervals can obscure this distinction. We construct simultaneous hub inference from direct edge-order tests. For independent observations, predetermined disjoint pairs reduce comparisons of Kendall correlations to exact conditional McNemar tests; Holm adjustment gives finite-sample coverage, including discrete margins after independent tie randomization. Certified orders yield degree-difference bounds through graphic-matroid ranks. Cycle-path incompatibilities strengthen a linear-programming relaxation, whose reported integer bounds carry rational dual certificates. A conservation constraint gives sharp rank endpoints within the integer degree-box relaxation. We distinguish these projection guarantees from statistical calibration and credit the classical testing and optimization ingredients. A positive-definite example isolates the information lost by rectangularization even after global centering. Monte Carlo experiments examine power, population ties, heavy tails and dimensions comparable to the empirical application. The comparison procedure can certify a hub when the Hoeffding-box baseline cannot. A separate Pearson-bootstrap analysis exhibits substantial undercoverage and is therefore treated as diagnostic. Across 231 Polish equity windows and three return representations, stronger projections narrow degree bounds but every rank interval remains full. The independent-observation guarantee is not extended to dependent returns.}
+\keywords{Kendall correlation, simultaneous inference, spanning tree, McNemar test, degree rank, partial order}
+
+\maketitle
+
+\section{Introduction}
+Which stock is a population hub of a correlation spanning tree? Answering this question requires more than repeatedly selecting the same vertex in bootstrap samples. Tree edges depend on comparisons between correlations, and degrees depend on several edges jointly. Separate uncertainty intervals for every edge can lose useful dependence information; separate degree intervals can lose the restrictions imposed by a common tree. This paper develops inference that retains comparisons at both stages.
+
+Our statistical starting point is a direct, finite-sample comparison of two Kendall correlations. Predetermined disjoint observation pairs produce independent binary edge kernels. Their discordances lead to the classical exact McNemar test. Adjusting a fixed family of local comparisons by Holm's procedure yields simultaneous strict edge-order statements. Unlike a generic uniform deviation bound, this test conditions on the observed number of discordances. It also admits discrete margins through independent random tie breakers without changing the population Kendall tau-a target.
+
+The second stage translates these statements into degree and rank bounds. We give explicit pairwise degree extrema on the graphic minor obtained from cut and cycle screening, add joint path exclusions to a linear-programming relaxation, and verify improved integer endpoints using rational dual certificates. Rank projection additionally enforces the tree identity $\sum_i d_i=2p-2$. These steps address different sources of conservatism: statistical calibration, loss of edge dependence, and loss of feasible degree configurations.
+
+The ingredients have substantial precedents. Robust spanning trees and possible or necessary optimality under interval uncertainty are studied by \citet{yaman2001,kasperski2007,fortin2007}. \citet{zaffalon2005} already use dependence comparisons and partial orders to infer common tree structure. We do not claim the introduction of partial-order tree inference, the cut and cycle criteria, or the matroid greedy argument. Sensitivity analysis of minimum spanning trees is a further related algorithmic literature \citep{pettie2014}. Our contribution is the explicit Kendall-to-degree inference construction, its finite-sample guarantee under ties, the comparison and path-based projections with verifiable endpoints, and an evaluation that separates calibration from informativeness.
+
+Confidence sets for ranks must accommodate population ties \citep{hall2009,mogstad2024}. Combinatorial inference for graphical models addresses other population graph properties under different structural assumptions \citep{neykov2019}; a correlation-optimal spanning tree is not a conditional-independence graph. In financial networks, \citet{galazka2011} studied Polish stock correlations, while \citet{tumminello2007,musciotto2018} assessed bootstrap edge reliability. Our target is a simultaneous population degree or rank statement, rather than an edge selection frequency or a portfolio-performance claim.
+
+The empirical distinction matters. In a separated factor model, direct comparisons can certify the hub even when the rectangular baseline is uninformative. Conversely, the Pearson-bootstrap calibration examined here still fails in some finite-sample designs. We retain those failures and interpret the Polish application as a diagnostic of resolution. Neither a valid optimization bound nor a high projected coverage rate repairs an invalid input calibration.
+
+\section{Population target and simultaneous orders}
+Let $G=(V,E)$ be a fixed connected graph with $p$ vertices and $m$ edges. For weights $w$, let
+\[
+ \T(w)=\arg\max_{T\text{ spanning tree}}\sum_{e\in T}w_e.
+\]
+In the correlation application $G$ is complete. A maximum-correlation tree has the same optimal-tree family as the minimum-distance tree based on $\sqrt{2(1-w_e)}$: both are determined by the same edge ordering, including ties. Strictly increasing edge transformations preserve this family.
+
+Write $S_i=\{e:i\in e\}$ and $d_i(T)=|T\cap S_i|$. Descending ranks of vertex $i$, including every resolution of equal degrees, range from
+\begin{equation}\label{eq:ranks}
+ r_i^-(T)=1+\sum_{j\ne i}\ind\{d_j(T)>d_i(T)\},\qquad
+ r_i^+(T)=p-\sum_{j\ne i}\ind\{d_j(T)<d_i(T)\}.
+\end{equation}
+The inferential target contains these quantities for every $T\in\T(w_0)$. Under complete independence all edges have weight zero, every labelled tree is optimal, and the appropriate degree and rank targets are $[1,p-1]$ and $[1,p]$. Selecting one arbitrary tied optimum would artificially narrow this target.
+
+A random strict relation $\widehat{\succ}$ is simultaneously valid if
+\begin{equation}\label{eq:event}
+ \Pp(\mathcal E)\ge1-\alpha,\qquad
+ \mathcal E=\{e\widehat{\succ}f\Longrightarrow w_{0e}>w_{0f}\text{ for all }e,f\}.
+\end{equation}
+We may take its transitive closure without an additional error budget. Every computational restriction below is conditional on this same event. The relation need not specify all pairwise edge comparisons, and its incompleteness is a source of conservative bounds.
+
+\section{An exact Kendall comparison construction}\label{sec:kendall}
+Suppose $X_1,\ldots,X_n$ are IID $p$-vectors. Coordinates may be dependent or discrete, and no moment assumption is imposed. For independent copies $X,X'$, define
+\[
+ \tau_{ij}=\E[\operatorname{sgn}(X_i-X_i')\operatorname{sgn}(X_j-X_j')].
+\]
+This is Kendall tau-a, not the tie-normalized tau-b. Attach independent uniform random variables $U_{ti}$ to each observation and coordinate, and order $\widetilde X_{ti}=(X_{ti},U_{ti})$ lexicographically. Randomization is independent of the observed sample.
+
+For a predetermined pairing $(1,2),(3,4),\ldots$, let $N=\lfloor n/2\rfloor$ and
+\[
+ S_{ki}=\operatorname{sgn}(\widetilde X_{2k-1,i}-\widetilde X_{2k,i}),\qquad
+ H_{k,e}=S_{ki}S_{kj},\quad e=\{i,j\}.
+\]
+Here $H_{k,e}\in\{-1,1\}$ and the vectors $H_k$ are IID. For an ordered comparison $(e,f)$ set
+\[
+ \begin{aligned} A_{ef}&=\sum_k\ind\{H_{k,e}=1,H_{k,f}=-1\},\\
+ B_{ef}&=\sum_k\ind\{H_{k,e}=-1,H_{k,f}=1\},\qquad D_{ef}=A_{ef}+B_{ef}.\end{aligned}
+\]
+The one-sided exact p-value is
+\begin{equation}\label{eq:pvalue}
+ p_{ef}=\Pp\{\operatorname{Bin}(D_{ef},1/2)\ge A_{ef}\},
+\end{equation}
+with value one when $D_{ef}=0$. This is the conditional McNemar test \citep{mcnemar1947}, applied to paired edge kernels.
+
+We test both directions of every pair of distinct edges sharing a vertex. On the complete graph this fixed family has $K=p(p-1)(p-2)$ hypotheses. Apply Holm's step-down rule \citep{holm1979} at level $\alpha$: ordered p-values $p_{(k)}$ are rejected until the first failure of $p_{(k)}\le\alpha/(K-k+1)$. Rejections define $e\widehat{\succ}f$; subsequently take the transitive closure.
+
+\begin{theorem}[Finite-sample order and hub coverage]\label{thm:finite}
+For IID rows and the predetermined pairing above, the resulting relation satisfies \eqref{eq:event} with $w_{0e}=\tau_e$, for every finite $n\ge2$. The probability includes auxiliary tie randomization. Consequently, every degree, degree-difference and rank bound obtained by the valid outer projections in Sections~\ref{sec:minor}--\ref{sec:rank} covers its target simultaneously with probability at least $1-\alpha$, for all population-optimal trees and every resolution of degree ties.
+\end{theorem}
+\begin{proof}
+Conditional on $X,X'$, if neither coordinate is tied, the augmented sign product equals the original sign product. If either is tied, the independent auxiliary sign for that coordinate has mean zero. Thus $\E H_{k,e}=\tau_e$, including when both coordinates tie. Put $\pi_+=\Pp(H_e=1,H_f=-1)$ and $\pi_-=\Pp(H_e=-1,H_f=1)$. Then $\tau_e-\tau_f=2(\pi_+-\pi_-)$. Conditional on $D_{ef}$, $A_{ef}$ is binomial with success probability $q=\pi_+/(\pi_++\pi_-)$ whenever the denominator is positive. Under $\tau_e\le\tau_f$, $q\le1/2$, so \eqref{eq:pvalue} is superuniform by binomial stochastic monotonicity. The zero-denominator case gives $D_{ef}=0$ almost surely. Holm's argument therefore controls the probability of any false strict order by $\alpha$, regardless of dependence among comparisons. Transitive consequences remain true on the same event. Each subsequent outer projection retains all population-optimal trees on that event, proving the final assertion.
+\end{proof}
+
+The pairing cannot be selected after inspecting which arrangement gives favorable tests. A fixed pairing, or independent random pairing, is valid; trying several and retaining the best requires additional multiplicity control. This construction deliberately uses $N$ independent pairs. The full-sample Kendall estimator uses all $n(n-1)/2$ pairs, whose kernels are dependent. Treating those kernels as independent would invalidate the binomial calculation. Applying the IID result to serially dependent financial returns or fitted residuals is also unjustified.
+
+\begin{proposition}[A sufficient discordance-dependent power bound]\label{prop:power}
+Consider $s\ge1$ selected true comparisons from the tested family. Suppose each has gap $\Delta=\tau_e-\tau_f\ge\delta>0$ and discordance probability $d=\Pp(H_e\ne H_f)\le\bar d$. If
+\begin{equation}\label{eq:power}
+ N\ge\frac{64\bar d}{\delta^2}\log\frac{2Ks}{\alpha\eta},\qquad 0<\eta<1,
+\end{equation}
+then all these comparisons are rejected with probability at least $1-\eta$.
+\end{proposition}
+\begin{proof}
+Let $Z_k=(H_{k,e}-H_{k,f})/2$. Its mean is $\Delta/2$, variance is at most $\bar d$, and its centered absolute value is at most two. Bernstein's inequality gives
+\[
+ \Pp\{A-B<N\delta/4\}
+ \le \exp\{-N\delta^2/(32\bar d+16\delta/3)\}
+ \le \exp\{-N\delta^2/(64\bar d)\},
+\]
+where $\delta\le2\bar d$. A second Bernstein bound gives $\Pp(D>2N\bar d)\le\exp(-3N\bar d/8)$. Outside these events, the binomial Hoeffding bound implies
+\[
+ p_{ef}\le\exp\{-(A-B)^2/(2D)\}\le\exp\{-N\delta^2/(64\bar d)\}.
+\]
+Condition \eqref{eq:power} makes this p-value at most $\alpha/K$. It also bounds each bad-event probability by $\alpha\eta/(2Ks)$, since $\delta^2\le4\bar d^2$. A union bound over the $s$ comparisons yields failure probability at most $\alpha\eta/K\le\eta$. Every p-value at most $\alpha/K$ is rejected by Holm.
+\end{proof}
+
+The proposition is sufficient, deliberately conservative, and not a necessary sample-size threshold. Its role is to exhibit the discordance probability in the power mechanism. It does not establish uniform superiority over full-sample U-statistic procedures. In particular, the experiments below remain uninformative in many short-sample designs.
+
+\section{Projecting orders into joint degree information}\label{sec:minor}
+\subsection{Classical screening and exact extrema on an outer minor}
+For an edge $e=\{u,v\}$, exclude $e$ if a $u$--$v$ path consists entirely of edges certified above $e$. The cycle property rules it out of every population-optimal tree. Force $e$ if $u,v$ become disconnected after deleting $e$ and all edges certified below $e$. The resulting cut has $e$ strictly heavier than every alternative, so every optimum contains it. These are sufficient screening rules for our partial relation; we do not assert that they characterize all possible and necessary edges under general dependent uncertainty sets.
+
+Let $A$ be the allowed edges and $F$ the forced edges. On $\mathcal E$, $F$ is a forest. Contract $F$, delete excluded edges, and retain the resulting graphic matroid $M$ with rank $k=p-1-|F|$ and rank function $r$. Parallel edges and loops are permitted after contraction. Every population-optimal tree is $F\cup B$ for some base $B$ of $M$, but many bases can fail to be optimal for any compatible weights. All exactness claims below refer to this outer base family.
+
+Write $a_i=|F\cap S_i|$ and $I_i=S_i\setminus F$ restricted to the residual ground set. The ordinary greedy rank identities give
+\begin{equation}\label{eq:degree}
+ \underline d_i=a_i+k-r(E_M\setminus I_i),\qquad
+ \overline d_i=a_i+r(I_i).
+\end{equation}
+For vertices $i,j$, assign residual coefficients $c_e=\ind\{e\in S_i\}-\ind\{e\in S_j\}$, and let $P_+,P_0,P_-$ denote their level sets.
+
+\begin{proposition}[Degree-difference extrema on the minor]\label{prop:minor}
+The exact maximum and minimum of $d_i-d_j$ over the outer base family are
+\begin{align}
+ U_{ij}&=a_i-a_j+r(P_+)+r(P_+\cup P_0)-k,\label{eq:diffmax}\\
+ L_{ij}&=a_i-a_j+k-r(P_-)-r(P_-\cup P_0).\label{eq:diffmin}
+\end{align}
+\end{proposition}
+\begin{proof}
+For a base $B$ of size $k$, $\sum_{e\in B}c_e=|B\cap P_+|+|B\cap(P_+\cup P_0)|-k$. Each intersection is bounded by the corresponding rank. A greedy base processing $P_+$ first, then $P_0$, then $P_-$ attains both bounds simultaneously, by the matroid augmentation property. This proves \eqref{eq:diffmax}. Reverse signs for \eqref{eq:diffmin}. The same argument with coefficients zero and one gives \eqref{eq:degree}.
+\end{proof}
+
+These are consequences of classical matroid optimization, not new exchange principles. Their inferential use is that $L_{ij}>0$ certifies $d_i>d_j$ for every retained tree. Directly optimizing a difference retains a common feasible tree, whereas subtracting a marginal maximum from a marginal minimum can use incompatible trees.
+
+\subsection{Cycle-path incompatibilities}
+Individual screening can leave many jointly impossible edge configurations. Suppose $P$ is a simple path between the endpoints of $e$, and $e\widehat{\succ}f$ for some $f\in P$. Every population-optimal tree satisfies
+\begin{equation}\label{eq:path}
+ \sum_{g\in P}x_g\le |P|-1,
+\end{equation}
+where $x_g$ is its edge indicator. Indeed, a tree containing all of $P$ cannot also contain $e$; replacing $f$ by $e$ would then strictly increase its weight. Notice that the condition needs one lighter edge on the path. It is stronger than excluding only an edge that is lighter than an entire alternative path.
+
+We use every such path of length two and additional paths from eight candidate spanning trees. Candidate priorities are generated with a fixed seed, with forced edges processed first and excluded edges omitted. For each candidate and each non-tree edge, its unique path is checked against the same certified relation. Path selection may depend on the relation without a new statistical correction: every inserted inequality is valid on $\mathcal E$. Eight is a computational design choice, not a claim that these paths exhaust the useful constraints.
+
+The linear relaxation has $0\le x_e\le1$, $\sum_e x_e=p-1$, $\sum_{e\in S_i}x_e\ge1$, fixed forced/excluded coordinates, and the selected inequalities \eqref{eq:path}. To impose connectivity, add directed nonnegative flows, root outflow minus inflow $p-1$, and outflow minus inflow $-1$ at every other vertex. For an undirected edge $e=\{u,v\}$ impose
+\[
+ f_{uv}+f_{vu}\le(p-1)x_e.
+\]
+Every tree admits these flows by routing one unit from the root to each other vertex. Fractional solutions may remain, so this is an outer relaxation, not the convex hull of compatible optimal trees.
+
+We minimize and maximize every degree, and optimize both directed degree differences between the observed highest-degree vertex and every other vertex. This anchor can be selected from the data because all projected statements use the common event $\mathcal E$. Ties in anchor selection are resolved by the frozen vertex order. The minor bounds remain available for every other pair.
+
+\subsection{Rational certificates for numerical optimization}\label{sec:dual}
+A floating-point optimum should not be rounded into an inferential statement without a valid bound. Write the relaxation as $Ax\le b$, $Ex=h$, $\ell\le x\le u$, incorporating both edge and flow variables. Its coefficients and bounds are integers. For an integer objective $c$, take any rational multipliers $y\le0$ and unrestricted $z$, and put $v=c-A^\top y-E^\top z$.
+\begin{proposition}[Verifiable objective bound]\label{prop:dual}
+For every feasible $x$,
+\begin{equation}\label{eq:dual}
+ c^\top x\ge b^\top y+h^\top z+\sum_j\min\{v_j\ell_j,v_ju_j\}=:q.
+\end{equation}
+If the target objective is integer, $\lceil q\rceil$ is a valid lower bound. Applying the formula to $-c$ gives upper bound $\lfloor-q\rfloor$.
+\end{proposition}
+\begin{proof}
+Expand $c^\top x=y^\top Ax+z^\top Ex+v^\top x$. The first term is at least $y^\top b$ because $y\le0$; the second equals $z^\top h$; coordinatewise minimization over the box bounds the last term. Integer rounding preserves the assertion.
+\end{proof}
+The implementation takes inequality multipliers from HiGHS, clips them to be nonpositive and rounds downward to multiples of $2^{-20}$. Equality multipliers are rounded to that denominator. The residual and bound are then computed with checked integer arithmetic. Saved sparse certificates contain the numerator, denominator and multipliers for every improvement. An independent verifier reconstructs the constraints and recomputes the bound with Python arbitrary-precision integers. Validity does not require that the numerical solution satisfy KKT equations exactly, or even that its proposed multipliers be optimal.
+
+\section{Rank projection with degree conservation}\label{sec:rank}
+Let integer degree bounds be $L_i\le d_i\le U_i$, and impose
+\begin{equation}\label{eq:conserve}
+ \sum_i d_i=2p-2=:D_0,\qquad d_i\ge1.
+\end{equation}
+We compute sharp rank endpoints over this integer box intersected with \eqref{eq:conserve}. For vertex $i$, enumerate feasible $s=d_i\in[L_i,U_i]$, so that $\sum_{j\ne i}L_j\le D_0-s\le\sum_{j\ne i}U_j$.
+
+For the worst rank, all vertices with $L_j\ge s$ are already tied with or above $i$. Each optional vertex with $L_j<s\le U_j$ costs $s-L_j$ additional degree units to reach that threshold. Starting from all lower bounds, select the cheapest such costs within budget $D_0-s-\sum_{j\ne i}L_j$. One plus the mandatory and selected counts is the largest possible rank for that $s$.
+
+For the best rank, vertices with $L_j>s$ necessarily outrank $i$. Without raising any additional vertex above $s$, the largest possible total for the other degrees is
+\[
+ C(s)=\sum_{j:L_j>s}U_j+\sum_{j:L_j\le s}\min(U_j,s).
+\]
+If $D_0-s>C(s)$, select the fewest additional vertices whose capacities $U_j-s>0$ cover the shortfall, taking largest capacities first. Add their count and the mandatory count to one. Minimize this best rank and maximize the worst rank over feasible $s$.
+
+\begin{proposition}[Sharpness within the degree relaxation]\label{prop:ranks}
+The threshold and capacity calculations above attain the best and worst ranks over all integer vectors satisfying the degree bounds and \eqref{eq:conserve}. On the complete graph every positive integer vector with this total is the degree sequence of a labelled tree. Sharpness need not hold for the smaller family of order-compatible or minor-compatible trees.
+\end{proposition}
+\begin{proof}
+To make $k$ optional competitors reach $s$, their required increases have minimum total equal to the sum of the $k$ smallest costs. The budget criterion is therefore necessary and sufficient; remaining degree units can be allocated within the original upper bounds. If this forced another optional competitor to reach $s$, that competitor would already have been affordable, contradicting maximality. For the best rank, activating a vertex above $s$ supplies at most $U_j-s$ additional units. The largest-capacity rule minimizes the number required. Feasibility of $s$ guarantees enough total capacity, and integer intervals allow filling the remaining total without gaps. Finally, a Pr\"ufer sequence containing vertex $i$ exactly $d_i-1$ times realizes any positive vector summing to $2p-2$.
+\end{proof}
+
+Intersect these rank intervals with direct comparison bounds
+\begin{equation}\label{eq:pairranks}
+ 1+\#\{j:L_{ji}>0\}\ \le r_i\le\ p-\#\{j:L_{ij}>0\}.
+\end{equation}
+A certified unique hub has upper rank one. A vertex remains a possible hub whenever its lower rank is one. Broad intervals are a legitimate outcome; we do not resolve their ties using estimated degrees. The proof of Theorem~\ref{thm:finite} now follows through every computational stage.
+
+\section{A positive-definite example of lost joint information}\label{sec:example}
+Consider eight vertices indexed $0,\ldots,7$. In the block $\{0,\ldots,5\}$ let hub correlations be $\rho_{0j}=0.06+t$ for $1\le j\le5$, and leaf correlations $\rho_{ij}=0.04+t$ for $1\le i<j\le5$. Set $\rho_{06}=0.10$, $\rho_{67}=0.15$, all other cross-block correlations to zero, and diagonal entries to one, with $t\in[-0.025,0.025]$.
+
+Every matrix is positive definite: it is symmetric, has positive diagonal and is strictly diagonally dominant; the largest absolute off-diagonal row sum is $0.525$. Every within-block spoke exceeds every within-block leaf edge by $0.02$. The unique optimal tree throughout the curve consists of five spokes, the bridge $06$ and edge $67$. Its degree vector is $(6,1,1,1,1,1,2,1)$, so vertex zero is uniquely first.
+
+Now transform correlations by Fisher's $\operatorname{atanh}$ and subtract the mean across all 28 edges at each $t$. Form the smallest coordinatewise rectangular hull of this centered curve. Global centering removes a common shift across all edges but not a shift restricted to one block. Exact rectangular projection yields degree ranges
+\[
+ [2,6],\ [1,5]\ (\text{each of five leaves}),\ [2,2],\ [1,1].
+\]
+The marginal rank construction gives vertex zero $[1,7]$. In contrast, the true local orders along the coupled curve force all seven tree edges and rank $[1,1]$. For a changing edge, the derivative of its centered Fisher weight is bounded below by $1-15/[28(1-0.085^2)]>0$; for a constant edge it is negative. Thus its coordinate extrema occur at the two endpoints. An executable verification is supplied with the code. This is a deterministic comparison of uncertainty-set shapes, not a claim that this curve is an estimated confidence region. It shows why rectangularization can discard relevant information even when the candidate matrices are positive definite and global centering has already been used.
+
+\section{Monte Carlo evaluation}\label{sec:simulation}
+\subsection{Design and estimands}
+All experiments use nominal $\alpha=0.05$, fixed seeds recorded before the production runs, and development-pilot seeds excluded from those runs. This is retrospective method development, not a preregistered study. We retain all calibration failures. Finite-sample experiments use 200 replications per cell; bootstrap experiments use 100. The supplement supplies every replication and full cell summaries. Monte Carlo uncertainty is reported using Wilson intervals for selected proportions.
+
+In the separated Gaussian model, $X_i=a_i Z+\sqrt{1-a_i^2}\epsilon_i$, with independent standard normal factors, $a_0=0.99$ and remaining loadings equally spaced from $0.45$ to $0.55$. In the near-tie model $a_0=0.8+0.5/\sqrt n$, $a_1=0.8$ and the others span $[0.45,0.55]$. The $t_5$ model divides each Gaussian row by an independent $\sqrt{\chi_5^2/5}$. These non-null models have a unique population star centred at vertex zero. For elliptical Gaussian and $t$ distributions, population Kendall weights are $2\arcsin(\rho)/\pi$. Gaussian independence and a discrete IID uniform distribution on $\{-1,0,1\}$ assess exact ties.
+
+The finite-sample experiment has $p=12$, $n\in\{252,1008,4096\}$ for four continuous models, and $p=52$, $n\in\{252,4096\}$ for the same models. Two additional discrete cells use $p=12$, $n\in\{252,1008\}$. The resulting 22 cells contain 4,400 data sets. We compare the exact order construction followed by minor and conservation projection with a full-sample Kendall tau-a rectangular Hoeffding band. The latter uses
+\[
+ \varepsilon=\sqrt{\frac{2\log(2m/\alpha)}{\lfloor n/2\rfloor}},\qquad
+ [L_e,U_e]=[\widehat\tau_e-\varepsilon,\widehat\tau_e+\varepsilon]\cap[-1,1].
+\]
+Its projection uses exact per-vertex rectangular degree endpoints and marginal rank envelopes. This deliberately compares the earlier full-sample baseline with the disjoint-pair comparison procedure; the computational projection also differs. We do not attribute all gains to one component. Pairwise and conservation bounds are separately implemented and tested. The expensive path LP is evaluated on the complete empirical panel and exhaustive small examples, rather than being included in every Monte Carlo replication.
+
+Coverage requires simultaneous inclusion of all true degree and rank targets. For null models we check the entire tied-tree target, not a selected tree. We also measure any false certified edge order, mean interval width, the number of possible hubs, the probability of certifying the true hub, and the number of forced edges. Hub certification is distinct from complete-tree recovery. Tied leaves of a known star still have rank range $[2,p]$.
+
+\input{simulation_results.tex}
+
+\subsection{Pearson-bootstrap calibration as a separate diagnostic}
+The bootstrap branch uses all rows and local differences of Fisher-transformed Pearson correlations. For each local pair $(e,f)$, let $\widehat\theta_{ef}=\operatorname{atanh}(\widehat\rho_e)-\operatorname{atanh}(\widehat\rho_f)$. With bootstrap standard deviation $s_{ef}$ held fixed across resamples, define
+\[
+ Q_b=\max_{(e,f)}\left|\frac{\widehat\theta^{*(b)}_{ef}-\widehat\theta_{ef}}{s_{ef}}\right|.
+\]
+The empirical upper $0.95$ quantile gives simultaneous nominal intervals $\widehat\theta_{ef}\pm q s_{ef}$; only intervals excluding zero create strict orders. We reject degenerate studentizers rather than replacing them silently. Contrast calibration cancels shared shifts, but that algebraic property does not guarantee finite-sample coverage.
+
+There are 24 cells: $p\in\{12,52\}$, $n\in\{252,1008\}$, and Gaussian independence, separated star, near tie, $t_5$ star, and two Gaussian AR(1) versions (independence and star) with coefficient $0.4$. Stationary Gaussian innovations preserve the contemporaneous correlation target; burn-in is discarded. Each data set uses 499 bootstrap resamples. IID cells resample rows; AR cells use circular blocks of length $\max\{2,\operatorname{round}(n^{1/3})\}$. The same resamples calibrate the globally centered Fisher-z rectangular comparator. We separately report simultaneous input coverage, false-order familywise error and projected coverage.
+
+\input{bootstrap_results.tex}
+
+The block bootstrap is motivated by the dependent-resampling literature \citep{kunsch1989}, but no theorem in this paper validates this particular growing collection of studentized contrasts for financial returns. The observed failures preclude labelling the empirical bootstrap intervals as established 95\% confidence intervals. Increasing the number of bootstrap draws would reduce simulation noise in its quantile estimate; it would not by itself establish the missing calibration guarantee.
+
+\section{Polish equity reanalysis}\label{sec:gpw}
+We reuse a frozen Polish-market data assembly underlying the preceding version of this study \citep{previouscode}. The historical motivation is \citet{galazka2011}; the current data do not reproduce the 2011 sample. The assembly combines publicly available Bankier price histories, the WIG series and archived GPW index-portfolio information. It retains the previously recorded eligibility lists, source checks and data hashes. Thus changes in inference are not confounded with reselecting a more favorable stock universe.
+
+There are 231 historical origins from 2007--2025. At each origin we use 252 complete daily close-to-close log returns for the recorded eligible stocks, with 41--60 vertices across windows. Of 171 recorded security identities, histories were available for 164; 155 appear in a retained window. Eligibility requires complete past returns and volumes, positive volume on at least 90\% of sessions, at most 15\% zero close-to-close returns and positive return variance. No unavailable quotation is imputed. Membership follows archived quarterly portfolios rather than a fully reconciled daily record of extraordinary replacements. Prices are used as supplied and are not certified cash-dividend-inclusive total returns. Missing-history exclusions and corporate-action limitations remain those documented in the frozen source audit. These are available historical series, not a newly acquired complete licensed GPW database; survivorship and vendor adjustment limitations cannot be ruled out merely by the eligibility check.
+
+We analyse raw returns, daily cross-sectional demeaning, and residualization on WIG. All transformations are recomputed from the original and bootstrap covariance matrices, including factor fitting within resamples. Each origin uses 999 circular block-bootstrap replicates with block length ten; all three representations share the resampled covariance draws. This is conditional analysis for each frozen window, not simultaneous coverage across 231 overlapping origins or across representations. The exact IID theorem is not invoked for these returns.
+
+For each of the 693 origin--representation combinations, we perform local contrast calibration, cut/cycle screening, minor degree-difference projection, all selected path constraints, rationally certified LP degree bounds, and anchor-to-all degree comparisons. The anchor is the largest observed tree degree, with frozen-list tie handling. We then intersect conservation and direct-comparison rank bounds. The empirical evaluation therefore applies the stronger projection to the whole frozen panel rather than reporting a selected favorable window.
+
+\input{gpw_results.tex}
+
+\section{Computational verification and limitations}
+The implementation checks 300 random graphic minors against exhaustive enumeration of all labelled trees for $p=3,4,5,6$. All individual degree and pairwise degree extrema agree. The same 300 instances check exact rank projection over every feasible degree vector. In 32 additional examples with tied integer edge weights, exhaustive optimal trees satisfy every inserted path constraint and every reported LP bound. Independent rational arithmetic verifies 242 improved small-instance certificates. Thirty tied and continuous samples check the accelerated full-sample Kendall tau-a against the SciPy-based reference, and 30 samples check the optimized discordance counts against direct indicator counts. Exact-binomial superuniformity is also checked numerically over 196 combinations of sample size, null probability and significance threshold. These checks support implementation correctness; the coverage claim rests on the proofs, not on the checks.
+
+\input{verification_results.tex}
+
+The procedure still has limitations. Disjoint pairing sacrifices information, the local comparison family has $O(p^3)$ tests, and a weak or nearly tied hub may remain unidentified. The power bound is sufficient rather than sharp. A different valid joint test can be substituted, but its coverage must be established separately. The partial-order minor and the path LP are outer approximations; their integer degree bounds need not be sharp for the original statistical uncertainty set. The conservation rank endpoints are sharp only for their stated relaxation.
+
+The implementation forms local kernel Gram matrices, computes transitive closure, and uses union--find rank evaluations for all vertex pairs. A straightforward minor implementation needs $O(p^2m)$ edge visits up to union--find factors. The LP has $3m$ variables plus the selected path inequalities; the empirical specification solves $2p+2(p-1)$ objectives per window. More path inequalities can improve the projection but increase computation. Rational certificates make numerical verification reproducible and do not change the uncertainty model.
+
+\section{Discussion}
+The inferential question is whether the data establish a degree comparison or hub rank across all population-optimal trees. Direct Kendall kernel comparisons provide one finite-sample answer under IID sampling. Joint tree restrictions then translate valid orders into stronger degree information, while the sum of tree degrees constrains ranks. The construction uses established testing and optimization facts, with explicit assumptions and a checked path from tests to the reported endpoints.
+
+The favorable simulation cases show that a hub need not await recovery of every edge. The short-sample and Polish-market cases delimit this result: more detailed projection does not ensure a resolved rank, and bootstrap calibration remains a separate obstacle. Further progress for dependent financial data requires a justified simultaneous comparison procedure or additional defensible structure, rather than interpreting uncalibrated bootstrap frequencies as population confidence.
+
+\backmatter
+\bmhead{Funding}No dedicated funding was received for this study.
+\bmhead{Competing interests}The authors declare no relevant competing interests.
+\bmhead{Data availability}Derived results, fixed simulation designs, data provenance and verification code accompany the article. The empirical analysis uses the frozen historical data assembly described above. Raw third-party price histories are not redistributed in the public code repository; original source records and hashes document the inputs and their limitations.
+\bmhead{Code availability}The implementation and reproducibility materials are supplied in the accompanying revision package. The project repository is \url{https://github.com/mgalazka84/gpw-hub-reliability}, branch \texttt{contrast-revision-v0.3}, directory \texttt{contrast\_inference}. Earlier releases are retained for comparison.
+\bmhead{Use of generative AI}Generative AI assisted with coding, data handling, methodological development and manuscript drafting. The authors are responsible for checking the mathematical arguments, computations, references and final text.
+\setlength{\bibsep}{3pt}
+\bibliography{references}
+\end{document}

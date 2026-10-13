@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{All 231 windows per representation. Widths are averages of the within-window mean degree width. Full ranks is the mean fraction of vertices with interval $[1,p]$. Hubs counts certified unique hubs over all windows. These are nominal bootstrap diagnostics.}\label{tab:gpw}
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Representation & Minor width & Path-LP width & Full ranks & Hubs \\
+\midrule
+Raw & 49.89 & 45.99 & 1.00 & 0 \\
+Demeaned & 49.90 & 46.51 & 1.00 & 0 \\
+WIG residual & 49.91 & 47.63 & 1.00 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+The refined projection reduces the raw-network mean degree width from 49.89 to 45.99, a 7.8\% reduction relative to the minor. It does not resolve hub ranks: all 35,979 reported vertex--window--representation rank intervals remain $[1,p]$. No unique hub and no top-decile membership is certified. There are 85,129 saved rational certificates for improved degree or anchor-contrast endpoints. These improvements demonstrate a stricter feasible-set projection, but not an informative financial hub ranking.
+
+The all-ranks result is specific to these windows, this calibration and these outer projections. It does not prove that no population hub exists or that no other statistically justified procedure could identify one. It also does not validate the nominal error rate: the calibration failures in Table~\ref{tab:bootstrap} remain relevant.

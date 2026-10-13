@@ -1,0 +1,11 @@
+__pycache__/
+*.so
+*.so.tmp
+qa/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+WORK_LOG.md

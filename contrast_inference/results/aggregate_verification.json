@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exact_data_sets": 4400,
+  "bootstrap_data_sets": 2400,
+  "gpw_windows": 693,
+  "gpw_vertex_records": 35979,
+  "gpw_all_ranks_full": true,
+  "gpw_certificates": 85129,
+  "exact_worst_fwer": 0.07,
+  "bootstrap_worst_contrast_coverage": 0.22
+}

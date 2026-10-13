@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the revised method and preserve the version identifier."
+title: "Finite-sample edge-order inference and certified degree comparisons in correlation spanning trees"
+authors:
+  - family-names: "Gałązka"
+    given-names: "Marek"
+  - family-names: "Wdowicka"
+    given-names: "Hanna"
+version: "0.3"
+url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/contrast-revision-v0.3/contrast_inference"
+license: MIT

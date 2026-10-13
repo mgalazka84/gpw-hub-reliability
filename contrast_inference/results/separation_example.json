@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "box_degree_lower": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1
+  ],
+  "box_degree_upper": [
+    6,
+    5,
+    5,
+    5,
+    5,
+    5,
+    2,
+    1
+  ],
+  "box_hub_rank": [
+    1,
+    7
+  ],
+  "order_hub_rank": [
+    1,
+    1
+  ],
+  "order_forced_edges": 7,
+  "minimum_endpoint_eigenvalue": 0.802173949617738
+}
