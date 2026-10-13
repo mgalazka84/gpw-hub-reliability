@@ -9,3 +9,5 @@ qa/
 *.fdb_latexmk
 *.synctex.gz
 WORK_LOG.md
+
+qa_v04/

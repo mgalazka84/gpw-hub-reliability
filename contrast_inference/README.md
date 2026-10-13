@@ -1,6 +1,6 @@
 # Finite-sample edge-order inference and certified degree comparisons
 
-Authors: Marek Gałązka and Hanna Wdowicka. Revision 0.3.
+Authors: Marek Gałązka and Hanna Wdowicka. Revision 0.4.
 
 This directory replaces the scientific focus of the preceding manuscript. It contains exact conditional McNemar tests of Kendall edge orders using predetermined disjoint IID observation pairs; Holm familywise correction; graphic-minor degree-difference bounds; cycle-path LP restrictions with rational dual certificates; and sharp rank projection over integer degree boxes subject to the tree degree sum.
 
@@ -19,6 +19,7 @@ python contrast_inference/run_exact_simulations.py --repetitions 200
 python contrast_inference/run_bootstrap_simulations.py --repetitions 100 --bootstrap 499
 python contrast_inference/verify_revision.py --gpw
 python contrast_inference/build_results.py
+python contrast_inference/build_extended_results.py
 latexmk -pdf -cd contrast_inference/manuscript/revision.tex
 ```
 
@@ -38,8 +39,20 @@ Required inputs are `data/close_simple_returns.csv.gz`, `data/wig_ohlc.csv`, and
 - 2,400 Pearson-bootstrap data sets, 100 repetitions per cell and 499 bootstrap draws, including serial dependence and dimensions 12 and 52.
 - All 231 frozen GPW origins, three representations, 999 bootstrap draws per origin: 693 analyses and 35,979 vertex records.
 - 85,129 improving rational certificates from the empirical LP projections.
+- 466 additional GPW analyses: nested liquid groups of 10, 20 and 40 stocks, 252/504/1008 sessions, a fixed annual origin grid, 34 block-length checks, and 303 complete forward diagnostics. All additional rank ranges remain full; matched-group degree width improves by about 10–14%.
+- 24,419 additional independently verified rational certificates.
 - All finite small-instance checks and independent certificate verification are recorded as JSON.
 
 Classical ingredients are credited in the manuscript, including McNemar, Holm, Zaffalon–Hutter, matroid optimization, and interval spanning-tree literature. No claim is made that cut/cycle screening, greedy matroid rank identities, or confidence-set projection are themselves new. The code demonstrates a specific statistical construction and stronger checked projections; publication suitability remains an editorial assessment.
 
 `manuscript/revision.pdf` is the revised English manuscript; `REWIZJA_MERYTORYCZNA_PL.pdf` summarizes changes and limitations in Polish. The frozen previously submitted version remains in `statistical_papers/`.
+
+## Additional empirical grid (version 0.4)
+
+```bash
+python contrast_inference/run_extended_gpw.py --data-root /path/to/empirical --bootstrap 999 --workers 6
+python contrast_inference/verify_extended_gpw.py /path/to/empirical
+python contrast_inference/build_extended_results.py
+```
+
+The new design additionally requires `data/volume_panel.csv.gz` and `data/close_panel.csv.gz`. Universes are chosen on the longest calendar-available past window; stocks are fixed across lookback comparisons, and groups are nested by median supplied price times volume. Future data never enter selection. All 81 exclusions among 513 planned primary analyses are retained. Forward agreement is a descriptive stability measure, not coverage validation. The additional results do not repair the Pearson-bootstrap calibration failures.

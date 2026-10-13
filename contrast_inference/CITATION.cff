@@ -6,6 +6,6 @@ authors:
     given-names: "Marek"
   - family-names: "Wdowicka"
     given-names: "Hanna"
-version: "0.3"
-url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/contrast-revision-v0.3/contrast_inference"
+version: "0.4"
+url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/empirical-revision-v0.4/contrast_inference"
 license: MIT

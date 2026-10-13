@@ -1,3 +1,4 @@
+"""Polish author memo, expanded empirical results and outlet assessment."""
 from pathlib import Path
 import json
 from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,PageBreak,Table,TableStyle
@@ -5,44 +6,47 @@ from reportlab.lib.styles import getSampleStyleSheet,ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_LEFT
-root=Path(__file__).parent
+import pandas as pd
+ROOT=Path(__file__).parent
 pdfmetrics.registerFont(TTFont('DejaVu','/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'));pdfmetrics.registerFont(TTFont('DejaVuBold','/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'))
-styles=getSampleStyleSheet();styles.add(ParagraphStyle(name='PL',fontName='DejaVu',fontSize=10.2,leading=15,spaceAfter=10));styles.add(ParagraphStyle(name='PLh',fontName='DejaVuBold',fontSize=14,leading=19,spaceBefore=14,spaceAfter=10,textColor=colors.HexColor('#174f74')));styles.add(ParagraphStyle(name='PLtitle',fontName='DejaVuBold',fontSize=21,leading=27,spaceAfter=17));styles.add(ParagraphStyle(name='PLsmall',fontName='DejaVu',fontSize=8.6,leading=12,spaceAfter=8))
-story=[]
+styles=getSampleStyleSheet();styles.add(ParagraphStyle(name='PL',fontName='DejaVu',fontSize=10.1,leading=14.8,spaceAfter=10));styles.add(ParagraphStyle(name='PLh',fontName='DejaVuBold',fontSize=14,leading=19,spaceBefore=12,spaceAfter=9,textColor=colors.HexColor('#174f74')));styles.add(ParagraphStyle(name='PLtitle',fontName='DejaVuBold',fontSize=20,leading=26,spaceAfter=16));styles.add(ParagraphStyle(name='PLsmall',fontName='DejaVu',fontSize=8.5,leading=11.8,spaceAfter=7));story=[]
 def p(t,sty='PL'):story.append(Paragraph(t,styles[sty]))
-p('Przebudowa merytoryczna artykułu','PLtitle')
-p('Marek Gałązka i Hanna Wdowicka | wersja 0.3','PLsmall')
-p('Nowy tytuł: Finite-sample edge-order inference and certified degree comparisons in correlation spanning trees.')
-p('Zmieniony jest rdzeń metody, dowody i doświadczenia obliczeniowe. Wcześniejsze twierdzenie o prostokątnych przedziałach zostało przesunięte do roli metody porównawczej. Nie przedstawiamy klasycznego argumentu wymiany dla matroidów jako nowego głównego wyniku.')
-p('Co stanowi zmianę','PLh')
-for t in [
-'1. Bezpośrednie testy porządku korelacji Kendalla. Z góry ustalone, rozłączne pary niezależnych obserwacji dają dokładne warunkowe testy McNemara. Korekta Holma kontroluje prawdopodobieństwo choć jednego fałszywego porównania. Dowód obejmuje zmienne dyskretne dzięki niezależnemu rozstrzyganiu remisów i zachowuje cel Kendall tau-a.',
-'2. Wspólne ograniczenia drzewa. Obliczamy różnice stopni w jednym dopuszczalnym drzewie, dodajemy zakazane konfiguracje ścieżek i rozwiązujemy silniejsze zadania liniowe. Poprawione granice mają certyfikaty wymierne, które można sprawdzić bez ufania dokładności solvera.',
-'3. Ostrzejsze ograniczenia rang. Oprócz bezpośrednich porównań wykorzystujemy tożsamość sumy stopni 2p-2. Podajemy dowód dokładności obliczenia rang w obrębie relaksacji stopni; nie przypisujemy mu dokładności dla całego pierwotnego problemu.',
-'4. Literatura i zakres nowości. Dodane zostały prace Zaffalona i Huttera o odpornym wnioskowaniu o drzewach, literatura o możliwej i koniecznej optymalności, analiza wrażliwości MST i combinatorial inference. Test McNemara, korekta Holma i własności matroidów są wyraźnie przypisane wcześniejszej literaturze.'
-]:p(t)
-p('Istotna granica: ścisła gwarancja dotyczy niezależnych obserwacji. Nie przenosimy jej na zależne w czasie stopy zwrotu z GPW.','PLsmall')
-story.append(PageBreak())
-p('Wyniki nowych obliczeń','PLtitle')
-p('Przeprowadzono 4400 prób dla metody dokładnej i 2400 prób walidujących bootstrap. Ponownie obliczono wszystkie 231 okien GPW w trzech reprezentacjach: 693 analizy i 35 979 rekordów spółka-okno-reprezentacja.')
-data=[['Scenariusz, n = 4096','Nowa metoda','Poprzednia'],['12 spółek, model Gaussa','100%','0%'],['12 spółek, model t(5)','100%','0%'],['52 spółki, model Gaussa','79%','0%'],['52 spółki, model t(5)','78%','0%']]
-t=Table([[Paragraph(c,styles['PLsmall']) for c in row] for row in data],colWidths=[250,95,95]);t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8f0f5')),('LINEBELOW',(0,0),(-1,0),.7,colors.HexColor('#174f74')),('VALIGN',(0,0),(-1,-1),'TOP'),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),4)]));story.append(t);story.append(Spacer(1,10))
-p('Tabela: odsetek prób, w których certyfikowano prawdziwy hub jako jedyny pierwszy w rankingu; po 200 prób w każdym scenariuszu. Nowa metoda porównań wykorzystuje rozłączne pary, a poprzednia pełną estymatę Kendalla i jednoczesne pasmo Hoeffdinga. Zmienione są zarówno kalibracja, jak i projekcja. To nie jest twierdzenie o przewadze nad wszystkimi możliwymi metodami.','PLsmall')
-p('Przy krótkich próbach i niemal związanych hubach metoda najczęściej pozostaje nierozstrzygająca. W jednym eksperymencie zerowym zaobserwowano 14 fałszywych porządków na 200 prób (7%); podajemy przedział Monte Carlo, obejmujący 5%, i zachowujemy ten wynik w tabeli.')
-p('Bootstrap nadal wymaga ostrożnej interpretacji','PLh')
-p('W najtrudniejszym scenariuszu AR(1), przy 52 zmiennych i n = 252, jednoczesne pokrycie przedziałów kontrastów wynosi tylko 22%, przy nominalnych 95%. Częstość choć jednego fałszywego porównania wynosi 78%. Tego wariantu nie można przedstawiać jako naprawionej procedury 95%. Wynik został zachowany i opisany jako istotne niepowodzenie kalibracji.')
-p('Dobre pokrycie szerokich przedziałów stopni nie usuwa tego problemu: zbyt szeroka projekcja może ukrywać błędy wejściowych testów. Dlatego artykuł osobno raportuje kalibrację i wyniki końcowej projekcji.')
-story.append(PageBreak())
-p('GPW, weryfikacja i status','PLtitle')
-p('W surowej sieci GPW średnia szerokość przedziału stopnia spada z 49,89 po projekcji na minor do 45,99 po dodaniu ograniczeń ścieżek, czyli o około 7,8%. Dla demeaning spada z 49,90 do 46,51, a dla reszt względem WIG z 49,91 do 47,63. To rzeczywiste zawężenie granic stopni.')
-p('Jednocześnie wszystkie 35 979 przedziałów rang nadal wynoszą [1,p]. Nie uzyskano certyfikatu jednego huba ani przynależności do górnego decyla. Artykuł podaje ten wynik wprost. Obliczenia GPW pozostają diagnostyką nominalnego bootstrapu, bez gwarancji wynikającej z twierdzenia dla próby niezależnej.')
-p('Sprawdzenie implementacji','PLh')
-p('Pełna enumeracja małych drzew potwierdziła 300 przypadków ekstremów stopni i ich różnic oraz 300 przypadków ograniczeń rang. Dodatkowo sprawdzono 32 przypadki projekcji z ograniczeniami ścieżek, 242 poprawiające certyfikaty dla małych grafów, 30 porównań pełnej estymaty Kendalla i 30 porównań bezpośrednich liczników niezgodności. Dla GPW niezależny weryfikator sprawdził wszystkie 85 129 zapisanych certyfikatów wymiernych. Wszystkie przeszły weryfikację; końcowy status to PASS.')
-p('Granice wkładu','PLh')
-p('Zmiana odpowiada na zarzuty merytoryczne, ale nie gwarantuje akceptacji. Nowa konstrukcja nadal łączy znane narzędzia. Jej wartość polega na dokładnej statystycznie ścieżce od testów Kendalla do hubów, mocniejszej projekcji i sprawdzonych wynikach. Dla zależnych danych finansowych pozostaje otwarty problem poprawnej kalibracji. Nie należy go maskować zmianą tytułu lub deklaracją nowości.')
-p('Przekazywana wersja zawiera tekst angielski, dowody, bibliografię, kod, komplet wyników i instrukcje odtworzenia. Zachowano oboje autorów oraz krótką deklarację rzeczywistego zakresu pomocy AI. Poprzednio zgłoszone wersje pozostają zachowane. Nie dokonano nowego zgłoszenia do czasopisma.')
-p('Repozytorium: https://github.com/mgalazka84/gpw-hub-reliability<br/>Gałąź: contrast-revision-v0.3; katalog: contrast_inference.','PLsmall')
-def footer(canvas,doc):
- canvas.setFont('DejaVu',8);canvas.setFillColor(colors.HexColor('#607080'));canvas.drawString(52,28,'Rewizja merytoryczna | wersja 0.3');canvas.drawRightString(543,28,str(doc.page))
-SimpleDocTemplate(str(root/'REWIZJA_MERYTORYCZNA_PL.pdf'),pagesize=(595.28,841.89),rightMargin=52,leftMargin=52,topMargin=48,bottomMargin=48,title='Przebudowa merytoryczna artykułu',author='Marek Gałązka i Hanna Wdowicka').build(story,onFirstPage=footer,onLaterPages=footer)
+def tbl(data,widths):
+ t=Table([[Paragraph(str(c),styles['PLsmall']) for c in row] for row in data],colWidths=widths);t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8f0f5')),('LINEBELOW',(0,0),(-1,0),.7,colors.HexColor('#174f74')),('VALIGN',(0,0),(-1,-1),'TOP'),('TOPPADDING',(0,0),(-1,-1),6),('BOTTOMPADDING',(0,0),(-1,-1),3)]));story.append(t);story.append(Spacer(1,9))
+p('Artykuł po rozszerzeniu analizy GPW','PLtitle');p('Marek Gałązka i Hanna Wdowicka | wersja 0.4','PLsmall')
+p('Finite-sample edge-order inference and certified degree comparisons in correlation spanning trees.')
+p('Zachowano zmianę metodologiczną z poprzedniej rewizji: dokładne testy McNemara dla porównań Kendalla na z góry ustalonych, rozłącznych parach niezależnych obserwacji, korektę Holma, bezpośrednie granice różnic stopni, ograniczenia ścieżek oraz sumę stopni drzewa. Twierdzenie o przedziałach prostokątnych jest metodą porównawczą; klasyczne składniki są przypisane literaturze.')
+p('Co dodano teraz','PLh')
+for t in ['Dłuższe okna: 252, 504 i 1008 sesji. Grupy 10, 20 i 40 spółek są zagnieżdżone i wybierane według mediany iloczynu dostępnej ceny zamknięcia i wolumenu na wcześniejszym, najdłuższym oknie. To przybliżenie płynności z danych dostawcy.', 'Porównanie przy stałym składzie. W obrębie danego roku te same spółki są używane przy wszystkich długościach okien. Dane przyszłe nie uczestniczą w wyborze spółek. Rozmiar grupy zmienia badane drzewo, dlatego hub małej grupy nie jest automatycznie hubem całego rynku.', 'Pełna ustalona siatka. Wybrano ostatni zachowany termin obserwacji w każdym z 19 lat. Z 513 planowanych konfiguracji 81 wykluczono z powodu niedostatecznej historii lub zbyt małej liczby kwalifikujących się spółek. Obliczono wszystkie 432 dostępne analizy.', 'Sprawdzenia dodatkowe: 34 analizy długości bloków 5 i 20 oraz diagnostykę w następnych 252 sesjach. Uwzględniono pełną listę braków danych i wszystkie wyniki, także nierozstrzygające.']:p(t)
+p('To retrospektywna analiza wrażliwości, ustalona przed obliczeniem nowych wyników. Nie jest prerejestracją ani potwierdzeniem poprawności nominalnego poziomu bootstrapu.','PLsmall')
+story.append(PageBreak());p('Wyniki rzeczywistych danych','PLtitle')
+d=pd.read_csv(ROOT/'results/gpw_extended_paired_summary.csv');data=[['Spółki','Wspólne terminy','Sesje','Średnia szerokość stopnia','Obowiązkowe krawędzie']]
+for _,r in d.iterrows():data.append([int(r.cap),int(r.origins),int(r.lookback),f'{r.degree_width:.2f}',f'{r.forced:.2f}'])
+tbl(data,[55,88,60,142,142]);p('Tabela dotyczy surowych sieci, tych samych spółek oraz terminów dostępnych dla wszystkich trzech długości próby. Liczba obowiązkowych krawędzi wynika z nominalnego regionu porządków bootstrapowych.','PLsmall')
+p('Wydłużenie próby z 252 do 1008 sesji zawęża przedziały stopni średnio o 13,9% dla 10 spółek, 14,1% dla 20 i 10,3% dla 40. Jest to mierzalna poprawa rozdzielczości stopni, przy kontrolowanym składzie grup.')
+p('Rangi nadal pozostają nierozstrzygnięte','PLh');p('We wszystkich 432 analizach podstawowych i 34 sprawdzeniach długości bloków przedziały rang pozostają [1,p]. Nie uzyskano certyfikatu jednego huba ani dokładnego stopnia pojedynczej spółki. Ten wynik został zachowany w artykule. Nie deklarujemy, że samo wydłużenie okna rozwiązało problem.')
+p('Łącznie dodano 466 analiz, 9710 rekordów spółka-konfiguracja i 24 419 poprawiających certyfikatów wymiernych. Każdy certyfikat przeszedł niezależne sprawdzenie. Wcześniejszy pełny panel 231 terminów i jego 693 analizy również pozostają w artykule.')
+p('Dłuższe okno daje więcej obserwacji, ale może łączyć różne reżimy rynkowe. Korzyść obliczeniowa nie ustanawia stacjonarności procesu ani prawidłowego pokrycia statystycznego.','PLsmall')
+story.append(PageBreak());p('Stabilność w kolejnej próbie','PLtitle')
+f=pd.read_csv(ROOT/'results/gpw_extended_forward_summary.csv');label={'raw':'Surowe','demeaned':'Po demeaning','factor_residual':'Reszty WIG'};data=[['Sieć','Dostępne konfiguracje','Zgodność kierunków','Hub nadal na szczycie']]
+for _,r in f.iterrows():data.append([label[r.network],int(r.configurations),f'{100*r.mean_order_agreement:.1f}%',f'{int(r.anchor_still_top)}/{int(r.configurations)}'])
+tbl(data,[130,95,120,142]);p('Hub nadal na szczycie obejmuje remisy. Zgodność kierunków jest średnią odsetków porządków krawędzi zgodnych z korelacjami oszacowanymi w następnych 252 sesjach.','PLsmall')
+p('Dla każdej reprezentacji dostępne są 93 ze 144 konfiguracji podstawowych. Pozostałe 51 ma braki przyszłych historii lub za krótki okres obserwacji. Okna i grupy częściowo się pokrywają, więc nie są to niezależne próby. Badany skład spółek pozostaje stały w części przyszłej.')
+p('W kierunkach porównań krawędzi widać dużą zgodność, lecz tożsamość empirycznego huba znacznie częściej się zmienia. To porównanie różnych cech sieci, a nie test pokrycia populacyjnego. Nawet duża zgodność pojedynczych kierunków nie oznacza zachowania wszystkich porównań jednocześnie.')
+p('Ilustracja z 2008 r.','PLh');p('Dla 10 spółek i 504 sesji PKO BP ma najwyższy stopień, z uwzględnieniem remisów, w 91,2% drzew bootstrapowych. Przedział jego rangi nadal wynosi [1,10]. W następnej próbie szacowana ranga wynosi [3,10], mimo 100% zgodności kierunków wskazanych porządków krawędzi. Przykład wybrano retrospektywnie według jawnej reguły; pełna siatka wyników jest udostępniona.')
+p('Weryfikacja i ograniczenia','PLh');p('Niezależnie odtworzono wybór 50 grup spółek, sprawdzono pięć sum kontrolnych wejściowych plików, wszystkie nowe rekordy wyników, 303 dostępne diagnostyki przyszłe oraz 24 419 certyfikatów. Wszystkie kontrole zakończyły się PASS. Wcześniejszy problem kalibracji bootstrapu, w tym pokrycie 22% w trudnym scenariuszu AR(1), pozostaje otwarty. Ścisła gwarancja Kendalla dotyczy niezależnych obserwacji.')
+story.append(PageBreak());p('Moje typy do publikacji','PLtitle');p('Kolejność wynika z dopasowania aktualnej treści, a nie z deklarowanej szansy przyjęcia. Wszystkie trzy mają 100 punktów w ostatnim opublikowanym wykazie ministerialnym (2024). Model subskrypcyjny pozwala publikować bez APC; otwarty dostęp jest opcją płatną.','PLsmall')
+tbl([['Kolejność / czasopismo','Dopasowanie i główne ryzyko'],['1. Journal of Complex Networks','Najbardziej naturalny odbiorca: niepewność cech sieci, drzewa korelacyjne, algorytmy i rzeczywiste dane. Ryzyko: nadal trzeba wykazać istotny wkład w analizę sieci.'],['2. Computational Statistics & Data Analysis','Dobre dopasowanie metod obliczeniowych, symulacji, projekcji i walidacji. Ryzyko: połączenie klasycznych narzędzi może zostać ocenione jako niewystarczająco nowe.'],['3. Journal of Statistical Planning and Inference','Alternatywa dla nacisku na dokładne wnioskowanie, remisy i pokrycie. Wymaga szczególnie przekonującego własnego wkładu statystycznego; części finansowej nie należy używać jako jego substytutu.']],[184,303])
+p('Pierwszy wybór: Journal of Complex Networks. Nie dokonałem zgłoszenia. Rozszerzenie empiryczne jest ukończone, ale nie uzasadnia twierdzenia o rozwiązaniu problemu populacyjnego huba na GPW ani gwarancji akceptacji.')
+p('Statistics and Computing nie traktuję jako domyślnie bezpłatnej alternatywy: nowe zgłoszenia od lipca 2026 są objęte APC po akceptacji, z możliwością zwolnienia z opłaty. Physica A i Computational Statistics mają po 70 punktów, więc nie spełniają progu.','PLsmall')
+p('Źródła oceny czasopism','PLh')
+for url,text in [
+('https://www.gov.pl/attachment/62739f3a-6a1d-4659-98ad-59dd63108ee7','Wykaz ministerialny: punktacja (2024)'),
+('https://academic.oup.com/comnet/pages/About','Journal of Complex Networks: zakres'),
+('https://academic.oup.com/comnet/pages/General_Instructions','Journal of Complex Networks: standardowa licencja i opcjonalne OA'),
+('https://shop.elsevier.com/journals/computational-statistics-and-data-analysis/0167-9473','CSDA: zakres i model subskrypcyjny'),
+('https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection','Elsevier: brak opłaty publikacyjnej w modelu subskrypcyjnym'),
+('https://www.sciencedirect.com/journal/journal-of-statistical-planning-and-inference/about/insights','JSPI: opcja subskrypcyjna bez opłaty publikacyjnej'),
+('https://link.springer.com/journal/11222','Statistics and Computing: zmiana zasad opłat')]:p(f'<link href="{url}" color="#174f74">{text}</link>','PLsmall')
+def footer(canvas,doc):canvas.setFont('DejaVu',8);canvas.setFillColor(colors.HexColor('#607080'));canvas.drawString(52,28,'Rewizja empiryczna | wersja 0.4');canvas.drawRightString(543,28,str(doc.page))
+SimpleDocTemplate(str(ROOT/'REWIZJA_MERYTORYCZNA_PL.pdf'),pagesize=(595.28,841.89),rightMargin=52,leftMargin=52,topMargin=46,bottomMargin=48,title='Rozszerzona analiza GPW i wybór czasopisma',author='Marek Gałązka i Hanna Wdowicka').build(story,onFirstPage=footer,onLaterPages=footer)

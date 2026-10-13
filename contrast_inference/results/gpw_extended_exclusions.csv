@@ -1,0 +1,28 @@
+origin,lookback,cap,reason,eligible
+2007-12-05,1008,10,insufficient calendar history,0
+2007-12-05,1008,20,insufficient calendar history,0
+2007-12-05,1008,40,insufficient calendar history,0
+2008-12-19,1008,10,insufficient calendar history,0
+2008-12-19,1008,20,insufficient calendar history,0
+2008-12-19,1008,40,insufficient calendar history,0
+2009-12-04,252,40,fewer than cap eligible stocks on common longest lookback,31
+2009-12-04,504,40,fewer than cap eligible stocks on common longest lookback,31
+2009-12-04,1008,40,fewer than cap eligible stocks on common longest lookback,31
+2010-12-16,252,40,fewer than cap eligible stocks on common longest lookback,35
+2010-12-16,504,40,fewer than cap eligible stocks on common longest lookback,35
+2010-12-16,1008,40,fewer than cap eligible stocks on common longest lookback,35
+2011-12-30,252,40,fewer than cap eligible stocks on common longest lookback,33
+2011-12-30,504,40,fewer than cap eligible stocks on common longest lookback,33
+2011-12-30,1008,40,fewer than cap eligible stocks on common longest lookback,33
+2012-12-12,252,40,fewer than cap eligible stocks on common longest lookback,31
+2012-12-12,504,40,fewer than cap eligible stocks on common longest lookback,31
+2012-12-12,1008,40,fewer than cap eligible stocks on common longest lookback,31
+2013-12-03,252,40,fewer than cap eligible stocks on common longest lookback,30
+2013-12-03,504,40,fewer than cap eligible stocks on common longest lookback,30
+2013-12-03,1008,40,fewer than cap eligible stocks on common longest lookback,30
+2014-12-18,252,40,fewer than cap eligible stocks on common longest lookback,32
+2014-12-18,504,40,fewer than cap eligible stocks on common longest lookback,32
+2014-12-18,1008,40,fewer than cap eligible stocks on common longest lookback,32
+2015-12-04,252,40,fewer than cap eligible stocks on common longest lookback,35
+2015-12-04,504,40,fewer than cap eligible stocks on common longest lookback,35
+2015-12-04,1008,40,fewer than cap eligible stocks on common longest lookback,35

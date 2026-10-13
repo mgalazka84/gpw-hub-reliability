@@ -1,0 +1,4 @@
+network,configurations,mean_order_agreement,anchor_still_top,anchor_still_top_fraction
+raw,93,0.9567413080860463,35,0.3763440860215054
+demeaned,93,0.9523359659724455,19,0.20430107526881722
+factor_residual,93,0.9394081214133735,19,0.20430107526881722

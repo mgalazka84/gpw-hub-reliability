@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "analyses": 466,
+  "primary_analyses": 432,
+  "block_sensitivity_analyses": 34,
+  "vertex_records": 9710,
+  "planned_primary_analyses": 513,
+  "excluded_primary_analyses": 81,
+  "source_hashes": 5,
+  "stock_universes_independently_checked": 50,
+  "forward_analyses_recomputed": 303,
+  "rational_certificates": 24419
+}
