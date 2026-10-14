@@ -1,6 +1,6 @@
 # Exact edge-order inference and certified tree degree comparisons
 
-Marek Gałązka and Hanna Wdowicka. Submission version 0.5.2.
+Marek Gałązka and Hanna Wdowicka. Submission version 0.5.3.
 
 The manuscript studies population **Kendall tau-a** correlation spanning trees.
 It combines exact disjoint-pair McNemar tests, dependence-safe p-value averaging,
@@ -53,6 +53,7 @@ python contrast_inference/verify_estimands.py
 python contrast_inference/verify_revision.py
 python contrast_inference/verify_review.py
 python contrast_inference/build_review_results.py --from-records
+python contrast_inference/build_intro_figure.py
 latexmk -pdf -cd contrast_inference/manuscript/revision.tex
 latexmk -pdf -cd contrast_inference/manuscript/anonymous.tex
 ```
@@ -79,6 +80,7 @@ python contrast_inference/run_cross_section.py --workers 2
 python contrast_inference/run_evalue_cross_section.py --workers 2
 python contrast_inference/build_review_results.py
 python contrast_inference/verify_review.py
+python contrast_inference/build_intro_figure.py
 latexmk -pdf -cd contrast_inference/manuscript/revision.tex
 ```
 
@@ -110,3 +112,10 @@ documents what is exact within an outer relaxation and what is asymptotic.
 also includes an anonymous manuscript, title page and Highlights. Dataset and software provenance are in
 `data/cross_section/PROVENANCE.json`, `LICENSE_DATA.txt`, `CITATION.cff` and
 `MANIFEST.json`. The 0.5.1 consistency check records separate local/complete LP counts and base/extended GPW counts. Earlier reproducibility records remain archived.
+
+The introductory figure displays the pooled Abalone sample tree, 499/499
+bootstrap unique-hub selections and the local E64 rank range [1,3].
+`build_intro_figure.py` independently reconstructs the sample tau-a tree from
+the raw measurements and checks its displayed values against frozen records.
+Its record is `results/intro_figure_verification.json`; the simultaneous coverage
+guarantee requires the stated IID working model.

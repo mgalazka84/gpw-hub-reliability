@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "dataset": "Abalone",
+  "stratum": "pooled",
+  "n": 4177,
+  "p": 8,
+  "target": "Kendall tau-a",
+  "method": "evalue_64",
+  "family": "local",
+  "projection": "joint cycle-path LP",
+  "alpha": 0.05,
+  "IID_working_model_required": true,
+  "whole_weight_sample_degree": 4,
+  "bootstrap_unique_hub_count": 499,
+  "bootstrap_repetitions": 499,
+  "degree_bounds": [
+    3,
+    5
+  ],
+  "rank_bounds": [
+    1,
+    3
+  ],
+  "independent_sample_tree_reconstruction": "SciPy tau-b converted to tau-a + sparse MST",
+  "raw_data_sha256": "de37cdcdcaaa50c309d514f248f7c2302a5f1f88c168905eba23fe2fbc78449f",
+  "record_hashes": {
+    "results/cross_section/nodes_all.csv": "88b4673763a637d7d0988f0dcd76c0287e6fb5a0a18c153f45a265219bbc7dd4",
+    "results/cross_section/edges.csv": "40e38769520a10f4c178bb14eaef6a4af43c9008d645807df19c84ee76b5842f",
+    "results/cross_section/design.json": "556b0437722c3990ff2602daed20b0bc18a18bd7eb2eae0268dbdc5102a2b04c",
+    "results/evalue/cross_section/dataset00.json": "51d583ed6aee8162cae3b232f051332fd8ff0b394ff10307eb6503c285ea1186"
+  }
+}

@@ -6,6 +6,6 @@ authors:
     given-names: "Marek"
   - family-names: "Wdowicka"
     given-names: "Hanna"
-version: "0.5.2"
-url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/csda-submission-v0.5.2/contrast_inference"
+version: "0.5.3"
+url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/csda-submission-v0.5.3/contrast_inference"
 license: MIT
