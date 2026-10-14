@@ -1,10 +1,10 @@
 # Finite-sample edge-order inference and certified tree degree comparisons
 
-Marek Gałązka and Hanna Wdowicka. Research revision **0.5**.
+Marek Gałązka and Hanna Wdowicka. Research version **0.5.1**.
 
-The current article, implementation and complete review-driven results are in
+The current article, implementation and complete validation results are in
 [`contrast_inference/`](contrast_inference/README.md), on branch
-[`csda-revision-v0.5`](https://github.com/mgalazka84/gpw-hub-reliability/tree/csda-revision-v0.5).
+[`csda-submission-v0.5.1`](https://github.com/mgalazka84/gpw-hub-reliability/tree/csda-submission-v0.5.1).
 
 The revision combines valid Kendall tau-a matching e-values with certified
 spanning-tree degree and rank projections. It includes eight matched methods,
@@ -20,9 +20,8 @@ as a sensitivity study. Bootstrap calibration and finite-sample guarantees are
 distinguished throughout the article.
 
 See [`contrast_inference/README.md`](contrast_inference/README.md) for verification
-and recomputation, and [`contrast_inference/review_materials/`](contrast_inference/review_materials/)
-for the paper, anonymous manuscript, title page, Highlights and point-by-point
-revision report. `contrast_inference/MANIFEST.json` records unchanged-file SHA-256 hashes.
+and recomputation, and [`contrast_inference/submission_materials/`](contrast_inference/submission_materials/)
+for the paper, anonymous manuscript, title page and Highlights. `contrast_inference/MANIFEST.json` records unchanged-file SHA-256 hashes.
 
 Earlier versions remain available at their original branches and tags, including
 `empirical-revision-v0.4`. The other root directories preserve the earlier GPW

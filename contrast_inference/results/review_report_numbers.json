@@ -57,5 +57,11 @@
       3
     ],
     "verified_certificates": 16530
+  },
+  "gpw_verification": {
+    "base_certificates": 85129,
+    "extended_certificates": 24419,
+    "total_certificates": 109548,
+    "total_analyses": 1159
   }
 }

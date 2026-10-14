@@ -52,7 +52,8 @@ def run():
  txt+=r'The complete panel leaves financial hub ranks unresolved under the stated Pearson calibrations and outer projections. The archived 24-cell diagnostic and paired IID audit document calibration limitations; these market ranges are interpreted as sensitivity outputs.'+'\n'
  write('gpw_results.tex',txt)
  v=json.loads((R/'gpw_certificate_verification.json').read_text());assert v['status']=='PASS' and v['windows']==693 and v['certificates']==int(g.nontrivial_dual_certificates.sum())
- write('verification_results.tex',f'For the empirical run, independent Python-integer verification passed for all {v["certificates"]:,} saved improving certificates in all {v["windows"]} origin--representation combinations. Source-input hashes, fixed seeds, full replication records, derived order relations and the verifier are retained. No raw third-party price series is required to check the saved optimization certificates.\n')
+ from build_review_results import build_gpw_verification
+ build_gpw_verification()
  # Scientific figure: inference of a functional need not recover the object.
  plt.rcParams.update({'font.size':9,'pdf.fonttype':42,'font.family':'DejaVu Sans'})
  fig,ax=plt.subplots(figsize=(6.4,3.2));xx=np.arange(4);labels=[]

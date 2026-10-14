@@ -55,7 +55,11 @@ Two hubs & P & 8.43 & 6.66 & 11.00 & 10.96 & 10.96\\
 Two hubs & E64 & 5.82 & 5.11 & 10.98 & 10.54 & 10.54\\
 Two hubs & M-C & 0.58 & 0.58 & 7.67 & 7.67 & 7.67\\
 \bottomrule\end{tabular}\end{lrbox}\ifdim\wd\resultsbox>\linewidth\resizebox{\linewidth}{!}{\usebox{\resultsbox}}\else\usebox{\resultsbox}\fi\end{table}
-The local-family path stage solves 950{,}820 LP objectives and independently verifies 375{,}946 improving rational certificates. The paired subsets show the contribution of path restrictions after fixing calibration. Degree-conservation and direct-pair rank results are additionally recorded as separate stages.
+Table~\ref{tab:ablation} locates the path-projection gain mainly in degree precision. For one-matching inference, Gaussian-star mean degree width decreases from 8.94 to 8.40; in the chain it decreases from 8.00 to 4.58. The corresponding E64 chain widths decrease from 6.48 to 3.97. Most exact rank widths remain approximately 11, the full-range width at $p=12$. In the near-tie multiplier example, the path stage decreases mean rank width only from 10.90 to 10.81. Thus these $n=1008$ simulations demonstrate useful degree restrictions but little additional rank resolution: tighter degree bounds need not establish a positive degree difference between two vertices.
+
+Population degree ties also impose an irreducible rank width. Even with the exact Gaussian-star tree known, its eleven leaves occupy ranks 2--12 under the tie-inclusive target, giving mean rank width $110/12=9.17$. For the chain and two-hub trees, the corresponding mean is $92/12=7.67$. The displayed multiplier results at these widths therefore retain the required tied ranks. Degree-conservation and direct-pair rank outputs are archived separately from the path stage.
+
+Across all sample sizes and methods in the $p=12$ simulation path stage{,} the local family accounts for 950{,}820 LP objectives and 375{,}946 independently verified improving rational certificates. The complete family adds 913{,}068 objectives and 273{,}901 certificates. The totals across both families are therefore 1{,}863{,}888 LP objectives and 649{,}847 certificates. These totals include all evaluated path-stage cells{,} rather than only the subset displayed in Table~\ref{tab:ablation}.
 \subsection{Comparison-family ablation}
 \begin{table}[htbp]\centering\small
 \setlength{\tabcolsep}{4pt}
@@ -80,7 +84,11 @@ Two hubs & P & 624.1 & 1117.3 & 0.99 & 0.38 & 7.67 & 7.67\\
 Two hubs & E64 & 659.5 & 1157.1 & 0.97 & 0.02 & 7.67 & 7.67\\
 Two hubs & M-C & 725.3 & 1538.1 & 0.00 & 0.00 & 7.67 & 7.67\\
 \bottomrule\end{tabular}\end{lrbox}\ifdim\wd\resultsbox>\linewidth\resizebox{\linewidth}{!}{\usebox{\resultsbox}}\else\usebox{\resultsbox}\fi\end{table}
-\begin{table}[htbp]\centering\small
+Table~\ref{tab:family} shows a model-dependent trade-off. For one-matching inference in the Gaussian star, complete comparisons increase mean degree width from 0.14 to 0.25 despite increasing the closed-order count from 113.0 to 530.7. In the near-tie E64 example, width increases from 5.53 to 6.54. Conversely, complete comparisons improve the one-matching chain width from 0.14 to 0.00 and the two-hub width from 0.99 to 0.38; for E64 in the two-hub model they reduce it from 0.97 to 0.02.
+
+The procedures recalibrate their tested families, so their rejected-order relations need not be nested. At $p=12$, the local and complete families contain 1,320 and 4,290 ordered hypotheses. For the Holm methods, the first threshold decreases from $0.05/1320$ to $0.05/4290$; multiplier contrasts also recalibrate a larger maximum. This can remove weak local comparisons important to screening incident hub edges, while adding many nonlocal orders. The number of certified orders alone therefore does not determine degree resolution. Holding one valid relation fixed and adding further valid comparisons can only tighten exact bounds over the resulting outer family; changing the calibrated relation is a different comparison. Complete testing is useful when its additional tree restrictions outweigh its multiplicity cost, as in the chain and two-hub examples.
+\subsection{Frequency-reference results}
+\begin{table}[H]\centering\small
 \setlength{\tabcolsep}{4pt}
 \caption{Practical row-bootstrap frequency rule on matched Gaussian samples, $p=12$, 499 draws. Hub declarations require unique-hub frequency at least 0.95; edge declarations require selection frequency at least 0.95. False edge declarations are familywise events. Frequencies have no general confidence guarantee.}\label{tab:frequency}
 \begin{lrbox}{\resultsbox}\begin{tabular}{lrrrrr}

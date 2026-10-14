@@ -20,9 +20,9 @@ def wilson(k,n):
     z=norm.ppf(.975);p=k/n;d=1+z*z/n;c=(p+z*z/(2*n))/d;h=z*np.sqrt(p*(1-p)/n+z*z/(4*n*n))/d
     return (0.0 if k==0 else max(0.0,c-h)),(1.0 if k==n else min(1.0,c+h))
 
-def table(caption,label,headers,rows,align=None):
+def table(caption,label,headers,rows,align=None,placement='htbp'):
     align=align or 'l'+'r'*(len(headers)-1)
-    return '\n'.join([r'\begin{table}[htbp]\centering\small',r'\setlength{\tabcolsep}{4pt}',
+    return '\n'.join([r'\begin{table}['+placement+r']\centering\small',r'\setlength{\tabcolsep}{4pt}',
         r'\caption{'+caption+r'}\label{'+label+r'}',r'\begin{lrbox}{\resultsbox}\begin{tabular}{'+align+'}',r'\toprule',
         ' & '.join(headers)+r'\\',r'\midrule',*[' & '.join(map(str,row))+r'\\' for row in rows],
         r'\bottomrule\end{tabular}\end{lrbox}\ifdim\wd\resultsbox>\linewidth\resizebox{\linewidth}{!}{\usebox{\resultsbox}}\else\usebox{\resultsbox}\fi\end{table}',''])
@@ -94,8 +94,19 @@ Table~\ref{tab:nullnew} reports null FWER for the common minor-plus-joint-rank p
             rows.append([MODELS[model],SHORT[method],f"{means.loc['joint','mean_degree_width']:.2f}",f"{means.loc['path','mean_degree_width']:.2f}",f"{means.loc['marginal','mean_rank_width']:.2f}",f"{means.loc['joint','mean_rank_width']:.2f}",f"{means.loc['path','mean_rank_width']:.2f}"])
             gains.append(means.loc['joint','mean_degree_width']-means.loc['path','mean_degree_width'])
     text+=table('Paired projection ablation at $p=12,n=1008$, using the same first 100 datasets per cell. Degree widths compare the minor with path LP. Rank widths compare marginal, joint pair/conservation and path projection. Complete results for all eight tests and sizes are archived. Width is upper minus lower endpoint.','tab:ablation',['Model','Test',r'$W_d$ minor',r'$W_d$ path',r'$W_r$ marg.',r'$W_r$ joint',r'$W_r$ path'],rows,align='llrrrrr')
+    def projection_means(model,method):
+        subset=df[(df.p==12)&(df.n==1008)&(df.model==model)&(df.method==method)&(df.family=='local')&(df.rep<100)]
+        return subset.groupby('stage').mean(numeric_only=True)
+    gaussian=projection_means('gaussian_star','paired_exact')
+    chain=projection_means('chain','paired_exact')
+    chain_e=projection_means('chain','evalue_64')
+    near=projection_means('near_tie','multiplier_contrast')
+    text+=f"Table~\\ref{{tab:ablation}} locates the path-projection gain mainly in degree precision. For one-matching inference, Gaussian-star mean degree width decreases from {gaussian.loc['joint','mean_degree_width']:.2f} to {gaussian.loc['path','mean_degree_width']:.2f}; in the chain it decreases from {chain.loc['joint','mean_degree_width']:.2f} to {chain.loc['path','mean_degree_width']:.2f}. The corresponding E64 chain widths decrease from {chain_e.loc['joint','mean_degree_width']:.2f} to {chain_e.loc['path','mean_degree_width']:.2f}. Most exact rank widths remain approximately 11, the full-range width at $p=12$. In the near-tie multiplier example, the path stage decreases mean rank width only from {near.loc['joint','mean_rank_width']:.2f} to {near.loc['path','mean_rank_width']:.2f}. Thus these $n=1008$ simulations demonstrate useful degree restrictions but little additional rank resolution: tighter degree bounds need not establish a positive degree difference between two vertices.\n\n"
+    text+=r"Population degree ties also impose an irreducible rank width. Even with the exact Gaussian-star tree known, its eleven leaves occupy ranks 2--12 under the tie-inclusive target, giving mean rank width $110/12=9.17$. For the chain and two-hub trees, the corresponding mean is $92/12=7.67$. The displayed multiplier results at these widths therefore retain the required tied ranks. Degree-conservation and direct-pair rank outputs are archived separately from the path stage."+'\n\n'
     paths=df[(df.stage=='path')&(df.family=='local')];solves=int(paths.lp_solves.sum());certs=int(paths.verified_certificates.sum())
-    text+=f"The local-family path stage solves {solves:,} LP objectives and independently verifies {certs:,} improving rational certificates. The paired subsets show the contribution of path restrictions after fixing calibration. Degree-conservation and direct-pair rank results are additionally recorded as separate stages.\n".replace(',','{,}')
+    complete_paths=df[(df.stage=='path')&(df.family=='all')]
+    complete_solves=int(complete_paths.lp_solves.sum());complete_certs=int(complete_paths.verified_certificates.sum())
+    text+=f"Across all sample sizes and methods in the $p=12$ simulation path stage, the local family accounts for {solves:,} LP objectives and {certs:,} independently verified improving rational certificates. The complete family adds {complete_solves:,} objectives and {complete_certs:,} certificates. The totals across both families are therefore {solves+complete_solves:,} LP objectives and {certs+complete_certs:,} certificates. These totals include all evaluated path-stage cells, rather than only the subset displayed in Table~\\ref{{tab:ablation}}.\n".replace(',','{,}')
     text+=r'\subsection{Comparison-family ablation}'+'\n'
     rows=[]
     for model in ['gaussian_star','t5_star','near_tie','chain','two_hubs']:
@@ -106,12 +117,15 @@ Table~\ref{tab:nullnew} reports null FWER for the common minor-plus-joint-rank p
                 means.append(sub.mean(numeric_only=True))
             a,b=means;rows.append([MODELS[model],SHORT[method],f'{a.closed_orders:.1f}',f'{b.closed_orders:.1f}',f'{a.mean_degree_width:.2f}',f'{b.mean_degree_width:.2f}',f'{a.mean_rank_width:.2f}',f'{b.mean_rank_width:.2f}'])
     text+=table('Matched local/complete family ablation at $p=12,n=4096$, 100 datasets per cell. Closed-order counts use the same $m(m-1)$ potential ordered pairs in either family. More tested comparisons also incur a larger multiplicity penalty.','tab:family',['Model','Test','Orders L','Orders A',r'$W_d$ L',r'$W_d$ A',r'$W_r$ L',r'$W_r$ A'],rows,align='llrrrrrr')
+    text+=r"Table~\ref{tab:family} shows a model-dependent trade-off. For one-matching inference in the Gaussian star, complete comparisons increase mean degree width from 0.14 to 0.25 despite increasing the closed-order count from 113.0 to 530.7. In the near-tie E64 example, width increases from 5.53 to 6.54. Conversely, complete comparisons improve the one-matching chain width from 0.14 to 0.00 and the two-hub width from 0.99 to 0.38; for E64 in the two-hub model they reduce it from 0.97 to 0.02."+'\n\n'
+    text+=r"The procedures recalibrate their tested families, so their rejected-order relations need not be nested. At $p=12$, the local and complete families contain 1,320 and 4,290 ordered hypotheses. For the Holm methods, the first threshold decreases from $0.05/1320$ to $0.05/4290$; multiplier contrasts also recalibrate a larger maximum. This can remove weak local comparisons important to screening incident hub edges, while adding many nonlocal orders. The number of certified orders alone therefore does not determine degree resolution. Holding one valid relation fixed and adding further valid comparisons can only tighten exact bounds over the resulting outer family; changing the calibrated relation is a different comparison. Complete testing is useful when its additional tree restrictions outweigh its multiplicity cost, as in the chain and two-hub examples."+'\n'
+    text+=r'\subsection{Frequency-reference results}'+'\n'
     f=pd.read_csv(R/'frequency_reference'/'summary.csv');assert len(f)==6 and int(f.repetitions.sum())==2800
     rows=[]
     for _,row in f.sort_values(['model','n']).iterrows():
         power='--' if pd.isna(row.true_hub_certified) else f'{row.true_hub_certified:.3f}'
         rows.append([MODELS[row.model],int(row.n),int(row.repetitions),power,f'{row.false_hub_declaration:.3f}',f'{row.false_forced_edge:.3f}'])
-    text+=table('Practical row-bootstrap frequency rule on matched Gaussian samples, $p=12$, 499 draws. Hub declarations require unique-hub frequency at least 0.95; edge declarations require selection frequency at least 0.95. False edge declarations are familywise events. Frequencies have no general confidence guarantee.','tab:frequency',['Model','$n$','$R$','True hub','False hub','False edge'],rows,align='lrrrrr')
+    text+=table('Practical row-bootstrap frequency rule on matched Gaussian samples, $p=12$, 499 draws. Hub declarations require unique-hub frequency at least 0.95; edge declarations require selection frequency at least 0.95. False edge declarations are familywise events. Frequencies have no general confidence guarantee.','tab:frequency',['Model','$n$','$R$','True hub','False hub','False edge'],rows,align='lrrrrr',placement='H')
     text+=r'''The frequency reference targets estimated-tree stability. Under the Gaussian null every edge can occur in an optimal population tree, but none is necessary and no vertex is a population unique hub. A high-frequency edge declaration is therefore counted as false necessity in that setting. This definition avoids interpreting frequent selection as a simultaneous population certificate.
 '''
     (M/'comparative_results.tex').write_text(text)
@@ -216,9 +230,19 @@ def build_cross():
         evidence_whole_weight_rank=[int(ewhole.rank_lower),int(ewhole.rank_upper)],
         verified_certificates=int(s.verified_certificates.sum()))
 
+def build_gpw_verification():
+    base=json.loads((R/'gpw_certificate_verification.json').read_text())
+    extended=json.loads((R/'gpw_extended_verification.json').read_text())
+    assert base['status']==extended['status']=='PASS'
+    windows=base['windows']+extended['analyses']
+    certificates=base['certificates']+extended['rational_certificates']
+    text=f"For the Polish-market sensitivity study, independent Python-integer verification checks {base['certificates']:,} improving rational certificates in the {base['windows']:,} base origin--representation analyses, plus {extended['rational_certificates']:,} certificates in the {extended['analyses']:,} extended analyses. The combined GPW total is {certificates:,} certificates across {windows:,} analyses. The base and extended scopes are reported separately in the appendix. Source-input hashes, fixed seeds, full replication records, derived order relations and the verifiers are retained. Raw third-party price series are not required to check the saved optimization certificates.\n"
+    (M/'verification_results.tex').write_text(text.replace(',','{,}'))
+    return dict(base_certificates=base['certificates'],extended_certificates=extended['rational_certificates'],total_certificates=certificates,total_analyses=windows)
+
 def run(from_records=False):
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42})
-    df,s,config=load_complete(from_records);numbers={'comparative':build_comparative(df,s,config),'audit':build_audit(),'cross_section':build_cross()}
+    df,s,config=load_complete(from_records);numbers={'comparative':build_comparative(df,s,config),'audit':build_audit(),'cross_section':build_cross(),'gpw_verification':build_gpw_verification()}
     (R/'review_report_numbers.json').write_text(json.dumps(numbers,indent=2));print(json.dumps(numbers,indent=2),flush=True)
 
 if __name__=='__main__':

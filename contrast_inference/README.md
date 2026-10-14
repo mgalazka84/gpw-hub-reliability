@@ -1,6 +1,6 @@
 # Exact edge-order inference and certified tree degree comparisons
 
-Marek Gałązka and Hanna Wdowicka. Research revision 0.5.
+Marek Gałązka and Hanna Wdowicka. Submission version 0.5.1.
 
 The manuscript studies population **Kendall tau-a** correlation spanning trees.
 It combines exact disjoint-pair McNemar tests, dependence-safe p-value averaging,
@@ -106,8 +106,7 @@ documents what is exact within an outer relaxation and what is asymptotic.
 
 ## Documents
 
-`manuscript/revision.pdf` is the complete revised article. The review package
-also includes an anonymous manuscript, title page, Highlights and a Polish
-point-by-point revision report. Dataset and software provenance are in
+`manuscript/revision.pdf` is the complete revised article. The submission package
+also includes an anonymous manuscript, title page and Highlights. Dataset and software provenance are in
 `data/cross_section/PROVENANCE.json`, `LICENSE_DATA.txt`, `CITATION.cff` and
-`MANIFEST.json`. Earlier reproducibility records remain archived.
+`MANIFEST.json`. The 0.5.1 consistency check records separate local/complete LP counts and base/extended GPW counts. Earlier reproducibility records remain archived.

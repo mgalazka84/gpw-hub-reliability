@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "version": "0.5.1",
+  "scope": "Manuscript wording, section placement, count scopes and submission packaging; no new simulation runs.",
+  "simulation": {
+    "local": {
+      "lp_solves": 950820,
+      "verified_certificates": 375946
+    },
+    "complete": {
+      "lp_solves": 913068,
+      "verified_certificates": 273901
+    },
+    "both_families": {
+      "lp_solves": 1863888,
+      "verified_certificates": 649847
+    }
+  },
+  "gpw": {
+    "base_certificates": 85129,
+    "extended_certificates": 24419,
+    "total_certificates": 109548,
+    "total_analyses": 1159
+  },
+  "unchanged_canonical_replications_and_gpw_certificates": true
+}
