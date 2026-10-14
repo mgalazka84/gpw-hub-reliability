@@ -1,6 +1,6 @@
 # Exact edge-order inference and certified tree degree comparisons
 
-Marek Gałązka and Hanna Wdowicka. Submission version 0.5.1.
+Marek Gałązka and Hanna Wdowicka. Submission version 0.5.2.
 
 The manuscript studies population **Kendall tau-a** correlation spanning trees.
 It combines exact disjoint-pair McNemar tests, dependence-safe p-value averaging,

@@ -1,10 +1,10 @@
 # Finite-sample edge-order inference and certified tree degree comparisons
 
-Marek Gałązka and Hanna Wdowicka. Research version **0.5.1**.
+Marek Gałązka and Hanna Wdowicka. Research version **0.5.2**.
 
 The current article, implementation and complete validation results are in
 [`contrast_inference/`](contrast_inference/README.md), on branch
-[`csda-submission-v0.5.1`](https://github.com/mgalazka84/gpw-hub-reliability/tree/csda-submission-v0.5.1).
+[`csda-submission-v0.5.2`](https://github.com/mgalazka84/gpw-hub-reliability/tree/csda-submission-v0.5.2).
 
 The revision combines valid Kendall tau-a matching e-values with certified
 spanning-tree degree and rank projections. It includes eight matched methods,

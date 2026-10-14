@@ -1,41 +1,15 @@
 {
-  "version": "0.5.1",
+  "version": "0.5.2",
   "repository": "mgalazka84/gpw-hub-reliability",
-  "branch": "csda-submission-v0.5.1",
-  "baseline_commit": "b8c68a5ce10d7c15903e3129f41c2e40376e75d1",
-  "scope": "Source, canonical results, licensed UCI data and clean submission documents; earlier review responses remain in the archived version.",
-  "consistency": {
-    "status": "PASS",
-    "version": "0.5.1",
-    "scope": "Manuscript wording, section placement, count scopes and submission packaging; no new simulation runs.",
-    "simulation": {
-      "local": {
-        "lp_solves": 950820,
-        "verified_certificates": 375946
-      },
-      "complete": {
-        "lp_solves": 913068,
-        "verified_certificates": 273901
-      },
-      "both_families": {
-        "lp_solves": 1863888,
-        "verified_certificates": 649847
-      }
-    },
-    "gpw": {
-      "base_certificates": 85129,
-      "extended_certificates": 24419,
-      "total_certificates": 109548,
-      "total_analyses": 1159
-    },
-    "unchanged_canonical_replications_and_gpw_certificates": true
-  },
+  "branch": "csda-submission-v0.5.2",
+  "baseline_commit": "e98644b424d22242b0a2e358997dbfdbf974df03",
+  "scope": "Manuscript and submission-file update; algorithms, measurements, simulation records and certificate results unchanged. Editorial correspondence is delivered separately.",
   "sha256": {
-    "CITATION.cff": "0d25ae0bc2b07f827d9c2ba03a03245e2b10e06c4eaa1d7686226bf944dec3db",
-    "README.md": "50f84ae3186da94f6fd64b500e886b3c6c3778470c4a787fec749e68c6d10bc8",
+    "CITATION.cff": "9042fe6d1b0eb55838cf2af00ac86b677c87189e8a7986749a75e20ef32bab8e",
+    "README.md": "832901ab6cb7b417d719b9ff6a3f79491889c8708e9c0a00aecddbd74093f8da",
     "contrast_inference/.gitignore": "fdf5b572407cea7b8f75d57a45f06e2081e6d25cb9c27b6423e932162f786e64",
-    "contrast_inference/CITATION.cff": "0d25ae0bc2b07f827d9c2ba03a03245e2b10e06c4eaa1d7686226bf944dec3db",
-    "contrast_inference/README.md": "42644956fd8a02fa6165593d561fadfbbf36a38d5e12d329c5e23d7f82acf02b",
+    "contrast_inference/CITATION.cff": "9042fe6d1b0eb55838cf2af00ac86b677c87189e8a7986749a75e20ef32bab8e",
+    "contrast_inference/README.md": "c1d2302f0d260be74f7e113e5d448f7e5720168ecc6d51ae9d3144ca562f5fd7",
     "contrast_inference/build_extended_results.py": "a5449b32411a44dde4d2d47534ae0088fc567a4bf5b3b058442ddb34ec0bf59e",
     "contrast_inference/build_results.py": "de86ed65bd91be28dd07ac8adf390e8b3c2348d0e97f3a22f899c500268b74b1",
     "contrast_inference/build_review_results.py": "f1fb9b36d314956aafa945191545ccd037ee3435a2fd69ff54059eba380aa461",
@@ -61,7 +35,7 @@
     "contrast_inference/manuscript/Fig_power.pdf": "544de12ad4a1a6acf3a8bfb2b8bee10ee66ce52f7f828acac40dcc2a71dd3272",
     "contrast_inference/manuscript/Fig_power.png": "fd2fb04a34650fee72e8b1604a2fa590c3daf27fe937f9713bfe4e0644f513c8",
     "contrast_inference/manuscript/anonymous.bbl": "f6389c13bbbf1b998983b4105078afde6d0431f7f9ac644da7c6975d17c38bc4",
-    "contrast_inference/manuscript/anonymous.pdf": "53bc7ff54f3fea5375a0e407d608136f06a65748b2fdc3d29dd1d7b661021463",
+    "contrast_inference/manuscript/anonymous.pdf": "450f4a1474aae665343768bfd1b134208ea53500f4535eba38e1e8a1db134038",
     "contrast_inference/manuscript/anonymous.tex": "a7259222443f5bf447ab3af82e101e3922a4f2a613cc843211ee468e39989df9",
     "contrast_inference/manuscript/audit_results.tex": "e73d485c7457b969817ab8ac56f4e49019feb270d6fc99f0ecf7f33cdc19fe3d",
     "contrast_inference/manuscript/comparative_results.tex": "d965dd41d198b6e746e5b8ceefbc748ddfb1180f97a0e2b16333908dc26bd129",
@@ -71,8 +45,8 @@
     "contrast_inference/manuscript/gpw_results.tex": "4dac0e8589ed8bdad811b99d738d8e2c227593e176f17f59326b571bbfc4d9d2",
     "contrast_inference/manuscript/references.bib": "a59474a45669b9fae36cf62a49ce7f53130dc66462154c636ba083eb4765a5d5",
     "contrast_inference/manuscript/revision.bbl": "49462919c9b0d7a7ab1b18e0735adf246484f4abb3fe290e4645d4046e0e0a8b",
-    "contrast_inference/manuscript/revision.pdf": "e521be5b6586ecacd8c6464977a5decac275e52e8bf4d2ccc57450fb0840014a",
-    "contrast_inference/manuscript/revision.tex": "8f814ce17b563abe24c439e3f3ae5ba3f0b6ab75337707c1d88baada4a538078",
+    "contrast_inference/manuscript/revision.pdf": "93b36607e71bc89489a73e9c4f3a6f54e34c86557570dbf4b821b93b94800c2b",
+    "contrast_inference/manuscript/revision.tex": "beca69c614db7881cdcc668351b0227cdb74e3993b8eba4d6afa6480fa8942a2",
     "contrast_inference/manuscript/validation_design.tex": "6e8815ff1711c4657c57d3628f623c36e545b589b45fd20da1036ca7d16a8e1f",
     "contrast_inference/manuscript/verification_results.tex": "cf3d9862873fa637ff12400ba513f3eb52f57ccd600a0189d2e123aededf6e47",
     "contrast_inference/order_inference.py": "c2a286afb8924d1f53ca58ca6bc1d4a36c02c97148e777cbf5edc018e4f5aec2",
@@ -183,11 +157,11 @@
     "contrast_inference/run_family_null_extension.py": "383da9cb56e05c058fcd473842d0f308e67fd68b3e29e61cb74f9e96eca9221d",
     "contrast_inference/run_frequency_reference.py": "2b8cfe5097cafc49553592cdc5aaff57065ff38469fa87feb9911461e31b6107",
     "contrast_inference/run_refined_gpw.py": "f4dab29d517ccd07115b19384903b3e1fee8807249120f2263a711f1346083b5",
-    "contrast_inference/submission_materials/CSDA_manuscript.pdf": "e521be5b6586ecacd8c6464977a5decac275e52e8bf4d2ccc57450fb0840014a",
-    "contrast_inference/submission_materials/CSDA_manuscript_anonymized.pdf": "53bc7ff54f3fea5375a0e407d608136f06a65748b2fdc3d29dd1d7b661021463",
+    "contrast_inference/submission_materials/CSDA_manuscript.pdf": "93b36607e71bc89489a73e9c4f3a6f54e34c86557570dbf4b821b93b94800c2b",
+    "contrast_inference/submission_materials/CSDA_manuscript_anonymized.pdf": "450f4a1474aae665343768bfd1b134208ea53500f4535eba38e1e8a1db134038",
     "contrast_inference/submission_materials/CSDA_title_page.pdf": "647f2e8be37285b89be9a7b220fd5645c6556a66a792e2e97cdacf8a15763e23",
     "contrast_inference/submission_materials/Highlights.txt": "dc13b5e0b060154aa4a4c25e9d416320e58bca81da52e0ce1da030e7e7e3552b",
-    "contrast_inference/submission_materials/README.md": "6e54bd7849876133dd213aab764ff554826d7933572bc4fde45bc5e0941c56d4",
+    "contrast_inference/submission_materials/README.md": "2b29e101f9f04943913fe3c9271d18624311dc098c387e941b0283ecbb05f013",
     "contrast_inference/verify_comparators.py": "31ca2e72ded78af84e7c4603e97c93cf886d47a0280f9454299da14abd1f1ebb",
     "contrast_inference/verify_estimands.py": "dfdd5952e905d961d486eb66c66b46ce46ac851a9aafe9c27acfbc46e1cb55af",
     "contrast_inference/verify_evalues.py": "ce12897e0e081ccabd21f076a78cb99bc523b1588e6e3d0073c8122ed55254d6",

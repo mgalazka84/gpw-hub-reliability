@@ -1,4 +1,4 @@
-# CSDA submission materials, version 0.5.1
+# CSDA submission materials, version 0.5.2
 
 - `CSDA_manuscript.pdf`: complete paper with author details.
 - `CSDA_manuscript_anonymized.pdf`: manuscript without author identifiers or their code URL.
