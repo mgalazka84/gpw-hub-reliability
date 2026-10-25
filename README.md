@@ -1,10 +1,16 @@
-# Finite-sample edge-order inference and certified tree degree comparisons
+# Certified degree bounds and hub exclusions in correlation spanning trees
 
-Marek Gałązka and Hanna Wdowicka. Research version **0.5.3**.
+Marek Gałązka and Hanna Wdowicka. Research version **0.6**.
 
 The current article, implementation and complete validation results are in
 [`contrast_inference/`](contrast_inference/README.md), on branch
-[`csda-submission-v0.5.3`](https://github.com/mgalazka84/gpw-hub-reliability/tree/csda-submission-v0.5.3).
+[`practical-value-v0.6`](https://github.com/mgalazka84/gpw-hub-reliability/tree/practical-value-v0.6).
+
+The practical-value audit shows which degree and hub decisions change, and
+measures the cost of a degree-only projection against full pair optimization.
+In Abalone it preserves the full endpoints with 16 instead of 72 LP objectives.
+The complete 192-analysis audit and 50-case cost grid retain failures as well
+as positive results.
 
 The revision combines valid Kendall tau-a matching e-values with certified
 spanning-tree degree and rank projections. It includes eight matched methods,
@@ -21,7 +27,7 @@ distinguished throughout the article.
 
 See [`contrast_inference/README.md`](contrast_inference/README.md) for verification
 and recomputation, and [`contrast_inference/submission_materials/`](contrast_inference/submission_materials/)
-for the paper, anonymous manuscript, title page and Highlights. `contrast_inference/MANIFEST.json` records unchanged-file SHA-256 hashes.
+for the revised paper, anonymous manuscript and Highlights. `contrast_inference/MANIFEST.json` records unchanged-file SHA-256 hashes.
 
 Earlier versions remain available at their original branches and tags, including
 `empirical-revision-v0.4`. The other root directories preserve the earlier GPW

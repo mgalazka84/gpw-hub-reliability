@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "method": "evalue_64",
+  "family": "local",
+  "dataset": "Abalone pooled",
+  "fixed_degrees": [
+    1,
+    2,
+    2
+  ],
+  "excluded_hubs": [
+    2,
+    4,
+    4
+  ],
+  "whole_rank_upper": [
+    6,
+    3,
+    3
+  ],
+  "seconds": [
+    0.00134392200016,
+    0.0391439820000414,
+    0.1534444270000676
+  ],
+  "source_sample_tree_verification": "results/intro_figure_verification.json"
+}

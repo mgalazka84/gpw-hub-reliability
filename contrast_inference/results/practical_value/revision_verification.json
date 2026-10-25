@@ -1,0 +1,16 @@
+{
+  "unchanged_original_results": true,
+  "revision_pages": 28,
+  "anonymous_pages": 28,
+  "anonymous_author_block_email_code_url_and_metadata_absent": true,
+  "ordinary_2011_bibliographic_citation_retained": true,
+  "one_terminal_coding_declaration": true,
+  "audit_certificate_checks": 16530,
+  "benchmark_cases": 50,
+  "benchmark_timed_runs": 600,
+  "published_records_rebuild_without_caches": "PASS",
+  "main_and_anonymous_visual_review": "PASS",
+  "source_sample_tree_verification": "Existing independent SciPy reconstruction retained and checked",
+  "status": "PASS",
+  "version": "0.6"
+}

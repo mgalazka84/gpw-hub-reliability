@@ -1,0 +1,21 @@
+{
+  "version": "0.6",
+  "analysis": "Retrospective practical-decision audit of all published cases",
+  "main_endpoints": [
+    "fixed degree",
+    "hub exclusion",
+    "unique hub",
+    "top-three restriction"
+  ],
+  "projection_stages": [
+    "minor plus direct-pair and conservation ranks",
+    "degree-only path LP",
+    "full ordered-pair path LP"
+  ],
+  "scope": "Each dataset/method/family is a separate 95% analysis; no joint coverage across 192 analyses",
+  "interpretation": "Tree association summaries; leaf status does not justify deleting a predictor or imply conditional independence",
+  "sources_sha256": {
+    "results/comparative/replications_all.csv.gz": "06d882a844ebe28d432f789df3d9a0879255ea8c82e9e6448e371d56af1f18d2",
+    "results/cross_section/nodes_all.csv": "88b4673763a637d7d0988f0dcd76c0287e6fb5a0a18c153f45a265219bbc7dd4"
+  }
+}

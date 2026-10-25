@@ -51,11 +51,17 @@ def verify_dual_python(cert,c,A,b,E,eb,lower,upper):
     assert value==cert['numerator']
 
 
-def certify_lp(ans,p):
+def certify_lp(ans,p,degree_pairs=True):
+    """Verify path-LP bounds; omit degree-pair objectives for the lean stage.
+
+    The default preserves the original full projection. Both variants use the
+    same constraints and degree objectives. Omitting pair objectives therefore
+    preserves degree bounds and can only weaken the rank information.
+    """
     if not ans['relation'].any() or int(ans['forced'].sum())==p-1:
         return {**ans,'path_constraints':0,'lp_diagnostics':[],'lp_solves':0}
     with warnings.catch_warnings():
-        warnings.simplefilter('ignore');out=refine_degrees(ans,p,pairs=[(i,j) for i in range(p) for j in range(p) if i!=j])
+        warnings.simplefilter('ignore');out=refine_degrees(ans,p,pairs=[(i,j) for i in range(p) for j in range(p) if i!=j] if degree_pairs else None)
     paths=path_constraints(ans['relation'],ans['edges'],p,ans['allowed'],ans['forced'])
     A,b,E,eb,L,U=_problem(ans['edges'],p,ans['allowed'],ans['forced'],paths);m=len(ans['edges'])
     count=0

@@ -1,0 +1,43 @@
+{
+  "measurement_analyses": 192,
+  "identical_rank_analyses": 188,
+  "degree_lp_decision_gain_analyses": 32,
+  "full_lp_extra_decision_analyses": 4,
+  "extra_hub_exclusions_from_full": 6,
+  "benchmark_cases": 50,
+  "benchmark_measured_runs": 600,
+  "abalone_e64_seconds": {
+    "calibration": 0.139969062000091,
+    "degree_lp": 0.0391439820000414,
+    "full_lp": 0.1534444270000676,
+    "minor": 0.00134392200016
+  },
+  "abalone_e64_projection_speedup": 3.9200004485978286,
+  "abalone_e64_projection_reduction_percent": 74.4897988377094,
+  "group_cost_seconds": [
+    {
+      "source": "measurement",
+      "p": 8,
+      "cases": 8,
+      "minor": 0.00177365200011075,
+      "degree_lp": 0.041468998000254845,
+      "full_lp": 0.15605022099998675
+    },
+    {
+      "source": "simulation",
+      "p": 12,
+      "cases": 26,
+      "minor": 0.003290454999842,
+      "degree_lp": 0.0754589255000155,
+      "full_lp": 0.3904007324999838
+    },
+    {
+      "source": "measurement",
+      "p": 16,
+      "cases": 16,
+      "minor": 0.0078350730000238,
+      "degree_lp": 0.17006017299991066,
+      "full_lp": 1.149693394499991
+    }
+  ]
+}

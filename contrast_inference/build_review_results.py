@@ -205,7 +205,7 @@ def build_cross():
     ewhole=x[(x.method=='evalue_64')&(x.name=='Whole weight')].iloc[0]
     eprimary=primary.loc['evalue_64'];gain=100*(a.lp_degree_width-eprimary.lp_degree_width)/a.lp_degree_width
     text+=f"The exact E64 construction gives whole-weight degree [{int(ewhole.degree_lower)},{int(ewhole.degree_upper)}] and rank [{int(ewhole.rank_lower)},{int(ewhole.rank_upper)}], excluding {int(eprimary.excluded_hubs)} of the eight vertices from hub status. Its mean degree width is {eprimary.lp_degree_width:.3f}, {gain:.1f}\\% below the single-matching exact result after the same projection. It retains a finite-sample guarantee under the same sampling model; unique-hub identification and a top-three rank restriction are distinct conclusions.\n"
-    text+=r'''\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{Fig_cross_section.pdf}
+    text+=r'''\begin{figure}[!ht]\centering\includegraphics[width=\textwidth]{Fig_cross_section.pdf}
 \caption{All eight Abalone degree and rank ranges after identical path projection. P, E8 and E64 have finite-sample guarantees under the stated IID model; M-C has asymptotic multiplier calibration. Population degree ties retain their full rank ranges.}\label{fig:cross}\end{figure}
 '''
     (M/'cross_section_results.tex').write_text(text)

@@ -1,0 +1,193 @@
+dataset,stratum,method,family,n,p,degree_vs_minor_exact_degrees,degree_vs_minor_leaves,degree_vs_minor_excluded_hubs,degree_vs_minor_certified_unique_hubs,degree_vs_minor_top_three,degree_vs_minor_any_decision_gain,full_vs_degree_exact_degrees,full_vs_degree_leaves,full_vs_degree_excluded_hubs,full_vs_degree_certified_unique_hubs,full_vs_degree_top_three,full_vs_degree_any_decision_gain,full_vs_minor_exact_degrees,full_vs_minor_leaves,full_vs_minor_excluded_hubs,full_vs_minor_certified_unique_hubs,full_vs_minor_top_three,full_vs_minor_any_decision_gain,identical_rank_endpoints,identical_hub_exclusions
+Abalone,pooled,paired_exact,local,4177,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,pooled,merged_8,local,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,u_hoeffding,local,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,hoeffding_box,local,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,multiplier_contrast,local,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,multiplier_box,local,4177,8,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,1
+Abalone,pooled,paired_exact,all,4177,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,pooled,merged_8,all,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,u_hoeffding,all,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,hoeffding_box,all,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,multiplier_contrast,all,4177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,pooled,multiplier_box,all,4177,8,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,1
+Abalone,F,paired_exact,local,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,merged_8,local,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,u_hoeffding,local,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,hoeffding_box,local,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,multiplier_contrast,local,1307,8,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,1
+Abalone,F,multiplier_box,local,1307,8,0,0,0,0,0,0,0,0,2,0,0,1,0,0,2,0,0,1,0,0
+Abalone,F,paired_exact,all,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,merged_8,all,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,u_hoeffding,all,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,hoeffding_box,all,1307,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,F,multiplier_contrast,all,1307,8,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,1
+Abalone,F,multiplier_box,all,1307,8,0,0,0,0,0,0,0,0,2,0,0,1,0,0,2,0,0,1,0,0
+Abalone,I,paired_exact,local,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,merged_8,local,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,u_hoeffding,local,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,hoeffding_box,local,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,multiplier_contrast,local,1342,8,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,1
+Abalone,I,multiplier_box,local,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,paired_exact,all,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,merged_8,all,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,u_hoeffding,all,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,hoeffding_box,all,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,multiplier_contrast,all,1342,8,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,1
+Abalone,I,multiplier_box,all,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,paired_exact,local,1528,8,1,1,1,0,0,1,0,0,1,0,0,1,1,1,2,0,0,1,0,0
+Abalone,M,merged_8,local,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,u_hoeffding,local,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,hoeffding_box,local,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,multiplier_contrast,local,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,multiplier_box,local,1528,8,1,1,2,0,1,1,0,0,0,0,0,0,1,1,2,0,1,1,1,1
+Abalone,M,paired_exact,all,1528,8,1,1,1,0,0,1,0,0,1,0,0,1,1,1,2,0,0,1,0,0
+Abalone,M,merged_8,all,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,u_hoeffding,all,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,hoeffding_box,all,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,multiplier_contrast,all,1528,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,multiplier_box,all,1528,8,1,1,2,0,1,1,0,0,0,0,0,0,1,1,2,0,1,1,1,1
+Dry Bean,BARBUNYA,paired_exact,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,merged_8,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,u_hoeffding,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,hoeffding_box,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,multiplier_contrast,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,multiplier_box,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,paired_exact,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,merged_8,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,u_hoeffding,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,hoeffding_box,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,multiplier_contrast,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,multiplier_box,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,paired_exact,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,merged_8,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,u_hoeffding,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,hoeffding_box,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,multiplier_contrast,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,multiplier_box,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,paired_exact,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,merged_8,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,u_hoeffding,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,hoeffding_box,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,multiplier_contrast,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,multiplier_box,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,paired_exact,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,merged_8,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,u_hoeffding,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,hoeffding_box,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,multiplier_contrast,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,multiplier_box,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,paired_exact,all,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,merged_8,all,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,u_hoeffding,all,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,hoeffding_box,all,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,multiplier_contrast,all,1630,16,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Dry Bean,CALI,multiplier_box,all,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,paired_exact,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,merged_8,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,u_hoeffding,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,hoeffding_box,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,multiplier_contrast,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,multiplier_box,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,paired_exact,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,merged_8,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,u_hoeffding,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,hoeffding_box,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,multiplier_contrast,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,multiplier_box,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,paired_exact,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,merged_8,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,u_hoeffding,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,hoeffding_box,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,multiplier_contrast,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,multiplier_box,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,paired_exact,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,merged_8,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,u_hoeffding,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,hoeffding_box,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,multiplier_contrast,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,multiplier_box,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,paired_exact,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,merged_8,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,u_hoeffding,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,hoeffding_box,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,multiplier_contrast,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,multiplier_box,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,paired_exact,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,merged_8,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,u_hoeffding,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,hoeffding_box,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,multiplier_contrast,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,multiplier_box,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,paired_exact,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,merged_8,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,u_hoeffding,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,hoeffding_box,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,multiplier_contrast,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,multiplier_box,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,paired_exact,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,merged_8,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,u_hoeffding,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,hoeffding_box,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,multiplier_contrast,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,multiplier_box,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,paired_exact,local,13611,16,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Dry Bean,pooled,merged_8,local,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,u_hoeffding,local,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,hoeffding_box,local,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,multiplier_contrast,local,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,multiplier_box,local,13611,16,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Dry Bean,pooled,paired_exact,all,13611,16,2,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,1,1,1
+Dry Bean,pooled,merged_8,all,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,u_hoeffding,all,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,hoeffding_box,all,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,multiplier_contrast,all,13611,16,1,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,1,1
+Dry Bean,pooled,multiplier_box,all,13611,16,3,1,1,0,0,1,0,0,0,0,0,0,3,1,1,0,0,1,1,1
+Abalone,pooled,evalue_8,local,4177,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,pooled,evalue_64,local,4177,8,1,1,2,0,1,1,0,0,0,0,0,0,1,1,2,0,1,1,1,1
+Abalone,pooled,evalue_8,all,4177,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,pooled,evalue_64,all,4177,8,1,1,2,0,1,1,0,0,0,0,0,0,1,1,2,0,1,1,1,1
+Abalone,F,evalue_8,local,1307,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,F,evalue_64,local,1307,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,F,evalue_8,all,1307,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,F,evalue_64,all,1307,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,I,evalue_8,local,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,evalue_64,local,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,evalue_8,all,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,I,evalue_64,all,1342,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Abalone,M,evalue_8,local,1528,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,M,evalue_64,local,1528,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,M,evalue_8,all,1528,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Abalone,M,evalue_64,all,1528,8,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1
+Dry Bean,BARBUNYA,evalue_8,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,evalue_64,local,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,evalue_8,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BARBUNYA,evalue_64,all,1322,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,evalue_8,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,evalue_64,local,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,evalue_8,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,BOMBAY,evalue_64,all,522,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,evalue_8,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,evalue_64,local,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,evalue_8,all,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,CALI,evalue_64,all,1630,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,evalue_8,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,evalue_64,local,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,evalue_8,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,DERMASON,evalue_64,all,3546,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,evalue_8,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,evalue_64,local,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,evalue_8,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,HOROZ,evalue_64,all,1928,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,evalue_8,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,evalue_64,local,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,evalue_8,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SEKER,evalue_64,all,2027,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,evalue_8,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,evalue_64,local,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,evalue_8,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,SIRA,evalue_64,all,2636,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,evalue_8,local,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,evalue_64,local,13611,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Dry Bean,pooled,evalue_8,all,13611,16,2,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,1,1,1
+Dry Bean,pooled,evalue_64,all,13611,16,2,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,1,1,1

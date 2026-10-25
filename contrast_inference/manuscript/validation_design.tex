@@ -19,19 +19,7 @@ The complete-edge comparison family is evaluated on the same first 100 non-null 
 Bootstrap edge reliability is widely used in correlation networks \citep{tumminello2007,musciotto2018}. On the same $p=12$ separated-star, near-tie and Gaussian-null samples with $n=1008$ and $4096$, we compute 499 ordinary Pearson row-bootstrap trees. Pearson and Kendall have the same population optimal-tree ordering in these Gaussian designs. We record edge selection frequencies and the frequency with which the observed anchor is the unique highest-degree vertex. A threshold of $0.95$ is evaluated as a practical declaration rule, including its false hub and false forced-edge rates. It is a frequency heuristic, not a simultaneous confidence procedure. This reference uses all 200 non-null and all 1,000 null datasets in the six selected cells.
 
 \input{comparative_results}
-
-\section{Paired audit of Pearson-bootstrap calibration}\label{sec:audit}
-The original diagnostic uses fixed bootstrap standard deviations for local Fisher-z Pearson differences. It showed substantial undercoverage in some IID and serially dependent cells. To identify which features matter, the new audit holds datasets fixed and varies bootstrap mechanism, studentizer and resample count.
-
-Three IID Gaussian independence cells, $(p,n)=(12,252),(52,252),(52,1008)$, each contain 1,000 datasets. We compare the original row bootstrap with 499 and 1,999 resamples, an IID row bootstrap with empirical influence standard deviations and 1,999 resamples, and Gaussian influence multipliers with 1,999 draws. The 499 row draws are nested in the 1,999 draws. For Pearson correlation, standardized observations $z_{ti}$ give influence
-\[
- \phi_{t,ij}=\frac{z_{ti}z_{tj}-\widehat\rho_{ij}(z_{ti}^2+z_{tj}^2)/2}{1-\widehat\rho_{ij}^2}.
-\]
-We centre these influences across rows and use $n^{-2}\sum_t(\phi_{te}-\phi_{tf})^2$ for a contrast variance. Every calibration uses the same local family, Fisher-z estimand and maximum statistic. Under independence, every population contrast is zero, making input undercoverage identical to any false strict order. We report paired differences between procedures, not just isolated estimates.
-
-Direct index resampling checks the count-weighted covariance implementation. Independent calculations check influences, studentizers and maxima. This audit evaluates particular procedures at these sample sizes; it separates an implementation check from a conclusion about bootstrap calibration. The earlier 24-cell diagnostic, including serial dependence, is retained in the reproducibility materials.
-
-\input{audit_results}
+\input{practical_simulation_results}
 
 \section{Cross-sectional morphometric applications}\label{sec:crosssection}
 \subsection{Recorded measurements and sampling scope}
@@ -45,10 +33,6 @@ As a secondary computational stress study, we apply all methods to the 16 image-
 All eight methods and both comparison families are applied to all 12 datasets. Every projection includes all degree and ordered degree-difference LP objectives, with independent rational verification of improvements. Ordinary row-bootstrap Kendall trees, using 499 resamples and the complete tau-a statistic, supply edge frequencies and unique-hub frequencies on the same data. These frequencies remain separate from the exact confidence statements. Original datasets are redistributed under their CC BY 4.0 licences, with source citations and unchanged-file hashes.
 
 \input{cross_section_results}
+\input{practical_cross_results}
 
-\section{Polish equity sensitivity study}\label{sec:gpw}
-Polish stock correlation trees motivate the financial setting \citep{galazka2011}. A frozen historical assembly combines publicly available Bankier price histories, WIG observations and archived GPW index portfolios.\ifanonymous\else\ The input provenance and derived results are archived with immutable version identifiers \citep{previouscode}.\fi\ The base panel contains 231 origins from 2007--2025, each with 252 daily returns and 41--60 eligible stocks. Complete-history, positive-volume and nonzero-return checks are retained. Vendor prices are not certified dividend-inclusive total returns, extraordinary membership changes are not fully reconciled, and missing historical series prevent a complete licensed-market reconstruction.
-
-Three representations---raw returns, cross-sectional demeaning and WIG residualization---use the same 999 circular block-bootstrap draws with block length ten, motivated by dependent resampling \citep{kunsch1989}, giving 693 base analyses. A fixed annual grid adds 466 analyses with nested liquid-stock groups, 252/504/1008-session lookbacks and block-length checks. These target Pearson trees and serially dependent returns. Their interpretation is sensitivity and temporal stability, separate from the exact Kendall IID applications above. Weekly or monthly nonoverlapping returns would not by themselves establish IID sampling.
-
-Across matched stock groups, increasing the lookback from 252 to 1008 sessions reduces mean degree width by 13.9\%, 14.1\% and 10.3\% for groups of 10, 20 and 40 stocks. All rank ranges remain $[1,p]$. All 81 exclusions from the planned primary grid and 51 unavailable primary forward configurations per representation are retained. Full panel results, forward summaries and independent checks of 109,548 improving rational certificates appear in the supplement. This case study identifies a resolution limitation; it does not validate nominal bootstrap coverage for financial time series.
+\input{practical_cost_results}

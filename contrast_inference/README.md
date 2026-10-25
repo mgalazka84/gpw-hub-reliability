@@ -1,6 +1,6 @@
 # Exact edge-order inference and certified tree degree comparisons
 
-Marek Gałązka and Hanna Wdowicka. Submission version 0.5.3.
+Marek Gałązka and Hanna Wdowicka. Practical-value revision 0.6.
 
 The manuscript studies population **Kendall tau-a** correlation spanning trees.
 It combines exact disjoint-pair McNemar tests, dependence-safe p-value averaging,
@@ -17,6 +17,35 @@ alternatives also remain undercalibrated. The Polish-market analyses are a
 separate sensitivity study of dependent returns and Pearson trees. Abalone
 measurements illustrate exact Kendall inference under an explicit IID working
 model. Dry Bean includes 68 identical rows and is a computational stress study.
+
+## Practical benefit and computational cost
+
+The main title is **Certified degree bounds and hub exclusions in correlation
+spanning trees**. The revision evaluates changed conclusions separately from
+narrower intervals. `certify_lp(ans, p, degree_pairs=False)` runs the degree-only
+stage; the default `True` preserves the previous full ordered-pair projection.
+
+- In pooled Abalone, holding E64 and the local family fixed, degree LP increases
+  excluded hubs from 2 to 4, fixes a second leaf degree, and restricts whole weight
+  from rank [1,6] to [1,3]. Full pair LP changes none of these endpoints.
+- Degree-only LP preserves full rank endpoints in 188 of all 192 measurement
+  analyses, and in all 12 E64 local-family populations. The remaining four
+  analyses gain six exclusions from pair LP. Analyses overlap and are not
+  independent replications of practical success.
+- The controlled Abalone E64 projection takes 0.0391 versus 0.1534 seconds
+  (16 versus 72 LP objectives). Calibration takes a separate 0.1400 seconds.
+  This is a projection speedup, not the same speedup for the entire pipeline.
+- All 50 timing cases use fresh serial processes, one pinned CPU, one thread,
+  one warm-up and three measured repetitions per stage. Raw cases, timing runs,
+  peak process memory and verified endpoints are supplied as compressed records.
+- The same first 100 datasets are used on both sides of every p=12 Monte Carlo
+  projection comparison. The audit retains all 27,200 method-family-dataset
+  comparisons. Exact star hub power at n=1008 remains zero; chain degree-width
+  gains often produce no changed decision. The Dry Bean E64 grid yields no leaf,
+  hub exclusion or top-three certification despite narrower degree bounds.
+
+These are retrospective results on the complete existing grid. No new statistical
+power samples or broader real-world independence guarantees are claimed.
 
 ## Results
 
@@ -54,6 +83,10 @@ python contrast_inference/verify_revision.py
 python contrast_inference/verify_review.py
 python contrast_inference/build_review_results.py --from-records
 python contrast_inference/build_intro_figure.py
+python contrast_inference/audit_practical_value.py
+python contrast_inference/run_practical_benchmark.py --report
+python contrast_inference/build_practical_results.py
+python contrast_inference/build_practical_figure.py
 latexmk -pdf -cd contrast_inference/manuscript/revision.tex
 latexmk -pdf -cd contrast_inference/manuscript/anonymous.tex
 ```
@@ -81,6 +114,10 @@ python contrast_inference/run_evalue_cross_section.py --workers 2
 python contrast_inference/build_review_results.py
 python contrast_inference/verify_review.py
 python contrast_inference/build_intro_figure.py
+python contrast_inference/audit_practical_value.py
+python contrast_inference/run_practical_benchmark.py --report
+python contrast_inference/build_practical_results.py
+python contrast_inference/build_practical_figure.py
 latexmk -pdf -cd contrast_inference/manuscript/revision.tex
 ```
 
@@ -90,6 +127,12 @@ settings. Complete final tables are built only after all required cells exist.
 The main and evidence runs intentionally reuse the same simulated datasets;
 they must not be counted as additional independent datasets. Frequency samples
 are a subset of the main simulation. The work is retrospective method development.
+
+To remeasure the cost grid on your own machine (the released times are hardware
+specific), use `python contrast_inference/run_practical_benchmark.py --prepare --run`.
+Move only the benchmark `runs/` cache aside first for a genuinely fresh timing run.
+`--report` rebuilds summaries from the published compressed records without those
+local caches. Timing repetitions are repeated computations of fixed instances.
 
 ## Historical market inputs
 

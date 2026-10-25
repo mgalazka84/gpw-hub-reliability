@@ -1,0 +1,25 @@
+\subsection{Decisions gained on the same simulated samples}\label{sec:decision-simulation}
+An interval-width reduction is useful for a given question only if it changes the answer or the degree range relevant to that question. We therefore separately count fixed degrees, exclusions from hub status and unique-hub declarations. Table~\ref{tab:decision-simulation} uses the same first 100 samples for both projections and retains every non-null $p=12$ model at $n=1008$ and $4096$. The archived audit includes all 17 $p=12$ cells, both families and all eight calibrations, giving 27,200 paired method--family--dataset comparisons. These are repeated analyses of the original datasets, not new independent samples.
+
+
+\begin{table}[H]\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{Paired E64 decision yield, local family, $p=12$. Fixed degrees and hub exclusions are mean counts per dataset before (M: minor with pair/conservation ranks) and after full path projection (F). The last column counts datasets gaining a fixed degree, a hub exclusion or a unique-hub declaration. Each row contains the same 100 samples in both stages.}\label{tab:decision-simulation}
+\begin{lrbox}{\resultsbox}\begin{tabular}{llrrrrr}
+\toprule
+Model & $n$ & Fixed M & Fixed F & Excluded M & Excluded F & Any gain\\
+\midrule
+Gaussian star & 1008 & 0.00 & 0.00 & 0.00 & 0.00 & 0/100\\
+Gaussian star & 4096 & 12.00 & 12.00 & 11.00 & 11.00 & 0/100\\
+$t_5$ star & 1008 & 0.00 & 0.00 & 0.00 & 0.00 & 0/100\\
+$t_5$ star & 4096 & 12.00 & 12.00 & 11.00 & 11.00 & 0/100\\
+Near tie & 1008 & 0.00 & 0.00 & 0.00 & 0.00 & 0/100\\
+Near tie & 4096 & 0.06 & 0.21 & 0.06 & 0.21 & 13/100\\
+Chain & 1008 & 0.00 & 0.00 & 0.00 & 0.00 & 0/100\\
+Chain & 4096 & 12.00 & 12.00 & 2.00 & 2.00 & 0/100\\
+Two hubs & 1008 & 0.00 & 0.00 & 0.12 & 0.16 & 1/100\\
+Two hubs & 4096 & 0.40 & 0.40 & 10.00 & 10.00 & 0/100\\
+\bottomrule\end{tabular}\end{lrbox}\ifdim\wd\resultsbox>\linewidth\resizebox{\linewidth}{!}{\usebox{\resultsbox}}\else\usebox{\resultsbox}\fi\end{table}
+
+
+At $n=1008$, neither exact star experiment yields a fixed degree or a hub exclusion, even after full projection. For the chain, degree width falls from $6.477$ to $3.968$ without changing these decisions. For near ties at $n=4096$, projection produces a new decision in 13 of 100 samples: the mean number of fixed degrees and excluded hubs both increase from $0.06$ to $0.21$, but no unique hub is identified. The two-hub model at $n=1008$ gains exclusions in one of 100 samples. At $n=4096$, separated-star hubs are already identified by the minor stage; the additional LP work does not create that success. Thus the exact method's larger-sample power comes primarily from calibrated edge evidence, while projection has selective value for partial decisions. Full cellwise counts and original coverage results accompany the article.

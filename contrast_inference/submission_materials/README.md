@@ -1,12 +1,12 @@
-# CSDA submission materials, version 0.5.3
+# Research revision 0.6: practical benefit
 
-- `CSDA_manuscript.pdf`: complete paper with author details.
-- `CSDA_manuscript_anonymized.pdf`: manuscript without author identifiers or their code URL.
-- `CSDA_title_page.pdf`: title page with authors and corresponding author.
-- `Highlights.txt`: five concise Highlights.
+- `manuscript_practical_value.pdf`: revised paper with author details.
+- `manuscript_practical_value_anonymized.pdf`: anonymous version.
+- `Highlights.txt`: concise summary points.
 
-The parent directory contains source code, original licensed measurement data,
-complete replication outcomes, provenance and verifiers. The manuscript reports
-local and complete simulation LP counts separately, and distinguishes base
-and extended GPW certificates. `results/submission_consistency.json` records
-these reconciled scopes. The paper is prepared as a new journal submission.
+This is a substantive research revision, with no journal-specific cover letter
+or response to reviewers. The main text focuses on degree bounds, hub exclusions
+and measured computational cost. Pearson-bootstrap and Polish-market diagnostics
+are retained in appendices. The source, all previous statistical outcomes, the
+complete decision audit, timing records and certificate checks are in the parent
+directory. `results/practical_value/` contains the new evidence and verification.

@@ -1,0 +1,36 @@
+\section{Computation matched to the inferential question}\label{sec:cost}
+The decision-first workflow uses a fixed calibration and comparison family, then adds optimization only for the desired output. We benchmark one-matching P and E64 on all 12 measurement populations and the first replication of each of the 13 $p=12$ simulation cells with $n\ge1008$: 50 cases in total. This sample rule is independent of benchmark outcomes. Each case and stage runs in a fresh process, with one untimed warm-up and three timed repetitions, serial execution, one pinned CPU, and one BLAS/OpenMP/HiGHS thread. Interpreter startup and data loading are excluded. Projection timings include the minor construction, LP work and independent rational-certificate checks. Calibration is timed separately, including full Kendall computation for E64. These are computational repetitions of fixed instances, not Monte Carlo estimates of inferential power.
+The recorded environment is Python 3.12.14, NumPy 2.3.5 and SciPy 1.17.0 on an AMD EPYC 9V74 80-Core Processor processor. Raw per-run timings, process peak resident memory, CPU affinity and all reconstructed endpoints are archived. Peak resident memory includes imports, input and warm-up; it is not interpreted as incremental solver storage.
+
+
+\begin{table}[H]\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{Controlled cost for E64 on pooled Abalone ($p=8,n=4177$). Seconds are medians of three timed repetitions. Each projection time includes the minor stage; calibration is separate. Degree-only and full LP have identical degree and rank endpoints.}\label{tab:cost-abalone}
+\begin{lrbox}{\resultsbox}\begin{tabular}{lrr}
+\toprule
+Stage & LP objectives & Seconds\\
+\midrule
+Edge calibration & -- & 0.1400\\
+Minor & 0 & 0.0013\\
+Degree LP & 16 & 0.0391\\
+Full LP & 72 & 0.1534\\
+\bottomrule\end{tabular}\end{lrbox}\ifdim\wd\resultsbox>\linewidth\resizebox{\linewidth}{!}{\usebox{\resultsbox}}\else\usebox{\resultsbox}\fi\end{table}
+
+
+For this example, degree-only projection requires 16 instead of 72 LP solves and takes 0.0391 rather than 0.1534 seconds, a 74.5\% reduction in projection time. E64 calibration itself takes 0.1400 seconds, so the 3.92-fold projection speedup is not an end-to-end speedup of the entire statistical method.
+
+
+\begin{table}[H]\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{All 50 benchmark cases, by data source and dimension. Each entry is the median across case-specific medians of three runs. Empty order relations and forced unique trees skip redundant LP solves, including in the simulated group. These medians therefore reflect the stated case mix as well as dimension.}\label{tab:cost-grid}
+\begin{lrbox}{\resultsbox}\begin{tabular}{lrrrrr}
+\toprule
+Source & $p$ & Cases & Minor (s) & Degree LP (s) & Full LP (s)\\
+\midrule
+Abalone & 8 & 8 & 0.0018 & 0.0415 & 0.1561\\
+Simulated & 12 & 26 & 0.0033 & 0.0755 & 0.3904\\
+Dry Bean & 16 & 16 & 0.0078 & 0.1701 & 1.1497\\
+\bottomrule\end{tabular}\end{lrbox}\ifdim\wd\resultsbox>\linewidth\resizebox{\linewidth}{!}{\usebox{\resultsbox}}\else\usebox{\resultsbox}\fi\end{table}
+
+
+The degree-only stage is the economical default for degree bounds and the tested partial decisions. Ordered-pair objectives remain an optional refinement when an unresolved comparison or rank question warrants the extra work. Their benefit should be reported as a changed conclusion, along with cost, rather than inferred from the number of solved programs. The audit is retrospective and the measured costs are instance- and hardware-specific; it establishes the gains on this complete evaluation grid rather than universal dominance of a projection stage.

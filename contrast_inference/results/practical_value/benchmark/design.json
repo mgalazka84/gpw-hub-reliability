@@ -1,0 +1,27 @@
+{
+  "version": "0.6",
+  "scope": "All 12 measurement populations and first replication of all 13 p=12 n>=1008 simulation cells; P/E64, local family",
+  "cases": 50,
+  "measurement_cases": 24,
+  "simulation_cases": 26,
+  "modes": [
+    "calibration",
+    "minor",
+    "degree_lp",
+    "full_lp"
+  ],
+  "warmups": 1,
+  "timing_repetitions": 3,
+  "scheduling": "Sequential fresh process per case/stage, pinned to the first available CPU; one BLAS/OpenMP/HiGHS thread",
+  "included": "Calibration or minor plus indicated LP, including rational-certificate validation",
+  "excluded": "Input loading, interpreter startup and one warm-up",
+  "memory": "Linux ru_maxrss per fresh worker in KiB, including Python imports, input and warm-up; not incremental solver memory",
+  "hardware": {
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "reporting": "Timing repetitions are not Monte Carlo replicates; these timings are hardware- and instance-specific"
+}

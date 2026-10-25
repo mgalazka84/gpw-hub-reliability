@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "cross_section": {
+    "cases": 192,
+    "certificate_groups": 188,
+    "verified_certificates": 16530,
+    "cases_without_improved_certificates": 4,
+    "full_node_reconstruction": "PASS"
+  },
+  "simulation": {
+    "paired_method_family_datasets": 27200,
+    "cells": 272,
+    "same_samples": "PASS",
+    "scope": "First 100 replications per p=12 design cell, both families, all eight methods. Nested projection only; calibration held fixed."
+  }
+}

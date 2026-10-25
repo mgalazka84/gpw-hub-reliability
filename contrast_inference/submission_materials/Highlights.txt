@@ -1,5 +1,5 @@
-- Exact edge-order tests cover discrete and continuous Kendall correlations.
-- Evidence averaging over matchings retains finite-sample familywise control.
-- Cycle-path bounds carry independently checked rational certificates.
-- Matched simulations separate calibration, projection and family effects.
-- Real morphometric measurements yield informative degree and rank bounds.
+Exact Kendall comparisons certify degree bounds under IID sampling.
+Degree-only projection preserves rank bounds in 12 E64 applications.
+Abalone yields four hub exclusions and a top-three restriction.
+A 192-analysis audit separates bound tightening from new decisions.
+Verified degree projection uses 16 rather than 72 LPs in Abalone.

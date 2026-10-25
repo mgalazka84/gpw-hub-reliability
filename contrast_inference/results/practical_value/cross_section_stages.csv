@@ -1,0 +1,577 @@
+dataset,stratum,method,family,n,p,stage,exact_degrees,leaves,excluded_hubs,hub_candidates,certified_unique_hubs,top_three,mean_degree_width,mean_rank_width,strict_degree_pairs
+Abalone,pooled,paired_exact,local,4177,8,minor,0,0,0,8,0,0,3.25,7.0,0.0
+Abalone,pooled,paired_exact,local,4177,8,degree_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,pooled,paired_exact,local,4177,8,full_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,pooled,merged_8,local,4177,8,minor,0,0,0,8,0,0,4.25,7.0,0.0
+Abalone,pooled,merged_8,local,4177,8,degree_lp,0,0,0,8,0,0,3.25,7.0,0.0
+Abalone,pooled,merged_8,local,4177,8,full_lp,0,0,0,8,0,0,3.25,7.0,0.0
+Abalone,pooled,u_hoeffding,local,4177,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,pooled,u_hoeffding,local,4177,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,pooled,u_hoeffding,local,4177,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,pooled,hoeffding_box,local,4177,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,pooled,hoeffding_box,local,4177,8,degree_lp,0,0,0,8,0,0,5.25,7.0,0.0
+Abalone,pooled,hoeffding_box,local,4177,8,full_lp,0,0,0,8,0,0,5.25,7.0,0.0
+Abalone,pooled,multiplier_contrast,local,4177,8,minor,6,4,7,1,1,2,0.25,3.25,
+Abalone,pooled,multiplier_contrast,local,4177,8,degree_lp,6,4,7,1,1,2,0.25,3.25,
+Abalone,pooled,multiplier_contrast,local,4177,8,full_lp,6,4,7,1,1,2,0.25,3.25,
+Abalone,pooled,multiplier_box,local,4177,8,minor,2,2,7,1,1,1,0.875,5.0,7.0
+Abalone,pooled,multiplier_box,local,4177,8,degree_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,pooled,multiplier_box,local,4177,8,full_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,pooled,paired_exact,all,4177,8,minor,0,0,0,8,0,0,3.25,7.0,0.0
+Abalone,pooled,paired_exact,all,4177,8,degree_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,pooled,paired_exact,all,4177,8,full_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,pooled,merged_8,all,4177,8,minor,0,0,0,8,0,0,4.75,7.0,0.0
+Abalone,pooled,merged_8,all,4177,8,degree_lp,0,0,0,8,0,0,3.5,7.0,0.0
+Abalone,pooled,merged_8,all,4177,8,full_lp,0,0,0,8,0,0,3.5,7.0,0.0
+Abalone,pooled,u_hoeffding,all,4177,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,pooled,u_hoeffding,all,4177,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,pooled,u_hoeffding,all,4177,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,pooled,hoeffding_box,all,4177,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,pooled,hoeffding_box,all,4177,8,degree_lp,0,0,0,8,0,0,5.25,7.0,0.0
+Abalone,pooled,hoeffding_box,all,4177,8,full_lp,0,0,0,8,0,0,5.25,7.0,0.0
+Abalone,pooled,multiplier_contrast,all,4177,8,minor,4,4,7,1,1,1,0.5,4.25,
+Abalone,pooled,multiplier_contrast,all,4177,8,degree_lp,4,4,7,1,1,1,0.5,4.25,
+Abalone,pooled,multiplier_contrast,all,4177,8,full_lp,4,4,7,1,1,1,0.5,4.25,
+Abalone,pooled,multiplier_box,all,4177,8,minor,2,2,7,1,1,1,0.875,5.0,7.0
+Abalone,pooled,multiplier_box,all,4177,8,degree_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,pooled,multiplier_box,all,4177,8,full_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,F,paired_exact,local,1307,8,minor,0,0,0,8,0,0,4.75,7.0,0.0
+Abalone,F,paired_exact,local,1307,8,degree_lp,0,0,0,8,0,0,3.625,7.0,0.0
+Abalone,F,paired_exact,local,1307,8,full_lp,0,0,0,8,0,0,3.625,7.0,0.0
+Abalone,F,merged_8,local,1307,8,minor,0,0,0,8,0,0,5.25,7.0,0.0
+Abalone,F,merged_8,local,1307,8,degree_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,F,merged_8,local,1307,8,full_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,F,u_hoeffding,local,1307,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,F,u_hoeffding,local,1307,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,u_hoeffding,local,1307,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,hoeffding_box,local,1307,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,F,hoeffding_box,local,1307,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,hoeffding_box,local,1307,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,multiplier_contrast,local,1307,8,minor,2,2,7,1,1,1,0.875,5.0,7.0
+Abalone,F,multiplier_contrast,local,1307,8,degree_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,F,multiplier_contrast,local,1307,8,full_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,F,multiplier_box,local,1307,8,minor,1,1,2,6,0,0,2.5,6.5,2.0
+Abalone,F,multiplier_box,local,1307,8,degree_lp,1,1,2,6,0,0,2.0,6.5,2.0
+Abalone,F,multiplier_box,local,1307,8,full_lp,1,1,4,4,0,0,2.0,6.0,4.0
+Abalone,F,paired_exact,all,1307,8,minor,0,0,0,8,0,0,5.0,7.0,0.0
+Abalone,F,paired_exact,all,1307,8,degree_lp,0,0,0,8,0,0,3.875,7.0,0.0
+Abalone,F,paired_exact,all,1307,8,full_lp,0,0,0,8,0,0,3.875,7.0,0.0
+Abalone,F,merged_8,all,1307,8,minor,0,0,0,8,0,0,5.25,7.0,0.0
+Abalone,F,merged_8,all,1307,8,degree_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,F,merged_8,all,1307,8,full_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,F,u_hoeffding,all,1307,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,F,u_hoeffding,all,1307,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,u_hoeffding,all,1307,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,hoeffding_box,all,1307,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,F,hoeffding_box,all,1307,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,hoeffding_box,all,1307,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,F,multiplier_contrast,all,1307,8,minor,2,2,7,1,1,1,0.875,5.0,7.0
+Abalone,F,multiplier_contrast,all,1307,8,degree_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,F,multiplier_contrast,all,1307,8,full_lp,3,3,7,1,1,1,0.75,4.875,7.0
+Abalone,F,multiplier_box,all,1307,8,minor,1,1,2,6,0,0,2.5,6.5,2.0
+Abalone,F,multiplier_box,all,1307,8,degree_lp,1,1,2,6,0,0,2.0,6.5,2.0
+Abalone,F,multiplier_box,all,1307,8,full_lp,1,1,4,4,0,0,2.0,6.0,4.0
+Abalone,I,paired_exact,local,1342,8,minor,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,paired_exact,local,1342,8,degree_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,I,paired_exact,local,1342,8,full_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,I,merged_8,local,1342,8,minor,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,merged_8,local,1342,8,degree_lp,0,0,0,8,0,0,5.0,7.0,0.0
+Abalone,I,merged_8,local,1342,8,full_lp,0,0,0,8,0,0,5.0,7.0,0.0
+Abalone,I,u_hoeffding,local,1342,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,I,u_hoeffding,local,1342,8,degree_lp,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,u_hoeffding,local,1342,8,full_lp,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,hoeffding_box,local,1342,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,I,hoeffding_box,local,1342,8,degree_lp,0,0,0,8,0,0,5.625,7.0,0.0
+Abalone,I,hoeffding_box,local,1342,8,full_lp,0,0,0,8,0,0,5.625,7.0,0.0
+Abalone,I,multiplier_contrast,local,1342,8,minor,3,3,5,3,0,1,1.0,5.0,8.0
+Abalone,I,multiplier_contrast,local,1342,8,degree_lp,4,4,5,3,0,1,0.875,4.75,9.0
+Abalone,I,multiplier_contrast,local,1342,8,full_lp,4,4,5,3,0,1,0.875,4.75,9.0
+Abalone,I,multiplier_box,local,1342,8,minor,1,1,1,7,0,0,3.375,6.625,1.0
+Abalone,I,multiplier_box,local,1342,8,degree_lp,1,1,1,7,0,0,2.75,6.625,1.0
+Abalone,I,multiplier_box,local,1342,8,full_lp,1,1,1,7,0,0,2.75,6.625,1.0
+Abalone,I,paired_exact,all,1342,8,minor,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,paired_exact,all,1342,8,degree_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,I,paired_exact,all,1342,8,full_lp,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,I,merged_8,all,1342,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,I,merged_8,all,1342,8,degree_lp,0,0,0,8,0,0,5.125,7.0,0.0
+Abalone,I,merged_8,all,1342,8,full_lp,0,0,0,8,0,0,5.125,7.0,0.0
+Abalone,I,u_hoeffding,all,1342,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,I,u_hoeffding,all,1342,8,degree_lp,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,u_hoeffding,all,1342,8,full_lp,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,hoeffding_box,all,1342,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,I,hoeffding_box,all,1342,8,degree_lp,0,0,0,8,0,0,5.625,7.0,0.0
+Abalone,I,hoeffding_box,all,1342,8,full_lp,0,0,0,8,0,0,5.625,7.0,0.0
+Abalone,I,multiplier_contrast,all,1342,8,minor,3,3,5,3,0,1,1.0,5.0,8.0
+Abalone,I,multiplier_contrast,all,1342,8,degree_lp,4,4,5,3,0,1,0.875,4.75,9.0
+Abalone,I,multiplier_contrast,all,1342,8,full_lp,4,4,5,3,0,1,0.875,4.75,9.0
+Abalone,I,multiplier_box,all,1342,8,minor,1,1,1,7,0,0,3.375,6.625,1.0
+Abalone,I,multiplier_box,all,1342,8,degree_lp,1,1,1,7,0,0,2.75,6.625,1.0
+Abalone,I,multiplier_box,all,1342,8,full_lp,1,1,1,7,0,0,2.75,6.625,1.0
+Abalone,M,paired_exact,local,1528,8,minor,0,0,0,8,0,0,2.875,6.75,0.0
+Abalone,M,paired_exact,local,1528,8,degree_lp,1,1,1,7,0,0,2.25,6.5,1.0
+Abalone,M,paired_exact,local,1528,8,full_lp,1,1,2,6,0,0,2.25,6.375,2.0
+Abalone,M,merged_8,local,1528,8,minor,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,merged_8,local,1528,8,degree_lp,0,0,0,8,0,0,4.375,7.0,0.0
+Abalone,M,merged_8,local,1528,8,full_lp,0,0,0,8,0,0,4.375,7.0,0.0
+Abalone,M,u_hoeffding,local,1528,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,M,u_hoeffding,local,1528,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,u_hoeffding,local,1528,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,hoeffding_box,local,1528,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,M,hoeffding_box,local,1528,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,hoeffding_box,local,1528,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,multiplier_contrast,local,1528,8,minor,4,4,7,1,1,1,0.5,4.25,
+Abalone,M,multiplier_contrast,local,1528,8,degree_lp,4,4,7,1,1,1,0.5,4.25,
+Abalone,M,multiplier_contrast,local,1528,8,full_lp,4,4,7,1,1,1,0.5,4.25,
+Abalone,M,multiplier_box,local,1528,8,minor,1,1,2,6,0,0,1.875,6.375,2.0
+Abalone,M,multiplier_box,local,1528,8,degree_lp,2,2,4,4,0,1,1.375,5.625,4.0
+Abalone,M,multiplier_box,local,1528,8,full_lp,2,2,4,4,0,1,1.375,5.625,4.0
+Abalone,M,paired_exact,all,1528,8,minor,0,0,0,8,0,0,2.875,6.75,0.0
+Abalone,M,paired_exact,all,1528,8,degree_lp,1,1,1,7,0,0,2.25,6.5,1.0
+Abalone,M,paired_exact,all,1528,8,full_lp,1,1,2,6,0,0,2.25,6.375,2.0
+Abalone,M,merged_8,all,1528,8,minor,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,merged_8,all,1528,8,degree_lp,0,0,0,8,0,0,4.375,7.0,0.0
+Abalone,M,merged_8,all,1528,8,full_lp,0,0,0,8,0,0,4.375,7.0,0.0
+Abalone,M,u_hoeffding,all,1528,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,M,u_hoeffding,all,1528,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,u_hoeffding,all,1528,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,hoeffding_box,all,1528,8,minor,0,0,0,8,0,0,6.0,7.0,0.0
+Abalone,M,hoeffding_box,all,1528,8,degree_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,hoeffding_box,all,1528,8,full_lp,0,0,0,8,0,0,5.5,7.0,0.0
+Abalone,M,multiplier_contrast,all,1528,8,minor,4,4,7,1,1,1,0.5,4.25,
+Abalone,M,multiplier_contrast,all,1528,8,degree_lp,4,4,7,1,1,1,0.5,4.25,
+Abalone,M,multiplier_contrast,all,1528,8,full_lp,4,4,7,1,1,1,0.5,4.25,
+Abalone,M,multiplier_box,all,1528,8,minor,1,1,2,6,0,0,1.875,6.375,2.0
+Abalone,M,multiplier_box,all,1528,8,degree_lp,2,2,4,4,0,1,1.375,5.625,4.0
+Abalone,M,multiplier_box,all,1528,8,full_lp,2,2,4,4,0,1,1.375,5.625,4.0
+Dry Bean,BARBUNYA,paired_exact,local,1322,16,minor,0,0,0,16,0,0,6.5,15.0,0.0
+Dry Bean,BARBUNYA,paired_exact,local,1322,16,degree_lp,0,0,0,16,0,0,5.0,15.0,0.0
+Dry Bean,BARBUNYA,paired_exact,local,1322,16,full_lp,0,0,0,16,0,0,5.0,15.0,0.0
+Dry Bean,BARBUNYA,merged_8,local,1322,16,minor,0,0,0,16,0,0,6.9375,15.0,0.0
+Dry Bean,BARBUNYA,merged_8,local,1322,16,degree_lp,0,0,0,16,0,0,5.5625,15.0,0.0
+Dry Bean,BARBUNYA,merged_8,local,1322,16,full_lp,0,0,0,16,0,0,5.5625,15.0,0.0
+Dry Bean,BARBUNYA,u_hoeffding,local,1322,16,minor,0,0,0,16,0,0,9.625,15.0,0.0
+Dry Bean,BARBUNYA,u_hoeffding,local,1322,16,degree_lp,0,0,0,16,0,0,7.3125,15.0,0.0
+Dry Bean,BARBUNYA,u_hoeffding,local,1322,16,full_lp,0,0,0,16,0,0,7.3125,15.0,0.0
+Dry Bean,BARBUNYA,hoeffding_box,local,1322,16,minor,0,0,0,16,0,0,8.0625,15.0,0.0
+Dry Bean,BARBUNYA,hoeffding_box,local,1322,16,degree_lp,0,0,0,16,0,0,6.4375,15.0,0.0
+Dry Bean,BARBUNYA,hoeffding_box,local,1322,16,full_lp,0,0,0,16,0,0,6.4375,15.0,0.0
+Dry Bean,BARBUNYA,multiplier_contrast,local,1322,16,minor,0,0,0,16,0,0,2.75,14.875,0.0
+Dry Bean,BARBUNYA,multiplier_contrast,local,1322,16,degree_lp,0,0,0,16,0,0,2.5,14.875,0.0
+Dry Bean,BARBUNYA,multiplier_contrast,local,1322,16,full_lp,0,0,0,16,0,0,2.5,14.875,0.0
+Dry Bean,BARBUNYA,multiplier_box,local,1322,16,minor,0,0,0,16,0,0,4.5,15.0,0.0
+Dry Bean,BARBUNYA,multiplier_box,local,1322,16,degree_lp,0,0,0,16,0,0,3.5625,15.0,0.0
+Dry Bean,BARBUNYA,multiplier_box,local,1322,16,full_lp,0,0,0,16,0,0,3.5625,15.0,0.0
+Dry Bean,BARBUNYA,paired_exact,all,1322,16,minor,0,0,0,16,0,0,6.0,15.0,0.0
+Dry Bean,BARBUNYA,paired_exact,all,1322,16,degree_lp,0,0,0,16,0,0,4.875,15.0,0.0
+Dry Bean,BARBUNYA,paired_exact,all,1322,16,full_lp,0,0,0,16,0,0,4.875,15.0,0.0
+Dry Bean,BARBUNYA,merged_8,all,1322,16,minor,0,0,0,16,0,0,6.5,15.0,0.0
+Dry Bean,BARBUNYA,merged_8,all,1322,16,degree_lp,0,0,0,16,0,0,5.375,15.0,0.0
+Dry Bean,BARBUNYA,merged_8,all,1322,16,full_lp,0,0,0,16,0,0,5.375,15.0,0.0
+Dry Bean,BARBUNYA,u_hoeffding,all,1322,16,minor,0,0,0,16,0,0,9.0625,15.0,0.0
+Dry Bean,BARBUNYA,u_hoeffding,all,1322,16,degree_lp,0,0,0,16,0,0,7.0,15.0,0.0
+Dry Bean,BARBUNYA,u_hoeffding,all,1322,16,full_lp,0,0,0,16,0,0,7.0,15.0,0.0
+Dry Bean,BARBUNYA,hoeffding_box,all,1322,16,minor,0,0,0,16,0,0,7.4375,15.0,0.0
+Dry Bean,BARBUNYA,hoeffding_box,all,1322,16,degree_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,BARBUNYA,hoeffding_box,all,1322,16,full_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,BARBUNYA,multiplier_contrast,all,1322,16,minor,2,2,2,14,0,0,2.0,14.0,6.0
+Dry Bean,BARBUNYA,multiplier_contrast,all,1322,16,degree_lp,2,2,2,14,0,0,1.8125,14.0,6.0
+Dry Bean,BARBUNYA,multiplier_contrast,all,1322,16,full_lp,2,2,2,14,0,0,1.8125,14.0,6.0
+Dry Bean,BARBUNYA,multiplier_box,all,1322,16,minor,0,0,0,16,0,0,3.125,15.0,0.0
+Dry Bean,BARBUNYA,multiplier_box,all,1322,16,degree_lp,0,0,0,16,0,0,2.75,15.0,0.0
+Dry Bean,BARBUNYA,multiplier_box,all,1322,16,full_lp,0,0,0,16,0,0,2.75,15.0,0.0
+Dry Bean,BOMBAY,paired_exact,local,522,16,minor,0,0,0,16,0,0,7.0,15.0,0.0
+Dry Bean,BOMBAY,paired_exact,local,522,16,degree_lp,0,0,0,16,0,0,5.25,15.0,0.0
+Dry Bean,BOMBAY,paired_exact,local,522,16,full_lp,0,0,0,16,0,0,5.25,15.0,0.0
+Dry Bean,BOMBAY,merged_8,local,522,16,minor,0,0,0,16,0,0,7.5,15.0,0.0
+Dry Bean,BOMBAY,merged_8,local,522,16,degree_lp,0,0,0,16,0,0,5.5625,15.0,0.0
+Dry Bean,BOMBAY,merged_8,local,522,16,full_lp,0,0,0,16,0,0,5.5625,15.0,0.0
+Dry Bean,BOMBAY,u_hoeffding,local,522,16,minor,0,0,0,16,0,0,12.0,15.0,0.0
+Dry Bean,BOMBAY,u_hoeffding,local,522,16,degree_lp,0,0,0,16,0,0,8.0,15.0,0.0
+Dry Bean,BOMBAY,u_hoeffding,local,522,16,full_lp,0,0,0,16,0,0,8.0,15.0,0.0
+Dry Bean,BOMBAY,hoeffding_box,local,522,16,minor,0,0,0,16,0,0,11.875,15.0,0.0
+Dry Bean,BOMBAY,hoeffding_box,local,522,16,degree_lp,0,0,0,16,0,0,7.8125,15.0,0.0
+Dry Bean,BOMBAY,hoeffding_box,local,522,16,full_lp,0,0,0,16,0,0,7.8125,15.0,0.0
+Dry Bean,BOMBAY,multiplier_contrast,local,522,16,minor,0,0,0,16,0,0,2.5625,14.875,0.0
+Dry Bean,BOMBAY,multiplier_contrast,local,522,16,degree_lp,0,0,0,16,0,0,2.4375,14.875,0.0
+Dry Bean,BOMBAY,multiplier_contrast,local,522,16,full_lp,0,0,0,16,0,0,2.4375,14.875,0.0
+Dry Bean,BOMBAY,multiplier_box,local,522,16,minor,0,0,0,16,0,0,5.4375,15.0,0.0
+Dry Bean,BOMBAY,multiplier_box,local,522,16,degree_lp,0,0,0,16,0,0,4.1875,15.0,0.0
+Dry Bean,BOMBAY,multiplier_box,local,522,16,full_lp,0,0,0,16,0,0,4.1875,15.0,0.0
+Dry Bean,BOMBAY,paired_exact,all,522,16,minor,0,0,0,16,0,0,7.0,15.0,0.0
+Dry Bean,BOMBAY,paired_exact,all,522,16,degree_lp,0,0,0,16,0,0,5.375,15.0,0.0
+Dry Bean,BOMBAY,paired_exact,all,522,16,full_lp,0,0,0,16,0,0,5.375,15.0,0.0
+Dry Bean,BOMBAY,merged_8,all,522,16,minor,0,0,0,16,0,0,7.75,15.0,0.0
+Dry Bean,BOMBAY,merged_8,all,522,16,degree_lp,0,0,0,16,0,0,5.625,15.0,0.0
+Dry Bean,BOMBAY,merged_8,all,522,16,full_lp,0,0,0,16,0,0,5.625,15.0,0.0
+Dry Bean,BOMBAY,u_hoeffding,all,522,16,minor,0,0,0,16,0,0,11.625,15.0,0.0
+Dry Bean,BOMBAY,u_hoeffding,all,522,16,degree_lp,0,0,0,16,0,0,8.125,15.0,0.0
+Dry Bean,BOMBAY,u_hoeffding,all,522,16,full_lp,0,0,0,16,0,0,8.125,15.0,0.0
+Dry Bean,BOMBAY,hoeffding_box,all,522,16,minor,0,0,0,16,0,0,11.25,15.0,0.0
+Dry Bean,BOMBAY,hoeffding_box,all,522,16,degree_lp,0,0,0,16,0,0,7.625,15.0,0.0
+Dry Bean,BOMBAY,hoeffding_box,all,522,16,full_lp,0,0,0,16,0,0,7.625,15.0,0.0
+Dry Bean,BOMBAY,multiplier_contrast,all,522,16,minor,0,0,0,16,0,0,2.6875,14.875,0.0
+Dry Bean,BOMBAY,multiplier_contrast,all,522,16,degree_lp,0,0,0,16,0,0,2.5,14.875,0.0
+Dry Bean,BOMBAY,multiplier_contrast,all,522,16,full_lp,0,0,0,16,0,0,2.5,14.875,0.0
+Dry Bean,BOMBAY,multiplier_box,all,522,16,minor,0,0,0,16,0,0,5.1875,15.0,0.0
+Dry Bean,BOMBAY,multiplier_box,all,522,16,degree_lp,0,0,0,16,0,0,4.125,15.0,0.0
+Dry Bean,BOMBAY,multiplier_box,all,522,16,full_lp,0,0,0,16,0,0,4.125,15.0,0.0
+Dry Bean,CALI,paired_exact,local,1630,16,minor,0,0,0,16,0,0,5.6875,15.0,0.0
+Dry Bean,CALI,paired_exact,local,1630,16,degree_lp,0,0,0,16,0,0,4.375,15.0,0.0
+Dry Bean,CALI,paired_exact,local,1630,16,full_lp,0,0,0,16,0,0,4.375,15.0,0.0
+Dry Bean,CALI,merged_8,local,1630,16,minor,0,0,0,16,0,0,5.9375,15.0,0.0
+Dry Bean,CALI,merged_8,local,1630,16,degree_lp,0,0,0,16,0,0,4.8125,15.0,0.0
+Dry Bean,CALI,merged_8,local,1630,16,full_lp,0,0,0,16,0,0,4.8125,15.0,0.0
+Dry Bean,CALI,u_hoeffding,local,1630,16,minor,0,0,0,16,0,0,8.125,15.0,0.0
+Dry Bean,CALI,u_hoeffding,local,1630,16,degree_lp,0,0,0,16,0,0,6.3125,15.0,0.0
+Dry Bean,CALI,u_hoeffding,local,1630,16,full_lp,0,0,0,16,0,0,6.3125,15.0,0.0
+Dry Bean,CALI,hoeffding_box,local,1630,16,minor,0,0,0,16,0,0,8.125,15.0,0.0
+Dry Bean,CALI,hoeffding_box,local,1630,16,degree_lp,0,0,0,16,0,0,6.3125,15.0,0.0
+Dry Bean,CALI,hoeffding_box,local,1630,16,full_lp,0,0,0,16,0,0,6.3125,15.0,0.0
+Dry Bean,CALI,multiplier_contrast,local,1630,16,minor,1,0,0,16,0,0,2.6875,14.875,0.0
+Dry Bean,CALI,multiplier_contrast,local,1630,16,degree_lp,1,0,0,16,0,0,2.25,14.875,0.0
+Dry Bean,CALI,multiplier_contrast,local,1630,16,full_lp,1,0,0,16,0,0,2.25,14.875,0.0
+Dry Bean,CALI,multiplier_box,local,1630,16,minor,0,0,0,16,0,0,4.75,15.0,0.0
+Dry Bean,CALI,multiplier_box,local,1630,16,degree_lp,0,0,0,16,0,0,3.6875,15.0,0.0
+Dry Bean,CALI,multiplier_box,local,1630,16,full_lp,0,0,0,16,0,0,3.6875,15.0,0.0
+Dry Bean,CALI,paired_exact,all,1630,16,minor,0,0,0,16,0,0,5.125,15.0,0.0
+Dry Bean,CALI,paired_exact,all,1630,16,degree_lp,0,0,0,16,0,0,4.125,15.0,0.0
+Dry Bean,CALI,paired_exact,all,1630,16,full_lp,0,0,0,16,0,0,4.125,15.0,0.0
+Dry Bean,CALI,merged_8,all,1630,16,minor,0,0,0,16,0,0,5.625,15.0,0.0
+Dry Bean,CALI,merged_8,all,1630,16,degree_lp,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,CALI,merged_8,all,1630,16,full_lp,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,CALI,u_hoeffding,all,1630,16,minor,0,0,0,16,0,0,8.25,15.0,0.0
+Dry Bean,CALI,u_hoeffding,all,1630,16,degree_lp,0,0,0,16,0,0,6.375,15.0,0.0
+Dry Bean,CALI,u_hoeffding,all,1630,16,full_lp,0,0,0,16,0,0,6.375,15.0,0.0
+Dry Bean,CALI,hoeffding_box,all,1630,16,minor,0,0,0,16,0,0,7.5625,15.0,0.0
+Dry Bean,CALI,hoeffding_box,all,1630,16,degree_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,CALI,hoeffding_box,all,1630,16,full_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,CALI,multiplier_contrast,all,1630,16,minor,1,0,0,16,0,0,1.75,14.75,0.0
+Dry Bean,CALI,multiplier_contrast,all,1630,16,degree_lp,2,1,1,15,0,0,1.625,14.375,2.0
+Dry Bean,CALI,multiplier_contrast,all,1630,16,full_lp,2,1,1,15,0,0,1.625,14.375,2.0
+Dry Bean,CALI,multiplier_box,all,1630,16,minor,0,0,0,16,0,0,2.6875,15.0,0.0
+Dry Bean,CALI,multiplier_box,all,1630,16,degree_lp,0,0,0,16,0,0,2.4375,15.0,0.0
+Dry Bean,CALI,multiplier_box,all,1630,16,full_lp,0,0,0,16,0,0,2.4375,15.0,0.0
+Dry Bean,DERMASON,paired_exact,local,3546,16,minor,0,0,0,16,0,0,3.625,15.0,0.0
+Dry Bean,DERMASON,paired_exact,local,3546,16,degree_lp,0,0,0,16,0,0,2.9375,15.0,0.0
+Dry Bean,DERMASON,paired_exact,local,3546,16,full_lp,0,0,0,16,0,0,2.9375,15.0,0.0
+Dry Bean,DERMASON,merged_8,local,3546,16,minor,0,0,0,16,0,0,4.5,15.0,0.0
+Dry Bean,DERMASON,merged_8,local,3546,16,degree_lp,0,0,0,16,0,0,3.625,15.0,0.0
+Dry Bean,DERMASON,merged_8,local,3546,16,full_lp,0,0,0,16,0,0,3.625,15.0,0.0
+Dry Bean,DERMASON,u_hoeffding,local,3546,16,minor,0,0,0,16,0,0,6.625,15.0,0.0
+Dry Bean,DERMASON,u_hoeffding,local,3546,16,degree_lp,0,0,0,16,0,0,5.125,15.0,0.0
+Dry Bean,DERMASON,u_hoeffding,local,3546,16,full_lp,0,0,0,16,0,0,5.125,15.0,0.0
+Dry Bean,DERMASON,hoeffding_box,local,3546,16,minor,0,0,0,16,0,0,6.5,15.0,0.0
+Dry Bean,DERMASON,hoeffding_box,local,3546,16,degree_lp,0,0,0,16,0,0,4.875,15.0,0.0
+Dry Bean,DERMASON,hoeffding_box,local,3546,16,full_lp,0,0,0,16,0,0,4.875,15.0,0.0
+Dry Bean,DERMASON,multiplier_contrast,local,3546,16,minor,3,2,2,14,0,0,1.5625,13.875,6.0
+Dry Bean,DERMASON,multiplier_contrast,local,3546,16,degree_lp,3,2,2,14,0,0,1.5,13.875,6.0
+Dry Bean,DERMASON,multiplier_contrast,local,3546,16,full_lp,3,2,2,14,0,0,1.5,13.875,6.0
+Dry Bean,DERMASON,multiplier_box,local,3546,16,minor,1,1,1,15,0,0,3.125,14.8125,0.0
+Dry Bean,DERMASON,multiplier_box,local,3546,16,degree_lp,1,1,1,15,0,0,2.8125,14.75,0.0
+Dry Bean,DERMASON,multiplier_box,local,3546,16,full_lp,1,1,1,15,0,0,2.8125,14.75,0.0
+Dry Bean,DERMASON,paired_exact,all,3546,16,minor,0,0,0,16,0,0,3.25,15.0,0.0
+Dry Bean,DERMASON,paired_exact,all,3546,16,degree_lp,0,0,0,16,0,0,2.6875,15.0,0.0
+Dry Bean,DERMASON,paired_exact,all,3546,16,full_lp,0,0,0,16,0,0,2.6875,15.0,0.0
+Dry Bean,DERMASON,merged_8,all,3546,16,minor,0,0,0,16,0,0,4.375,15.0,0.0
+Dry Bean,DERMASON,merged_8,all,3546,16,degree_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,DERMASON,merged_8,all,3546,16,full_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,DERMASON,u_hoeffding,all,3546,16,minor,0,0,0,16,0,0,6.25,15.0,0.0
+Dry Bean,DERMASON,u_hoeffding,all,3546,16,degree_lp,0,0,0,16,0,0,5.0,15.0,0.0
+Dry Bean,DERMASON,u_hoeffding,all,3546,16,full_lp,0,0,0,16,0,0,5.0,15.0,0.0
+Dry Bean,DERMASON,hoeffding_box,all,3546,16,minor,0,0,0,16,0,0,5.625,15.0,0.0
+Dry Bean,DERMASON,hoeffding_box,all,3546,16,degree_lp,0,0,0,16,0,0,4.3125,15.0,0.0
+Dry Bean,DERMASON,hoeffding_box,all,3546,16,full_lp,0,0,0,16,0,0,4.3125,15.0,0.0
+Dry Bean,DERMASON,multiplier_contrast,all,3546,16,minor,3,2,2,14,0,0,1.5625,13.875,6.0
+Dry Bean,DERMASON,multiplier_contrast,all,3546,16,degree_lp,3,2,2,14,0,0,1.5,13.875,6.0
+Dry Bean,DERMASON,multiplier_contrast,all,3546,16,full_lp,3,2,2,14,0,0,1.5,13.875,6.0
+Dry Bean,DERMASON,multiplier_box,all,3546,16,minor,1,1,1,15,0,0,3.125,14.8125,0.0
+Dry Bean,DERMASON,multiplier_box,all,3546,16,degree_lp,1,1,1,15,0,0,2.8125,14.75,0.0
+Dry Bean,DERMASON,multiplier_box,all,3546,16,full_lp,1,1,1,15,0,0,2.8125,14.75,0.0
+Dry Bean,HOROZ,paired_exact,local,1928,16,minor,0,0,0,16,0,0,5.0,15.0,0.0
+Dry Bean,HOROZ,paired_exact,local,1928,16,degree_lp,0,0,0,16,0,0,4.0625,15.0,0.0
+Dry Bean,HOROZ,paired_exact,local,1928,16,full_lp,0,0,0,16,0,0,4.0625,15.0,0.0
+Dry Bean,HOROZ,merged_8,local,1928,16,minor,0,0,0,16,0,0,5.75,15.0,0.0
+Dry Bean,HOROZ,merged_8,local,1928,16,degree_lp,0,0,0,16,0,0,4.5625,15.0,0.0
+Dry Bean,HOROZ,merged_8,local,1928,16,full_lp,0,0,0,16,0,0,4.5625,15.0,0.0
+Dry Bean,HOROZ,u_hoeffding,local,1928,16,minor,0,0,0,16,0,0,8.8125,15.0,0.0
+Dry Bean,HOROZ,u_hoeffding,local,1928,16,degree_lp,0,0,0,16,0,0,6.375,15.0,0.0
+Dry Bean,HOROZ,u_hoeffding,local,1928,16,full_lp,0,0,0,16,0,0,6.375,15.0,0.0
+Dry Bean,HOROZ,hoeffding_box,local,1928,16,minor,0,0,0,16,0,0,7.9375,15.0,0.0
+Dry Bean,HOROZ,hoeffding_box,local,1928,16,degree_lp,0,0,0,16,0,0,5.8125,15.0,0.0
+Dry Bean,HOROZ,hoeffding_box,local,1928,16,full_lp,0,0,0,16,0,0,5.8125,15.0,0.0
+Dry Bean,HOROZ,multiplier_contrast,local,1928,16,minor,3,1,8,8,0,0,1.5,13.1875,10.0
+Dry Bean,HOROZ,multiplier_contrast,local,1928,16,degree_lp,3,1,8,8,0,0,1.4375,13.1875,10.0
+Dry Bean,HOROZ,multiplier_contrast,local,1928,16,full_lp,3,1,8,8,0,0,1.4375,13.1875,10.0
+Dry Bean,HOROZ,multiplier_box,local,1928,16,minor,0,0,0,16,0,0,2.875,15.0,0.0
+Dry Bean,HOROZ,multiplier_box,local,1928,16,degree_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,HOROZ,multiplier_box,local,1928,16,full_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,HOROZ,paired_exact,all,1928,16,minor,0,0,0,16,0,0,4.8125,15.0,0.0
+Dry Bean,HOROZ,paired_exact,all,1928,16,degree_lp,0,0,0,16,0,0,3.9375,15.0,0.0
+Dry Bean,HOROZ,paired_exact,all,1928,16,full_lp,0,0,0,16,0,0,3.9375,15.0,0.0
+Dry Bean,HOROZ,merged_8,all,1928,16,minor,0,0,0,16,0,0,5.9375,15.0,0.0
+Dry Bean,HOROZ,merged_8,all,1928,16,degree_lp,0,0,0,16,0,0,4.4375,15.0,0.0
+Dry Bean,HOROZ,merged_8,all,1928,16,full_lp,0,0,0,16,0,0,4.4375,15.0,0.0
+Dry Bean,HOROZ,u_hoeffding,all,1928,16,minor,0,0,0,16,0,0,8.125,15.0,0.0
+Dry Bean,HOROZ,u_hoeffding,all,1928,16,degree_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,HOROZ,u_hoeffding,all,1928,16,full_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,HOROZ,hoeffding_box,all,1928,16,minor,0,0,0,16,0,0,6.9375,15.0,0.0
+Dry Bean,HOROZ,hoeffding_box,all,1928,16,degree_lp,0,0,0,16,0,0,5.3125,15.0,0.0
+Dry Bean,HOROZ,hoeffding_box,all,1928,16,full_lp,0,0,0,16,0,0,5.3125,15.0,0.0
+Dry Bean,HOROZ,multiplier_contrast,all,1928,16,minor,3,1,8,8,0,0,1.5,13.1875,10.0
+Dry Bean,HOROZ,multiplier_contrast,all,1928,16,degree_lp,3,1,8,8,0,0,1.4375,13.1875,10.0
+Dry Bean,HOROZ,multiplier_contrast,all,1928,16,full_lp,3,1,8,8,0,0,1.4375,13.1875,10.0
+Dry Bean,HOROZ,multiplier_box,all,1928,16,minor,0,0,0,16,0,0,2.5625,15.0,0.0
+Dry Bean,HOROZ,multiplier_box,all,1928,16,degree_lp,0,0,0,16,0,0,2.25,15.0,0.0
+Dry Bean,HOROZ,multiplier_box,all,1928,16,full_lp,0,0,0,16,0,0,2.25,15.0,0.0
+Dry Bean,SEKER,paired_exact,local,2027,16,minor,0,0,0,16,0,0,4.6875,15.0,0.0
+Dry Bean,SEKER,paired_exact,local,2027,16,degree_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,SEKER,paired_exact,local,2027,16,full_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,SEKER,merged_8,local,2027,16,minor,0,0,0,16,0,0,6.0625,15.0,0.0
+Dry Bean,SEKER,merged_8,local,2027,16,degree_lp,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,SEKER,merged_8,local,2027,16,full_lp,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,SEKER,u_hoeffding,local,2027,16,minor,0,0,0,16,0,0,8.5625,15.0,0.0
+Dry Bean,SEKER,u_hoeffding,local,2027,16,degree_lp,0,0,0,16,0,0,6.4375,15.0,0.0
+Dry Bean,SEKER,u_hoeffding,local,2027,16,full_lp,0,0,0,16,0,0,6.4375,15.0,0.0
+Dry Bean,SEKER,hoeffding_box,local,2027,16,minor,0,0,0,16,0,0,7.8125,15.0,0.0
+Dry Bean,SEKER,hoeffding_box,local,2027,16,degree_lp,0,0,0,16,0,0,6.0625,15.0,0.0
+Dry Bean,SEKER,hoeffding_box,local,2027,16,full_lp,0,0,0,16,0,0,6.0625,15.0,0.0
+Dry Bean,SEKER,multiplier_contrast,local,2027,16,minor,0,0,0,16,0,0,3.125,15.0,0.0
+Dry Bean,SEKER,multiplier_contrast,local,2027,16,degree_lp,0,0,0,16,0,0,2.75,15.0,0.0
+Dry Bean,SEKER,multiplier_contrast,local,2027,16,full_lp,0,0,0,16,0,0,2.75,15.0,0.0
+Dry Bean,SEKER,multiplier_box,local,2027,16,minor,0,0,0,16,0,0,4.6875,15.0,0.0
+Dry Bean,SEKER,multiplier_box,local,2027,16,degree_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SEKER,multiplier_box,local,2027,16,full_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SEKER,paired_exact,all,2027,16,minor,0,0,0,16,0,0,4.6875,15.0,0.0
+Dry Bean,SEKER,paired_exact,all,2027,16,degree_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,SEKER,paired_exact,all,2027,16,full_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,SEKER,merged_8,all,2027,16,minor,0,0,0,16,0,0,5.625,15.0,0.0
+Dry Bean,SEKER,merged_8,all,2027,16,degree_lp,0,0,0,16,0,0,4.4375,15.0,0.0
+Dry Bean,SEKER,merged_8,all,2027,16,full_lp,0,0,0,16,0,0,4.4375,15.0,0.0
+Dry Bean,SEKER,u_hoeffding,all,2027,16,minor,0,0,0,16,0,0,8.5625,15.0,0.0
+Dry Bean,SEKER,u_hoeffding,all,2027,16,degree_lp,0,0,0,16,0,0,6.5625,15.0,0.0
+Dry Bean,SEKER,u_hoeffding,all,2027,16,full_lp,0,0,0,16,0,0,6.5625,15.0,0.0
+Dry Bean,SEKER,hoeffding_box,all,2027,16,minor,0,0,0,16,0,0,7.625,15.0,0.0
+Dry Bean,SEKER,hoeffding_box,all,2027,16,degree_lp,0,0,0,16,0,0,5.875,15.0,0.0
+Dry Bean,SEKER,hoeffding_box,all,2027,16,full_lp,0,0,0,16,0,0,5.875,15.0,0.0
+Dry Bean,SEKER,multiplier_contrast,all,2027,16,minor,0,0,0,16,0,0,2.9375,15.0,0.0
+Dry Bean,SEKER,multiplier_contrast,all,2027,16,degree_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,SEKER,multiplier_contrast,all,2027,16,full_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,SEKER,multiplier_box,all,2027,16,minor,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,SEKER,multiplier_box,all,2027,16,degree_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,SEKER,multiplier_box,all,2027,16,full_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,SIRA,paired_exact,local,2636,16,minor,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,SIRA,paired_exact,local,2636,16,degree_lp,0,0,0,16,0,0,3.5,15.0,0.0
+Dry Bean,SIRA,paired_exact,local,2636,16,full_lp,0,0,0,16,0,0,3.5,15.0,0.0
+Dry Bean,SIRA,merged_8,local,2636,16,minor,0,0,0,16,0,0,6.0,15.0,0.0
+Dry Bean,SIRA,merged_8,local,2636,16,degree_lp,0,0,0,16,0,0,4.5625,15.0,0.0
+Dry Bean,SIRA,merged_8,local,2636,16,full_lp,0,0,0,16,0,0,4.5625,15.0,0.0
+Dry Bean,SIRA,u_hoeffding,local,2636,16,minor,0,0,0,16,0,0,7.625,15.0,0.0
+Dry Bean,SIRA,u_hoeffding,local,2636,16,degree_lp,0,0,0,16,0,0,5.4375,15.0,0.0
+Dry Bean,SIRA,u_hoeffding,local,2636,16,full_lp,0,0,0,16,0,0,5.4375,15.0,0.0
+Dry Bean,SIRA,hoeffding_box,local,2636,16,minor,0,0,0,16,0,0,6.9375,15.0,0.0
+Dry Bean,SIRA,hoeffding_box,local,2636,16,degree_lp,0,0,0,16,0,0,5.0625,15.0,0.0
+Dry Bean,SIRA,hoeffding_box,local,2636,16,full_lp,0,0,0,16,0,0,5.0625,15.0,0.0
+Dry Bean,SIRA,multiplier_contrast,local,2636,16,minor,3,2,2,14,0,0,1.4375,13.875,6.0
+Dry Bean,SIRA,multiplier_contrast,local,2636,16,degree_lp,3,2,2,14,0,0,1.4375,13.875,6.0
+Dry Bean,SIRA,multiplier_contrast,local,2636,16,full_lp,3,2,2,14,0,0,1.4375,13.875,6.0
+Dry Bean,SIRA,multiplier_box,local,2636,16,minor,2,2,2,14,0,0,2.4375,14.25,4.0
+Dry Bean,SIRA,multiplier_box,local,2636,16,degree_lp,2,2,2,14,0,0,2.1875,14.25,4.0
+Dry Bean,SIRA,multiplier_box,local,2636,16,full_lp,2,2,2,14,0,0,2.1875,14.25,4.0
+Dry Bean,SIRA,paired_exact,all,2636,16,minor,0,0,0,16,0,0,4.125,15.0,0.0
+Dry Bean,SIRA,paired_exact,all,2636,16,degree_lp,0,0,0,16,0,0,3.1875,15.0,0.0
+Dry Bean,SIRA,paired_exact,all,2636,16,full_lp,0,0,0,16,0,0,3.1875,15.0,0.0
+Dry Bean,SIRA,merged_8,all,2636,16,minor,0,0,0,16,0,0,5.0625,15.0,0.0
+Dry Bean,SIRA,merged_8,all,2636,16,degree_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SIRA,merged_8,all,2636,16,full_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SIRA,u_hoeffding,all,2636,16,minor,0,0,0,16,0,0,8.8125,15.0,0.0
+Dry Bean,SIRA,u_hoeffding,all,2636,16,degree_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,SIRA,u_hoeffding,all,2636,16,full_lp,0,0,0,16,0,0,6.125,15.0,0.0
+Dry Bean,SIRA,hoeffding_box,all,2636,16,minor,0,0,0,16,0,0,6.0625,15.0,0.0
+Dry Bean,SIRA,hoeffding_box,all,2636,16,degree_lp,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,SIRA,hoeffding_box,all,2636,16,full_lp,0,0,0,16,0,0,4.625,15.0,0.0
+Dry Bean,SIRA,multiplier_contrast,all,2636,16,minor,3,2,2,14,0,0,1.625,13.875,6.0
+Dry Bean,SIRA,multiplier_contrast,all,2636,16,degree_lp,3,2,2,14,0,0,1.5625,13.875,6.0
+Dry Bean,SIRA,multiplier_contrast,all,2636,16,full_lp,3,2,2,14,0,0,1.5625,13.875,6.0
+Dry Bean,SIRA,multiplier_box,all,2636,16,minor,2,2,2,14,0,0,2.4375,14.25,4.0
+Dry Bean,SIRA,multiplier_box,all,2636,16,degree_lp,2,2,2,14,0,0,2.1875,14.25,4.0
+Dry Bean,SIRA,multiplier_box,all,2636,16,full_lp,2,2,2,14,0,0,2.1875,14.25,4.0
+Dry Bean,pooled,paired_exact,local,13611,16,minor,0,0,0,16,0,0,2.1875,15.0,0.0
+Dry Bean,pooled,paired_exact,local,13611,16,degree_lp,1,1,1,15,0,0,2.0,14.6875,0.0
+Dry Bean,pooled,paired_exact,local,13611,16,full_lp,1,1,1,15,0,0,2.0,14.6875,0.0
+Dry Bean,pooled,merged_8,local,13611,16,minor,0,0,0,16,0,0,2.8125,15.0,0.0
+Dry Bean,pooled,merged_8,local,13611,16,degree_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,pooled,merged_8,local,13611,16,full_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,pooled,u_hoeffding,local,13611,16,minor,0,0,0,16,0,0,4.0625,15.0,0.0
+Dry Bean,pooled,u_hoeffding,local,13611,16,degree_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,u_hoeffding,local,13611,16,full_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,hoeffding_box,local,13611,16,minor,0,0,0,16,0,0,4.0625,15.0,0.0
+Dry Bean,pooled,hoeffding_box,local,13611,16,degree_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,hoeffding_box,local,13611,16,full_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,multiplier_contrast,local,13611,16,minor,3,2,2,14,0,0,1.5,13.875,6.0
+Dry Bean,pooled,multiplier_contrast,local,13611,16,degree_lp,3,2,2,14,0,0,1.375,13.875,6.0
+Dry Bean,pooled,multiplier_contrast,local,13611,16,full_lp,3,2,2,14,0,0,1.375,13.875,6.0
+Dry Bean,pooled,multiplier_box,local,13611,16,minor,0,0,0,16,0,0,2.1875,15.0,0.0
+Dry Bean,pooled,multiplier_box,local,13611,16,degree_lp,1,1,1,15,0,0,1.9375,14.6875,0.0
+Dry Bean,pooled,multiplier_box,local,13611,16,full_lp,1,1,1,15,0,0,1.9375,14.6875,0.0
+Dry Bean,pooled,paired_exact,all,13611,16,minor,2,1,1,15,0,0,1.875,14.0,5.0
+Dry Bean,pooled,paired_exact,all,13611,16,degree_lp,4,1,1,15,0,0,1.6875,13.9375,5.0
+Dry Bean,pooled,paired_exact,all,13611,16,full_lp,4,1,1,15,0,0,1.6875,13.9375,5.0
+Dry Bean,pooled,merged_8,all,13611,16,minor,0,0,0,16,0,0,2.8125,15.0,0.0
+Dry Bean,pooled,merged_8,all,13611,16,degree_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,pooled,merged_8,all,13611,16,full_lp,0,0,0,16,0,0,2.5,15.0,0.0
+Dry Bean,pooled,u_hoeffding,all,13611,16,minor,0,0,0,16,0,0,4.0625,15.0,0.0
+Dry Bean,pooled,u_hoeffding,all,13611,16,degree_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,u_hoeffding,all,13611,16,full_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,hoeffding_box,all,13611,16,minor,0,0,0,16,0,0,4.0625,15.0,0.0
+Dry Bean,pooled,hoeffding_box,all,13611,16,degree_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,hoeffding_box,all,13611,16,full_lp,0,0,0,16,0,0,3.4375,15.0,0.0
+Dry Bean,pooled,multiplier_contrast,all,13611,16,minor,7,3,9,7,0,0,1.0,11.3125,27.0
+Dry Bean,pooled,multiplier_contrast,all,13611,16,degree_lp,8,3,10,6,0,0,0.875,11.0,28.0
+Dry Bean,pooled,multiplier_contrast,all,13611,16,full_lp,8,3,10,6,0,0,0.875,11.0,28.0
+Dry Bean,pooled,multiplier_box,all,13611,16,minor,2,1,1,15,0,0,1.6875,14.0,5.0
+Dry Bean,pooled,multiplier_box,all,13611,16,degree_lp,5,2,2,14,0,0,1.4375,13.5,10.0
+Dry Bean,pooled,multiplier_box,all,13611,16,full_lp,5,2,2,14,0,0,1.4375,13.5,10.0
+Abalone,pooled,evalue_8,local,4177,8,minor,0,0,0,8,0,0,2.125,6.75,0.0
+Abalone,pooled,evalue_8,local,4177,8,degree_lp,1,1,1,7,0,0,1.875,6.5,1.0
+Abalone,pooled,evalue_8,local,4177,8,full_lp,1,1,1,7,0,0,1.875,6.5,1.0
+Abalone,pooled,evalue_64,local,4177,8,minor,1,1,2,6,0,0,1.875,6.375,2.0
+Abalone,pooled,evalue_64,local,4177,8,degree_lp,2,2,4,4,0,1,1.375,5.625,4.0
+Abalone,pooled,evalue_64,local,4177,8,full_lp,2,2,4,4,0,1,1.375,5.625,4.0
+Abalone,pooled,evalue_8,all,4177,8,minor,0,0,0,8,0,0,2.125,6.75,0.0
+Abalone,pooled,evalue_8,all,4177,8,degree_lp,1,1,1,7,0,0,1.875,6.5,1.0
+Abalone,pooled,evalue_8,all,4177,8,full_lp,1,1,1,7,0,0,1.875,6.5,1.0
+Abalone,pooled,evalue_64,all,4177,8,minor,1,1,2,6,0,0,1.875,6.375,2.0
+Abalone,pooled,evalue_64,all,4177,8,degree_lp,2,2,4,4,0,1,1.5,5.625,4.0
+Abalone,pooled,evalue_64,all,4177,8,full_lp,2,2,4,4,0,1,1.5,5.625,4.0
+Abalone,F,evalue_8,local,1307,8,minor,0,0,0,8,0,0,4.25,7.0,0.0
+Abalone,F,evalue_8,local,1307,8,degree_lp,1,1,1,7,0,0,3.0,6.75,0.0
+Abalone,F,evalue_8,local,1307,8,full_lp,1,1,1,7,0,0,3.0,6.75,0.0
+Abalone,F,evalue_64,local,1307,8,minor,0,0,0,8,0,0,3.125,7.0,0.0
+Abalone,F,evalue_64,local,1307,8,degree_lp,1,1,1,7,0,0,2.5,6.75,0.0
+Abalone,F,evalue_64,local,1307,8,full_lp,1,1,1,7,0,0,2.5,6.75,0.0
+Abalone,F,evalue_8,all,1307,8,minor,0,0,0,8,0,0,4.5,7.0,0.0
+Abalone,F,evalue_8,all,1307,8,degree_lp,1,1,1,7,0,0,3.25,6.75,0.0
+Abalone,F,evalue_8,all,1307,8,full_lp,1,1,1,7,0,0,3.25,6.75,0.0
+Abalone,F,evalue_64,all,1307,8,minor,0,0,0,8,0,0,3.375,7.0,0.0
+Abalone,F,evalue_64,all,1307,8,degree_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,F,evalue_64,all,1307,8,full_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,I,evalue_8,local,1342,8,minor,0,0,0,8,0,0,5.125,7.0,0.0
+Abalone,I,evalue_8,local,1342,8,degree_lp,0,0,0,8,0,0,4.125,7.0,0.0
+Abalone,I,evalue_8,local,1342,8,full_lp,0,0,0,8,0,0,4.125,7.0,0.0
+Abalone,I,evalue_64,local,1342,8,minor,1,1,1,7,0,0,4.375,6.625,1.0
+Abalone,I,evalue_64,local,1342,8,degree_lp,1,1,1,7,0,0,3.5,6.625,1.0
+Abalone,I,evalue_64,local,1342,8,full_lp,1,1,1,7,0,0,3.5,6.625,1.0
+Abalone,I,evalue_8,all,1342,8,minor,0,0,0,8,0,0,5.75,7.0,0.0
+Abalone,I,evalue_8,all,1342,8,degree_lp,0,0,0,8,0,0,4.375,7.0,0.0
+Abalone,I,evalue_8,all,1342,8,full_lp,0,0,0,8,0,0,4.375,7.0,0.0
+Abalone,I,evalue_64,all,1342,8,minor,0,0,0,8,0,0,4.875,7.0,0.0
+Abalone,I,evalue_64,all,1342,8,degree_lp,0,0,0,8,0,0,4.125,7.0,0.0
+Abalone,I,evalue_64,all,1342,8,full_lp,0,0,0,8,0,0,4.125,7.0,0.0
+Abalone,M,evalue_8,local,1528,8,minor,0,0,0,8,0,0,3.5,7.0,0.0
+Abalone,M,evalue_8,local,1528,8,degree_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,M,evalue_8,local,1528,8,full_lp,1,1,1,7,0,0,2.625,6.75,0.0
+Abalone,M,evalue_64,local,1528,8,minor,0,0,0,8,0,0,3.0,7.0,0.0
+Abalone,M,evalue_64,local,1528,8,degree_lp,1,1,1,7,0,0,2.5,6.75,0.0
+Abalone,M,evalue_64,local,1528,8,full_lp,1,1,1,7,0,0,2.5,6.75,0.0
+Abalone,M,evalue_8,all,1528,8,minor,0,0,0,8,0,0,3.5,7.0,0.0
+Abalone,M,evalue_8,all,1528,8,degree_lp,1,1,1,7,0,0,2.75,6.75,0.0
+Abalone,M,evalue_8,all,1528,8,full_lp,1,1,1,7,0,0,2.75,6.75,0.0
+Abalone,M,evalue_64,all,1528,8,minor,0,0,0,8,0,0,4.25,7.0,0.0
+Abalone,M,evalue_64,all,1528,8,degree_lp,1,1,1,7,0,0,3.125,6.75,0.0
+Abalone,M,evalue_64,all,1528,8,full_lp,1,1,1,7,0,0,3.125,6.75,0.0
+Dry Bean,BARBUNYA,evalue_8,local,1322,16,minor,0,0,0,16,0,0,6.6875,15.0,0.0
+Dry Bean,BARBUNYA,evalue_8,local,1322,16,degree_lp,0,0,0,16,0,0,5.125,15.0,0.0
+Dry Bean,BARBUNYA,evalue_8,local,1322,16,full_lp,0,0,0,16,0,0,5.125,15.0,0.0
+Dry Bean,BARBUNYA,evalue_64,local,1322,16,minor,0,0,0,16,0,0,6.375,15.0,0.0
+Dry Bean,BARBUNYA,evalue_64,local,1322,16,degree_lp,0,0,0,16,0,0,4.75,15.0,0.0
+Dry Bean,BARBUNYA,evalue_64,local,1322,16,full_lp,0,0,0,16,0,0,4.75,15.0,0.0
+Dry Bean,BARBUNYA,evalue_8,all,1322,16,minor,0,0,0,16,0,0,6.1875,15.0,0.0
+Dry Bean,BARBUNYA,evalue_8,all,1322,16,degree_lp,0,0,0,16,0,0,5.125,15.0,0.0
+Dry Bean,BARBUNYA,evalue_8,all,1322,16,full_lp,0,0,0,16,0,0,5.125,15.0,0.0
+Dry Bean,BARBUNYA,evalue_64,all,1322,16,minor,0,0,0,16,0,0,5.1875,15.0,0.0
+Dry Bean,BARBUNYA,evalue_64,all,1322,16,degree_lp,0,0,0,16,0,0,4.3125,15.0,0.0
+Dry Bean,BARBUNYA,evalue_64,all,1322,16,full_lp,0,0,0,16,0,0,4.3125,15.0,0.0
+Dry Bean,BOMBAY,evalue_8,local,522,16,minor,0,0,0,16,0,0,7.0625,15.0,0.0
+Dry Bean,BOMBAY,evalue_8,local,522,16,degree_lp,0,0,0,16,0,0,5.3125,15.0,0.0
+Dry Bean,BOMBAY,evalue_8,local,522,16,full_lp,0,0,0,16,0,0,5.3125,15.0,0.0
+Dry Bean,BOMBAY,evalue_64,local,522,16,minor,0,0,0,16,0,0,6.625,15.0,0.0
+Dry Bean,BOMBAY,evalue_64,local,522,16,degree_lp,0,0,0,16,0,0,4.8125,15.0,0.0
+Dry Bean,BOMBAY,evalue_64,local,522,16,full_lp,0,0,0,16,0,0,4.8125,15.0,0.0
+Dry Bean,BOMBAY,evalue_8,all,522,16,minor,0,0,0,16,0,0,6.6875,15.0,0.0
+Dry Bean,BOMBAY,evalue_8,all,522,16,degree_lp,0,0,0,16,0,0,5.25,15.0,0.0
+Dry Bean,BOMBAY,evalue_8,all,522,16,full_lp,0,0,0,16,0,0,5.25,15.0,0.0
+Dry Bean,BOMBAY,evalue_64,all,522,16,minor,0,0,0,16,0,0,6.4375,15.0,0.0
+Dry Bean,BOMBAY,evalue_64,all,522,16,degree_lp,0,0,0,16,0,0,4.875,15.0,0.0
+Dry Bean,BOMBAY,evalue_64,all,522,16,full_lp,0,0,0,16,0,0,4.875,15.0,0.0
+Dry Bean,CALI,evalue_8,local,1630,16,minor,0,0,0,16,0,0,5.6875,15.0,0.0
+Dry Bean,CALI,evalue_8,local,1630,16,degree_lp,0,0,0,16,0,0,4.4375,15.0,0.0
+Dry Bean,CALI,evalue_8,local,1630,16,full_lp,0,0,0,16,0,0,4.4375,15.0,0.0
+Dry Bean,CALI,evalue_64,local,1630,16,minor,0,0,0,16,0,0,5.0,15.0,0.0
+Dry Bean,CALI,evalue_64,local,1630,16,degree_lp,0,0,0,16,0,0,4.1875,15.0,0.0
+Dry Bean,CALI,evalue_64,local,1630,16,full_lp,0,0,0,16,0,0,4.1875,15.0,0.0
+Dry Bean,CALI,evalue_8,all,1630,16,minor,0,0,0,16,0,0,4.875,15.0,0.0
+Dry Bean,CALI,evalue_8,all,1630,16,degree_lp,0,0,0,16,0,0,3.9375,15.0,0.0
+Dry Bean,CALI,evalue_8,all,1630,16,full_lp,0,0,0,16,0,0,3.9375,15.0,0.0
+Dry Bean,CALI,evalue_64,all,1630,16,minor,0,0,0,16,0,0,4.3125,15.0,0.0
+Dry Bean,CALI,evalue_64,all,1630,16,degree_lp,0,0,0,16,0,0,3.5625,15.0,0.0
+Dry Bean,CALI,evalue_64,all,1630,16,full_lp,0,0,0,16,0,0,3.5625,15.0,0.0
+Dry Bean,DERMASON,evalue_8,local,3546,16,minor,0,0,0,16,0,0,3.1875,15.0,0.0
+Dry Bean,DERMASON,evalue_8,local,3546,16,degree_lp,0,0,0,16,0,0,2.6875,15.0,0.0
+Dry Bean,DERMASON,evalue_8,local,3546,16,full_lp,0,0,0,16,0,0,2.6875,15.0,0.0
+Dry Bean,DERMASON,evalue_64,local,3546,16,minor,0,0,0,16,0,0,3.25,15.0,0.0
+Dry Bean,DERMASON,evalue_64,local,3546,16,degree_lp,0,0,0,16,0,0,2.75,15.0,0.0
+Dry Bean,DERMASON,evalue_64,local,3546,16,full_lp,0,0,0,16,0,0,2.75,15.0,0.0
+Dry Bean,DERMASON,evalue_8,all,3546,16,minor,0,0,0,16,0,0,3.5,15.0,0.0
+Dry Bean,DERMASON,evalue_8,all,3546,16,degree_lp,0,0,0,16,0,0,2.875,15.0,0.0
+Dry Bean,DERMASON,evalue_8,all,3546,16,full_lp,0,0,0,16,0,0,2.875,15.0,0.0
+Dry Bean,DERMASON,evalue_64,all,3546,16,minor,0,0,0,16,0,0,3.1875,15.0,0.0
+Dry Bean,DERMASON,evalue_64,all,3546,16,degree_lp,0,0,0,16,0,0,2.6875,15.0,0.0
+Dry Bean,DERMASON,evalue_64,all,3546,16,full_lp,0,0,0,16,0,0,2.6875,15.0,0.0
+Dry Bean,HOROZ,evalue_8,local,1928,16,minor,0,0,0,16,0,0,4.8125,15.0,0.0
+Dry Bean,HOROZ,evalue_8,local,1928,16,degree_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,HOROZ,evalue_8,local,1928,16,full_lp,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,HOROZ,evalue_64,local,1928,16,minor,0,0,0,16,0,0,4.75,15.0,0.0
+Dry Bean,HOROZ,evalue_64,local,1928,16,degree_lp,0,0,0,16,0,0,3.8125,15.0,0.0
+Dry Bean,HOROZ,evalue_64,local,1928,16,full_lp,0,0,0,16,0,0,3.8125,15.0,0.0
+Dry Bean,HOROZ,evalue_8,all,1928,16,minor,0,0,0,16,0,0,4.5,15.0,0.0
+Dry Bean,HOROZ,evalue_8,all,1928,16,degree_lp,0,0,0,16,0,0,3.625,15.0,0.0
+Dry Bean,HOROZ,evalue_8,all,1928,16,full_lp,0,0,0,16,0,0,3.625,15.0,0.0
+Dry Bean,HOROZ,evalue_64,all,1928,16,minor,0,0,0,16,0,0,4.3125,15.0,0.0
+Dry Bean,HOROZ,evalue_64,all,1928,16,degree_lp,0,0,0,16,0,0,3.5,15.0,0.0
+Dry Bean,HOROZ,evalue_64,all,1928,16,full_lp,0,0,0,16,0,0,3.5,15.0,0.0
+Dry Bean,SEKER,evalue_8,local,2027,16,minor,0,0,0,16,0,0,4.9375,15.0,0.0
+Dry Bean,SEKER,evalue_8,local,2027,16,degree_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SEKER,evalue_8,local,2027,16,full_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SEKER,evalue_64,local,2027,16,minor,0,0,0,16,0,0,4.5625,15.0,0.0
+Dry Bean,SEKER,evalue_64,local,2027,16,degree_lp,0,0,0,16,0,0,3.8125,15.0,0.0
+Dry Bean,SEKER,evalue_64,local,2027,16,full_lp,0,0,0,16,0,0,3.8125,15.0,0.0
+Dry Bean,SEKER,evalue_8,all,2027,16,minor,0,0,0,16,0,0,4.9375,15.0,0.0
+Dry Bean,SEKER,evalue_8,all,2027,16,degree_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SEKER,evalue_8,all,2027,16,full_lp,0,0,0,16,0,0,4.0,15.0,0.0
+Dry Bean,SEKER,evalue_64,all,2027,16,minor,0,0,0,16,0,0,4.5625,15.0,0.0
+Dry Bean,SEKER,evalue_64,all,2027,16,degree_lp,0,0,0,16,0,0,3.8125,15.0,0.0
+Dry Bean,SEKER,evalue_64,all,2027,16,full_lp,0,0,0,16,0,0,3.8125,15.0,0.0
+Dry Bean,SIRA,evalue_8,local,2636,16,minor,0,0,0,16,0,0,4.8125,15.0,0.0
+Dry Bean,SIRA,evalue_8,local,2636,16,degree_lp,0,0,0,16,0,0,3.625,15.0,0.0
+Dry Bean,SIRA,evalue_8,local,2636,16,full_lp,0,0,0,16,0,0,3.625,15.0,0.0
+Dry Bean,SIRA,evalue_64,local,2636,16,minor,0,0,0,16,0,0,3.6875,15.0,0.0
+Dry Bean,SIRA,evalue_64,local,2636,16,degree_lp,0,0,0,16,0,0,2.875,15.0,0.0
+Dry Bean,SIRA,evalue_64,local,2636,16,full_lp,0,0,0,16,0,0,2.875,15.0,0.0
+Dry Bean,SIRA,evalue_8,all,2636,16,minor,0,0,0,16,0,0,3.875,15.0,0.0
+Dry Bean,SIRA,evalue_8,all,2636,16,degree_lp,0,0,0,16,0,0,3.125,15.0,0.0
+Dry Bean,SIRA,evalue_8,all,2636,16,full_lp,0,0,0,16,0,0,3.125,15.0,0.0
+Dry Bean,SIRA,evalue_64,all,2636,16,minor,0,0,0,16,0,0,3.25,15.0,0.0
+Dry Bean,SIRA,evalue_64,all,2636,16,degree_lp,0,0,0,16,0,0,2.625,15.0,0.0
+Dry Bean,SIRA,evalue_64,all,2636,16,full_lp,0,0,0,16,0,0,2.625,15.0,0.0
+Dry Bean,pooled,evalue_8,local,13611,16,minor,0,0,0,16,0,0,2.375,15.0,0.0
+Dry Bean,pooled,evalue_8,local,13611,16,degree_lp,0,0,0,16,0,0,2.125,15.0,0.0
+Dry Bean,pooled,evalue_8,local,13611,16,full_lp,0,0,0,16,0,0,2.125,15.0,0.0
+Dry Bean,pooled,evalue_64,local,13611,16,minor,0,0,0,16,0,0,2.375,15.0,0.0
+Dry Bean,pooled,evalue_64,local,13611,16,degree_lp,0,0,0,16,0,0,2.125,15.0,0.0
+Dry Bean,pooled,evalue_64,local,13611,16,full_lp,0,0,0,16,0,0,2.125,15.0,0.0
+Dry Bean,pooled,evalue_8,all,13611,16,minor,2,1,1,15,0,0,1.875,14.0,5.0
+Dry Bean,pooled,evalue_8,all,13611,16,degree_lp,4,1,1,15,0,0,1.625,13.9375,5.0
+Dry Bean,pooled,evalue_8,all,13611,16,full_lp,4,1,1,15,0,0,1.625,13.9375,5.0
+Dry Bean,pooled,evalue_64,all,13611,16,minor,2,1,1,15,0,0,1.875,14.0,5.0
+Dry Bean,pooled,evalue_64,all,13611,16,degree_lp,4,1,1,15,0,0,1.625,13.9375,5.0
+Dry Bean,pooled,evalue_64,all,13611,16,full_lp,4,1,1,15,0,0,1.625,13.9375,5.0

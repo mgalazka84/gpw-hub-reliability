@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "version": "0.5.1",
-  "scope": "Manuscript wording, section placement, count scopes and submission packaging; no new simulation runs.",
+  "version": "0.6",
+  "scope": "Original simulation and GPW count scopes retained; additional retrospective decision audit and separate controlled timing study.",
   "simulation": {
     "local": {
       "lp_solves": 950820,
@@ -22,5 +22,10 @@
     "total_certificates": 109548,
     "total_analyses": 1159
   },
-  "unchanged_canonical_replications_and_gpw_certificates": true
+  "unchanged_canonical_replications_and_gpw_certificates": true,
+  "practical_value": {
+    "audit": "results/practical_value/audit_verification.json",
+    "benchmark": "results/practical_value/benchmark/verification.json",
+    "manuscript": "results/practical_value/revision_verification.json"
+  }
 }

@@ -21,3 +21,6 @@ results/**/pilot*.csv
 results/comparative/replications.csv
 results/frequency_reference/cell*.json
 manuscript/*.blg
+
+results/practical_value/benchmark/cases/
+results/practical_value/benchmark/runs/
