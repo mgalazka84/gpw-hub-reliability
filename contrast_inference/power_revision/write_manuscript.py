@@ -99,7 +99,7 @@ Optimization and statistics address separate losses. The Abalone enumeration imp
 \subsection*{Funding}No dedicated funding was received for this study.
 \subsection*{Competing interests}The authors declare no relevant competing interests.
 \subsection*{Data availability}Simulation designs, per-dataset results, questionnaire retrieval instructions, original-source hashes, derived summaries and verification scripts accompany the article. Raw questionnaire responses and third-party price histories are not redistributed. The supplementary UCI applications retain their original attribution.
-\subsection*{Code availability}\ifanonymous Reproducibility materials and immutable identifiers are supplied separately.\else Reproducibility code and results are provided in the accompanying archive; the immutable repository reference is recorded in its release manifest.\fi
+\subsection*{Code availability}\ifanonymous Reproducibility materials and immutable identifiers are supplied separately.\else Reproducibility code, comparison relations and complete replication results are archived at the immutable revision \url{https://github.com/mgalazka84/gpw-hub-reliability/tree/75311d32ef0006619dcaa3ef9b268724bf2db9a7/contrast_inference/power_revision}.\fi
 \subsection*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}The authors used ChatGPT/Codex (OpenAI) to assist with writing code. The authors reviewed and tested the code and take full responsibility for the content of the article.
 \setlength{\bibsep}{2pt}
 \bibliographystyle{plainnat}

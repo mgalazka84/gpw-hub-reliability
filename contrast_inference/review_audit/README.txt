@@ -1,7 +1,8 @@
 Abalone: exact sharpness audit of the archived simultaneous edge orders
 
-This is a diagnostic audit of the existing manuscript, not a revised submission
-and not a new statistical calibration. The original manuscript is unchanged.
+This audit quantifies relaxation loss for archived Abalone order relations.
+It accompanies the independently selected inference and questionnaire
+application in ../power_revision.
 
 REPRODUCTION
 
@@ -24,7 +25,7 @@ contrast_inference/review_audit inside the accompanying repository and running
 `python contrast_inference/review_audit/audit_abalone.py`.
 It requires the existing repository's NumPy, pandas and SciPy dependencies.
 Repository: https://github.com/mgalazka84/gpw-hub-reliability
-Source snapshot: practical-value-v0.6/contrast_inference
+Source snapshot: 0669c26781ddf98ce2c0a1fd044a744dde8eba12/contrast_inference
 
 COMPATIBILITY CRITERION
 
@@ -92,6 +93,6 @@ certified leaf or that the measurement sum alone explains the inferred hub.
 
 SCOPE OF THIS AUDIT
 
-No new betting calibration, sample splitting, full-U Bernstein procedure,
-large-p benchmark or psychometric application has been validated here.
-These remain separate substantive tasks. No manuscript submission was made.
+The exact audit conditions on each archived comparison relation. New
+independent-selection procedures and their matched validation are documented
+in ../power_revision. The audit does not pool different calibrations.

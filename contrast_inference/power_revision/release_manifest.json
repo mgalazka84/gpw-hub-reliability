@@ -1,0 +1,12 @@
+{
+  "software_commit": "75311d32ef0006619dcaa3ef9b268724bf2db9a7",
+  "software_url": "https://github.com/mgalazka84/gpw-hub-reliability/tree/75311d32ef0006619dcaa3ef9b268724bf2db9a7",
+  "baseline_commit": "0669c26781ddf98ce2c0a1fd044a744dde8eba12",
+  "code_branch": "degree-inference-v0.7",
+  "validation_datasets": 6600,
+  "procedures": 20,
+  "replication_records": 132000,
+  "original_rse_sha256": "876f95a1db34c8fe0e41a352c32edb0118c959a6675669fc0b3e1aba2271e893",
+  "doi": null,
+  "raw_respondent_records_redistributed": false
+}

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite the revised method and preserve the version identifier."
-title: "Certified degree bounds and hub exclusions in correlation spanning trees"
+title: "Certified degree bounds and shared hubs in correlation spanning trees"
 authors:
   - family-names: "Gałązka"
     given-names: "Marek"
   - family-names: "Wdowicka"
     given-names: "Hanna"
-version: "0.6"
-url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/practical-value-v0.6/contrast_inference"
+version: "0.7"
+url: "https://github.com/mgalazka84/gpw-hub-reliability/tree/75311d32ef0006619dcaa3ef9b268724bf2db9a7/contrast_inference/power_revision"
 license: MIT
