@@ -1,0 +1,54 @@
+\subsection{Exact evidence aggregation with deterministic tie handling}\label{sec:evalues}
+P-value averaging can be conservative at a large comparison family. We therefore also aggregate nonnegative evidence with null expectation at most one, an e-value \citep{vovk2021}. For matching $r$, use the original tau-a kernels $K_{r,k,e}\in\{-1,0,1\}$, retaining zero at a tied coordinate, and set $Z_{r,k,ef}=(K_{r,k,e}-K_{r,k,f})/2\in[-1,1]$. For a predetermined fraction $0\le\lambda<1$, define
+\[
+ E_{r,\lambda,ef}=\prod_{k=1}^N(1+\lambda Z_{r,k,ef}).
+\]
+The evaluated multiset of seven fractions is
+\[
+ \Lambda_N=\{1/32,1/16,1/8,1/4,1/2,3/4,\min(1/2,N^{-1/2})\}.
+\]
+Its last element is determined by sample size and ensures consistency even for gaps too small for the fixed fractions. We compare $R=8$ and $R=64$ matchings, with the former nested in the latter, and put
+\begin{equation}\label{eq:evalue}
+ \overline E_{ef}=\frac1{7R}\sum_{r=1}^R\sum_{\lambda\in\Lambda_N}E_{r,\lambda,ef},\qquad
+ p^E_{ef}=\min\{1,1/\overline E_{ef}\}.
+\end{equation}
+The averaging rule is classical e-value merging. Its use here combines exact Kendall contrast evidence across shared-observation matchings. The statistic handles ties directly, without auxiliary sign randomization.
+
+\begin{proposition}[Finite-sample evidence validity and fixed-family consistency]\label{prop:evalues}
+Under IID rows, Holm applied to \eqref{eq:evalue} controls false strict orders at level $\alpha$, including discrete margins. Deleting rejections inconsistent with the full-sample Kendall scores and taking transitive closure preserves this control. For fixed $R$ and a fixed comparison family, each comparison with $\tau_e>\tau_f$ is rejected with probability tending to one as $n\to\infty$.
+\end{proposition}
+\begin{proof}
+For a fixed independently selected matching, the contrasts $Z_k$ are IID with $\E Z_k=(\tau_e-\tau_f)/2$. Under the null this mean is nonpositive, so nonnegativity and independence give
+\[
+ \E E_{r,\lambda,ef}=\{1+\lambda\E Z_k\}^N\le1.
+\]
+Averaging over fractions and matchings preserves the expectation bound regardless of their dependence. Markov's inequality makes the reciprocal p-value superuniform. Holm, deletion and transitive closure give the common event used by all projections.
+
+For a fixed positive gap $\Delta$, take the first matching and $\lambda_N=N^{-1/2}$ for $N\ge4$. Since $\log(1+u)\ge u-u^2$ for $|u|\le1/2$,
+\[
+ \log E_{1,\lambda_N,ef}\ge N^{-1/2}\sum_k Z_k-N^{-1}\sum_kZ_k^2
+ \ge \sqrt N\{\Delta/2+o_{\Pp}(1)\}-1\ \longrightarrow\ \infty.
+\]
+Thus $\overline E_{ef}\ge E_{1,\lambda_N,ef}/(7R)$ diverges in probability, and $p^E_{ef}\to0$. The full-sample Kendall difference converges to $\Delta$, so the consistency filter retains the direction with probability tending to one. Holm's threshold is at least $\alpha/K>0$ for a fixed family, proving the assertion.
+\end{proof}
+The result establishes validity and consistency; relative power varies by design and is measured below. The main comparisons use E64, the one-matching method P, and full-U-statistic multiplier inference. Additional calibrations are reported in the supplement. For continuous margins and local comparisons, $H_{\{v,a\}}H_{\{v,b\}}=S_aS_b$: one $p\times p$ sign Gram matrix supplies all discordance counts in $O(Np^2+K)$ work per matching. Tied raw kernels use exact five-category contrast counts. Logarithmic accumulation prevents numerical overflow of products, while independent direct-kernel checks verify the counts and evidence calculations.
+
+
+\subsection{Full U-statistics with Gaussian multiplier calibration}\label{sec:multiplier}
+For a computationally stronger comparator, estimate the first-order influence by
+\[
+ \widehat\psi_{te}=2\left\{\frac1{n-1}\sum_{s\ne t} k_e(X_s,X_t)-\widehat\tau_e\right\}.
+\]
+Given independent standard normal multipliers $\xi_t^{(b)}$, put $Z_e^{*(b)}=n^{-1}\sum_t\xi_t^{(b)}\widehat\psi_{te}$ and
+\[
+ s_{ef}^2=n^{-2}\sum_t(\widehat\psi_{te}-\widehat\psi_{tf})^2,\qquad
+ Q_b=\max_{\{e,f\}\in\mathcal C}\frac{|Z_e^{*(b)}-Z_f^{*(b)}|}{s_{ef}}.
+\]
+The empirical $1-\alpha$ quantile $q$ gives intervals $\widehat\Delta_{ef}\pm qs_{ef}$. Intervals excluding zero supply strict orders. This is an asymptotic IID procedure for nondegenerate projections, grounded in Gaussian and multiplier approximation for high-dimensional U-statistics \citep{chen2018,cck2013}. Theorem~\ref{thm:finite} applies to the exact methods above; multiplier calibration has its own approximation assumptions. Numerically degenerate contrasts are omitted, and their counts are reported.
+
+The matched multiplier rectangular comparator uses the same scores, influences and multiplier draws, calibrates the maximum standardized error across individual edges, and converts its edge intervals into strict orders over the same family $\mathcal C$. Both comparators then use identical tree projections. This comparison measures the effect of calibrating differences rather than separate edge weights.
+
+Tie-safe forward and backward Fenwick sweeps compute every rowwise kernel mean in $O(p^2n\log n)$ time. Contrast maxima are streamed in C++ without allocating a $B\times|\mathcal C|$ matrix. These implementations retain the full tau-a statistic and its shared-edge covariance.
+
+
+The local family has $K=p(p-1)(p-2)$ directed hypotheses. A complete family has $K=m(m-1)$ and includes nonadjacent edges at a larger multiplicity cost. The supplementary family ablation evaluates both choices on matched data. The selected construction below instead determines a directed family independently of verification data.

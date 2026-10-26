@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\caption{Pearson-bootstrap calibration at $p=52$: 100 data sets and 499 resamples per cell. Coverage concerns the whole input region, not a selected edge. Full results for $p=12$ are supplied with the replication files.}\label{tab:bootstrap}
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Model & $n$ & Box cover & Contrast cover & Order FWER \\
+\midrule
+AR null & 252 & 0.68 & 0.22 & 0.78 \\
+AR null & 1008 & 0.83 & 0.78 & 0.22 \\
+AR star & 252 & 0.67 & 0.26 & 0.36 \\
+AR star & 1008 & 0.86 & 0.76 & 0.03 \\
+Gaussian star & 252 & 0.90 & 0.78 & 0.06 \\
+Gaussian star & 1008 & 0.93 & 0.93 & 0.01 \\
+Independence & 252 & 0.86 & 0.82 & 0.18 \\
+Independence & 1008 & 0.96 & 0.90 & 0.10 \\
+Near tie & 252 & 0.94 & 0.85 & 0.03 \\
+Near tie & 1008 & 0.88 & 0.88 & 0.01 \\
+$t_5$ star & 252 & 0.74 & 0.65 & 0.18 \\
+$t_5$ star & 1008 & 0.83 & 0.79 & 0.03 \\
+\bottomrule
+\end{tabular}
+\end{table}
+The smallest contrast-region coverage is 0.22, in the $p=52$, $n=252$ AR null cell (Wilson interval [0.150, 0.311]). For Gaussian independence at $p=52,n=252$, contrast coverage is 0.82 and false-order frequency is 0.18. Under the exact null, every false strict order is a calibration error even if the downstream tree family remains broad enough to cover every degree. Projected degree coverage therefore cannot be used as a substitute for input calibration.
+

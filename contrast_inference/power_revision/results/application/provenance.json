@@ -1,0 +1,54 @@
+{
+  "source": "https://openpsychometrics.org/_rawdata/RSE.zip",
+  "raw_zip_sha256": "876f95a1db34c8fe0e41a352c32edb0118c959a6675669fc0b3e1aba2271e893",
+  "source_rows": 47974,
+  "complete_rows": 46546,
+  "complete_adults": 35079,
+  "incomplete_rows": 1428,
+  "age_exclusions_among_complete": 11467,
+  "reverse_coded": [
+    "Q3",
+    "Q5",
+    "Q8",
+    "Q9",
+    "Q10"
+  ],
+  "criterion": "items 1..4 and age 18..100; preserve duplicate answer patterns",
+  "license_provenance": "Original source explicitly releases anonymous records for research; IRW lists its RSE release CC BY 4.0. Raw records omitted from redistribution.",
+  "primary_question": "Exclude items from highest degree in the signed tau-a maximum spanning tree after direction coding.",
+  "iid_limitation": "Anonymous convenience responses. Independent identical respondents are a working model; repeat participation cannot be checked.",
+  "adults": {
+    "n": 35079,
+    "unique_answer_profiles": 13857,
+    "rows_beyond_first_profile": 21222,
+    "pair_tie_probability": [
+      0.3462213975544381,
+      0.3994463452607451,
+      0.2883857821176117,
+      0.3689099141216414,
+      0.27727830296839656,
+      0.2977536448681549,
+      0.29284915539153306,
+      0.28674979016395274,
+      0.2853696273063739,
+      0.259434849684441
+    ]
+  },
+  "all_complete_ages": {
+    "n": 46546,
+    "unique_answer_profiles": 17424,
+    "rows_beyond_first_profile": 29122,
+    "pair_tie_probability": [
+      0.33064756729265204,
+      0.374362643331747,
+      0.28227214850283866,
+      0.35225431596511025,
+      0.2727296168694231,
+      0.2896530620816109,
+      0.2855047102895869,
+      0.28868444545831473,
+      0.2863876895221504,
+      0.2580665774446653
+    ]
+  }
+}

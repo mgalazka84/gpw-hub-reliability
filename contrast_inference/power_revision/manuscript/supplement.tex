@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{graphicx,amsmath,amssymb,amsthm,booktabs,multirow,float}
+\usepackage[T1]{fontenc}\usepackage{lmodern,microtype}
+\usepackage[round,authoryear]{natbib}\usepackage{hyperref,xurl,xr}
+\input{glyphtounicode}\pdfgentounicode=1
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}\newtheorem{proposition}[theorem]{Proposition}\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}\newtheorem{remark}{Remark}\newtheorem{example}{Example}
+\newcommand{\T}{\mathcal T}\newcommand{\Pp}{\mathbb P}\newcommand{\E}{\mathbb E}\newcommand{\ind}{\mathbf1}
+\newif\ifanonymous\ifdefined\blindversion\anonymoustrue\else\anonymousfalse\fi
+\newsavebox{\resultsbox}
+\raggedbottom\setlength{\emergencystretch}{2em}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,pdftitle={Certified degree bounds and hub exclusions in correlation spanning trees}}
+\externaldocument{main_labels}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetheorem}{S\arabic{theorem}}
+\title{Supplementary comparisons and sensitivity analyses}
+\author{Marek Ga\l{}\k{a}zka and Hanna Wdowicka}
+\date{}
+\begin{document}\maketitle
+This supplement retains the additional calibrations, the full baseline simulation and morphometric grids, the projection timing audit, and the Pearson and Polish-market sensitivity studies. The principal independent-selection validation and ordinal application are reported in the main paper. Complete outcomes for all 20 procedures in the 6600-dataset validation are supplied as machine-readable records; comparisons are within procedures, not a pooled confidence claim across methods.
+\section{Additional calibration details}
+\input{supplement_comparisons}
+\section{A positive-definite example of lost joint information}\label{sec:example}
+Consider eight vertices indexed $0,\ldots,7$. In the block $\{0,\ldots,5\}$ let hub correlations be $\rho_{0j}=0.06+t$ for $1\le j\le5$, and leaf correlations $\rho_{ij}=0.04+t$ for $1\le i<j\le5$. Set $\rho_{06}=0.10$, $\rho_{67}=0.15$, all other cross-block correlations to zero, and diagonal entries to one, with $t\in[-0.025,0.025]$.
+
+Every matrix is positive definite: it is symmetric, has positive diagonal and is strictly diagonally dominant; the largest absolute off-diagonal row sum is $0.525$. Every within-block spoke exceeds every within-block leaf edge by $0.02$. The unique optimal tree throughout the curve consists of five spokes, the bridge $06$ and edge $67$. Its degree vector is $(6,1,1,1,1,1,2,1)$, so vertex zero is uniquely first.
+
+Now transform correlations by Fisher's $\operatorname{atanh}$ and subtract the mean across all 28 edges at each $t$. Form the smallest coordinatewise rectangular hull of this centered curve. Global centering removes a common shift across all edges but not a shift restricted to one block. Exact rectangular projection yields degree ranges
+\[
+ [2,6],\ [1,5]\ (\text{each of five leaves}),\ [2,2],\ [1,1].
+\]
+The marginal rank construction gives vertex zero $[1,7]$. In contrast, the true local orders along the coupled curve force all seven tree edges and rank $[1,1]$. For a changing edge, the derivative of its centered Fisher weight is bounded below by $1-15/[28(1-0.085^2)]>0$; for a constant edge it is negative. Thus its coordinate extrema occur at the two endpoints. An executable verification is supplied with the code. The uncertainty curve is specified for this deterministic comparison of uncertainty-set shapes. It shows why rectangularization can discard relevant information even when the candidate matrices are positive definite and global centering has already been used.
+
+\input{validation_design}
+\section{Baseline implementation verification}
+\input{verification_results}
+\input{pearson_audit_appendix}
+\input{gpw_study_appendix}
+\section{Complete Polish-market sensitivity summaries}
+\input{gpw_results}
+\input{extended_gpw_results}
+\bibliographystyle{plainnat}\bibliography{references,new_references}
+\end{document}

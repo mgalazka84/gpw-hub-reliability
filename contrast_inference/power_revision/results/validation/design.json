@@ -1,0 +1,98 @@
+{
+  "alpha": 0.05,
+  "seed": 81279001,
+  "matchings": 64,
+  "training_fraction": 0.2,
+  "cells": [
+    {
+      "model": "gaussian_star",
+      "n": 252,
+      "p": 12,
+      "repetitions": 300
+    },
+    {
+      "model": "gaussian_star",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 300
+    },
+    {
+      "model": "gaussian_star",
+      "n": 4096,
+      "p": 12,
+      "repetitions": 300
+    },
+    {
+      "model": "t5_star",
+      "n": 252,
+      "p": 12,
+      "repetitions": 300
+    },
+    {
+      "model": "t5_star",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 300
+    },
+    {
+      "model": "t5_star",
+      "n": 4096,
+      "p": 12,
+      "repetitions": 300
+    },
+    {
+      "model": "near_tie",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 200
+    },
+    {
+      "model": "near_tie",
+      "n": 4096,
+      "p": 12,
+      "repetitions": 200
+    },
+    {
+      "model": "chain",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 200
+    },
+    {
+      "model": "two_hubs",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 200
+    },
+    {
+      "model": "independent",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 1000
+    },
+    {
+      "model": "discrete_independent",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 1000
+    },
+    {
+      "model": "equicorrelated",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 1000
+    },
+    {
+      "model": "tied_hubs",
+      "n": 1008,
+      "p": 12,
+      "repetitions": 1000
+    }
+  ],
+  "primary": "FS-T64",
+  "secondary": "FS-S64 and IUT-S64",
+  "stake": "S64=.25; A64=clip(previous sum/(4+previous squared sum),0,.5); T64=training plug-in clipped [.01,.5]",
+  "note": "Pilot seeds 61021000+r; validation seeds 81279001+100000*cell+rep. Choice fixed before validation.",
+  "main_projection": "same cut-cycle minor and degree-conservation projection for every method; no LP",
+  "method_multiplicity": "Each method is evaluated separately at alpha .05; their reported conclusions are not pooled."
+}

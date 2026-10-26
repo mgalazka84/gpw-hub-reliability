@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "checks": [
+    "adults E64: independent tree sets and 110 rational LP bounds",
+    "adults FS-T64: independent tree sets and 110 rational LP bounds",
+    "adults A64: independent tree sets and 110 rational LP bounds",
+    "adults M-C: independent tree sets and 110 rational LP bounds",
+    "all_complete_ages E64: independent tree sets and 110 rational LP bounds",
+    "all_complete_ages FS-T64: independent tree sets and 110 rational LP bounds",
+    "all_complete_ages A64: independent tree sets and 110 rational LP bounds",
+    "all_complete_ages M-C: independent tree sets and 110 rational LP bounds"
+  ],
+  "shared_hub_conclusions": [
+    {
+      "dataset": "adults",
+      "method": "E64",
+      "guaranteed_maximum_degree_items": [
+        "Q10"
+      ],
+      "unique_hub_possible": true,
+      "trees_checked": 3,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": true
+    },
+    {
+      "dataset": "adults",
+      "method": "FS-T64",
+      "guaranteed_maximum_degree_items": [
+        "Q1",
+        "Q3",
+        "Q10"
+      ],
+      "unique_hub_possible": false,
+      "trees_checked": 2,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": true
+    },
+    {
+      "dataset": "adults",
+      "method": "A64",
+      "guaranteed_maximum_degree_items": [
+        "Q10"
+      ],
+      "unique_hub_possible": true,
+      "trees_checked": 3,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": true
+    },
+    {
+      "dataset": "adults",
+      "method": "M-C",
+      "guaranteed_maximum_degree_items": [
+        "Q10"
+      ],
+      "unique_hub_possible": true,
+      "trees_checked": 3,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": true
+    },
+    {
+      "dataset": "all_complete_ages",
+      "method": "E64",
+      "guaranteed_maximum_degree_items": [
+        "Q10"
+      ],
+      "unique_hub_possible": true,
+      "trees_checked": 6,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": false
+    },
+    {
+      "dataset": "all_complete_ages",
+      "method": "FS-T64",
+      "guaranteed_maximum_degree_items": [
+        "Q1",
+        "Q3"
+      ],
+      "unique_hub_possible": false,
+      "trees_checked": 4,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": true
+    },
+    {
+      "dataset": "all_complete_ages",
+      "method": "A64",
+      "guaranteed_maximum_degree_items": [
+        "Q10"
+      ],
+      "unique_hub_possible": true,
+      "trees_checked": 6,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": false
+    },
+    {
+      "dataset": "all_complete_ages",
+      "method": "M-C",
+      "guaranteed_maximum_degree_items": [
+        "Q1",
+        "Q3",
+        "Q10"
+      ],
+      "unique_hub_possible": false,
+      "trees_checked": 2,
+      "strong_polytope_matches_degree_bounds": true,
+      "strong_polytope_matches_rank_bounds": true
+    }
+  ],
+  "tie_normalization_sensitivity": {
+    "adults": {
+      "tau_a_tree": [
+        44,
+        35,
+        18,
+        0,
+        23,
+        20,
+        4,
+        43,
+        2
+      ],
+      "tau_b_tree": [
+        35,
+        44,
+        0,
+        18,
+        23,
+        19,
+        4,
+        2,
+        43
+      ],
+      "shared_edges": 8,
+      "tau_a_degrees": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        3
+      ],
+      "tau_b_degrees": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3
+      ],
+      "interpretation": "Point-estimate sensitivity only. Tau-a confidence statements do not apply to tau-b."
+    },
+    "all_complete_ages": {
+      "tau_a_tree": [
+        44,
+        35,
+        0,
+        18,
+        23,
+        20,
+        4,
+        2,
+        43
+      ],
+      "tau_b_tree": [
+        44,
+        35,
+        0,
+        18,
+        23,
+        4,
+        19,
+        2,
+        43
+      ],
+      "shared_edges": 8,
+      "tau_a_degrees": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        3
+      ],
+      "tau_b_degrees": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3
+      ],
+      "interpretation": "Point-estimate sensitivity only. Tau-a confidence statements do not apply to tau-b."
+    }
+  }
+}

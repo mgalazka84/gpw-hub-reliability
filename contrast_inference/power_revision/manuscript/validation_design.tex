@@ -1,0 +1,38 @@
+\section{Matched simulation comparisons}\label{sec:simulation}
+\subsection{Models, targets and calibration}
+We evaluate eight calibrations on identical data: one-matching exact McNemar--Holm, eight-matching p-value aggregation, evidence aggregation over eight or 64 matchings, direct full-U-statistic Hoeffding--Holm, the full-sample rectangular Hoeffding comparator, Gaussian multiplier contrasts, and Gaussian multiplier edge rectangles. The rectangular methods produce orders over the same fixed family as their direct comparators, and every method passes through the same projections.
+
+For the separated Gaussian model, $X_i=a_i Z+\sqrt{1-a_i^2}\epsilon_i$, with independent standard normals, $a_0=0.99$ and the other loadings equally spaced over $[0.45,0.55]$. The near-tie model uses $a_0=0.8+0.5/\sqrt n$, $a_1=0.8$, with other loadings in $[0.45,0.55]$. The $t_5$ model divides each Gaussian row by an independent $\sqrt{\chi_5^2/5}$. These models have a unique population star centred at zero; their population Kendall weights equal $2\arcsin(\rho)/\pi$.
+
+Gaussian independence and IID uniform coordinates on $\{-1,0,1\}$ evaluate null comparisons and exact ties. Every labelled tree is optimal in these null models, so coverage must include degree ranges $[1,p-1]$ and rank ranges $[1,p]$, rather than the degrees of one tie-broken tree. Two additional Gaussian tree models avoid restricting the comparison to a uniquely dominant star. The chain has parent correlation $0.75$; the two-hub model has bridge correlation $0.5$ and leaf-parent correlation $0.7$, with five leaves attached to each hub at $p=12$. All population tree edges are unique optima, but equal vertex degrees retain their full tied rank ranges.
+
+The 24 cells comprise 7,800 independent datasets. At $p=12$, the three star designs use $n\in\{252,1008,4096\}$ and 200 datasets per cell. At $p=52$, they use $n\in\{252,4096\}$ and 100 per cell. Gaussian null cells at $p=12$ use all three sizes, and at $p=52$ use $n=1008$; the discrete null uses $p=12,n=1008$. Every null cell has 1,000 datasets. Chain and two-hub cells use $p=12,n\in\{1008,4096\}$ and 100 datasets per cell. All tests use $\alpha=0.05$, and multiplier calibration uses 999 draws. Seeds, complete cell definitions and individual outcomes are archived.
+
+We report false-order FWER, simultaneous degree and rank coverage, interval widths, forced edges, possible hubs and unique-hub declarations. Wilson intervals quantify Monte Carlo uncertainty. With 1,000 repetitions, the Monte Carlo standard error at probability $0.05$ is about $0.007$. A single empirical rejection proportion is not interpreted as a proof or disproof of a coverage theorem.
+
+\subsection{Test, projection and family ablations}
+For every test we compare marginal rank projection, direct degree-difference projection, degree conservation, and their intersection, using the same screened minor. This isolates computational changes from statistical calibration. For the first 100 datasets in every $p=12$ cell, we also add the cycle-path LP and optimize all ordered degree differences, rather than only anchor differences. Improvements are checked independently with Python arbitrary-precision integers. Empty order relations and a forced single tree have known sharp endpoints, so redundant LP solves are skipped. Path-stage estimates therefore have 100 repetitions per cell and are compared with the corresponding paired subset of the other stages.
+
+The complete-edge comparison family is evaluated on the same first 100 non-null datasets in each $p=12$ cell. All four $p=12$ null cells extend both families to 1,000 datasets. Comparisons of families use matched subsets; differences in reported means do not arise from different simulated samples.
+
+\subsection{A frequency reference from practice}
+Bootstrap edge reliability is widely used in correlation networks \citep{tumminello2007,musciotto2018}. On the same $p=12$ separated-star, near-tie and Gaussian-null samples with $n=1008$ and $4096$, we compute 499 ordinary Pearson row-bootstrap trees. Pearson and Kendall have the same population optimal-tree ordering in these Gaussian designs. We record edge selection frequencies and the frequency with which the observed anchor is the unique highest-degree vertex. A threshold of $0.95$ is evaluated as a practical declaration rule, including its false hub and false forced-edge rates. It is a frequency heuristic, not a simultaneous confidence procedure. This reference uses all 200 non-null and all 1,000 null datasets in the six selected cells.
+
+\input{comparative_results}
+\input{practical_simulation_results}
+
+\section{Cross-sectional morphometric applications}\label{sec:crosssection}
+\subsection{Recorded measurements and sampling scope}
+The morphometric application uses all 4,177 specimens in the UCI Abalone dataset \citep{abalone1994}. Vertices are its eight numerical measurements: length, diameter, height, whole weight, shucked weight, viscera weight, shell weight and ring count. The recorded sex/status field defines three additional reported strata (female, male and infant). Original supplied measurements are retained, including zero heights and tied ring counts; no outlier removal, imputation or residual fitting is performed. The supplied complete-case dataset has no identical full rows. One independently generated permutation fixes the observation ordering before disjoint pairing.
+
+The sampling model treats specimens as independent observations from one common distribution within each analysed population. This is a working model for cross-sectional measurements. The repository does not provide specimen identifiers, sampling clusters or acquisition batches sufficient to establish independence from the files alone. Pooled and sex-stratified results are all reported, and heterogeneity across strata is examined explicitly. The finite-sample guarantee is conditional on this IID sampling model. The nominal error level applies within one stated method and comparison family, not jointly across all reported analyses.
+
+As a secondary computational stress study, we apply all methods to the 16 image-derived features of UCI Dry Bean, pooled and separately for all seven varieties \citep{drybean2020}. This file contains 68 repeated full rows and several mechanically related shape measurements. We retain them and report ties and degenerate contrasts. These cases assess projection and tie handling; their sampling design is insufficiently documented for an unconditional population confidence interpretation. Morphometric correlation trees describe association among measurements, including measurement identities, rather than causal or conditional-independence networks.
+
+\subsection{Exact, merged and multiplier outputs}
+All eight methods and both comparison families are applied to all 12 datasets. Every projection includes all degree and ordered degree-difference LP objectives, with independent rational verification of improvements. Ordinary row-bootstrap Kendall trees, using 499 resamples and the complete tau-a statistic, supply edge frequencies and unique-hub frequencies on the same data. These frequencies remain separate from the exact confidence statements. Original datasets are redistributed under their CC BY 4.0 licences, with source citations and unchanged-file hashes.
+
+\input{cross_section_results}
+\input{practical_cross_results}
+
+\input{practical_cost_results}

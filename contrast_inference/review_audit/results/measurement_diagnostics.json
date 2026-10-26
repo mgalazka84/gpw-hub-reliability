@@ -1,0 +1,15 @@
+{
+  "n": 4177,
+  "tie_pair_fraction": {
+    "Length": 0.012688991072255748,
+    "Diameter": 0.015485045363360934,
+    "Height": 0.037052363013290256,
+    "Whole weight": 0.00030418814214311726,
+    "Shucked weight": 0.0006691451178089832,
+    "Viscera weight": 0.0013246459126194624,
+    "Shell weight": 0.0036660805340686135,
+    "Rings": 0.10431486235973865
+  },
+  "whole_weight_vs_component_sum_pearson": 0.9950547929901483,
+  "component_sum_over_whole_median": 0.9478827361563518
+}

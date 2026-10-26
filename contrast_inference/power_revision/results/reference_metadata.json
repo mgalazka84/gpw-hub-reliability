@@ -1,0 +1,203 @@
+{
+  "10.1016/S0378-3758(01)00077-5": {
+    "title": [
+      "Optimally weighted, fixed sequence and gatekeeper multiple testing procedures"
+    ],
+    "author": [
+      {
+        "given": "Peter H.",
+        "family": "Westfall",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alok",
+        "family": "Krishen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Statistical Planning and Inference"
+    ],
+    "volume": "99",
+    "issue": "1",
+    "page": "25-40",
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/s0378-3758(01)00077-5"
+  },
+  "10.1214/ss/1032280304": {
+    "title": [
+      "Bioequivalence trials, intersection-union tests and equivalence confidence sets"
+    ],
+    "author": [
+      {
+        "given": "Roger L.",
+        "family": "Berger",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jason C.",
+        "family": "Hsu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Statistical Science"
+    ],
+    "volume": "11",
+    "issue": "4",
+    "page": "283-319",
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          11,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1214/ss/1032280304"
+  },
+  "10.1093/jrsssb/qkad009": {
+    "title": [
+      "Estimating means of bounded random variables by betting"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4471-1405",
+        "authenticated-orcid": false,
+        "given": "Ian",
+        "family": "Waudby-Smith",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Statistics & Data Science, Carnegie Mellon University , Pittsburgh, PA , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0497-311X",
+        "authenticated-orcid": false,
+        "given": "Aaditya",
+        "family": "Ramdas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics & Data Science, Carnegie Mellon University , Pittsburgh, PA , USA"
+          },
+          {
+            "name": "Machine Learning Department, Carnegie Mellon University , Pittsburgh, PA , USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+    ],
+    "volume": "86",
+    "issue": "1",
+    "page": "1-27",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1093/jrsssb/qkad009"
+  },
+  "10.1109/TIT.1968.1054142": {
+    "title": [
+      "Approximating discrete probability distributions with dependence trees"
+    ],
+    "author": [
+      {
+        "given": "C.",
+        "family": "Chow",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Information Theory"
+    ],
+    "volume": "14",
+    "issue": "3",
+    "page": "462-467",
+    "published": {
+      "date-parts": [
+        [
+          1968,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/tit.1968.1054142"
+  }
+}

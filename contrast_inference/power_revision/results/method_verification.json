@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "adaptive recursion including ties False",
+    "adaptive recursion including ties True",
+    "exact null expectation q=0.05",
+    "exact null expectation q=0.3",
+    "exact null expectation q=0.5",
+    "E64 agrees with legacy implementation",
+    "complete path certificate reproduces candidate degrees p=3..9",
+    "split construction with tied training scores"
+  ]
+}

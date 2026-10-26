@@ -1,0 +1,24 @@
+\section{Sharpness of the computational projection}\label{sec:sharp}
+The single-commodity flow constraints give an outer relaxation. To separate connectivity relaxation from other losses, the small-graph audit replaces them by the exact spanning-tree polytope
+\[
+ x\ge0,\quad \sum_{e\in E}x_e=p-1,\quad
+ \sum_{e\in E(S)}x_e\le |S|-1\quad(\varnothing\ne S\subsetneq V).
+\]
+All subset inequalities are enumerated at $p=8$ and $p=10$. Polynomial-size extended formulations provide another representation \citep{martin1991}. Intersecting the exact tree polytope with selected path inequalities still need not yield the convex hull of order-compatible optimal trees. Integer rounding of a valid dual bound also does not make a relaxation sharp.
+
+For an exact audit, regard the original graph's edges as vertices of an auxiliary directed graph. Insert an arc $e\to f$ for every certified strict order $e\widehat\succ f$. For a candidate tree $T$, additionally insert $f\to e$ for each $e\notin T$ and $f\in P_T(e)$. The latter arcs encode weak optimality inequalities $w_f\ge w_e$.
+
+\begin{proposition}[Order-compatible tree audit]\label{prop:compatible}
+A candidate tree is optimal for some weights satisfying all certified strict orders if and only if this auxiliary graph is acyclic.
+\end{proposition}
+\begin{proof}
+The added weak arcs alone go from tree edges to non-tree edges and cannot form a directed cycle. Every cycle in the union therefore contains an original strict arc. Following its inequalities would imply $w_e>w_e$, proving necessity. Conversely, a topological ordering of an acyclic union assigns distinct decreasing weights to its vertices. These weights satisfy the strict relation and every path comparison strictly, making $T$ the unique maximum spanning tree.
+\end{proof}
+
+Enumerating the accepted trees gives sharp degree and rank endpoints relative to the certified order relation. It does not incorporate additional restrictions from specified ordinal margins. All strict edge orderings can be embedded in a sufficiently small Gaussian correlation perturbation of the identity, so positive definiteness alone imposes no additional restriction on this order-only audit. Screening forced and excluded edges before enumeration is lossless for the certified relation. Enumeration is limited to manageable candidate sets and is not proposed as a scalable algorithm for dense large graphs.
+
+For pooled Abalone, exhaustive Pr\"ufer enumeration of all $8^6=262144$ labelled trees yields 32 compatible trees for local E64, 520 for local P and 40 for complete-family E64. An independent edge-set enumeration with Boolean transitive closure verifies the complete accepted sets. Under local E64, height's degree changes from $[1,3]$ under the flow/path relaxation to the sharp interval $[1,2]$, and its rank from $[1,8]$ to $[2,8]$. The rank lower bounds of shucked weight and rings increase from 3 to 4. Hub exclusions increase from four to five, while whole weight remains at rank $[1,3]$.
+
+Replacing only the connectivity formulation by the exact tree polytope, while keeping the selected path inequalities and rank projection, does not change the Abalone endpoints. Thus a stronger connectivity formulation by itself does not resolve the observed loss. In the questionnaire application below, all four audited adult analyses have exact degree and rank endpoints already at the stronger LP stage. Exact enumeration additionally retains the identity of the compatible trees and certifies shared-hub conclusions directly.
+
+Abalone is retained as a computational example rather than the primary scientific application. The sample correlation between whole weight and the sum of shucked, viscera and shell weights is 0.9951; this helps explain why its central position has limited substantive surprise. The pairwise tie probability for rings is 0.1043. Tau-a incorporates these ties into its target, so its tree should not be interpreted as a tree of latent continuous dependence strengths.

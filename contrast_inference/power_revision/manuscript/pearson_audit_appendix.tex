@@ -1,0 +1,13 @@
+\section{Paired audit of Pearson-bootstrap calibration}\label{sec:audit}
+The fixed-studentizer diagnostic uses fixed bootstrap standard deviations for local Fisher-z Pearson differences. It showed substantial undercoverage in some IID and serially dependent cells. To identify which features matter, the paired audit holds datasets fixed and varies bootstrap mechanism, studentizer and resample count.
+
+Three IID Gaussian independence cells, $(p,n)=(12,252),(52,252),(52,1008)$, each contain 1,000 datasets. We compare the original row bootstrap with 499 and 1,999 resamples, an IID row bootstrap with empirical influence standard deviations and 1,999 resamples, and Gaussian influence multipliers with 1,999 draws. The 499 row draws are nested in the 1,999 draws. For Pearson correlation, standardized observations $z_{ti}$ give influence
+\[
+ \phi_{t,ij}=\frac{z_{ti}z_{tj}-\widehat\rho_{ij}(z_{ti}^2+z_{tj}^2)/2}{1-\widehat\rho_{ij}^2}.
+\]
+We centre these influences across rows and use $n^{-2}\sum_t(\phi_{te}-\phi_{tf})^2$ for a contrast variance. Every calibration uses the same local family, Fisher-z estimand and maximum statistic. Under independence, every population contrast is zero, making input undercoverage identical to any false strict order. We report paired differences between procedures, not just isolated estimates.
+
+Direct index resampling checks the count-weighted covariance implementation. Independent calculations check influences, studentizers and maxima. This audit evaluates particular procedures at these sample sizes; it separates an implementation check from a conclusion about bootstrap calibration. The 24-cell diagnostic, including serial dependence, is retained in the reproducibility materials.
+
+\input{audit_results}
+

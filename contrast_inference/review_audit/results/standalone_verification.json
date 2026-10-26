@@ -1,0 +1,140 @@
+[
+  {
+    "analysis": "E64_all",
+    "all_trees": 262144,
+    "compatible_trees": 40,
+    "independent_check": true,
+    "degree_lower": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "degree_upper": [
+      2,
+      4,
+      2,
+      5,
+      1,
+      2,
+      4,
+      1
+    ],
+    "rank_lower": [
+      2,
+      1,
+      2,
+      1,
+      4,
+      2,
+      1,
+      4
+    ],
+    "rank_upper": [
+      8,
+      8,
+      8,
+      3,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "analysis": "E64_local",
+    "all_trees": 262144,
+    "compatible_trees": 32,
+    "independent_check": true,
+    "degree_lower": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "degree_upper": [
+      2,
+      4,
+      2,
+      5,
+      1,
+      2,
+      3,
+      1
+    ],
+    "rank_lower": [
+      2,
+      1,
+      2,
+      1,
+      4,
+      2,
+      1,
+      4
+    ],
+    "rank_upper": [
+      8,
+      8,
+      8,
+      3,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "analysis": "P_local",
+    "all_trees": 262144,
+    "compatible_trees": 520,
+    "independent_check": true,
+    "degree_lower": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "degree_upper": [
+      5,
+      5,
+      2,
+      6,
+      2,
+      3,
+      4,
+      1
+    ],
+    "rank_lower": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "rank_upper": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ]
+  }
+]

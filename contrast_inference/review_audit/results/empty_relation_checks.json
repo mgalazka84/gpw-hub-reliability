@@ -1,0 +1,27 @@
+[
+  {
+    "p": 2,
+    "enumerated": 1,
+    "all_degrees_cover_1_to_p_minus_1": true
+  },
+  {
+    "p": 3,
+    "enumerated": 3,
+    "all_degrees_cover_1_to_p_minus_1": true
+  },
+  {
+    "p": 4,
+    "enumerated": 16,
+    "all_degrees_cover_1_to_p_minus_1": true
+  },
+  {
+    "p": 5,
+    "enumerated": 125,
+    "all_degrees_cover_1_to_p_minus_1": true
+  },
+  {
+    "p": 6,
+    "enumerated": 1296,
+    "all_degrees_cover_1_to_p_minus_1": true
+  }
+]

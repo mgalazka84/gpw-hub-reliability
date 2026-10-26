@@ -1,0 +1,73 @@
+analysis,vertex,name,stage,degree_lower,degree_upper,rank_lower,rank_upper
+E64_local,0,Length,current_full_lp,1,2,2,8
+E64_local,0,Length,exact_tree_polytope_lp,1,2,2,8
+E64_local,0,Length,sharp_enumeration,1,2,2,8
+E64_local,1,Diameter,current_full_lp,1,4,1,8
+E64_local,1,Diameter,exact_tree_polytope_lp,1,4,1,8
+E64_local,1,Diameter,sharp_enumeration,1,4,1,8
+E64_local,2,Height,current_full_lp,1,3,1,8
+E64_local,2,Height,exact_tree_polytope_lp,1,3,1,8
+E64_local,2,Height,sharp_enumeration,1,2,2,8
+E64_local,3,Whole weight,current_full_lp,3,5,1,3
+E64_local,3,Whole weight,exact_tree_polytope_lp,3,5,1,3
+E64_local,3,Whole weight,sharp_enumeration,3,5,1,3
+E64_local,4,Shucked weight,current_full_lp,1,1,3,8
+E64_local,4,Shucked weight,exact_tree_polytope_lp,1,1,3,8
+E64_local,4,Shucked weight,sharp_enumeration,1,1,4,8
+E64_local,5,Viscera weight,current_full_lp,1,2,2,8
+E64_local,5,Viscera weight,exact_tree_polytope_lp,1,2,2,8
+E64_local,5,Viscera weight,sharp_enumeration,1,2,2,8
+E64_local,6,Shell weight,current_full_lp,1,3,1,8
+E64_local,6,Shell weight,exact_tree_polytope_lp,1,3,1,8
+E64_local,6,Shell weight,sharp_enumeration,1,3,1,8
+E64_local,7,Rings,current_full_lp,1,1,3,8
+E64_local,7,Rings,exact_tree_polytope_lp,1,1,3,8
+E64_local,7,Rings,sharp_enumeration,1,1,4,8
+P_local,0,Length,current_full_lp,1,5,1,8
+P_local,0,Length,exact_tree_polytope_lp,1,5,1,8
+P_local,0,Length,sharp_enumeration,1,5,1,8
+P_local,1,Diameter,current_full_lp,1,5,1,8
+P_local,1,Diameter,exact_tree_polytope_lp,1,5,1,8
+P_local,1,Diameter,sharp_enumeration,1,5,1,8
+P_local,2,Height,current_full_lp,1,3,1,8
+P_local,2,Height,exact_tree_polytope_lp,1,3,1,8
+P_local,2,Height,sharp_enumeration,1,2,1,8
+P_local,3,Whole weight,current_full_lp,1,6,1,8
+P_local,3,Whole weight,exact_tree_polytope_lp,1,6,1,8
+P_local,3,Whole weight,sharp_enumeration,1,6,1,8
+P_local,4,Shucked weight,current_full_lp,1,2,1,8
+P_local,4,Shucked weight,exact_tree_polytope_lp,1,2,1,8
+P_local,4,Shucked weight,sharp_enumeration,1,2,1,8
+P_local,5,Viscera weight,current_full_lp,1,3,1,8
+P_local,5,Viscera weight,exact_tree_polytope_lp,1,3,1,8
+P_local,5,Viscera weight,sharp_enumeration,1,3,1,8
+P_local,6,Shell weight,current_full_lp,1,4,1,8
+P_local,6,Shell weight,exact_tree_polytope_lp,1,4,1,8
+P_local,6,Shell weight,sharp_enumeration,1,4,1,8
+P_local,7,Rings,current_full_lp,1,1,3,8
+P_local,7,Rings,exact_tree_polytope_lp,1,1,3,8
+P_local,7,Rings,sharp_enumeration,1,1,3,8
+E64_all,0,Length,current_full_lp,1,2,2,8
+E64_all,0,Length,exact_tree_polytope_lp,1,2,2,8
+E64_all,0,Length,sharp_enumeration,1,2,2,8
+E64_all,1,Diameter,current_full_lp,1,4,1,8
+E64_all,1,Diameter,exact_tree_polytope_lp,1,4,1,8
+E64_all,1,Diameter,sharp_enumeration,1,4,1,8
+E64_all,2,Height,current_full_lp,1,3,1,8
+E64_all,2,Height,exact_tree_polytope_lp,1,3,1,8
+E64_all,2,Height,sharp_enumeration,1,2,2,8
+E64_all,3,Whole weight,current_full_lp,3,5,1,3
+E64_all,3,Whole weight,exact_tree_polytope_lp,3,5,1,3
+E64_all,3,Whole weight,sharp_enumeration,3,5,1,3
+E64_all,4,Shucked weight,current_full_lp,1,1,3,8
+E64_all,4,Shucked weight,exact_tree_polytope_lp,1,1,3,8
+E64_all,4,Shucked weight,sharp_enumeration,1,1,4,8
+E64_all,5,Viscera weight,current_full_lp,1,2,2,8
+E64_all,5,Viscera weight,exact_tree_polytope_lp,1,2,2,8
+E64_all,5,Viscera weight,sharp_enumeration,1,2,2,8
+E64_all,6,Shell weight,current_full_lp,1,4,1,8
+E64_all,6,Shell weight,exact_tree_polytope_lp,1,4,1,8
+E64_all,6,Shell weight,sharp_enumeration,1,4,1,8
+E64_all,7,Rings,current_full_lp,1,1,3,8
+E64_all,7,Rings,exact_tree_polytope_lp,1,1,3,8
+E64_all,7,Rings,sharp_enumeration,1,1,4,8

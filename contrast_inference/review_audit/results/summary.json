@@ -1,0 +1,146 @@
+[
+  {
+    "analysis": "E64_local",
+    "enumerated": 262144,
+    "compatible": 32,
+    "closed_orders": 211,
+    "independent_check": true,
+    "enumeration_seconds": 0.3260332560000734,
+    "degree_lower": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "degree_upper": [
+      2,
+      4,
+      2,
+      5,
+      1,
+      2,
+      3,
+      1
+    ],
+    "rank_lower": [
+      2,
+      1,
+      2,
+      1,
+      4,
+      2,
+      1,
+      4
+    ],
+    "rank_upper": [
+      8,
+      8,
+      8,
+      3,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "analysis": "P_local",
+    "enumerated": 262144,
+    "compatible": 520,
+    "closed_orders": 198,
+    "independent_check": true,
+    "enumeration_seconds": 0.32432953199986514,
+    "degree_lower": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "degree_upper": [
+      5,
+      5,
+      2,
+      6,
+      2,
+      3,
+      4,
+      1
+    ],
+    "rank_lower": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "rank_upper": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "analysis": "E64_all",
+    "enumerated": 262144,
+    "compatible": 40,
+    "closed_orders": 288,
+    "independent_check": true,
+    "enumeration_seconds": 0.34081876100003683,
+    "degree_lower": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "degree_upper": [
+      2,
+      4,
+      2,
+      5,
+      1,
+      2,
+      4,
+      1
+    ],
+    "rank_lower": [
+      2,
+      1,
+      2,
+      1,
+      4,
+      2,
+      1,
+      4
+    ],
+    "rank_upper": [
+      8,
+      8,
+      8,
+      3,
+      8,
+      8,
+      8,
+      8
+    ]
+  }
+]

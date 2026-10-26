@@ -1,0 +1,199 @@
+stronger_edge,stronger_u,stronger_v,weaker_edge,weaker_u,weaker_v
+0,Length,Diameter,1,Length,Height
+0,Length,Diameter,3,Length,Shucked weight
+0,Length,Diameter,4,Length,Viscera weight
+0,Length,Diameter,5,Length,Shell weight
+0,Length,Diameter,6,Length,Rings
+0,Length,Diameter,7,Diameter,Height
+0,Length,Diameter,9,Diameter,Shucked weight
+0,Length,Diameter,10,Diameter,Viscera weight
+0,Length,Diameter,11,Diameter,Shell weight
+0,Length,Diameter,12,Diameter,Rings
+0,Length,Diameter,14,Height,Shucked weight
+0,Length,Diameter,15,Height,Viscera weight
+0,Length,Diameter,16,Height,Shell weight
+0,Length,Diameter,17,Height,Rings
+0,Length,Diameter,21,Whole weight,Rings
+0,Length,Diameter,23,Shucked weight,Shell weight
+0,Length,Diameter,24,Shucked weight,Rings
+0,Length,Diameter,25,Viscera weight,Shell weight
+0,Length,Diameter,26,Viscera weight,Rings
+0,Length,Diameter,27,Shell weight,Rings
+1,Length,Height,6,Length,Rings
+1,Length,Height,17,Height,Rings
+1,Length,Height,24,Shucked weight,Rings
+2,Length,Whole weight,1,Length,Height
+2,Length,Whole weight,5,Length,Shell weight
+2,Length,Whole weight,6,Length,Rings
+2,Length,Whole weight,12,Diameter,Rings
+2,Length,Whole weight,13,Height,Whole weight
+2,Length,Whole weight,14,Height,Shucked weight
+2,Length,Whole weight,17,Height,Rings
+2,Length,Whole weight,21,Whole weight,Rings
+2,Length,Whole weight,23,Shucked weight,Shell weight
+2,Length,Whole weight,24,Shucked weight,Rings
+2,Length,Whole weight,26,Viscera weight,Rings
+2,Length,Whole weight,27,Shell weight,Rings
+3,Length,Shucked weight,1,Length,Height
+3,Length,Shucked weight,6,Length,Rings
+3,Length,Shucked weight,12,Diameter,Rings
+3,Length,Shucked weight,14,Height,Shucked weight
+3,Length,Shucked weight,17,Height,Rings
+3,Length,Shucked weight,21,Whole weight,Rings
+3,Length,Shucked weight,23,Shucked weight,Shell weight
+3,Length,Shucked weight,24,Shucked weight,Rings
+3,Length,Shucked weight,26,Viscera weight,Rings
+3,Length,Shucked weight,27,Shell weight,Rings
+4,Length,Viscera weight,1,Length,Height
+4,Length,Viscera weight,6,Length,Rings
+4,Length,Viscera weight,15,Height,Viscera weight
+4,Length,Viscera weight,17,Height,Rings
+4,Length,Viscera weight,24,Shucked weight,Rings
+4,Length,Viscera weight,26,Viscera weight,Rings
+5,Length,Shell weight,1,Length,Height
+5,Length,Shell weight,6,Length,Rings
+5,Length,Shell weight,12,Diameter,Rings
+5,Length,Shell weight,14,Height,Shucked weight
+5,Length,Shell weight,17,Height,Rings
+5,Length,Shell weight,21,Whole weight,Rings
+5,Length,Shell weight,23,Shucked weight,Shell weight
+5,Length,Shell weight,24,Shucked weight,Rings
+5,Length,Shell weight,26,Viscera weight,Rings
+5,Length,Shell weight,27,Shell weight,Rings
+6,Length,Rings,24,Shucked weight,Rings
+7,Diameter,Height,12,Diameter,Rings
+7,Diameter,Height,14,Height,Shucked weight
+7,Diameter,Height,17,Height,Rings
+7,Diameter,Height,24,Shucked weight,Rings
+8,Diameter,Whole weight,6,Length,Rings
+8,Diameter,Whole weight,7,Diameter,Height
+8,Diameter,Whole weight,9,Diameter,Shucked weight
+8,Diameter,Whole weight,10,Diameter,Viscera weight
+8,Diameter,Whole weight,12,Diameter,Rings
+8,Diameter,Whole weight,13,Height,Whole weight
+8,Diameter,Whole weight,14,Height,Shucked weight
+8,Diameter,Whole weight,15,Height,Viscera weight
+8,Diameter,Whole weight,17,Height,Rings
+8,Diameter,Whole weight,21,Whole weight,Rings
+8,Diameter,Whole weight,23,Shucked weight,Shell weight
+8,Diameter,Whole weight,24,Shucked weight,Rings
+8,Diameter,Whole weight,26,Viscera weight,Rings
+8,Diameter,Whole weight,27,Shell weight,Rings
+9,Diameter,Shucked weight,6,Length,Rings
+9,Diameter,Shucked weight,7,Diameter,Height
+9,Diameter,Shucked weight,12,Diameter,Rings
+9,Diameter,Shucked weight,14,Height,Shucked weight
+9,Diameter,Shucked weight,17,Height,Rings
+9,Diameter,Shucked weight,21,Whole weight,Rings
+9,Diameter,Shucked weight,23,Shucked weight,Shell weight
+9,Diameter,Shucked weight,24,Shucked weight,Rings
+9,Diameter,Shucked weight,26,Viscera weight,Rings
+9,Diameter,Shucked weight,27,Shell weight,Rings
+10,Diameter,Viscera weight,7,Diameter,Height
+10,Diameter,Viscera weight,12,Diameter,Rings
+10,Diameter,Viscera weight,14,Height,Shucked weight
+10,Diameter,Viscera weight,15,Height,Viscera weight
+10,Diameter,Viscera weight,17,Height,Rings
+10,Diameter,Viscera weight,24,Shucked weight,Rings
+10,Diameter,Viscera weight,26,Viscera weight,Rings
+11,Diameter,Shell weight,6,Length,Rings
+11,Diameter,Shell weight,7,Diameter,Height
+11,Diameter,Shell weight,12,Diameter,Rings
+11,Diameter,Shell weight,14,Height,Shucked weight
+11,Diameter,Shell weight,15,Height,Viscera weight
+11,Diameter,Shell weight,16,Height,Shell weight
+11,Diameter,Shell weight,17,Height,Rings
+11,Diameter,Shell weight,21,Whole weight,Rings
+11,Diameter,Shell weight,23,Shucked weight,Shell weight
+11,Diameter,Shell weight,24,Shucked weight,Rings
+11,Diameter,Shell weight,25,Viscera weight,Shell weight
+11,Diameter,Shell weight,26,Viscera weight,Rings
+11,Diameter,Shell weight,27,Shell weight,Rings
+12,Diameter,Rings,24,Shucked weight,Rings
+13,Height,Whole weight,14,Height,Shucked weight
+13,Height,Whole weight,17,Height,Rings
+13,Height,Whole weight,21,Whole weight,Rings
+13,Height,Whole weight,24,Shucked weight,Rings
+14,Height,Shucked weight,17,Height,Rings
+14,Height,Shucked weight,24,Shucked weight,Rings
+15,Height,Viscera weight,17,Height,Rings
+15,Height,Viscera weight,24,Shucked weight,Rings
+15,Height,Viscera weight,26,Viscera weight,Rings
+16,Height,Shell weight,6,Length,Rings
+16,Height,Shell weight,12,Diameter,Rings
+16,Height,Shell weight,14,Height,Shucked weight
+16,Height,Shell weight,17,Height,Rings
+16,Height,Shell weight,21,Whole weight,Rings
+16,Height,Shell weight,24,Shucked weight,Rings
+16,Height,Shell weight,26,Viscera weight,Rings
+16,Height,Shell weight,27,Shell weight,Rings
+17,Height,Rings,24,Shucked weight,Rings
+18,Whole weight,Shucked weight,6,Length,Rings
+18,Whole weight,Shucked weight,7,Diameter,Height
+18,Whole weight,Shucked weight,9,Diameter,Shucked weight
+18,Whole weight,Shucked weight,12,Diameter,Rings
+18,Whole weight,Shucked weight,13,Height,Whole weight
+18,Whole weight,Shucked weight,14,Height,Shucked weight
+18,Whole weight,Shucked weight,15,Height,Viscera weight
+18,Whole weight,Shucked weight,17,Height,Rings
+18,Whole weight,Shucked weight,21,Whole weight,Rings
+18,Whole weight,Shucked weight,22,Shucked weight,Viscera weight
+18,Whole weight,Shucked weight,23,Shucked weight,Shell weight
+18,Whole weight,Shucked weight,24,Shucked weight,Rings
+18,Whole weight,Shucked weight,26,Viscera weight,Rings
+18,Whole weight,Shucked weight,27,Shell weight,Rings
+19,Whole weight,Viscera weight,6,Length,Rings
+19,Whole weight,Viscera weight,12,Diameter,Rings
+19,Whole weight,Viscera weight,13,Height,Whole weight
+19,Whole weight,Viscera weight,14,Height,Shucked weight
+19,Whole weight,Viscera weight,15,Height,Viscera weight
+19,Whole weight,Viscera weight,17,Height,Rings
+19,Whole weight,Viscera weight,21,Whole weight,Rings
+19,Whole weight,Viscera weight,22,Shucked weight,Viscera weight
+19,Whole weight,Viscera weight,24,Shucked weight,Rings
+19,Whole weight,Viscera weight,25,Viscera weight,Shell weight
+19,Whole weight,Viscera weight,26,Viscera weight,Rings
+19,Whole weight,Viscera weight,27,Shell weight,Rings
+20,Whole weight,Shell weight,1,Length,Height
+20,Whole weight,Shell weight,5,Length,Shell weight
+20,Whole weight,Shell weight,6,Length,Rings
+20,Whole weight,Shell weight,12,Diameter,Rings
+20,Whole weight,Shell weight,13,Height,Whole weight
+20,Whole weight,Shell weight,14,Height,Shucked weight
+20,Whole weight,Shell weight,15,Height,Viscera weight
+20,Whole weight,Shell weight,16,Height,Shell weight
+20,Whole weight,Shell weight,17,Height,Rings
+20,Whole weight,Shell weight,21,Whole weight,Rings
+20,Whole weight,Shell weight,23,Shucked weight,Shell weight
+20,Whole weight,Shell weight,24,Shucked weight,Rings
+20,Whole weight,Shell weight,25,Viscera weight,Shell weight
+20,Whole weight,Shell weight,26,Viscera weight,Rings
+20,Whole weight,Shell weight,27,Shell weight,Rings
+21,Whole weight,Rings,24,Shucked weight,Rings
+22,Shucked weight,Viscera weight,14,Height,Shucked weight
+22,Shucked weight,Viscera weight,15,Height,Viscera weight
+22,Shucked weight,Viscera weight,17,Height,Rings
+22,Shucked weight,Viscera weight,24,Shucked weight,Rings
+22,Shucked weight,Viscera weight,26,Viscera weight,Rings
+23,Shucked weight,Shell weight,6,Length,Rings
+23,Shucked weight,Shell weight,12,Diameter,Rings
+23,Shucked weight,Shell weight,14,Height,Shucked weight
+23,Shucked weight,Shell weight,17,Height,Rings
+23,Shucked weight,Shell weight,21,Whole weight,Rings
+23,Shucked weight,Shell weight,24,Shucked weight,Rings
+23,Shucked weight,Shell weight,26,Viscera weight,Rings
+23,Shucked weight,Shell weight,27,Shell weight,Rings
+25,Viscera weight,Shell weight,6,Length,Rings
+25,Viscera weight,Shell weight,12,Diameter,Rings
+25,Viscera weight,Shell weight,15,Height,Viscera weight
+25,Viscera weight,Shell weight,17,Height,Rings
+25,Viscera weight,Shell weight,21,Whole weight,Rings
+25,Viscera weight,Shell weight,24,Shucked weight,Rings
+25,Viscera weight,Shell weight,26,Viscera weight,Rings
+25,Viscera weight,Shell weight,27,Shell weight,Rings
+26,Viscera weight,Rings,24,Shucked weight,Rings
+27,Shell weight,Rings,6,Length,Rings
+27,Shell weight,Rings,12,Diameter,Rings
+27,Shell weight,Rings,21,Whole weight,Rings
+27,Shell weight,Rings,24,Shucked weight,Rings
+27,Shell weight,Rings,26,Viscera weight,Rings

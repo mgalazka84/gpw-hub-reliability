@@ -1,0 +1,1020 @@
+{
+  "degree_lower": [
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1
+  ],
+  "degree_upper": [
+    2,
+    4,
+    3,
+    5,
+    1,
+    2,
+    3,
+    1
+  ],
+  "rank_lower": [
+    2,
+    1,
+    1,
+    1,
+    3,
+    2,
+    1,
+    3
+  ],
+  "rank_upper": [
+    8,
+    8,
+    8,
+    3,
+    8,
+    8,
+    8,
+    8
+  ],
+  "lp_objectives": 72,
+  "path_constraints": 91,
+  "rational_certificates": [
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        67
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [
+        273,
+        299
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 2621440,
+      "denominator": 1048576,
+      "y_indices": [
+        189,
+        275,
+        303,
+        329
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -524288,
+        -524288
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -5242880,
+      "denominator": 1048576,
+      "y_indices": [
+        71
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        40
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [
+        284
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        103
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        303
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        273,
+        299
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        284
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        303
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1572864,
+      "denominator": 1048576,
+      "y_indices": [
+        37,
+        293,
+        299
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -524288
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        303
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        67
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [
+        6
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        67
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        284
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        194,
+        303
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -524288,
+      "denominator": 1048576,
+      "y_indices": [
+        275,
+        276,
+        299
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -524288
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 1572864,
+      "denominator": 1048576,
+      "y_indices": [
+        189,
+        275,
+        303,
+        329
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -524288,
+        -524288
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": 1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        275,
+        303,
+        329
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        189,
+        284,
+        299
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": 1572864,
+      "denominator": 1048576,
+      "y_indices": [
+        189,
+        275,
+        303,
+        329
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -1572864,
+        -524288
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        273,
+        299
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [
+        71
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        284
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        303
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1572864,
+      "denominator": 1048576,
+      "y_indices": [
+        273,
+        276,
+        293
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -524288
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [
+        71
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        284
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        303
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        40
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [],
+      "y_numerators": [],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        37,
+        40,
+        276
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [
+        40
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        40
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        40
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        166,
+        303
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        103
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -3145728,
+      "denominator": 1048576,
+      "y_indices": [
+        40,
+        71,
+        102
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -524288
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        273,
+        299
+      ],
+      "y_numerators": [
+        -1048576,
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    },
+    {
+      "numerator": -4194304,
+      "denominator": 1048576,
+      "y_indices": [
+        40,
+        67,
+        71,
+        100
+      ],
+      "y_numerators": [
+        -524288,
+        -524288,
+        -1048576,
+        -524288
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": 0,
+      "denominator": 1048576,
+      "y_indices": [
+        103
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -1048576,
+      "denominator": 1048576,
+      "y_indices": [
+        103
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [
+        0
+      ],
+      "z_numerators": [
+        1048576
+      ]
+    },
+    {
+      "numerator": -2097152,
+      "denominator": 1048576,
+      "y_indices": [
+        284
+      ],
+      "y_numerators": [
+        -1048576
+      ],
+      "z_indices": [],
+      "z_numerators": []
+    }
+  ],
+  "unrounded_primal_objectives": [
+    1.0,
+    -2.0,
+    1.0,
+    -4.0,
+    1.0,
+    -3.0,
+    2.5,
+    -5.0,
+    1.0,
+    -1.0,
+    1.0,
+    -2.0,
+    1.0,
+    -3.0,
+    1.0,
+    -1.0,
+    -3.0,
+    -2.0,
+    -4.0,
+    0.0,
+    -1.0,
+    -2.0,
+    0.0,
+    -1.0,
+    -1.5,
+    -4.0,
+    0.0,
+    -1.0,
+    -2.0,
+    0.0,
+    -1.0,
+    -3.0,
+    -4.0,
+    0.0,
+    -1.0,
+    -2.0,
+    0.0,
+    1.0,
+    -1.0,
+    -0.5,
+    1.5,
+    1.0,
+    0.0,
+    1.5,
+    -1.0,
+    -3.0,
+    -2.0,
+    -4.0,
+    -1.0,
+    -2.0,
+    0.0,
+    -1.0,
+    -3.0,
+    -1.5,
+    -4.0,
+    0.0,
+    -2.0,
+    0.0,
+    -1.0,
+    -3.0,
+    -2.0,
+    -4.0,
+    0.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -3.0,
+    -2.0,
+    -4.0,
+    0.0,
+    -1.0,
+    -2.0
+  ]
+}

@@ -1,0 +1,39 @@
+Power and application extension: analysis specification
+
+Purpose: improve useful finite-sample decisions while retaining a clearly
+specified error guarantee. Development and validation use disjoint simulation
+seeds. Every specified validation cell and the primary application will be
+reported, including failures. This is a timestamped internal specification,
+not a prospective public registration.
+
+Pilot: Gaussian separated star, p=12, n=1008, 20 datasets, seeds 61021000+r.
+Compare the existing fixed-grid E64 with predictable betting, and independent
+20% training / 80% verification with (a) Holm over the training-tree path
+comparisons, (b) a fixed sequence ordered by training contrast strength, and
+(c) an all-or-none intersection-union certificate of that one tree.
+No validation observations may choose the tree, hypotheses, order, or stakes
+for the split methods. Within-matching adaptive stakes see only earlier pairs.
+
+Primary real application, chosen before inspecting item data:
+Open-Source Psychometrics Project Rosenberg Self-Esteem dataset (RSE.zip),
+10 ordinal items. Use all complete response rows with items 1..4 and reported
+age 18..100. Reverse Q3,Q5,Q8,Q9,Q10 as 5-response according to the codebook.
+No total score is included as a node. Identical answer profiles are retained:
+they do not establish repeated participation. No outcome-based subgroup or
+item selection. Random seed 61023117; 20% selection, remaining 80% verification.
+Question: which items can be excluded from highest degree, and which degrees
+can be bounded, in the maximum spanning tree of signed Kendall tau-a after
+direction coding? These are marginal associations, not conditional dependence,
+causal importance, clinical targets, or an instrument-shortening rule.
+Compare P, E64, adaptive E64, split variants and an asymptotic multiplier
+contrast comparator. Report all nodes, ties, sample flow and runtimes.
+An analysis with all complete ages is a named sensitivity analysis.
+
+Provenance: original anonymous public data and research-use consent described
+at https://openpsychometrics.org/_rawdata/ and in its supplied codebook.
+The Item Response Warehouse lists its Rosenberg release under CC BY 4.0:
+https://itemresponsewarehouse.org/tables/rosenberg_selfesteem/ . That registry
+is not the original codebook; retain original variable definitions. Distribute
+retrieval instructions, source URLs and hashes rather than raw respondent
+records. Report that independent identically distributed respondents are a
+working assumption; anonymity prevents verifying repeat participation.

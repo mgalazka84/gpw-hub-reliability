@@ -1,0 +1,53 @@
+\section{Independent selection of a useful comparison sequence}\label{sec:selected}
+A fixed local family answers many questions that may be irrelevant to a particular tree. We instead reserve $n_0=\lfloor0.2n\rfloor$ observations for selection and use the remaining $n_1=n-n_0$ observations for inference. The split is generated independently of the measurements. Selection produces a maximum spanning tree $T_0$ from the training tau-a estimates. For every $e\notin T_0$ and every edge $f$ on its fundamental path $P_{T_0}(e)$, form the directed hypothesis
+\[
+ H_{fe}:\tau_f\le\tau_e.
+\]
+Order these hypotheses by decreasing training estimate $\widehat\tau_f-\widehat\tau_e$, with deterministic tie breaking. Thus both the family and its order are fixed conditional on the training sample. A star on 12 vertices requires 110 directed comparisons, whereas the two-sided local family contains 1320. General candidate trees can require more path comparisons, including comparisons of nonadjacent edges.
+
+\subsection{Betting fractions chosen before verification}
+For each selected contrast let $Z=(K_f-K_e)/2$. Estimate its mean by $\widehat\mu=(\widehat\tau_f-\widehat\tau_e)/2$ on the training sample and its null-centred second moment by
+\[
+ \widehat q=\frac{1+\sum_{r=1}^{8}\sum_{k=1}^{N_0}Z_{r,k}^{2}}{1+8N_0},\qquad N_0=\lfloor n_0/2\rfloor.
+\]
+The eight training matchings are generated independently of measurement values. The verification fraction is $\lambda=\min\{1/2,\max\{0.01,\widehat\mu/\widehat q\}\}$. It stays fixed throughout verification. With $R=64$ independently generated verification matchings, define
+\[
+ E^{T}_{fe}=R^{-1}\sum_{r=1}^{R}\prod_{k=1}^{\lfloor n_1/2\rfloor}(1+\lambda Z_{r,k}),
+ \qquad p^{T}_{fe}=\min\{1,1/E^{T}_{fe}\}.
+\]
+We denote this calibration by T64. S64 uses the predetermined fraction $1/4$ instead. E64 retains the seven-fraction mixture from Section~\ref{sec:evalues}. Fixed fractions can lose power for small gaps; the E64 consistency result does not automatically transfer to a fraction bounded below by 0.01.
+
+We also evaluate an adaptive verification-only comparator A64, motivated by predictable betting \citep{waudby2024}. In each matching separately it uses
+\[
+ \lambda_k=\min\left\{\frac12,\max\left\{0,\frac{\sum_{s<k}Z_s}{4+\sum_{s<k}Z_s^2}\right\}\right\}.
+\]
+Only earlier pairs in that matching determine the current stake. Evidence is then averaged over 64 matchings. The opposite direction uses $-Z$. No stake may use later observations or evidence from another matching that has already exposed the current pair.
+
+\subsection{Fixed-sequence decisions and whole-tree certification}
+The fixed-sequence procedure tests the training-ordered hypotheses at level $\alpha$, stopping at the first p-value exceeding $\alpha$. Only the uninterrupted rejected prefix is retained. Its transitive consequences feed the same degree projection as the fixed-family methods. We write FS-T64 for the primary selected procedure. A matched H-T64 comparator applies Holm to exactly the same directed family and p-values. This isolates the effect of the testing rule. Fixed-sequence error control is classical \citep{westfall2001}; independent selection supplies the conditional setting needed here.
+
+An additional all-or-none procedure declares $T_0$ to be the unique population optimum only when every selected p-value is at most $\alpha$. Its global p-value is $\max_{(f,e)}p_{fe}$. This is an intersection-union test \citep{berger1996}. A failed global test releases no individual comparisons. It is therefore different from a fixed sequence, which can retain a useful prefix even when full-tree certification fails.
+
+\begin{proposition}[Validity after independent selection]\label{prop:selected}
+Under IID sampling, condition on the training data and the independently generated split. Each T64, S64, E64 or A64 verification p-value is superuniform under its selected null. Applying either Holm or the fixed-sequence rule gives simultaneous strict-order validity at level $\alpha$. The all-or-none rule falsely certifies the selected tree as the unique population optimum with probability at most $\alpha$. These guarantees also hold unconditionally and include ties.
+\end{proposition}
+\begin{proof}
+Conditional on training, fixed stakes are predetermined and verification pairs are IID. Under a selected null, $\E Z\le0$, so the product has expectation at most one. For predictable stakes, conditional expectation of each next factor is at most one; the nonnegative product is a supermartingale. Averaging across dependent matchings preserves the expectation bound, and Markov's inequality makes the reciprocal superuniform.
+
+Holm gives the first simultaneous result. For a fixed sequence, if any selected null is true, let $j$ be the first true null in its training-fixed order. Any false rejection requires rejection of $j$, so its probability is at most $\Pp(p_j\le\alpha)\le\alpha$. Under the null that $T_0$ is not the unique maximum spanning tree, at least one path comparison satisfies $\tau_f\le\tau_e$ by the strict cycle characterization. Rejection of every component therefore has probability at most $\alpha$. Integrating these conditional bounds over training proves the unconditional statements.
+\end{proof}
+
+No independence between comparison p-values is used. The error guarantee applies separately to each declared procedure. Selecting the most favourable method after verification, pooling its conclusions with those from another nominal 95\% procedure, or continuing after the first fixed-sequence failure would require a different error allocation.
+
+\begin{proposition}[Conditional power of a selected certificate]\label{prop:selected-power}
+Condition on training and use one fixed verification fraction $\lambda_j\in(0,1)$ for each selected comparison. Write $N=\lfloor n_1/2\rfloor$, $\gamma_j=\E\log(1+\lambda_j Z_j)$ and $b_j=\log\{(1+\lambda_j)/(1-\lambda_j)\}$. If $N\gamma_j>\log(R/\alpha)$, then
+\[
+ \Pp(p_j>\alpha\mid\text{training})\le
+ \exp\left[-\frac{2\{N\gamma_j-\log(R/\alpha)\}^{2}}{N b_j^{2}}\right].
+\]
+Otherwise use the bound one. Summing these failure bounds over the selected comparisons bounds the probability that the fixed sequence fails to certify the entire selected tree. For $\lambda_j\le1/2$, $\gamma_j\ge\lambda_j\mu_j-\lambda_j^2q_j$, where $\mu_j=\E Z_j$ and $q_j=\E Z_j^2$.
+\end{proposition}
+\begin{proof}
+The matching average is at least the evidence from its first matching divided by $R$. Thus $p_j>\alpha$ implies $\sum_k\log(1+\lambda_j Z_{j,k})<\log(R/\alpha)$. Hoeffding's inequality for IID bounded logarithmic increments gives the claim. The union bound handles dependent comparisons. Finally, $\log(1+u)\ge u-u^2$ for $|u|\le1/2$ gives the moment lower bound.
+\end{proof}
+This sufficient bound can be conservative because it uses just one matching and ignores useful partial decisions. It makes the dependence on gap, discordance and selected stakes explicit. Proposition~\ref{prop:power} concerns the one-matching McNemar construction; it is not a power theorem for E64 or FS-T64.

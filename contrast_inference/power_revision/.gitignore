@@ -1,0 +1,11 @@
+__pycache__/
+*.so
+data/RSE.zip
+results/validation/cell*.json
+results/multiplier_validation/cell*.json
+manuscript/*.log
+manuscript/*.out
+manuscript/*.blg
+manuscript/revision.aux
+manuscript/anonymous.aux
+manuscript/supplement.aux
