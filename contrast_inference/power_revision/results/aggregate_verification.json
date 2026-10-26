@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "distinct_datasets": 6600,
+  "method_dataset_records": 132000,
+  "checks": [
+    "unique dataset-method keys",
+    "cell sizes and deterministic seeds",
+    "all 20 procedures on all 6600 datasets",
+    "Wilson intervals from integer counts"
+  ]
+}

@@ -73,7 +73,10 @@ def build():
  for ax,model in zip(axes,['gaussian_star','t5_star']):
   for method in colors:
    a=[lookup[model,n,method] for n in [252,1008,4096]];v=np.array([100*r['power'] for r in a]);ci=np.array([r['power_ci'] for r in a])*100
-   ax.errorbar([0,1,2],v,yerr=np.array([v-ci[:,0],ci[:,1]-v]),fmt='o-',lw=1.5,capsize=2,ms=4,label=method,color=colors[method])
+   # Roundoff can place a Wilson endpoint a few ulps past the observed
+   # proportion at k=0 or k=n. Clip only plotted error lengths, not intervals.
+   err=np.maximum(0,np.array([v-ci[:,0],ci[:,1]-v]))
+   ax.errorbar([0,1,2],v,yerr=err,fmt='o-',lw=1.5,capsize=2,ms=4,label=method,color=colors[method])
   ax.set_xticks([0,1,2],['252','1008','4096']);ax.set_xlabel('Observations');ax.set_title(labels[model]);ax.grid(alpha=.15);ax.set_ylim(-3,103)
   for sp in ['top','right']:ax.spines[sp].set_visible(False)
  axes[0].set_ylabel('Unique-hub certification (%)');axes[1].legend(frameon=False,loc='center right');fig.tight_layout();fig.savefig(PAPER/'Fig_power.pdf');fig.savefig(PAPER/'Fig_power.png',dpi=180);plt.close(fig)
