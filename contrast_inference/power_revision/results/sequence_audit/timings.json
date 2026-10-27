@@ -1,0 +1,122 @@
+{
+  "repeats": 5,
+  "seed": 61023117,
+  "n": 35079,
+  "p": 10,
+  "comparisons": 112,
+  "matchings": 64,
+  "warmup_runs": 1,
+  "wall_clock": "time.perf_counter; sequential, no concurrent benchmark workers",
+  "excludes": "data retrieval/loading, imports and C++ compilation; all raw records already in memory",
+  "calibration_scope": "Shared training and evidence for all five evidence types and all 15 split variants; not an optimized FS-T64-only implementation",
+  "projection_scope": "FS-T64 only: minor; exact spanning-tree-polytope/path LP with 110 objectives and rational checks; exact enumeration",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "thread_pools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "raw_sha256": "876f95a1db34c8fe0e41a352c32edb0118c959a6675669fc0b3e1aba2271e893",
+  "runs": [
+    {
+      "selection_seconds": 0.03198291900116601,
+      "evidence_seconds": 1.86565782499747,
+      "order_construction_seconds": 0.004789697002706816,
+      "minor_seconds": 0.001724385001580231,
+      "strong_lp_with_rational_checks_seconds": 0.5793778620027297,
+      "enumeration_seconds": 0.000622997002210468
+    },
+    {
+      "selection_seconds": 0.03790102499988279,
+      "evidence_seconds": 1.8874592469983327,
+      "order_construction_seconds": 0.003783964002650464,
+      "minor_seconds": 0.001842321998992702,
+      "strong_lp_with_rational_checks_seconds": 0.5492554379998182,
+      "enumeration_seconds": 0.0007445299997925758
+    },
+    {
+      "selection_seconds": 0.04516944300121395,
+      "evidence_seconds": 1.9015884940017713,
+      "order_construction_seconds": 0.004024415997264441,
+      "minor_seconds": 0.0020945219985151198,
+      "strong_lp_with_rational_checks_seconds": 0.6442069699987769,
+      "enumeration_seconds": 0.0005951950006419793
+    },
+    {
+      "selection_seconds": 0.036715239999466576,
+      "evidence_seconds": 1.9230382030000328,
+      "order_construction_seconds": 0.004558958000416169,
+      "minor_seconds": 0.0015937249991111457,
+      "strong_lp_with_rational_checks_seconds": 0.5598980750000919,
+      "enumeration_seconds": 0.0005780120009148959
+    },
+    {
+      "selection_seconds": 0.03920118600217393,
+      "evidence_seconds": 1.94824683400293,
+      "order_construction_seconds": 0.0037877639952057507,
+      "minor_seconds": 0.001880527001048904,
+      "strong_lp_with_rational_checks_seconds": 0.5721835499971348,
+      "enumeration_seconds": 0.0005813369971292559
+    }
+  ],
+  "median_seconds": {
+    "selection_seconds": 0.03790102499988279,
+    "evidence_seconds": 1.9015884940017713,
+    "order_construction_seconds": 0.004024415997264441,
+    "minor_seconds": 0.001842321998992702,
+    "strong_lp_with_rational_checks_seconds": 0.5721835499971348,
+    "enumeration_seconds": 0.0005951950006419793
+  },
+  "range_seconds": {
+    "selection_seconds": [
+      0.03198291900116601,
+      0.04516944300121395
+    ],
+    "evidence_seconds": [
+      1.86565782499747,
+      1.94824683400293
+    ],
+    "order_construction_seconds": [
+      0.003783964002650464,
+      0.004789697002706816
+    ],
+    "minor_seconds": [
+      0.0015937249991111457,
+      0.0020945219985151198
+    ],
+    "strong_lp_with_rational_checks_seconds": [
+      0.5492554379998182,
+      0.6442069699987769
+    ],
+    "enumeration_seconds": [
+      0.0005780120009148959,
+      0.0007445299997925758
+    ]
+  }
+}

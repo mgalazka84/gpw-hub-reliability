@@ -1,0 +1,176 @@
+{
+  "all_100_archived_FS_T64_results_reproduced": true,
+  "split_sensitivity_Wilson_95": [
+    0.10095288488804782,
+    0.24420269389270244
+  ],
+  "scope": "Conditional-on-observed-data Monte Carlo uncertainty over independent split and matching seeds; not population coverage",
+  "E64_losses": {
+    "degree_intervals": 39,
+    "rank_intervals": 39,
+    "lost_guaranteed_member": 32,
+    "any": 39
+  },
+  "first_failure_pairs": [
+    {
+      "stronger": [
+        3,
+        7
+      ],
+      "weaker": [
+        6,
+        10
+      ],
+      "count": 36
+    },
+    {
+      "stronger": [
+        3,
+        6
+      ],
+      "weaker": [
+        6,
+        10
+      ],
+      "count": 36
+    },
+    {
+      "stronger": [
+        3,
+        6
+      ],
+      "weaker": [
+        3,
+        7
+      ],
+      "count": 12
+    },
+    {
+      "stronger": [
+        3,
+        7
+      ],
+      "weaker": [
+        3,
+        6
+      ],
+      "count": 10
+    },
+    {
+      "stronger": [
+        6,
+        10
+      ],
+      "weaker": [
+        5,
+        7
+      ],
+      "count": 3
+    },
+    {
+      "stronger": [
+        8,
+        10
+      ],
+      "weaker": [
+        6,
+        8
+      ],
+      "count": 1
+    },
+    {
+      "stronger": [
+        6,
+        10
+      ],
+      "weaker": [
+        3,
+        7
+      ],
+      "count": 1
+    },
+    {
+      "stronger": [
+        8,
+        9
+      ],
+      "weaker": [
+        6,
+        8
+      ],
+      "count": 1
+    }
+  ],
+  "stop_positions": [
+    {
+      "position": 99,
+      "count": 1
+    },
+    {
+      "position": 101,
+      "count": 2
+    },
+    {
+      "position": 106,
+      "count": 1
+    },
+    {
+      "position": 107,
+      "count": 4
+    },
+    {
+      "position": 108,
+      "count": 2
+    },
+    {
+      "position": 109,
+      "count": 4
+    },
+    {
+      "position": 110,
+      "count": 4
+    },
+    {
+      "position": 111,
+      "count": 25
+    },
+    {
+      "position": 112,
+      "count": 10
+    },
+    {
+      "position": 115,
+      "count": 1
+    },
+    {
+      "position": 121,
+      "count": 1
+    },
+    {
+      "position": 123,
+      "count": 4
+    },
+    {
+      "position": 124,
+      "count": 6
+    },
+    {
+      "position": 125,
+      "count": 9
+    },
+    {
+      "position": 126,
+      "count": 20
+    },
+    {
+      "position": 127,
+      "count": 6
+    }
+  ],
+  "later_nominal_passes": {
+    "runs": 37,
+    "median": 0.0,
+    "max": 6
+  },
+  "warning": "Later p-values are diagnostic only and cannot be appended to the fixed-sequence rejection set."
+}

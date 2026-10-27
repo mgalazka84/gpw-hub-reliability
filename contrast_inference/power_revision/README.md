@@ -92,3 +92,7 @@ hub decisions in all 100 runs. All per-run results and definitions are archived
 in `results/split_stability/`; `verify_split_stability.py` checks aggregation and
 replays three specified runs independently. Each procedure has its own nominal
 guarantee, not simultaneous coverage across all variants and random splits.
+
+## Sequence diagnostic and questionnaire timings
+
+`python sequence_audit.py --workers 4 --benchmark-repeats 5` replays all 100 archived splits, verifies their FS-T64 endpoints, records every first failure, and then benchmarks the original questionnaire split sequentially. Results are in `results/sequence_audit/`. Timing includes shared calibration for all 15 split variants, followed by FS-T64-only projection and audit stages; raw timings, environment and exclusions are recorded. The diagnostic does not append later nominal discoveries or pool split conclusions.
