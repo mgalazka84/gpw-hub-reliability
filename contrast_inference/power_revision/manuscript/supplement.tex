@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper,margin=25mm]{geometry}
-\usepackage{graphicx,amsmath,amssymb,amsthm,booktabs,multirow,float,longtable}
+\usepackage{graphicx,amsmath,amssymb,amsthm,booktabs,multirow,float,longtable,placeins}
 \usepackage[T1]{fontenc}\usepackage{lmodern,microtype}
 \usepackage[round,authoryear]{natbib}\usepackage{hyperref,xurl,xr}
 \providecommand{\doi}[1]{\url{https://doi.org/#1}}
@@ -44,6 +44,7 @@ The marginal rank construction gives vertex zero $[1,7]$. In contrast, the true 
 \section{Complete Polish-market sensitivity summaries}\label{sec:complete-gpw}
 \input{gpw_results}
 \input{extended_gpw_results}
+\FloatBarrier
 \input{split_stability}
 \bibliographystyle{plainnat}\bibliography{references,new_references}
 \end{document}

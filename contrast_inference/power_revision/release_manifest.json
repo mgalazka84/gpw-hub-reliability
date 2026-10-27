@@ -1,6 +1,6 @@
 {
-  "software_commit": "7580ed0e51d9545884ff3321db76825ffcdedf28",
-  "software_url": "https://github.com/mgalazka84/gpw-hub-reliability/tree/7580ed0e51d9545884ff3321db76825ffcdedf28",
+  "software_commit": "22ddc926c06abe271b62cfa81af96cfb0159564f",
+  "software_url": "https://github.com/mgalazka84/gpw-hub-reliability/tree/22ddc926c06abe271b62cfa81af96cfb0159564f",
   "baseline_commit": "0669c26781ddf98ce2c0a1fd044a744dde8eba12",
   "code_branch": "degree-inference-v0.7",
   "validation_datasets": 6600,
@@ -22,5 +22,35 @@
     ],
     "timing_repeats": 5,
     "path": "results/sequence_audit/"
+  },
+  "initial_procedure_commit": "7580ed0e51d9545884ff3321db76825ffcdedf28",
+  "split_rule_tradeoff": {
+    "H-E64": {
+      "retains_all_E64_bounds_and_members": 94,
+      "three_shared_members": 6
+    },
+    "FS-T64": {
+      "retains_all_E64_bounds_and_members": 61,
+      "three_shared_members": 16
+    },
+    "FS-E64": {
+      "retains_all_E64_bounds_and_members": 49,
+      "three_shared_members": 10
+    },
+    "H-T64": {
+      "retains_all_E64_bounds_and_members": 92,
+      "three_shared_members": 2
+    }
+  },
+  "document_corrections": {
+    "conditional_validity_includes_single_matching_P": true,
+    "timing_scope_first_three_stages": "all 15 split variants",
+    "timing_scope_projection_stages": "FS-T64 only",
+    "minor_plus_enumeration_ms": 2.4375169996346813,
+    "minor_plus_enumeration_pct_shared_evidence": 0.12818320090405483,
+    "optional_LP_seconds": 0.5721835499971348,
+    "LP_changes_application_conclusions": false,
+    "Abalone_introduced_with_Nash_citation": true,
+    "figure_S4_before_S10": true
   }
 }

@@ -41,3 +41,5 @@ Exact enumeration & 0.0006 & 0.0006--0.0007\\
 \bottomrule\end{tabular}\end{table}
 
 The benchmark uses Python 3.12.14, NumPy 2.3.5 and SciPy 1.17.0 on Linux, in one process on an AMD EPYC 9V74 80-Core Processor. BLAS and OpenMP thread limits are one; HiGHS uses its default solver settings. Data are already in memory; retrieval, loading, imports and C++ compilation are excluded. Each repetition verifies two compatible trees and agreement of minor, strong-LP and enumerated endpoints. The recorded medians describe this implementation and host, not a large-graph scalability guarantee. Four decimal places are retained in this timing table to distinguish the submillisecond enumeration stage.
+
+The minor and enumeration medians sum to 2.4375 ms, or 0.1282\% of the shared evidence median. This is a sum of stage medians, not a separately timed end-to-end median. The optional strong-LP audit adds 0.5722 s and leaves the questionnaire degree, rank and hub conclusions unchanged.
