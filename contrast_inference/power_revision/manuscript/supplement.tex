@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper,margin=25mm]{geometry}
-\usepackage{graphicx,amsmath,amssymb,amsthm,booktabs,multirow,float}
+\usepackage{graphicx,amsmath,amssymb,amsthm,booktabs,multirow,float,longtable}
 \usepackage[T1]{fontenc}\usepackage{lmodern,microtype}
 \usepackage[round,authoryear]{natbib}\usepackage{hyperref,xurl,xr}
 \providecommand{\doi}[1]{\url{https://doi.org/#1}}
@@ -37,12 +37,13 @@ Now transform correlations by Fisher's $\operatorname{atanh}$ and subtract the m
 The marginal rank construction gives vertex zero $[1,7]$. In contrast, the true local orders along the coupled curve force all seven tree edges and rank $[1,1]$. For a changing edge, the derivative of its centered Fisher weight is bounded below by $1-15/[28(1-0.085^2)]>0$; for a constant edge it is negative. Thus its coordinate extrema occur at the two endpoints. An executable verification is supplied with the code. The uncertainty curve is specified for this deterministic comparison of uncertainty-set shapes. It shows why rectangularization can discard relevant information even when the candidate matrices are positive definite and global centering has already been used.
 
 \input{validation_design}
-\section{Baseline implementation verification}
+\section{Baseline implementation verification}\label{sec:baseline-verification}
 \input{verification_results}
 \input{pearson_audit_appendix}
 \input{gpw_study_appendix}
-\section{Complete Polish-market sensitivity summaries}
+\section{Complete Polish-market sensitivity summaries}\label{sec:complete-gpw}
 \input{gpw_results}
 \input{extended_gpw_results}
+\input{split_stability}
 \bibliographystyle{plainnat}\bibliography{references,new_references}
 \end{document}

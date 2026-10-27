@@ -17,3 +17,8 @@ snapshot are linked from the paper and `../power_revision/README.md`.
 Cover letters and private colleague-review correspondence are supplied directly
 to the authors, not published here. Files in this repository are materials for
 submission; their presence does not mean that a journal submission has been sent.
+
+The current files include the complete 100-split sensitivity check. The reported
+questionnaire split is favourable: the three shared hub members recur in 16/100
+extra splits. All 20 application methods are displayed without retrospective
+primary/secondary ranking. PROVENANCE_AUDIT.txt explains the public record.

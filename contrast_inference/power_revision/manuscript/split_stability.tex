@@ -1,0 +1,261 @@
+\section{Questionnaire split sensitivity}\label{sec:split-stability}
+
+This post-application descriptive check retains all 100 additional random training splits and all 15 split-based variants. The dataset, training fraction, nominal level and 64 matchings are unchanged. Each split regenerates its associated matching randomization. The original full-sample E64 result is a fixed reference, not an E64 analysis restricted to each verification subset. No seed is selected to replace the reported application and no conclusions are pooled. The original internal protocol and application results entered the public archive together; there was no external preregistration. Consequently, this analysis measures descriptive sensitivity rather than prospectively registered validation.
+
+A guaranteed shared member satisfies the degree-bound criterion in the main paper. At least two guaranteed members exclude a unique hub. Dominance of E64 means that all degree and rank intervals are subsets of the corresponding E64 intervals and every E64 guaranteed hub member is retained. Merely matching its number of fixed degrees is insufficient. All frequencies have denominator 100; they measure randomization stability conditional on the observed dataset, not population coverage probabilities.
+
+\begin{table}[htbp]\centering\small\caption{All split variants under the common minor and conservation projection. Entries are counts out of 100 except the median. Three means joint membership of Q1, Q3 and Q10. No unique means unique-hub exclusion. Dominates uses the complete E64 comparison defined above.}\label{tab:split-methods}
+
+\begin{tabular}{lrrrrr}\toprule Method & Median fixed & Three & No unique & $\ge6$ fixed & Dominates\\\midrule
+
+FS-A64 & 5 & 7 & 7 & 49 & 48\\
+
+FS-E64 & 5.5 & 10 & 10 & 50 & 49\\
+
+FS-P & 1.5 & 4 & 5 & 11 & 10\\
+
+FS-S64 & 1 & 0 & 0 & 0 & 0\\
+
+FS-T64 & 6 & 16 & 16 & 62 & 61\\
+
+H-A64 & 6 & 4 & 4 & 88 & 88\\
+
+H-E64 & 6 & 6 & 6 & 94 & 94\\
+
+H-P & 2 & 2 & 2 & 7 & 4\\
+
+H-S64 & 4 & 0 & 0 & 0 & 0\\
+
+H-T64 & 6 & 2 & 2 & 92 & 92\\
+
+IUT-A64 & 0 & 0 & 0 & 0 & 0\\
+
+IUT-E64 & 0 & 0 & 0 & 0 & 0\\
+
+IUT-P & 0 & 2 & 2 & 2 & 2\\
+
+IUT-S64 & 0 & 0 & 0 & 0 & 0\\
+
+IUT-T64 & 0 & 0 & 0 & 0 & 0\\
+
+\bottomrule\end{tabular}\end{table}
+
+For FS-T64, the median number of fixed degrees is six, the interquartile range is four to six, and the range is one to eight. The reported split fixes eight degrees and is favourable. It is not representative of stability of the three-member conclusion, which is recovered in only 16 runs. FS-T64 retains all E64 bounds and memberships in 61 runs; it fixes at least six degrees in 62 runs. Exact enumeration is feasible for all 100 FS-T64 families (at most 495 candidate subsets). It gives the same shared-hub and unique-hub-exclusion decisions in every run, while degree endpoints agree with the minor in 76 runs and rank endpoints in 70 runs. Thus the observed hub instability is not an artefact of the minor relaxation.
+
+\begin{table}[htbp]\centering\small\caption{FS-T64 guaranteed membership frequencies over 100 runs. Joint membership of Q1, Q3 and Q10 occurs in 16 runs.}\label{tab:split-items}\begin{tabular}{lrrrrrrrrrr}\toprule Item & Q1 & Q2 & Q3 & Q4 & Q5 & Q6 & Q7 & Q8 & Q9 & Q10\\\midrule
+
+Count & 16 & 0 & 16 & 0 & 0 & 0 & 0 & 0 & 0 & 68\\\bottomrule\end{tabular}\end{table}
+
+\begin{longtable}{rrrrrr}
+
+\caption{Every FS-T64 split. Random seeds and all 15 variants are also archived as machine-readable records. Binary columns indicate joint three-member certification, unique-hub exclusion and dominance of E64.}\label{tab:all-splits}\\
+
+\toprule Split & Seed & Fixed degrees & Three & No unique & Dominates\\\midrule\endfirsthead
+
+\toprule Split & Seed & Fixed degrees & Three & No unique & Dominates\\\midrule\endhead
+
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot\bottomrule\endlastfoot
+
+1 & 2597299993 & 4 & 0 & 0 & 0\\
+
+2 & 2066332529 & 3 & 0 & 0 & 0\\
+
+3 & 2238539153 & 6 & 0 & 0 & 1\\
+
+4 & 108058594 & 5 & 0 & 0 & 0\\
+
+5 & 315714935 & 6 & 0 & 0 & 1\\
+
+6 & 1158202976 & 3 & 0 & 0 & 0\\
+
+7 & 253515632 & 6 & 0 & 0 & 1\\
+
+8 & 1302646342 & 6 & 0 & 0 & 1\\
+
+9 & 3098594182 & 6 & 0 & 0 & 1\\
+
+10 & 1589487109 & 5 & 0 & 0 & 0\\
+
+11 & 2686540733 & 4 & 0 & 0 & 0\\
+
+12 & 4215396147 & 5 & 0 & 0 & 0\\
+
+13 & 294088321 & 4 & 0 & 0 & 0\\
+
+14 & 3961831916 & 8 & 1 & 1 & 1\\
+
+15 & 1527441670 & 1 & 0 & 0 & 0\\
+
+16 & 623582697 & 6 & 0 & 0 & 1\\
+
+17 & 1005094014 & 8 & 1 & 1 & 1\\
+
+18 & 45539246 & 2 & 0 & 0 & 0\\
+
+19 & 1830072744 & 6 & 0 & 0 & 1\\
+
+20 & 4293530424 & 4 & 0 & 0 & 0\\
+
+21 & 1690465956 & 6 & 0 & 0 & 1\\
+
+22 & 65281996 & 6 & 0 & 0 & 1\\
+
+23 & 3372813861 & 2 & 0 & 0 & 0\\
+
+24 & 3768342462 & 8 & 1 & 1 & 1\\
+
+25 & 203936977 & 8 & 1 & 1 & 1\\
+
+26 & 180148164 & 6 & 0 & 0 & 1\\
+
+27 & 659924745 & 6 & 0 & 0 & 1\\
+
+28 & 2450223545 & 3 & 0 & 0 & 0\\
+
+29 & 2199508959 & 8 & 1 & 1 & 1\\
+
+30 & 3605911653 & 8 & 1 & 1 & 1\\
+
+31 & 1278973431 & 3 & 0 & 0 & 0\\
+
+32 & 3786467762 & 6 & 0 & 0 & 1\\
+
+33 & 3212858838 & 6 & 0 & 0 & 1\\
+
+34 & 1320781665 & 6 & 0 & 0 & 1\\
+
+35 & 3154359167 & 6 & 0 & 0 & 1\\
+
+36 & 1493751066 & 6 & 0 & 0 & 1\\
+
+37 & 190462844 & 5 & 0 & 0 & 0\\
+
+38 & 3538048522 & 6 & 0 & 0 & 1\\
+
+39 & 3876557283 & 4 & 0 & 0 & 0\\
+
+40 & 739298930 & 6 & 0 & 0 & 1\\
+
+41 & 3255724472 & 6 & 0 & 0 & 1\\
+
+42 & 1771617184 & 6 & 0 & 0 & 1\\
+
+43 & 3083054047 & 6 & 0 & 0 & 1\\
+
+44 & 162745153 & 8 & 1 & 1 & 1\\
+
+45 & 3764174810 & 5 & 0 & 0 & 0\\
+
+46 & 846646590 & 6 & 0 & 0 & 1\\
+
+47 & 236916371 & 8 & 1 & 1 & 1\\
+
+48 & 251649469 & 6 & 0 & 0 & 1\\
+
+49 & 2416785435 & 6 & 0 & 0 & 1\\
+
+50 & 601269582 & 8 & 1 & 1 & 1\\
+
+51 & 694590042 & 6 & 0 & 0 & 1\\
+
+52 & 2375188160 & 6 & 0 & 0 & 1\\
+
+53 & 811775620 & 2 & 0 & 0 & 0\\
+
+54 & 864718370 & 6 & 0 & 0 & 1\\
+
+55 & 206384097 & 6 & 0 & 0 & 0\\
+
+56 & 4257859691 & 6 & 0 & 0 & 1\\
+
+57 & 287556693 & 6 & 0 & 0 & 1\\
+
+58 & 3008046515 & 1 & 0 & 0 & 0\\
+
+59 & 1273941298 & 8 & 1 & 1 & 1\\
+
+60 & 2073878958 & 8 & 1 & 1 & 1\\
+
+61 & 1660843960 & 6 & 0 & 0 & 1\\
+
+62 & 3838832839 & 4 & 0 & 0 & 0\\
+
+63 & 1299057954 & 3 & 0 & 0 & 0\\
+
+64 & 575788243 & 6 & 0 & 0 & 1\\
+
+65 & 831898435 & 2 & 0 & 0 & 0\\
+
+66 & 3133827474 & 5 & 0 & 0 & 0\\
+
+67 & 1901459113 & 6 & 0 & 0 & 1\\
+
+68 & 4219504914 & 4 & 0 & 0 & 0\\
+
+69 & 2081332392 & 2 & 0 & 0 & 0\\
+
+70 & 1350502935 & 6 & 0 & 0 & 1\\
+
+71 & 4178251367 & 6 & 0 & 0 & 1\\
+
+72 & 2613697323 & 1 & 0 & 0 & 0\\
+
+73 & 3288342582 & 2 & 0 & 0 & 0\\
+
+74 & 4244313923 & 4 & 0 & 0 & 0\\
+
+75 & 3802243133 & 8 & 1 & 1 & 1\\
+
+76 & 263771850 & 5 & 0 & 0 & 0\\
+
+77 & 1733575506 & 4 & 0 & 0 & 0\\
+
+78 & 442334869 & 6 & 0 & 0 & 1\\
+
+79 & 1950752074 & 6 & 0 & 0 & 1\\
+
+80 & 2730877703 & 4 & 0 & 0 & 0\\
+
+81 & 751278161 & 5 & 0 & 0 & 0\\
+
+82 & 1524820730 & 6 & 0 & 0 & 1\\
+
+83 & 4264146325 & 6 & 0 & 0 & 1\\
+
+84 & 198038047 & 2 & 0 & 0 & 0\\
+
+85 & 1524174271 & 6 & 0 & 0 & 1\\
+
+86 & 2352447263 & 8 & 1 & 1 & 1\\
+
+87 & 379334832 & 2 & 0 & 0 & 0\\
+
+88 & 548276364 & 6 & 0 & 0 & 1\\
+
+89 & 1632308413 & 3 & 0 & 0 & 0\\
+
+90 & 3343177532 & 6 & 0 & 0 & 1\\
+
+91 & 339188587 & 8 & 1 & 1 & 1\\
+
+92 & 3821830014 & 6 & 0 & 0 & 1\\
+
+93 & 2804609772 & 2 & 0 & 0 & 0\\
+
+94 & 234850423 & 6 & 0 & 0 & 1\\
+
+95 & 2490516670 & 2 & 0 & 0 & 0\\
+
+96 & 162639027 & 8 & 1 & 1 & 1\\
+
+97 & 1842484868 & 6 & 0 & 0 & 1\\
+
+98 & 3544619934 & 1 & 0 & 0 & 0\\
+
+99 & 1099956211 & 6 & 0 & 0 & 1\\
+
+100 & 275712381 & 8 & 1 & 1 & 1\\
+
+\end{longtable}
+
+Independent checks recompute the summary counts from all saved records, verify the accepted trees and their degree ranges, and replay split indices 1, 50 and 100 from the original data. A separate Boolean-closure implementation reproduces the complete compatible-tree sets for these replays. The individual finite-sample guarantee remains a statement about one fixed procedure; these tables do not carry joint 95\% coverage across methods or reruns.

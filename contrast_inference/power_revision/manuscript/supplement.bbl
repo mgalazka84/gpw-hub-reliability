@@ -1,0 +1,82 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chen and Kato(2019)]{chenkato2019}
+Xiaohui Chen and Kengo Kato.
+\newblock Randomized incomplete {U}-statistics in high dimensions.
+\newblock \emph{The Annals of Statistics}, 47\penalty0 (6):\penalty0
+  3127--3156, 2019.
+\newblock \doi{10.1214/18-AOS1773}.
+
+\bibitem[Ga{\l}{\k{a}}zka(2011)]{galazka2011}
+Marek Ga{\l}{\k{a}}zka.
+\newblock Characteristics of the {Polish Stock Market} correlations.
+\newblock \emph{International Review of Financial Analysis}, 20\penalty0
+  (1):\penalty0 1--5, 2011.
+\newblock \doi{10.1016/j.irfa.2010.11.002}.
+
+\bibitem[Ga{\l}{\k{a}}zka and Wdowicka(2026)]{previouscode}
+Marek Ga{\l}{\k{a}}zka and Hanna Wdowicka.
+\newblock Correlation spanning-tree inference: code, provenance and derived
+  results, 2026.
+\newblock URL
+  \url{https://github.com/mgalazka84/gpw-hub-reliability/tree/7580ed0e51d9545884ff3321db76825ffcdedf28/contrast_inference}.
+\newblock Software and data documentation; immutable archived revision.
+
+\bibitem[Hoeffding(1963)]{hoeffding1963}
+Wassily Hoeffding.
+\newblock Probability inequalities for sums of bounded random variables.
+\newblock \emph{Journal of the American Statistical Association}, 58\penalty0
+  (301):\penalty0 13--30, 1963.
+\newblock \doi{10.1080/01621459.1963.10500830}.
+
+\bibitem[K{\"o}kl{\"u} and {\"O}zkan(2020)]{drybean2020}
+Murat K{\"o}kl{\"u} and Ilker~Ali {\"O}zkan.
+\newblock Dry bean, 2020.
+\newblock URL \url{https://archive.ics.uci.edu/dataset/602/dry+bean+dataset}.
+\newblock Dataset, UCI Machine Learning Repository.
+
+\bibitem[K{\"u}nsch(1989)]{kunsch1989}
+Hans~R. K{\"u}nsch.
+\newblock The jackknife and the bootstrap for general stationary observations.
+\newblock \emph{The Annals of Statistics}, 17\penalty0 (3):\penalty0
+  1217--1241, 1989.
+\newblock \doi{10.1214/aos/1176347265}.
+
+\bibitem[Musciotto et~al.(2018)Musciotto, Marotta, Miccich{\`e}, and
+  Mantegna]{musciotto2018}
+Federico Musciotto, Luca Marotta, Salvatore Miccich{\`e}, and Rosario~N.
+  Mantegna.
+\newblock Bootstrap validation of links of a minimum spanning tree.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  512:\penalty0 1032--1043, 2018.
+\newblock \doi{10.1016/j.physa.2018.08.020}.
+
+\bibitem[Nash et~al.(1994)Nash, Sellers, Talbot, Cawthorn, and
+  Ford]{abalone1994}
+Warwick Nash, Tracy Sellers, Simon Talbot, Andrew Cawthorn, and Wes Ford.
+\newblock Abalone, 1994.
+\newblock URL \url{https://archive.ics.uci.edu/dataset/1/abalone}.
+\newblock Dataset, UCI Machine Learning Repository.
+
+\bibitem[Tumminello et~al.(2007)Tumminello, Coronnello, Lillo, Miccich{\`e},
+  and Mantegna]{tumminello2007}
+Michele Tumminello, Claudia Coronnello, Fabrizio Lillo, Salvatore Miccich{\`e},
+  and Rosario~N. Mantegna.
+\newblock Spanning trees and bootstrap reliability estimation in
+  correlation-based networks.
+\newblock \emph{International Journal of Bifurcation and Chaos}, 17\penalty0
+  (7):\penalty0 2319--2329, 2007.
+\newblock \doi{10.1142/S0218127407018415}.
+
+\bibitem[Vovk and Wang(2020)]{vovk2020}
+Vladimir Vovk and Ruodu Wang.
+\newblock Combining p-values via averaging.
+\newblock \emph{Biometrika}, 107\penalty0 (4):\penalty0 791--808, 2020.
+\newblock \doi{10.1093/biomet/asaa027}.
+
+\end{thebibliography}

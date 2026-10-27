@@ -1,0 +1,215 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Berger and Hsu(1996)]{berger1996}
+Roger~L. Berger and Jason~C. Hsu.
+\newblock Bioequivalence trials, intersection-union tests and equivalence
+  confidence sets.
+\newblock \emph{Statistical Science}, 11\penalty0 (4):\penalty0 283--319, 1996.
+\newblock \doi{10.1214/ss/1032280304}.
+
+\bibitem[Chen(2018)]{chen2018}
+Xiaohui Chen.
+\newblock Gaussian and bootstrap approximations for high-dimensional
+  {U}-statistics and their applications.
+\newblock \emph{The Annals of Statistics}, 46\penalty0 (2):\penalty0 642--678,
+  2018.
+\newblock \doi{10.1214/17-AOS1563}.
+
+\bibitem[Chernozhukov et~al.(2013)Chernozhukov, Chetverikov, and Kato]{cck2013}
+Victor Chernozhukov, Denis Chetverikov, and Kengo Kato.
+\newblock Gaussian approximations and multiplier bootstrap for maxima of sums
+  of high-dimensional random vectors.
+\newblock \emph{The Annals of Statistics}, 41\penalty0 (6):\penalty0
+  2786--2819, 2013.
+\newblock \doi{10.1214/13-AOS1161}.
+
+\bibitem[Chow and Liu(1968)]{chow1968}
+C.~K. Chow and C.~N. Liu.
+\newblock Approximating discrete probability distributions with dependence
+  trees.
+\newblock \emph{IEEE Transactions on Information Theory}, 14\penalty0
+  (3):\penalty0 462--467, 1968.
+\newblock \doi{10.1109/TIT.1968.1054142}.
+
+\bibitem[Epskamp et~al.(2018)Epskamp, Borsboom, and Fried]{epskamp2018}
+Sacha Epskamp, Denny Borsboom, and Eiko~I. Fried.
+\newblock Estimating psychological networks and their accuracy: A tutorial
+  paper.
+\newblock \emph{Behavior Research Methods}, 50:\penalty0 195--212, 2018.
+\newblock \doi{10.3758/s13428-017-0862-1}.
+
+\bibitem[Fortin et~al.(2009)Fortin, Kasperski, and Zieli{\'n}ski]{fortin2007}
+J{\'e}r{\^o}me Fortin, Adam Kasperski, and Pawe{\l} Zieli{\'n}ski.
+\newblock Some methods for evaluating the optimality of elements in matroids
+  with ill-known weights.
+\newblock \emph{Fuzzy Sets and Systems}, 160:\penalty0 1341--1354, 2009.
+\newblock \doi{10.1016/j.fss.2008.11.013}.
+
+\bibitem[Ga{\l}{\k{a}}zka(2011)]{galazka2011}
+Marek Ga{\l}{\k{a}}zka.
+\newblock Characteristics of the {Polish Stock Market} correlations.
+\newblock \emph{International Review of Financial Analysis}, 20\penalty0
+  (1):\penalty0 1--5, 2011.
+\newblock \doi{10.1016/j.irfa.2010.11.002}.
+
+\bibitem[Hall and Miller(2009)]{hall2009}
+Peter Hall and Hugh Miller.
+\newblock Using the bootstrap to quantify the authority of an empirical
+  ranking.
+\newblock \emph{The Annals of Statistics}, 37\penalty0 (6B):\penalty0
+  3929--3959, 2009.
+\newblock \doi{10.1214/09-AOS699}.
+
+\bibitem[Holm(1979)]{holm1979}
+Sture Holm.
+\newblock A simple sequentially rejective multiple test procedure.
+\newblock \emph{Scandinavian Journal of Statistics}, 6\penalty0 (2):\penalty0
+  65--70, 1979.
+\newblock URL \url{https://www.jstor.org/stable/4615733}.
+
+\bibitem[{Item Response Warehouse}(2026)]{irw2026}
+{Item Response Warehouse}.
+\newblock Rosenberg self-esteem table and provenance, 2026.
+\newblock URL
+  \url{https://itemresponsewarehouse.org/tables/rosenberg_selfesteem/}.
+\newblock Registry lists its release under CC BY 4.0; source codebook governs
+  variable definitions.
+
+\bibitem[Kasperski and Zieli{\'n}ski(2007)]{kasperski2007}
+Adam Kasperski and Pawe{\l} Zieli{\'n}ski.
+\newblock On combinatorial optimization problems on matroids with uncertain
+  weights.
+\newblock \emph{European Journal of Operational Research}, 177\penalty0
+  (2):\penalty0 851--864, 2007.
+\newblock \doi{10.1016/j.ejor.2005.12.033}.
+
+\bibitem[Liu et~al.(2012)Liu, Han, Yuan, Lafferty, and Wasserman]{liu2012}
+Han Liu, Fang Han, Ming Yuan, John Lafferty, and Larry Wasserman.
+\newblock The nonparanormal {SKEPTIC}.
+\newblock In \emph{Proceedings of the 29th International Conference on Machine
+  Learning}, 2012.
+\newblock URL \url{https://arxiv.org/abs/1206.6488}.
+
+\bibitem[Mantegna(1999)]{mantegna1999}
+Rosario~N. Mantegna.
+\newblock Hierarchical structure in financial markets.
+\newblock \emph{The European Physical Journal B}, 11:\penalty0 193--197, 1999.
+\newblock \doi{10.1007/s100510050929}.
+
+\bibitem[Martin(1991)]{martin1991}
+R.~Kipp Martin.
+\newblock Using separation algorithms to generate mixed integer model
+  reformulations.
+\newblock \emph{Operations Research Letters}, 10\penalty0 (3):\penalty0
+  119--128, 1991.
+\newblock \doi{10.1016/0167-6377(91)90028-N}.
+
+\bibitem[McNemar(1947)]{mcnemar1947}
+Quinn McNemar.
+\newblock Note on the sampling error of the difference between correlated
+  proportions or percentages.
+\newblock \emph{Psychometrika}, 12:\penalty0 153--157, 1947.
+\newblock \doi{10.1007/BF02295996}.
+
+\bibitem[Mogstad et~al.(2024)Mogstad, Romano, Shaikh, and Wilhelm]{mogstad2024}
+Magne Mogstad, Joseph~P. Romano, Azeem~M. Shaikh, and Daniel Wilhelm.
+\newblock Inference for ranks with applications to mobility across
+  neighbourhoods and academic achievement across countries.
+\newblock \emph{The Review of Economic Studies}, 91\penalty0 (1):\penalty0
+  476--518, 2024.
+\newblock \doi{10.1093/restud/rdad006}.
+
+\bibitem[Musciotto et~al.(2018)Musciotto, Marotta, Miccich{\`e}, and
+  Mantegna]{musciotto2018}
+Federico Musciotto, Luca Marotta, Salvatore Miccich{\`e}, and Rosario~N.
+  Mantegna.
+\newblock Bootstrap validation of links of a minimum spanning tree.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  512:\penalty0 1032--1043, 2018.
+\newblock \doi{10.1016/j.physa.2018.08.020}.
+
+\bibitem[Neykov et~al.(2019)Neykov, Lu, and Liu]{neykov2019}
+Matey Neykov, Junwei Lu, and Han Liu.
+\newblock Combinatorial inference for graphical models.
+\newblock \emph{The Annals of Statistics}, 47\penalty0 (2):\penalty0 795--827,
+  2019.
+\newblock \doi{10.1214/17-AOS1650}.
+
+\bibitem[{Open-Source Psychometrics Project}(2014)]{rse2014}
+{Open-Source Psychometrics Project}.
+\newblock Rosenberg self-esteem scale responses and codebook, 2014.
+\newblock URL \url{https://openpsychometrics.org/_rawdata/RSE.zip}.
+\newblock Public anonymous research dataset; original source and codebook.
+
+\bibitem[Peel et~al.(2010)Peel, Anthoine, and Ralaivola]{peel2010}
+Thomas Peel, Sandrine Anthoine, and Liva Ralaivola.
+\newblock Empirical bernstein inequalities for {U}-statistics.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~23, 2010.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2010/hash/d6ef5f7fa914c19931a55bb262ec879c-Abstract.html}.
+
+\bibitem[Pettie(2014)]{pettie2014}
+Seth Pettie.
+\newblock Sensitivity analysis of minimum spanning trees in
+  sub-inverse-ackermann time, 2014.
+\newblock URL \url{https://arxiv.org/abs/1407.1910}.
+\newblock arXiv:1407.1910.
+
+\bibitem[Rosenberg(1965)]{rosenberg1965}
+Morris Rosenberg.
+\newblock \emph{Society and the adolescent self-image}.
+\newblock Princeton University Press, 1965.
+
+\bibitem[Tumminello et~al.(2007)Tumminello, Coronnello, Lillo, Miccich{\`e},
+  and Mantegna]{tumminello2007}
+Michele Tumminello, Claudia Coronnello, Fabrizio Lillo, Salvatore Miccich{\`e},
+  and Rosario~N. Mantegna.
+\newblock Spanning trees and bootstrap reliability estimation in
+  correlation-based networks.
+\newblock \emph{International Journal of Bifurcation and Chaos}, 17\penalty0
+  (7):\penalty0 2319--2329, 2007.
+\newblock \doi{10.1142/S0218127407018415}.
+
+\bibitem[Vovk and Wang(2021)]{vovk2021}
+Vladimir Vovk and Ruodu Wang.
+\newblock E-values: calibration, combination and applications.
+\newblock \emph{The Annals of Statistics}, 49\penalty0 (3):\penalty0
+  1736--1754, 2021.
+\newblock \doi{10.1214/20-AOS2020}.
+
+\bibitem[Waudby-Smith and Ramdas(2024)]{waudby2024}
+Ian Waudby-Smith and Aaditya Ramdas.
+\newblock Estimating means of bounded random variables by betting.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 86\penalty0 (1):\penalty0 1--27, 2024.
+\newblock \doi{10.1093/jrsssb/qkad009}.
+
+\bibitem[Westfall and Krishen(2001)]{westfall2001}
+Peter~H. Westfall and Alok Krishen.
+\newblock Optimally weighted, fixed sequence and gatekeeper multiple testing
+  procedures.
+\newblock \emph{Journal of Statistical Planning and Inference}, 99\penalty0
+  (1):\penalty0 25--40, 2001.
+\newblock \doi{10.1016/S0378-3758(01)00077-5}.
+
+\bibitem[Yaman et~al.(2001)Yaman, Kara{\c{s}}an, and P{\i}nar]{yaman2001}
+Hande Yaman, Oya~Ekin Kara{\c{s}}an, and Mustafa~{\c{C}}. P{\i}nar.
+\newblock The robust spanning tree problem with interval data.
+\newblock \emph{Operations Research Letters}, 29\penalty0 (1):\penalty0 31--40,
+  2001.
+\newblock \doi{10.1016/S0167-6377(01)00078-5}.
+
+\bibitem[Zaffalon and Hutter(2005)]{zaffalon2005}
+Marco Zaffalon and Marcus Hutter.
+\newblock Robust inference of trees.
+\newblock \emph{Annals of Mathematics and Artificial Intelligence},
+  45:\penalty0 215--239, 2005.
+\newblock \doi{10.1007/s10472-005-9007-9}.
+
+\end{thebibliography}
