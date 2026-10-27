@@ -1,0 +1,20 @@
+Analysis provenance and limits of the archival record
+
+PROTOCOL.txt records the Rosenberg source, complete-adult inclusion rule,
+reverse coding, 20 percent training fraction and split seed 61023117.
+The public history first adds this protocol, the simulation design and the
+application results together in commit
+9a34c2b6fa4f9bb71364dd9fe63d82956f05e611 (2026-10-26T09:47:54Z).
+There is no earlier public protocol commit in this branch's history.
+The repository therefore does not independently establish that these choices,
+or the designation of FS-T64 as primary, preceded the application results.
+No external preregistration was made. The original files are retained as
+historical records rather than retrospectively rewritten as registrations.
+
+The application is exploratory. All 20 variants are reported without
+retrospective primary/secondary ranking. Each mathematical guarantee concerns
+one fixed procedure, not selection among methods based on application results.
+The extra 100 splits are a post-application descriptive stability check.
+Their design is written before the new runs, but is not a prospective public
+registration. No split is selected for replacement of the reported split.
+Results are not pooled to produce a stronger confidence claim.

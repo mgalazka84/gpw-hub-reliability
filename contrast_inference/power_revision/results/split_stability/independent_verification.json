@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "splits": 100,
+  "methods_per_split": 15,
+  "independently_replayed_indices": [
+    0,
+    49,
+    99
+  ],
+  "exact_tree_audits": 100,
+  "minor_matches_sharp_counts": {
+    "degrees": 76,
+    "ranks": 70,
+    "hubs": 100,
+    "unique_exclusion": 100
+  },
+  "FS_T64_all_three_count": 16,
+  "FS_T64_unique_exclusion_count": 16,
+  "FS_T64_median_fixed_degrees": 6.0
+}

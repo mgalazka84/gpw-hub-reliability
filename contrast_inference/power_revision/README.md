@@ -5,7 +5,7 @@ independent training observations. It contains 6,600 validation datasets,
 20 matched procedures (132,000 outcome records), and an ordinal questionnaire
 application. The archived pilot is separate from validation.
 
-The primary selected procedure, FS-T64, uses 20% of observations to select a
+The featured selected procedure, FS-T64, uses 20% of observations to select a
 candidate tree, its path comparisons, their fixed testing order and betting
 fractions. The remaining observations supply verification evidence averaged
 over 64 matchings. Testing stops at the first failed comparison. Conditional
@@ -65,8 +65,10 @@ multiple procedures or choose the most favourable verification result without
 an additional error allocation. A fraction clipped below at .01 does not
 inherit the fixed-family E64 consistency theorem for arbitrarily small gaps.
 
-The primary dataset and adult/complete-case processing rule were specified
-before inspecting application results. The all-complete-ages analysis changes
+The archived internal specification records the dataset and processing rules.
+Protocol and results entered the public archive together, so the repository does
+not independently establish prospective specification or pre-application primary
+method designation. No external preregistration was made; see PROVENANCE_AUDIT.txt. The all-complete-ages analysis changes
 the target population and is reported as sensitivity analysis. The original
 source describes anonymous research-use consent; the Item Response Warehouse
 lists its release as CC BY 4.0. Original-source records are downloaded by hash
@@ -78,3 +80,15 @@ Main numerical tables report validation and application outcomes. The
 supplement retains earlier baseline experiments and timings as separate
 analyses. No large-graph scaling or full-U empirical-Bernstein implementation
 is claimed by this extension.
+
+## Random-split sensitivity
+
+The post-application check in `split_stability.py` retains all 100 additional
+splits and 15 split variants. FS-T64 certifies the three shared members in 16/100
+runs, with median six fixed degrees (range one to eight); the displayed split is
+favourable. In 61/100 runs, all bounds and hub memberships are at least as
+informative as the original full-sample E64 result. Enumeration agrees with the
+hub decisions in all 100 runs. All per-run results and definitions are archived
+in `results/split_stability/`; `verify_split_stability.py` checks aggregation and
+replays three specified runs independently. Each procedure has its own nominal
+guarantee, not simultaneous coverage across all variants and random splits.
