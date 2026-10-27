@@ -1,0 +1,5754 @@
+{
+  "comparison": "FS-T64 minor and conservation bounds versus original full-sample E64",
+  "splits": 100,
+  "patterns": [
+    {
+      "degree_failure": true,
+      "rank_failure": true,
+      "hub_loss": false,
+      "count": 7
+    },
+    {
+      "degree_failure": true,
+      "rank_failure": true,
+      "hub_loss": true,
+      "count": 32
+    },
+    {
+      "degree_failure": false,
+      "rank_failure": false,
+      "hub_loss": false,
+      "count": 61
+    }
+  ],
+  "records": [
+    {
+      "split_id_0_based": 0,
+      "table_row_1_based": 1,
+      "seed": 2597299993,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 1,
+      "table_row_1_based": 2,
+      "seed": 2066332529,
+      "fixed_degrees": 3,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 2,
+      "table_row_1_based": 3,
+      "seed": 2238539153,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 3,
+      "table_row_1_based": 4,
+      "seed": 108058594,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            4,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 4,
+      "table_row_1_based": 5,
+      "seed": 315714935,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 5,
+      "table_row_1_based": 6,
+      "seed": 1158202976,
+      "fixed_degrees": 3,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 6,
+      "table_row_1_based": 7,
+      "seed": 253515632,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 7,
+      "table_row_1_based": 8,
+      "seed": 1302646342,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 8,
+      "table_row_1_based": 9,
+      "seed": 3098594182,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 9,
+      "table_row_1_based": 10,
+      "seed": 1589487109,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            4,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 10,
+      "table_row_1_based": 11,
+      "seed": 2686540733,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 11,
+      "table_row_1_based": 12,
+      "seed": 4215396147,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 12,
+      "table_row_1_based": 13,
+      "seed": 294088321,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 13,
+      "table_row_1_based": 14,
+      "seed": 3961831916,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 14,
+      "table_row_1_based": 15,
+      "seed": 1527441670,
+      "fixed_degrees": 1,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 15,
+      "table_row_1_based": 16,
+      "seed": 623582697,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 16,
+      "table_row_1_based": 17,
+      "seed": 1005094014,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 17,
+      "table_row_1_based": 18,
+      "seed": 45539246,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 18,
+      "table_row_1_based": 19,
+      "seed": 1830072744,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 19,
+      "table_row_1_based": 20,
+      "seed": 4293530424,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 20,
+      "table_row_1_based": 21,
+      "seed": 1690465956,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 21,
+      "table_row_1_based": 22,
+      "seed": 65281996,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 22,
+      "table_row_1_based": 23,
+      "seed": 3372813861,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            1,
+            4
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 23,
+      "table_row_1_based": 24,
+      "seed": 3768342462,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 24,
+      "table_row_1_based": 25,
+      "seed": 203936977,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 25,
+      "table_row_1_based": 26,
+      "seed": 180148164,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 26,
+      "table_row_1_based": 27,
+      "seed": 659924745,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 27,
+      "table_row_1_based": 28,
+      "seed": 2450223545,
+      "fixed_degrees": 3,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 28,
+      "table_row_1_based": 29,
+      "seed": 2199508959,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 29,
+      "table_row_1_based": 30,
+      "seed": 3605911653,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 30,
+      "table_row_1_based": 31,
+      "seed": 1278973431,
+      "fixed_degrees": 3,
+      "degree_failures": [
+        {
+          "item": "Q5",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            1,
+            4
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 31,
+      "table_row_1_based": 32,
+      "seed": 3786467762,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 32,
+      "table_row_1_based": 33,
+      "seed": 3212858838,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 33,
+      "table_row_1_based": 34,
+      "seed": 1320781665,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 34,
+      "table_row_1_based": 35,
+      "seed": 3154359167,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 35,
+      "table_row_1_based": 36,
+      "seed": 1493751066,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 36,
+      "table_row_1_based": 37,
+      "seed": 190462844,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            4,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 37,
+      "table_row_1_based": 38,
+      "seed": 3538048522,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 38,
+      "table_row_1_based": 39,
+      "seed": 3876557283,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 39,
+      "table_row_1_based": 40,
+      "seed": 739298930,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 40,
+      "table_row_1_based": 41,
+      "seed": 3255724472,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 41,
+      "table_row_1_based": 42,
+      "seed": 1771617184,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 42,
+      "table_row_1_based": 43,
+      "seed": 3083054047,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 43,
+      "table_row_1_based": 44,
+      "seed": 162745153,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 44,
+      "table_row_1_based": 45,
+      "seed": 3764174810,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 45,
+      "table_row_1_based": 46,
+      "seed": 846646590,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 46,
+      "table_row_1_based": 47,
+      "seed": 236916371,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 47,
+      "table_row_1_based": 48,
+      "seed": 251649469,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 48,
+      "table_row_1_based": 49,
+      "seed": 2416785435,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 49,
+      "table_row_1_based": 50,
+      "seed": 601269582,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 50,
+      "table_row_1_based": 51,
+      "seed": 694590042,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 51,
+      "table_row_1_based": 52,
+      "seed": 2375188160,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 52,
+      "table_row_1_based": 53,
+      "seed": 811775620,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            1,
+            4
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 53,
+      "table_row_1_based": 54,
+      "seed": 864718370,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 54,
+      "table_row_1_based": 55,
+      "seed": 206384097,
+      "fixed_degrees": 6,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 55,
+      "table_row_1_based": 56,
+      "seed": 4257859691,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 56,
+      "table_row_1_based": 57,
+      "seed": 287556693,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 57,
+      "table_row_1_based": 58,
+      "seed": 3008046515,
+      "fixed_degrees": 1,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            1,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q4",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            4,
+            10
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 58,
+      "table_row_1_based": 59,
+      "seed": 1273941298,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 59,
+      "table_row_1_based": 60,
+      "seed": 2073878958,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 60,
+      "table_row_1_based": 61,
+      "seed": 1660843960,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 61,
+      "table_row_1_based": 62,
+      "seed": 3838832839,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 62,
+      "table_row_1_based": 63,
+      "seed": 1299057954,
+      "fixed_degrees": 3,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 63,
+      "table_row_1_based": 64,
+      "seed": 575788243,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 64,
+      "table_row_1_based": 65,
+      "seed": 831898435,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 65,
+      "table_row_1_based": 66,
+      "seed": 3133827474,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 66,
+      "table_row_1_based": 67,
+      "seed": 1901459113,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 67,
+      "table_row_1_based": 68,
+      "seed": 4219504914,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 68,
+      "table_row_1_based": 69,
+      "seed": 2081332392,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 69,
+      "table_row_1_based": 70,
+      "seed": 1350502935,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 70,
+      "table_row_1_based": 71,
+      "seed": 4178251367,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 71,
+      "table_row_1_based": 72,
+      "seed": 2613697323,
+      "fixed_degrees": 1,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q4",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q4",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            4,
+            10
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 72,
+      "table_row_1_based": 73,
+      "seed": 3288342582,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 73,
+      "table_row_1_based": 74,
+      "seed": 4244313923,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 74,
+      "table_row_1_based": 75,
+      "seed": 3802243133,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 75,
+      "table_row_1_based": 76,
+      "seed": 263771850,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            4,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 76,
+      "table_row_1_based": 77,
+      "seed": 1733575506,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 77,
+      "table_row_1_based": 78,
+      "seed": 442334869,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 78,
+      "table_row_1_based": 79,
+      "seed": 1950752074,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 79,
+      "table_row_1_based": 80,
+      "seed": 2730877703,
+      "fixed_degrees": 4,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        }
+      ],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 80,
+      "table_row_1_based": 81,
+      "seed": 751278161,
+      "fixed_degrees": 5,
+      "degree_failures": [
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            5
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 81,
+      "table_row_1_based": 82,
+      "seed": 1524820730,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 82,
+      "table_row_1_based": 83,
+      "seed": 4264146325,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 83,
+      "table_row_1_based": 84,
+      "seed": 198038047,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 84,
+      "table_row_1_based": 85,
+      "seed": 1524174271,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 85,
+      "table_row_1_based": 86,
+      "seed": 2352447263,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 86,
+      "table_row_1_based": 87,
+      "seed": 379334832,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            1,
+            2
+          ],
+          "FS_T64": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 87,
+      "table_row_1_based": 88,
+      "seed": 548276364,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 88,
+      "table_row_1_based": 89,
+      "seed": 1632308413,
+      "fixed_degrees": 3,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            3,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            6
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 89,
+      "table_row_1_based": 90,
+      "seed": 3343177532,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 90,
+      "table_row_1_based": 91,
+      "seed": 339188587,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 91,
+      "table_row_1_based": 92,
+      "seed": 3821830014,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 92,
+      "table_row_1_based": 93,
+      "seed": 2804609772,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 93,
+      "table_row_1_based": 94,
+      "seed": 234850423,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 94,
+      "table_row_1_based": 95,
+      "seed": 2490516670,
+      "fixed_degrees": 2,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            7
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 95,
+      "table_row_1_based": 96,
+      "seed": 162639027,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 96,
+      "table_row_1_based": 97,
+      "seed": 1842484868,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 97,
+      "table_row_1_based": 98,
+      "seed": 3544619934,
+      "fixed_degrees": 1,
+      "degree_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            3,
+            3
+          ],
+          "FS_T64": [
+            2,
+            3
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            2,
+            3
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            1,
+            1
+          ],
+          "FS_T64": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            3,
+            4
+          ],
+          "FS_T64": [
+            2,
+            4
+          ]
+        }
+      ],
+      "rank_failures": [
+        {
+          "item": "Q1",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q2",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q3",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q5",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q6",
+          "E64": [
+            1,
+            5
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        },
+        {
+          "item": "Q7",
+          "E64": [
+            4,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q8",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            2,
+            10
+          ]
+        },
+        {
+          "item": "Q9",
+          "E64": [
+            5,
+            10
+          ],
+          "FS_T64": [
+            1,
+            10
+          ]
+        },
+        {
+          "item": "Q10",
+          "E64": [
+            1,
+            4
+          ],
+          "FS_T64": [
+            1,
+            8
+          ]
+        }
+      ],
+      "lost_guaranteed_members": [
+        "Q10"
+      ]
+    },
+    {
+      "split_id_0_based": 98,
+      "table_row_1_based": 99,
+      "seed": 1099956211,
+      "fixed_degrees": 6,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    },
+    {
+      "split_id_0_based": 99,
+      "table_row_1_based": 100,
+      "seed": 275712381,
+      "fixed_degrees": 8,
+      "degree_failures": [],
+      "rank_failures": [],
+      "lost_guaranteed_members": []
+    }
+  ]
+}

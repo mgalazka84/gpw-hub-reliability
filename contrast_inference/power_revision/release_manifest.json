@@ -52,5 +52,15 @@
     "LP_changes_application_conclusions": false,
     "Abalone_introduced_with_Nash_citation": true,
     "figure_S4_before_S10": true
+  },
+  "retention_logic_audit": {
+    "path": "results/split_stability/retention_logic_audit.json",
+    "joint_retention": 61,
+    "degree_failure": 39,
+    "rank_failure": 39,
+    "both_degree_and_rank_failure": 39,
+    "hub_loss": 32,
+    "table_split_55_archive_index": 54,
+    "table_split_55_seed": 206384097
   }
 }
