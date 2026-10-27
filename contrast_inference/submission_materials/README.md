@@ -1,12 +1,19 @@
-# Research revision 0.6: practical benefit
+# Computational Statistics manuscript files
 
-- `manuscript_practical_value.pdf`: revised paper with author details.
-- `manuscript_practical_value_anonymized.pdf`: anonymous version.
-- `Highlights.txt`: concise summary points.
+This folder contains the manuscript prepared for a new submission to
+Computational Statistics. It is separate from the earlier CSDA assessment.
 
-This is a substantive research revision, with no journal-specific cover letter
-or response to reviewers. The main text focuses on degree bounds, hub exclusions
-and measured computational cost. Pearson-bootstrap and Polish-market diagnostics
-are retained in appendices. The source, all previous statistical outcomes, the
-complete decision audit, timing records and certificate checks are in the parent
-directory. `results/practical_value/` contains the new evidence and verification.
+- `manuscript_practical_value.pdf`: complete paper with author information.
+- `manuscript_practical_value_anonymized.pdf`: paper without author details.
+- `Supplementary_analyses.pdf`: Online Resource 1.
+- `Computational_Statistics_LaTeX.zip`: complete main-paper source in a flat directory.
+- `Computational_Statistics_Supplement_LaTeX.zip`: complete supplementary source.
+- `Highlights.txt`: optional concise points if requested by the submission form.
+
+The source archives have been compiled in fresh directories and checked against
+the supplied PDFs. The primary implementation and immutable numerical-results
+snapshot are linked from the paper and `../power_revision/README.md`.
+
+Cover letters and private colleague-review correspondence are supplied directly
+to the authors, not published here. Files in this repository are materials for
+submission; their presence does not mean that a journal submission has been sent.

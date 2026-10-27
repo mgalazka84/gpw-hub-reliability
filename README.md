@@ -25,6 +25,7 @@ and are not redistributed. UCI baseline data retain their separate attribution.
 - [Main manuscript](contrast_inference/power_revision/manuscript/revision.pdf)
 - [Anonymous manuscript](contrast_inference/power_revision/manuscript/anonymous.pdf)
 - [Supplement](contrast_inference/power_revision/manuscript/supplement.pdf)
+- [Computational Statistics source files](contrast_inference/submission_materials/README.md)
 - [Exact Abalone audit](contrast_inference/review_audit/README.txt)
 - [Reproduction and scope](contrast_inference/power_revision/README.md)
 

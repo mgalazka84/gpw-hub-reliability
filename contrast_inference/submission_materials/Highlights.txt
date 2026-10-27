@@ -1,5 +1,5 @@
-Exact Kendall comparisons certify degree bounds under IID sampling.
-Degree-only projection preserves rank bounds in 12 E64 applications.
-Abalone yields four hub exclusions and a top-three restriction.
-A 192-analysis audit separates bound tightening from new decisions.
-Verified degree projection uses 16 rather than 72 LPs in Abalone.
+Independent training selects useful tree comparisons and their testing order.
+Held-out verification controls familywise error in finite IID samples.
+Selected inference improves hub certification in matched star simulations.
+An ordinal questionnaire application certifies three shared hub members.
+Exact tree enumeration audits the sharpness of structural conclusions.

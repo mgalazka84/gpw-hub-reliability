@@ -2,7 +2,8 @@
 \usepackage[a4paper,margin=25mm]{geometry}
 \usepackage{graphicx,amsmath,amssymb,amsthm,booktabs,multirow,float}
 \usepackage[T1]{fontenc}\usepackage{lmodern,microtype}
-\usepackage[round,authoryear]{natbib}\usepackage{hyperref,xurl}
+\usepackage[round,authoryear]{natbib}\setcitestyle{aysep={}}\usepackage{hyperref,xurl}
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
 \input{glyphtounicode}\pdfgentounicode=1
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}\newtheorem{proposition}[theorem]{Proposition}\newtheorem{lemma}[theorem]{Lemma}
@@ -28,7 +29,7 @@
 \begin{abstract}
 Which variables are demonstrably most connected, and when must they share that status? We construct simultaneous degree bounds and hub statements for population correlation spanning trees. An independent training sample selects a reference tree, useful Kendall tau-a comparisons, their testing sequence and betting fractions. Verification on the remaining observations retains finite-sample familywise error control under independent and identically distributed sampling, including ties. Classical tree constraints project the certified comparisons into degrees; exact enumeration audits the remaining relaxation loss. Across 6600 fresh simulation datasets, the selected procedure identifies the hub in 70.3\% of Gaussian and 40.0\% of heavy-tailed separated-star samples with 12 vertices and 1008 observations, compared with zero for fixed-family matching evidence. The asymptotic multiplier comparator is more powerful in these cells. In 35079 complete adult responses to a ten-item self-esteem questionnaire, the selected procedure determines eight degrees exactly and certifies three shared hub members. Fixed-family evidence leaves a unique hub possible. Independent enumeration verifies the two retained trees and the resulting conclusions. The improvement is conditional on informative selection: short samples and near-tied leaders remain difficult. This separates useful structural decisions from numerical interval tightening and distinguishes shared hub status from an unresolved unique-hub claim.
 \end{abstract}
-\noindent\textbf{Keywords:} Kendall tau-a; e-values; sample splitting; simultaneous inference; spanning trees; shared hubs.
+\noindent\textbf{Keywords:} Kendall tau-a; e-values; sample splitting; simultaneous inference; multiple testing; ordinal data.
 
 \section{Introduction}
 When a network summarizes relationships among measurements, can its most connected variable really be singled out? A spanning tree connects all variables with no cycles. A variable's degree counts its links, and a hub has the largest degree. Estimated correlations can make a variable look central even when the data do not distinguish it from its competitors. Conversely, an interval containing several ranks can reflect a well-established tie between hub degrees rather than an absence of information.
@@ -38,7 +39,7 @@ We develop and evaluate a procedure that selects a manageable set of useful edge
 The questionnaire example illustrates the distinction. With ten ordinal items, fixed-family evidence permits three trees, including one with a unique hub. Independently selected inference retains two trees and determines eight degrees exactly. In both trees, Q1, Q3 and Q10 have degree three, and no item has a larger degree. Thus the procedure certifies shared maximum-degree membership and excludes a unique hub (Figure~\ref{fig:intro}). The degree result follows already from the screened tree family; expensive pair optimization is unnecessary in this example.
 
 \begin{figure}[htbp]\centering
-\includegraphics[width=\textwidth]{Fig_RSE_certificates.pdf}
+\includegraphics[width=\textwidth]{Fig1.pdf}
 \caption{A structural conclusion in 35079 complete adult questionnaire responses. Green nodes are guaranteed members of the maximum-degree set under FS-T64. Exactly one dashed link completes each of the two compatible trees. The degree bounds for Q3 and Q10 become exact compared with E64. These are simultaneous nominal 95\% statements for the signed tau-a tree under the stated IID working model; they do not identify psychological causes or clinical targets.}\label{fig:intro}
 \end{figure}
 
@@ -46,7 +47,7 @@ The power comparison uses fresh data rather than the pilot used to select the pr
 
 The optimization foundations are classical. Interval robust spanning trees, possible or necessary optimality, and robust dependence trees are studied by \citet{yaman2001,kasperski2007,fortin2007,zaffalon2005}; sensitivity analysis supplies further algorithmic context \citep{pettie2014}. Our input is a calibrated relation between population edges, rather than independent intervals supplied to an optimization problem. Cut/cycle screening, matroid rank identities and weak duality convert that relation into vertex information. Exact small-graph audits quantify what these relaxations lose. Rank inference must preserve ties \citep{hall2009,mogstad2024}, while combinatorial inference under graphical-model assumptions addresses related but different targets \citep{neykov2019}.
 
-Correlation trees originate in applications including financial networks \citep{mantegna1999,galazka2011}. Bootstrap edge reliability and centrality stability provide valuable descriptive references \citep{tumminello2007,musciotto2018,epskamp2018}. Here a degree certificate concerns every population-optimal tree on a simultaneous coverage event. It differs from an edge's resampling frequency, and from centrality in a partial-correlation network. The supplementary analyses retain the full morphometric comparison, financial sensitivity study and bootstrap diagnostics.
+Correlation trees originate in applications including financial networks \citep{mantegna1999,galazka2011}. Bootstrap edge reliability and centrality stability provide valuable descriptive references \citep{tumminello2007,musciotto2018,epskamp2018}. Here a degree certificate concerns every population-optimal tree on a simultaneous coverage event. It differs from an edge's resampling frequency, and from centrality in a partial-correlation network. Online Resource 1 contains the full morphometric comparison, financial sensitivity study and bootstrap diagnostics.
 \section{Population target and simultaneous orders}
 Let $G=(V,E)$ be a fixed connected graph with $p\ge2$ vertices and $m$ edges. For weights $w$, let
 \[
@@ -242,7 +243,7 @@ FS-T64 certifies the Gaussian-star hub in 211/300 cases and the heavy-tailed-sta
 The ablation identifies both selection and stakes as consequential. Adaptive verification-only A64 gives no unique-hub certificates in either separated-star cell at $n=1008$. On the selected family, H-T64 also gives zero, whereas FS-T64 gives 70.3\% and 40.0\%. Retaining E64 stakes but using the fixed sequence gives 5.0\% and 1.3\%. The predetermined quarter-stake FS-S64 gives 85.7\% and 56.3\%, but this setting is less successful on the questionnaire and near-tie model. The all-or-none quarter-stake test gives 81.0\% and 52.7\%. Thus a certificate directed at a question can outperform exhaustive simultaneous ordering, but neither a fixed fraction nor a fixed sequence uniformly dominates.
 
 \begin{figure}[htbp]\centering
-\includegraphics[width=.94\textwidth]{Fig_power.pdf}
+\includegraphics[width=.94\textwidth]{Fig2.pdf}
 \caption{Fresh separated-star validation with 300 datasets per point. Error bars are Wilson 95\% intervals. All methods receive the same samples. FS-T64 and FS-S64 reserve 20\% for selection; E64 and M-C use the full sample. M-C is an asymptotic comparator.}\label{fig:power}
 \end{figure}
 
@@ -275,11 +276,20 @@ Selection has a cost. It discards training observations from verification, and a
 
 Optimization and statistics address separate losses. The Abalone enumeration improves several endpoints that even a stronger connectivity LP leaves unchanged. In the questionnaire, the selected relation is already informative enough for minor-stage decisions. Rational certificates verify the numerical inequalities, while exact compatible-tree sets explain which structural ambiguity remains. The scientific interpretation still depends on the chosen correlation target and sampling model.
 
+\section*{Statements and Declarations}
 \subsection*{Funding}No dedicated funding was received for this study.
 \subsection*{Competing interests}The authors declare no relevant competing interests.
+\subsection*{Compliance with Ethical Standards}
+This study is a secondary analysis of publicly released, anonymous questionnaire responses. No participants were recruited or contacted and no identifying information was collected by the authors. The original source states that only respondents who confirmed that their responses were accurate and could be used for research were included.
+\subsection*{Consent for publication}
+No individual identifying information is reported.
 \subsection*{Data availability}Simulation designs, per-dataset results, questionnaire retrieval instructions, original-source hashes, derived summaries and verification scripts accompany the article. Raw questionnaire responses and third-party price histories are not redistributed. The supplementary UCI applications retain their original attribution.
+\subsection*{Supplementary information}
+Online Resource 1: supplementary comparisons and sensitivity analyses, including additional calibrations, morphometric examples, computational timings and Polish-market diagnostics.
 \subsection*{Code availability}\ifanonymous Reproducibility materials and immutable identifiers are supplied separately.\else Reproducibility code, comparison relations and complete replication results are archived at the immutable revision \url{https://github.com/mgalazka84/gpw-hub-reliability/tree/75311d32ef0006619dcaa3ef9b268724bf2db9a7/contrast_inference/power_revision}.\fi
 \subsection*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}The authors used ChatGPT/Codex (OpenAI) to assist with writing code. The authors reviewed and tested the code and take full responsibility for the content of the article.
+\subsection*{Author contributions}
+\ifanonymous The authors jointly contributed to the research and manuscript preparation and take responsibility for its scientific content.\else Marek Gałązka and Hanna Wdowicka jointly contributed to the research and preparation of the manuscript. Both authors take responsibility for its scientific content.\fi
 \setlength{\bibsep}{2pt}
 \bibliographystyle{plainnat}
 \bibliography{references,new_references}
