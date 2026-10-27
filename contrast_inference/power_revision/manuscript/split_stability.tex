@@ -40,7 +40,7 @@ IUT-T64 & 0 & 0 & 0 & 0 & 0\\
 
 \bottomrule\end{tabular}\end{table}
 
-For FS-T64, the median number of fixed degrees is six, the interquartile range is four to six, and the range is one to eight. The reported split fixes eight degrees and is favourable. It is not representative of stability of the three-member conclusion, which is recovered in only 16 runs. FS-T64 retains all E64 bounds and memberships in 61 runs; it fixes at least six degrees in 62 runs. Exact enumeration is feasible for all 100 FS-T64 families (at most 495 candidate subsets). It gives the same shared-hub and unique-hub-exclusion decisions in every run, while degree endpoints agree with the minor in 76 runs and rank endpoints in 70 runs. Thus the observed hub instability is not an artefact of the minor relaxation.
+For FS-T64, the median number of fixed degrees is six, equal to the original full-sample E64 count, the interquartile range is four to six, and the range is one to eight. The reported split fixes eight degrees and is favourable. It is not representative of stability of the three-member conclusion, which is recovered in only 16 runs (Wilson 95\% interval [0.10,0.24], conditional on the observed data and describing Monte Carlo split/matching variability). FS-T64 retains all E64 bounds and memberships in 61 runs; it fixes at least six degrees in 62 runs. In 39 runs at least one degree bound and at least one rank bound are weaker than E64; these sets of 39 runs coincide. In 32 runs the guaranteed hub member Q10 is lost. Exact enumeration is feasible for all 100 FS-T64 families (at most 495 candidate subsets). It gives the same shared-hub and unique-hub-exclusion decisions in every run, while degree endpoints agree with the minor in 76 runs and rank endpoints in 70 runs. Thus the observed hub instability is not an artefact of the minor relaxation.
 
 \begin{table}[htbp]\centering\small\caption{FS-T64 guaranteed membership frequencies over 100 runs. Joint membership of Q1, Q3 and Q10 occurs in 16 runs.}\label{tab:split-items}\begin{tabular}{lrrrrrrrrrr}\toprule Item & Q1 & Q2 & Q3 & Q4 & Q5 & Q6 & Q7 & Q8 & Q9 & Q10\\\midrule
 
@@ -259,3 +259,5 @@ Count & 16 & 0 & 16 & 0 & 0 & 0 & 0 & 0 & 0 & 68\\\bottomrule\end{tabular}\end{t
 \end{longtable}
 
 Independent checks recompute the summary counts from all saved records, verify the accepted trees and their degree ranges, and replay split indices 1, 50 and 100 from the original data. A separate Boolean-closure implementation reproduces the complete compatible-tree sets for these replays. The individual finite-sample guarantee remains a statement about one fixed procedure; these tables do not carry joint 95\% coverage across methods or reruns.
+
+\input{sequence_diagnostics}

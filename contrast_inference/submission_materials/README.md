@@ -22,3 +22,5 @@ The current files include the complete 100-split sensitivity check. The reported
 questionnaire split is favourable: the three shared hub members recur in 16/100
 extra splits. All 20 application methods are displayed without retrospective
 primary/secondary ranking. PROVENANCE_AUDIT.txt explains the public record.
+
+The sequence audit reproduces all 100 archived FS-T64 outcomes and identifies the first failed contrasts. The supplement reports measured questionnaire stage timings, and the paper explicitly reports losses relative to E64 in 39/100 splits.

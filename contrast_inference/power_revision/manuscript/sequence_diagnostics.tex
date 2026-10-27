@@ -1,0 +1,43 @@
+\subsection{First failed comparisons and measured costs}
+
+\label{sec:sequence-audit}
+
+All 100 sequences were replayed with their archived seeds, reproducing every FS-T64 relation size and all minor degree/rank endpoints. Table~\ref{tab:sequence-stops} records the first failed comparison; its direction was chosen using training data. The first two contrasts account for 72 failures. The selected families contain 112 comparisons in 49 runs, 127 in 46 runs, 107 in four runs and 119 in one run. The first failure occurs at positions 99--127; positions 111 and 126 are most frequent (25 and 20 runs). In 37 runs, at least one subsequent marginal $p$-value is at most 0.05 (up to six later comparisons). These later values diagnose the cost of stopping and are not added to the certified relation. The archive retains the full sequence and all marginal values for every run.
+
+\begin{table}[htbp]\centering\small\caption{First failed FS-T64 comparison across the 100 additional splits. Counts sum to 100.}\label{tab:sequence-stops}\begin{tabular}{lr}\toprule Comparison & Count\\\midrule
+
+$\tau_{Q3,Q7}>\tau_{Q6,Q10}$ & 36\\
+
+$\tau_{Q3,Q6}>\tau_{Q6,Q10}$ & 36\\
+
+$\tau_{Q3,Q6}>\tau_{Q3,Q7}$ & 12\\
+
+$\tau_{Q3,Q7}>\tau_{Q3,Q6}$ & 10\\
+
+$\tau_{Q6,Q10}>\tau_{Q5,Q7}$ & 3\\
+
+$\tau_{Q8,Q10}>\tau_{Q6,Q8}$ & 1\\
+
+$\tau_{Q6,Q10}>\tau_{Q3,Q7}$ & 1\\
+
+$\tau_{Q8,Q9}>\tau_{Q6,Q8}$ & 1\\
+
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[htbp]\centering\small\caption{Questionnaire wall times in seconds: five sequential repetitions after one warm-up, with the original split seed. Training, evidence and order construction serve all 15 split variants; the remaining stages concern FS-T64 only.}\label{tab:questionnaire-timing}\begin{tabular}{lrr}\toprule Stage & Median & Range\\\midrule
+
+Training and selection & 0.0379 & 0.0320--0.0452\\
+
+64-matching evidence & 1.9016 & 1.8657--1.9482\\
+
+Order construction & 0.0040 & 0.0038--0.0048\\
+
+Minor and conservation projection & 0.0018 & 0.0016--0.0021\\
+
+110 strong-LP objectives and rational checks & 0.5722 & 0.5493--0.6442\\
+
+Exact enumeration & 0.0006 & 0.0006--0.0007\\
+
+\bottomrule\end{tabular}\end{table}
+
+The benchmark uses Python 3.12.14, NumPy 2.3.5 and SciPy 1.17.0 on Linux, in one process on an AMD EPYC 9V74 80-Core Processor. BLAS and OpenMP thread limits are one; HiGHS uses its default solver settings. Data are already in memory; retrieval, loading, imports and C++ compilation are excluded. Each repetition verifies two compatible trees and agreement of minor, strong-LP and enumerated endpoints. The recorded medians describe this implementation and host, not a large-graph scalability guarantee. Four decimal places are retained in this timing table to distinguish the submillisecond enumeration stage.

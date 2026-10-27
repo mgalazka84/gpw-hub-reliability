@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -148,18 +148,27 @@ Matey Neykov, Junwei Lu, and Han Liu.
 
 \bibitem[Peel et~al.(2010)Peel, Anthoine, and Ralaivola]{peel2010}
 Thomas Peel, Sandrine Anthoine, and Liva Ralaivola.
-\newblock Empirical bernstein inequalities for {U}-statistics.
+\newblock Empirical {Bernstein} inequalities for {U}-statistics.
 \newblock In \emph{Advances in Neural Information Processing Systems},
   volume~23, 2010.
 \newblock URL
   \url{https://proceedings.neurips.cc/paper_files/paper/2010/hash/d6ef5f7fa914c19931a55bb262ec879c-Abstract.html}.
 
-\bibitem[Pettie(2014)]{pettie2014}
+\bibitem[Pettie(2015)]{pettie2015}
 Seth Pettie.
 \newblock Sensitivity analysis of minimum spanning trees in
-  sub-inverse-ackermann time, 2014.
-\newblock URL \url{https://arxiv.org/abs/1407.1910}.
-\newblock arXiv:1407.1910.
+  sub-inverse-{Ackermann} time.
+\newblock \emph{Journal of Graph Algorithms and Applications}, 19\penalty0
+  (1):\penalty0 375--391, 2015.
+\newblock \doi{10.7155/jgaa.00365}.
+
+\bibitem[Ren and Barber(2024)]{ren2024}
+Zhimei Ren and Rina~Foygel Barber.
+\newblock Derandomised knockoffs: leveraging e-values for false discovery rate
+  control.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 86\penalty0 (1):\penalty0 122--154, 2024.
+\newblock \doi{10.1093/jrsssb/qkad085}.
 
 \bibitem[Rosenberg(1965)]{rosenberg1965}
 Morris Rosenberg.

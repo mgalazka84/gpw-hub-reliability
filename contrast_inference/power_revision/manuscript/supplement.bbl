@@ -24,7 +24,7 @@ Marek Ga{\l}{\k{a}}zka and Hanna Wdowicka.
 \newblock Correlation spanning-tree inference: code, provenance and derived
   results, 2026.
 \newblock URL
-  \url{https://github.com/mgalazka84/gpw-hub-reliability/tree/7580ed0e51d9545884ff3321db76825ffcdedf28/contrast_inference}.
+  \url{https://github.com/mgalazka84/gpw-hub-reliability/tree/22ddc926c06abe271b62cfa81af96cfb0159564f/contrast_inference}.
 \newblock Software and data documentation; immutable archived revision.
 
 \bibitem[Hoeffding(1963)]{hoeffding1963}

@@ -12,5 +12,15 @@
   "additional_random_splits": 100,
   "split_based_variants": 15,
   "shared_hub_recurrence": 16,
-  "application_status": "exploratory; no externally preregistered primary-method selection"
+  "application_status": "exploratory; no externally preregistered primary-method selection",
+  "immutable_code_commit": "22ddc926c06abe271b62cfa81af96cfb0159564f",
+  "sequence_audit": {
+    "replayed_splits": 100,
+    "most_frequent_first_failures_counts": [
+      36,
+      36
+    ],
+    "timing_repeats": 5,
+    "path": "results/sequence_audit/"
+  }
 }
